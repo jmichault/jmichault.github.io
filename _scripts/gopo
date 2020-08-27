@@ -1,0 +1,21 @@
+
+
+for lang in de fr
+do
+  for FIC in about.md testo.md index.md
+  do
+    BASE=`basename $FIC`
+    po4a-gettextize -f text -m eo/${FIC} --master-charset "UTF-8" --option markdown nowrap -o neverwrap --po _locale/${BASE}.pot 
+    msginit --no-wrap --input _locale/${BASE}.pot --output _locale/lab_${lang}/${BASE}.po -l${lang} --no-translator
+    msgmerge --no-wrap -N -U _locale/lab_${lang}/${BASE}.po _locale/${BASE}.pot
+    _scripts/traduki_po.sh _locale/lab_${lang}/${BASE}.po
+    #msgattrib -o _locale/${lang}/${BASE}.po --clear-fuzzy _locale/lab_${lang}/${BASE}.po
+    grep -v "^#, fuzzy" _locale/lab_${lang}/${BASE}.po >_locale/${lang}/${BASE}.po
+    po4a-translate -f text --option markdown split_attributelist -m eo/${FIC} --master-charset "UTF-8"  --po _locale/${lang}/${BASE}.po --localized ${lang}/${FIC} --localized-charset "UTF-8" -k 0
+  done
+done
+##
+
+
+
+
