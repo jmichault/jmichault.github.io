@@ -1,5 +1,0 @@
-
-for x in ar  bn  de  en  es fr  hi  it  ja  ms  pa  pt  ru  zh
-do
-  mkdir -p $x/_posts _locale/$x _locale/lab_$x
-done

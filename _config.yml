@@ -5,7 +5,5 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            It's a Blog
-tagline:          'In two languages'
-description:      'Have you seen enough of these yet?'
+title:            Ĝi estas Blogo
 baseurl:          /

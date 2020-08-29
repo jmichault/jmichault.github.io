@@ -21,8 +21,8 @@ fr:
   icon: 🇫🇷
 hi:
   label: <span class="lang-hi" dir="ltr" lang="hi">हिन्दी&nbsp;; हिंदी</span>
-  icon: 
-it: 
+  icon: 🏳️
+it:
   label: Italiano
   icon: 🇮🇹
 ja:
@@ -30,10 +30,10 @@ ja:
   icon: 🇯🇵
 ms:
   label: <span class="lang-ms" dir="ltr" lang="ms">Bahasa Melayu</span>&nbsp;; <span class="lang-ms-arab" dir="rtl" lang="ms-arab">بهاس ملايو</span>
-  icon: 
+  icon: 🏳️
 pa:
   label: <span class="lang-pa" dir="ltr" lang="pa">ਪੰਜਾਬੀ</span>&nbsp;; <span class="lang-pa-arab" dir="rtl" lang="pa-arab">پنجابی</span>
-  icon: 
+  icon: 🏳️
 pt:
   label: Portugues
   icon: 🇧🇷
@@ -42,4 +42,4 @@ ru:
   icon: 🇷🇺
 zh:
   label: <span class="lang-zh-hani" dir="ltr" lang="zh-hani">中文</span>, <span class="lang-zh-hans" dir="ltr" lang="zh-hans">汉语</span>, <span class="lang-zh-hant" dir="ltr" lang="zh-hant">漢語</span>
-  icon: 
+  icon: 🏳️

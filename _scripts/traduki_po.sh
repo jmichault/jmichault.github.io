@@ -18,12 +18,16 @@ cat $FIC|awk -v src=$src -v dst=$dst '{
   if ($1 == "msgid")
   {
     MSGID=substr($0,7);
+    MSGWRAP=0;
     if(MSGID=="\"\"")
+    {
       CONTMSG=1;
+      MSGWRAP=1;
+    }
   }
   else if ( CONTMSG==1 && substr($1,1,1) == "\"")
   {
-    MSGID=MSGID $0;
+    MSGID=MSGID "\n" $0;
   }
   else if ($1 == "msgstr")
   {
@@ -54,10 +58,38 @@ cat $FIC|awk -v src=$src -v dst=$dst '{
         print ("#, fuzzy");
         print ("msgid " MSGID);
         printf("msgstr \"");
-        MSG=system("_scripts/traduko.sh " src " " dst " " MSGID )
-        printf("\"\n");
+        LEN=length(MSGID);
+        FIN="";
+        if( index(MSGID,"  \\n") == LEN-4)
+        {
+	  MSGID=substr(MSGID,1,LEN-5)"\"";
+          FIN="  \\n";
+        }
+        else if( index(MSGID,"\\n") == LEN-2)
+        {
+	  MSGID=substr(MSGID,1,LEN-3) "\"";
+          FIN="\\n";
+        }
+        if(MSGWRAP==1)
+        {
+          split(MSGID,MSGS,"\n",SEPS);
+	  printf("\"\n");
+          for (x=2 ; x<=length(MSGS) ; x++)
+          {
+	    printf("\"");
+            MSG=system("../_scripts/traduko.sh " src " " dst " " MSGS[ x ] )
+	    printf("\"\n");
+            #print( SEPS[ x ] );
+            if(FIN != "") printf( "\"" FIN "\"\n");
+          }
+        }
+        else
+        {
+          MSG=system("../_scripts/traduko.sh " src " " dst " " MSGID )
+          printf( FIN "\"\n");
+        }
       }
-      MATTER=""
+      MATTER="";
     }
   }
   else if (substr($0,1,28) == "#. type: YAML Front Matter: ")

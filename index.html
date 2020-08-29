@@ -6,8 +6,12 @@ title: Home
         var userLang = navigator.languages && navigator.languages[0] ||
                navigator.language ||
                navigator.userLanguage;
-	if(userLang.indexOf('en') > -1) { window.location.href = "./en/"; }
-	else if(userLang.indexOf('fr') > -1 ) { window.location.href = "./fr/"; }
+	if(userLang.indexOf('eo') > -1) { window.location.href = "./eo/"; }
+{% for lang in site.data.languages %}
+  {% assign langCode = lang[0] %}
+  {% if langCode == 'eo' %}{% continue %}{% endif %}
+        else if(userLang.indexOf('{{ langCode }}') > -1 ) { window.location.href = "./{{ langCode }}/"; }
+{% endfor %}
 	else { window.location.href = "./eo/"; }
 </script>
 

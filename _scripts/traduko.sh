@@ -11,7 +11,7 @@ cook=`find traduko.jar -mmin -15`
 if [ x$cook = x ]
 then
   curl -c traduko.jar -A 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0' \
-   "https://translate.google.com" -o /dev/null 
+   "https://translate.google.com" -o /dev/null 2>&1
 fi
 
 curl -b traduko.jar -A 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0' \

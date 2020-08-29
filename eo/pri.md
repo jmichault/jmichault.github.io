@@ -1,5 +1,6 @@
 ---
 title: Pri la Aŭtoro
+slug: pri
 layout: page
 lang: eo
 lang-ref: about
