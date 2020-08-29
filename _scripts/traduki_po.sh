@@ -10,7 +10,7 @@ FIC=$1
 BASEDIR=`dirname $0`
 dst=`grep "^\"Language: .*\\n\"$" $FIC|sed "s/^\"Language: //;s/.n\"$//"`
 
-cat $FIC|awk -v src=$src -v dst=$dst '{
+cat $FIC|awk -v BASEDIR=$BASEDIR -v src=$src -v dst=$dst '{
   if ( CONTMSG==1 && substr($1,1,1) != "\"")
   {
     CONTMSG=0;
@@ -77,15 +77,25 @@ cat $FIC|awk -v src=$src -v dst=$dst '{
           for (x=2 ; x<=length(MSGS) ; x++)
           {
 	    printf("\"");
-            MSG=system("../_scripts/traduko.sh " src " " dst " " MSGS[ x ] )
-	    printf("\"\n");
+            LEN=length(MSGS[x]);
+            if( index(MSGS[x],"\\n") == LEN-2)
+            {
+	      MSG2=substr(MSGS[x],1,LEN-3) "\"";
+              FIN2="\\n";
+            }
+            else
+            {
+	      MSG2=MSGS[x];
+              FIN2="";
+            }
+            MSG=system(BASEDIR"/traduko.sh " src " " dst " " MSG2 )
+	    printf(FIN2 "\"\n");
             #print( SEPS[ x ] );
-            if(FIN != "") printf( "\"" FIN "\"\n");
           }
         }
         else
         {
-          MSG=system("../_scripts/traduko.sh " src " " dst " " MSGID )
+          MSG=system(BASEDIR"/traduko.sh " src " " dst " " MSGID )
           printf( FIN "\"\n");
         }
       }

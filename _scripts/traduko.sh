@@ -7,7 +7,7 @@ src="$1"
 dst="$2"
 txt="$3"
 
-cook=`find _traduko.jar -mmin -15`
+cook=`find _traduko.jar -mmin -15 2>/dev/null`
 if [ x$cook = x ]
 then
   curl -c _traduko.jar -A 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0' \
