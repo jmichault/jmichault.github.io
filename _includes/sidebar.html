@@ -1,4 +1,22 @@
 <div class="sidebar">
+   {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+    <div>
+    <header class="lang-options">
+        <div class="dropdown" >
+         <button class="dropbtn">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }} 🔽</button>
+         <div class="dropdown-content">
+           {% for post in posts %}
+             <a href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a>
+           {% endfor %}
+         </div>
+        </div>
+    </div>
+    {% endif %}
+
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
@@ -26,6 +44,6 @@
         {% endif %}
       {% endfor %}
     </nav>
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. {{ site.data.translations['rajtoj'][page.lang] }}.</p>
   </div>
 </div>
