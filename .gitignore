@@ -1,0 +1,6 @@
+*.log
+*.jar
+*.bak
+*.po~
+*.old
+toto*
