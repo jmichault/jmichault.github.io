@@ -2,6 +2,7 @@
 *.jar
 *.bak
 *.po~
+*.pot~
 *.old
 toto*
 _site/*

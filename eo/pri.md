@@ -6,4 +6,5 @@ lang-ref: pri
 
 ---
 
-Metu kelkajn vortojn de prezento ĉi tie.
+Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.
+Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.

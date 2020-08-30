@@ -5,4 +5,5 @@ layout: page
 title: "A propos de l'auteur"
 ---
 
-Mettez quelques mots d'introduction ici.
+Passionné d'électronique depuis l'âge de 10 ans et accro aux ordinateurs depuis l'âge de 18 ans.
+Je suis impliqué dans l'open source depuis la fin du 20ème siècle.

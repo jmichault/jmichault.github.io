@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-08-30 20:25+0200\n"
+"POT-Creation-Date: 2020-08-30 21:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,34 +17,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./pri.md:1
+#: pri.md:1
 #, no-wrap
 msgid "eo"
 msgstr "en"
 
 #. type: YAML Front Matter: lang-ref
-#: ./pri.md:1
+#: pri.md:1
 #, no-wrap
 msgid "pri"
 msgstr "pri"
 
 #. type: YAML Front Matter: layout
-#: ./pri.md:1
+#: pri.md:1
 #, no-wrap
 msgid "page"
 msgstr "page"
 
 #. type: YAML Front Matter: title
-#: ./pri.md:1
-#, no-wrap
-#, fuzzy
+#: pri.md:1
+#, fuzzy, no-wrap
 msgid "Pri la Aŭtoro"
 msgstr "About the Author"
 
 #. type: Plain text
-#: ./pri.md:9
-#, markdown-text, no-wrap
+#: pri.md:10
+#, no-wrap
 #, fuzzy
-msgid "Metu kelkajn vortojn de prezento ĉi tie.\n"
-msgstr "Put a few words of introduction here.\n"
+msgid ""
+"Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+"Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
+msgstr ""
+"Passionate about electronics since the age of 10 and addicted to computers since the age of 18.\n"
+"I have been involved in open source since the end of the 20th century.\n"
 
+#, fuzzy
+#~ msgid ""
+#~ "Pasia pri elektroniko ekde 10 jaroj kaj toksomaniulo al komputiloj ekde 18 jaroj.\n"
+#~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
+#~ msgstr ""
+#~ "Passionate about electronics since 10 years and addicted to computers since 18 years.\n"
+#~ "I have been involved in open source since the end of the 20th century.\n"
+
+#, fuzzy
+#~ msgid "Metu kelkajn vortojn de prezento ĉi tie.\n"
+#~ msgstr "Put a few words of introduction here.\n"

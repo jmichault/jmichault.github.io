@@ -5,4 +5,5 @@ layout: page
 title: 'Sobre o autor'
 ---
 
-Coloque algumas palavras de introdução aqui.
+Apaixonado por eletrônica desde os 10 anos e viciado em informática desde os 18.
+Estou envolvido com o código aberto desde o final do século XX.
