@@ -6,4 +6,4 @@ lang: eo
 lang-ref: bonvenon-al-mia-blogo
 ---
 
-Bonvenon al mia blogo! Nepre kontrolu miajn ALIAJ ARTIKOLO.
+Bonvenon al mia blogo!
