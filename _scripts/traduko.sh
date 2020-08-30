@@ -11,7 +11,7 @@ cook=`find _traduko.jar -mmin -15 2>/dev/null`
 if [ x$cook = x ]
 then
   curl -c _traduko.jar -A 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0' \
-   "https://translate.google.com" -o /dev/null 2>&1
+   "https://translate.google.com" -o /dev/null 2>/dev/null
 fi
 
 curl -b _traduko.jar -A 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0' \

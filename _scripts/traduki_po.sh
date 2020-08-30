@@ -38,6 +38,16 @@ cat $FIC|awk -v BASEDIR=$BASEDIR -v src=$src -v dst=$dst '{
     }
     else
     {
+      # msgstr "" kaj MSGID != ""
+      $0="";
+      getline
+      if ( substr($1,1,1) == "\"")
+      { # plurlinia mesaĝo
+        print ("msgid " MSGID);
+        printf("msgstr \"\"\n");
+	print $0;
+	next;
+      }
       if(MATTER == "lang")
       {
         print ("msgid " MSGID);
@@ -100,6 +110,7 @@ cat $FIC|awk -v BASEDIR=$BASEDIR -v src=$src -v dst=$dst '{
         }
       }
       MATTER="";
+      print $0;
     }
   }
   else if (substr($0,1,28) == "#. type: YAML Front Matter: ")
