@@ -4,3 +4,4 @@
 *.po~
 *.old
 toto*
+_site/*
