@@ -8,4 +8,4 @@ permalink:        pretty
 title:            Ĝi estas Blogo
 baseurl:          /
 
-exclude:	_locale
+exclude:	[ _locale , _scripts ]
