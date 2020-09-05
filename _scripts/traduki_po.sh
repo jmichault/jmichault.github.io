@@ -4,6 +4,10 @@
 #################################################################
 
 src=eo
+if [ x$TRADUKI_SRC != x ]
+then
+  src=$TRADUKI_SRC
+fi
 
 FIC=$1
 BASEDIR=`dirname $0`

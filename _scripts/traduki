@@ -15,6 +15,10 @@ do
   #for lang in fr
   for lang in `grep "^..:$" ../_data/languages.yml|sed "s/:$//"|grep -v eo`
   do
+    if [ ! -f ../_locale/${lang}/${FIC}.po  && -f ../${lang}/${FIC} ]
+    then
+      continue;
+    fi
     if [ ! -f ../_locale/${lang}/${FIC}.po ]
     then
       echo "krei traduko ${FIC} al ${lang}"

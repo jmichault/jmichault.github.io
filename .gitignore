@@ -6,3 +6,4 @@
 *.old
 toto*
 _site/*
+Gemfile.lock
