@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-09-05 23:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+msgid "eo"
+msgstr "bn"
+
+#. type: YAML Front Matter: lang-ref
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+msgid "aparataro"
+msgstr "aparataro"
+
+#. type: YAML Front Matter: layout
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: slug
+#: _posts/2020-08-31-aparataro.md:1
+#, fuzzy, no-wrap
+msgid "Aparataro"
+msgstr "হার্ডওয়্যার"
+
+#. type: YAML Front Matter: title
+#: _posts/2020-08-31-aparataro.md:1
+#, fuzzy, no-wrap
+msgid "Aparataro por komenci."
+msgstr "শুরু করার জন্য হার্ডওয়্যার।"
+
+#. type: Title #
+#: _posts/2020-08-31-aparataro.md:9
+#, fuzzy, no-wrap
+msgid "La materialoj por la domotika sistemo"
+msgstr "হোম অটোমেশন সিস্টেমের জন্য উপকরণ"
+
+#. type: Plain text
+#: _posts/2020-08-31-aparataro.md:12
+#, fuzzy, no-wrap
+msgid "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
+msgstr "433 মেগাহার্টজ সরঞ্জাম এবং জিগবি সরঞ্জামগুলি নিয়ন্ত্রণ করার অনুমতি দিয়ে আমি আমার হোম অটোমেশন সিস্টেমটি তৈরি করতে ব্যবহৃত সামগ্রীটি এখানে।\n"
+
+#. type: Plain text
+#: _posts/2020-08-31-aparataro.md:26
+#, no-wrap
+msgid ""
+"| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+"| --- | --- | --- | --- | --- | --- | \n"
+"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+"| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
+"| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+"| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
+"| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
+"| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
+"| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
+"| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
+"|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
+"| | | | **totala prezo** | **75€** | \n"
+msgstr ""
+"|প্রকার|ছবি|চিহ্ন|মডেল|নির্দেশিত দাম|কেন|\n"
+"| --- | --- | --- | --- | --- | --- | \n"
+"|কম্পিউটার|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |কোনও পাখা, সস্তা, জিপিও, ওয়াইফাই, ল্যান আরজে 45 নেই|\n"
+"|কম্পিউটার কেস|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |যে কোনও কম্পিউটার ক্ষেত্রে _raspberry-pi3_ যথাযথ. আপনার পছন্দেরটিকে বেছে নিন।|\n"
+"|বিদ্যুৎ সরবরাহ|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |আমার যখন\" _raspberry-pi3_ বিশেষ\"বর্তমান খুব দুর্বল প্রমাণিত হয়েছে, আমি সফলভাবে এটির সাথে এটি প্রতিস্থাপন করেছি। অন্যান্য অনেক মডেল উপযুক্ত।|\n"
+"||  |  |ইউএসবি থেকে মাইক্রো ইউএসবি| 2€ |সংযোগ করতে _raspberry-pi3_ বিদ্যুৎ সরবরাহ|\n"
+"|মাইক্রো এসডি কার্ড|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |পাইটির একটি মানের কার্ড দরকার, এটি একটি সুপরিচিত ব্র্যান্ডের কার্ড ব্যবহার করার জন্য অত্যন্ত সুপারিশযুক্ত।|\n"
+"|দ্বৈত তারগুলি|![](/public/dupont.jpg) | _SODIAL_ |মহিলা মহিলা ডুপ্লেক্স তারগুলি। 068187| 2€|433 মেগাহার্টজ ডিভাইস সংযোগ করতে এবং একটি জিগবি ইউএসবি স্টিক ফ্ল্যাশ করতে|\n"
+"|ট্রান্সমিটার + রিসিভার|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |433mhz সুপারহিরডোডিন ট্রান্সমিটার + রিসিভার|\n"
+"|তারের| | || 0€ |একটি অ্যান্টেনা তৈরি করার জন্য একটি টুকরো কেবল উদাহরণস্বরূপ একটি পুরানো 3 মিটার নেটওয়ার্ক কেবল|\n"
+"|রক্ষা| | |অ্যালুমিনিয়াম ফয়েল কাগজের আধ ভাঁজ শীটে .োকানো| 0€ |দ্বারা উত্পাদিত হস্তক্ষেপ থেকে 433 মেগাহার্টজ রিসিভারকে রক্ষা করতে _raspberry-pi3_.|\n"
+"|  _Zigbee_ ইউএসবি স্টিক এবং তারের|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ সিসি জন্য স্টিক এবং ডাউনলোডের তারের|\n"
+"| | | | **** | **75€** | \n"
+
+#. type: Title #
+#: _posts/2020-08-31-aparataro.md:29
+#, fuzzy, no-wrap
+msgid "La materialoj pilototaj."
+msgstr "পাইলট করা উপকরণ।"
+
+#. type: Plain text
+#: _posts/2020-08-31-aparataro.md:32
+#, fuzzy, no-wrap
+msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
+msgstr "অনেকগুলি ডিভাইস নিয়ন্ত্রণ করা যায়। প্রারম্ভিকদের জন্য, এই তিনটি আমার কাছে বিশেষ আকর্ষণীয় বলে মনে হচ্ছে:\n"
+
+#. type: Plain text
+#: _posts/2020-08-31-aparataro.md:39
+#, fuzzy, no-wrap
+msgid ""
+"| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
+"| --- | --- | --- | --- | --- | --- | --- |\n"
+"| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
+"| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
+"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
+"| | | | | **totala prezo** | **50,5€** | |\n"
+msgstr ""
+"|প্রকার|প্রযুক্তি|ছবি|চিহ্ন|মডেল|নির্দেশিত দাম|কেন|\n"
+"| --- | --- | --- | --- | --- | --- | --- |\n"
+"| termometro |433Mhz| ![](/public/fanju.jpeg)| _Fanju_ |fj3378 দ্বারা| 7.50€|যুক্তিসঙ্গত মূল্যে একটি স্ক্রিন সহ একটি থার্মোমিটার।|\n"
+"| ingoj |433Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |যুক্তিসঙ্গত দামে 5 রিমোট কন্ট্রোল সকেট।|\n"
+"|বাল্ব| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806 লুমেনস| 10€ |একটি যুক্তিসঙ্গত দামে নিয়মিত হালকা বাল্ব।|\n"
+"| | | | | **মোট দাম** | **50,5€** | |\n"
+
+#~ msgid ""
+#~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+#~ "| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
+#~ "| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \"_raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+#~ "| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
+#~ "| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+#~ "| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
+#~ "| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
+#~ "| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
+#~ "| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
+#~ "| | | | **totala prezo** | **75€** | \n"
+#~ msgstr ""
+#~ "|প্রকার|ছবি|চিহ্ন|মডেল|নির্দেশিত দাম|কেন|\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "|কম্পিউটার|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |কোনও পাখা, সস্তা, জিপিও, ওয়াইফাই, ল্যান আরজে 45 নেই|\n"
+#~ "|কম্পিউটার কেস|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |যে কোনও কম্পিউটার ক্ষেত্রে_raspberry-pi3_যথাযথ. আপনার পছন্দেরটিকে বেছে নিন।|\n"
+#~ "|বিদ্যুৎ সরবরাহ|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |আমার যখন\"_raspberry-pi3_বিশেষ\"বর্তমান খুব দুর্বল প্রমাণিত হয়েছে, আমি সফলভাবে এটির সাথে এটি প্রতিস্থাপন করেছি। অন্যান্য অনেক মডেল উপযুক্ত।|\n"
+#~ "|USB তারের|  |  |ইউএসবি থেকে মাইক্রো ইউএসবি| 2€ |সংযোগ করতে_raspberry-pi3_বিদ্যুৎ সরবরাহ|\n"
+#~ "|মাইক্রো এসডি কার্ড|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |পাইটির একটি মানের কার্ড দরকার, এটি একটি সুপরিচিত ব্র্যান্ডের কার্ড ব্যবহার করার জন্য অত্যন্ত সুপারিশযুক্ত।|\n"
+#~ "|দ্বৈত তারগুলি|![](/public/dupont.jpg) | _SODIAL_ |মহিলা মহিলা ডুপ্লেক্স তারগুলি। 068187| 2€|433 মেগাহার্টজ ডিভাইস সংযোগ করতে এবং একটি জিগবি ইউএসবি স্টিক ফ্ল্যাশ করতে|\n"
+#~ "|ট্রান্সমিটার + রিসিভার|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |433mhz সুপারহিরডোডিন ট্রান্সমিটার + রিসিভার|\n"
+#~ "|তারের| | || 0€ |একটি অ্যান্টেনা তৈরি করার জন্য একটি টুকরো কেবল উদাহরণস্বরূপ একটি পুরানো 3 মিটার নেটওয়ার্ক কেবল|\n"
+#~ "|রক্ষা| | |অ্যালুমিনিয়াম ফয়েল কাগজের আধ ভাঁজ শীটে .োকানো| 0€ |দ্বারা উত্পাদিত হস্তক্ষেপ থেকে 433 মেগাহার্টজ রিসিভারকে রক্ষা করতে_raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ইউএসবি স্টিক এবং তারের|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_সিসি জন্য স্টিক এবং ডাউনলোডের তারের|\n"
+#~ "| | | | **মোট দাম** | **75€** | \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+#~ "| komputilujo |![](/public/loĝejo.jpg) | Aukru | | 7€ |iu komputilujo por raspberry-pi3 taŭgas. Elektu tiun, kiun vi preferas. |\n"
+#~ "| elektroprovizo |![](/public/elektroprovizo.jpg) | Konky | | 10€ | Kiam mia \"raspberry-pi3 speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+#~ "| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la raspberry-pi3 al la elektroprovizo  |\n"
+#~ "| mikro-SD karto|![](/public/SD.jpg) | sandisk | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+#~ "| Dupontaj kabloj |![](/public/dupont.jpg) | SODIAL |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
+#~ "| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
+#~ "| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
+#~ "| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la raspberry-pi3.|\n"
+#~ "|  Zigbee USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | zigbee bastono kaj elŝutanta kablo por CC|\n"
+#~ "| | | | **totala prezo** | **75€** | \n"
+#~ msgstr ""
+#~ "|প্রকার|ছবি|চিহ্ন|মডেল|নির্দেশিত দাম|কেন|\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "|কম্পিউটার|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |কোনও পাখা, সস্তা, জিপিও, ওয়াইফাই, ল্যান আরজে 45 নেই|\n"
+#~ "|কম্পিউটার কেস|![](/public/loĝejo.jpg) | Aukru | | 7€ |রাস্পবেরি-পাই -3 এর জন্য যে কোনও কম্পিউটার কেস উপযুক্ত। আপনার পছন্দেরটিকে বেছে নিন।|\n"
+#~ "|বিদ্যুৎ সরবরাহ|![](/public/elektroprovizo.jpg) | Konky | | 10€ |আমার যখন\"রাস্পবেরি-পাই 3 বিশেষ\"বর্তমান খুব দুর্বল প্রমাণিত হয়েছে, আমি সফলভাবে এটির সাথে এটি প্রতিস্থাপন করেছি। অন্যান্য অনেক মডেল উপযুক্ত।|\n"
+#~ "|USB তারের|  |  |ইউএসবি থেকে মাইক্রো ইউএসবি| 2€ |পাওয়ার সাপ্লাইতে রাস্পবেরি পাই 3 সংযুক্ত করতে|\n"
+#~ "|মাইক্রো এসডি কার্ড|![](/public/SD.jpg) |স্যান্ডিস্ক| SDSQUAR-032G-GN6MA | 11€ |পাইটির একটি মানের কার্ড দরকার, এটি একটি সুপরিচিত ব্র্যান্ডের কার্ড ব্যবহার করার জন্য অত্যন্ত সুপারিশযুক্ত।|\n"
+#~ "|দ্বৈত তারগুলি|![](/public/dupont.jpg) | SODIAL |মহিলা মহিলা ডুপ্লেক্স তারগুলি। 068187| 2€|433 মেগাহার্টজ ডিভাইস সংযোগ করতে এবং একটি জিগবি ইউএসবি স্টিক ফ্ল্যাশ করতে|\n"
+#~ "|ট্রান্সমিটার + রিসিভার|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |433mhz সুপারহিরডোডিন ট্রান্সমিটার + রিসিভার|\n"
+#~ "|তারের| | || 0€ |একটি অ্যান্টেনা তৈরি করার জন্য একটি টুকরো কেবল উদাহরণস্বরূপ একটি পুরানো 3 মিটার নেটওয়ার্ক কেবল|\n"
+#~ "|রক্ষা| | |অ্যালুমিনিয়াম ফয়েল কাগজের আধ ভাঁজ শীটে .োকানো| 0€ |রাস্পবেরি পাই 3 দ্বারা উত্পন্ন হস্তক্ষেপ থেকে 433 মেগাহার্টজ রিসিভারকে রক্ষা করতে।|\n"
+#~ "|জিগবি ইউএসবি স্টিক এবং তারের|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ |জিগবি স্টিক এবং সিসির জন্য কেবল ডাউনলোড করা|\n"
+#~ "| | | | **মোট দাম** | **75€** | \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | --- |\n"
+#~ "| termometro | 433Mhz | ![](/public/fanju.jpeg)| Fanju | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
+#~ "| ingoj | 433Mhz |![](/public/KYG.jpg)| KYG | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
+#~ "| bulbo | zigbee |![](/public/tradfri.jpg)| Ikea | TRÅDFRI LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
+#~ "| | | | | **totala prezo** | **50,5€** | |\n"
+#~ msgstr ""
+#~ "|প্রকার|প্রযুক্তি|ছবি|চিহ্ন|মডেল|নির্দেশিত দাম|কেন|\n"
+#~ "| --- | --- | --- | --- | --- | --- | --- |\n"
+#~ "| termometro |433Mhz| ![](/public/fanju.jpeg)|ফঞ্জু|fj3378 দ্বারা| 7.50€|যুক্তিসঙ্গত মূল্যে একটি স্ক্রিন সহ একটি থার্মোমিটার।|\n"
+#~ "| ingoj |433Mhz|![](/public/KYG.jpg)| KYG | 4315 | 33€ |যুক্তিসঙ্গত দামে 5 রিমোট কন্ট্রোল সকেট।|\n"
+#~ "|বাল্ব| zigbee |![](/public/tradfri.jpg)|Ikea|TRÅDFRI LED E27 806 লুমেন| 10€ |একটি যুক্তিসঙ্গত দামে নিয়মিত হালকা বাল্ব।|\n"
+#~ "| | | | | **মোট দাম** | **50,5€** | |\n"

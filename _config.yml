@@ -7,3 +7,5 @@ permalink:        pretty
 # Setup
 title:            Ĝi estas Blogo
 baseurl:          /
+
+exclude:	_locale
