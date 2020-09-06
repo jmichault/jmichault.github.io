@@ -23,16 +23,17 @@ Nun via retejo alireblas ĉi tie: http://localhost:4000
 Aldonu dosieron en eo/_posts nomata YYYY-MM-DD-titolo.md .  
 La unuaj linioj devas enhavi kaplinion YAML kun almenaŭ la etikedoj: layout:, title:, slug:, lang: kaj lang-ref:.
 Jen ekzemplo :
-    ---
-    layout: post
-    title: Bonvenon al mia blogo!
-    slug: Bonvenon!
-    lang: eo
-    lang-ref: bonvenon-al-mia-blogo
-    ---
-    
-    Bonvenon al mia blogo!
-
+```
+---
+layout: post
+title: Bonvenon al mia blogo!
+slug: Bonvenon!
+lang: eo
+lang-ref: bonvenon-al-mia-blogo
+---
+   
+Bonvenon al mia blogo!
+```
 
 ## Traduki la retejon
 Lanĉu la skripton _scripts/traduki :
