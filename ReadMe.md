@@ -7,6 +7,11 @@ jekyll-dokumentaro : <https://jekyllrb.com/docs/>
 
 ## Instalado
 
+Instalu la antaŭkondiĉojn :
+```bash
+sudo apt install ruby-bundler ruby-dev
+```
+
 Kopiu la arbon, metu vian prezenton en eo/pri.md.  
 Komencu la retejon per:  
 ```bash
