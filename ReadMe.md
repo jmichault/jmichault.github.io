@@ -9,7 +9,7 @@ jekyll-dokumentaro : <https://jekyllrb.com/docs/>
 
 Instalu la antaŭkondiĉojn :
 ```bash
-sudo apt install ruby-bundler ruby-dev
+sudo apt install ruby-bundler ruby-dev po4a
 ```
 
 Kopiu la arbon, metu vian prezenton en eo/pri.md.  
