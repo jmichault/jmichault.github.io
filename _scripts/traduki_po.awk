@@ -62,10 +62,10 @@
           print ("#, fuzzy");
         print ("msgid " MSGID);
         printf("msgstr ");
-          split(MSGID,MSGS,"__| _|_ |_|  \\\\n|\\\\n|**|\n|!\\[\\]\\(|)|\\||\\\"|\"|\\\\",SEPS);
+          split(MSGID,MSGS,"__| _|_ |_|  \\\\n|\\\\n|**|\n|!|\\[|\\]|\\(|\\||\\\"|\"|\\\\|\\)|\\(",SEPS);
           for (x=1 ; x<=length(MSGS) ; x++)
           {
-            if(match(MSGS[x],"[:alpha:]")==0 )
+            if(match(MSGS[x],"[[:alpha:]]")==0 )
             {
               printf(MSGS[x]);
             }
@@ -75,7 +75,7 @@
               MSG=system(BASEDIR"/traduko.sh " src " " dst " \"" MSGS[x] "\"" )
             }
             printf( SEPS[ x ] );
-            if(SEPS[ x ] == "![](")
+            if(SEPS[ x ] == "(")
             {
               do
               {
