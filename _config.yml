@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -9,3 +9,10 @@ title:            Ĝi estas Blogo
 baseurl:          /
 
 exclude:	[ _locale , _scripts ]
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled:     true
+  collections: true
