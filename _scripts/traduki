@@ -5,11 +5,11 @@ for FIC in `find . -type f ! -name "_*"`
 do
   if [ ! -f ../_locale/${FIC}.pot ]
   then
-    po4a-gettextize -f text -m ${FIC} --master-charset "UTF-8" --option markdown nowrap -o neverwrap --po ../_locale/${FIC}.pot 
+    po4a-gettextize -f text -m ${FIC} --master-charset "UTF-8" --option markdown --po ../_locale/${FIC}.pot 
   else
     if [ ../_locale/${FIC}.pot -ot ${FIC} ]
     then
-      po4a-updatepo -f text -m ${FIC} --master-charset "UTF-8" --option markdown nowrap -o neverwrap --po ../_locale/${FIC}.pot 
+      po4a-updatepo -f text -m ${FIC} --master-charset "UTF-8" --option markdown --po ../_locale/${FIC}.pot 
     fi
   fi
   #for lang in fr
@@ -28,14 +28,14 @@ do
     if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${FIC}.pot ]
     then
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
-      msgmerge --no-wrap -N -U ../_locale/${lang}/${FIC}.po ../_locale/${FIC}.pot
+      msgmerge -N -U ../_locale/${lang}/${FIC}.po ../_locale/${FIC}.pot
       ../_scripts/traduki_po.sh ../_locale/${lang}/${FIC}.po
     fi
     if [ ../${lang}/${FIC} -ot ../_locale/${lang}/${FIC}.po ]
     then
       echo "tradukante ${FIC} al ${lang}"
       grep -v "^#, fuzzy" ../_locale/${lang}/${FIC}.po >../_locale/temp$$.po
-      po4a-translate -f text --option markdown -o neverwrap -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
+      po4a-translate -f text --option markdown -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
       rm ../_locale/temp$$.po
     fi
   done
