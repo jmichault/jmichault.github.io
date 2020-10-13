@@ -3,11 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-09-05 23:36+0200\n"
+"POT-Creation-Date: 2020-10-13 18:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,8 +59,7 @@ msgstr "Voici le matériel que j'ai utilisé pour construire mon système domoti
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:26
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
@@ -93,22 +91,18 @@ msgstr ""
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:29
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "La materialoj pilototaj."
 msgstr "Les dispositifs à piloter."
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:32
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
 msgstr "De nombreux appareils peuvent être contrôlés. Pour commencer, ces trois éléments me semblent particulièrement intéressants:\n"
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:39
-#, no-wrap
-#, fuzzy
 msgid ""
 "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
@@ -123,4 +117,3 @@ msgstr ""
 "| prises électriques |433 Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5 prises télécommandées à un prix raisonnable.|\n"
 "|ampoule| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumens| 10€ |ampoule réglable à un prix raisonnable.|\n"
 "| | | | | **prix total** | **50,5€** | |\n"
-

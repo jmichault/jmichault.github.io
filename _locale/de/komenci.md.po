@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-10-13 18:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: ./komenci.md:1
+#, no-wrap
+msgid "eo"
+msgstr "de"
+
+#. type: YAML Front Matter: lang-ref
+#: ./komenci.md:1
+#, no-wrap
+msgid "komenci"
+msgstr "komenci"
+
+#. type: YAML Front Matter: layout
+#: ./komenci.md:1
+#, no-wrap
+msgid "page"
+msgstr "page"
+
+#. type: YAML Front Matter: title
+#: ./komenci.md:1
+#, no-wrap
+#, fuzzy
+msgid "Por komenci"
+msgstr "Für Starter"
+
+#. type: Plain text
+#: ./komenci.md:8
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Paŝoj por prepari hejman aŭtomatan sistemon :  \n"
+msgstr "Schritte zur Vorbereitung eines Hausautomationssystems:  \n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "[akiru la materialon](_posts/2020-08-31-aparataro.md)\n"
+msgstr "[Holen Sie sich das Material](_posts/2020-08-31-aparataro.md)\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"instalu _raspbian_ : "
+"[raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
+msgstr "Installieren _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"programu la firmvaron de la USB-batono _CC2531_ : "
+"[github.com](https://github.com/jmichault/flash_cc2531)\n"
+msgstr "Programmieren Sie die Firmware des USB-Sticks _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "konstruu antenon\n"
+msgstr "baue eine Antenne\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"instalu _domoticz_ : "
+"[domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+msgstr "Installieren _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"instalu _zigbee_ : "
+"[zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+msgstr "Installieren _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"instalu _rf_gpio_ : "
+"[github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+msgstr "Installieren _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "malpermesu _sudo_ sen pasvorto\n"
+msgstr "verbieten _sudo_ kein Passwort\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:19
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"instalu sekurkopion : "
+"[borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
+msgstr "Backup installieren: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
+
+#. type: Plain text
+#: ./komenci.md:20
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Konektu viajn unuajn elementojn:  \n"
+msgstr "Verbinden Sie Ihre ersten Elemente:  \n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "konektu termometron\n"
+msgstr "Schließen Sie ein Thermometer an\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "konektu ingon\n"
+msgstr "ingon verbinden\n"
+
+#. type: Bullet: '* '
+#: ./komenci.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "konektu ampolon\n"
+msgstr "Schließen Sie eine Glühbirne an\n"
+

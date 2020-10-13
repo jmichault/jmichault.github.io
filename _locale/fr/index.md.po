@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -37,7 +36,6 @@ msgstr "index"
 #. type: YAML Front Matter: title
 #: ./index.md:1
 #, no-wrap
-#, fuzzy
 msgid "Plej novaj afiŝoj"
 msgstr "Derniers articles"
 

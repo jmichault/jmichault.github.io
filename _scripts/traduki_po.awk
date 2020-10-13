@@ -10,6 +10,7 @@
   if ($1 == "msgid")
   {
     MSGID=substr($0,7);
+    MSGSTR=substr($0,8,length($0)-8);
     MSGWRAP=0;
     if(MSGID=="\"\"")
     {
@@ -20,6 +21,7 @@
   else if ( CONTMSG==1 && substr($1,1,1) == "\"")
   {
     MSGID=MSGID "\n" $0;
+    MSGSTR=MSGSTR substr($0,2,length($0)-2);
   }
   else if ($1 == "msgstr")
   {
@@ -61,8 +63,8 @@
         if(FUZZY ==0)
           print ("#, fuzzy");
         print ("msgid " MSGID);
-        printf("msgstr ");
-          split(MSGID,MSGS,"__| _|_ |_|  \\\\n|\\\\n|**|\n|!|\\[|\\]|\\(|\\||\\\"|\"|\\\\|\\)|\\(",SEPS);
+        printf("msgstr \"");
+          split(MSGSTR,MSGS,"__| _|_ |_|\\\\n|**|\n|!|\\[|\\]|\\(|\\)|\\|\\\"|\"|\\\\|\\|",SEPS);
           for (x=1 ; x<=length(MSGS) ; x++)
           {
             if(match(MSGS[x],"[[:alpha:]]")==0 )
@@ -71,8 +73,19 @@
             }
             else if(MSGS[x] != "")
             {
-              #printf("\nMSG=system("BASEDIR"/traduko.sh " src " " dst " \"" MSGS[x] "\"" ")\n");
+	      while(substr(MSGS[x],1,1) == " ")
+              {
+		printf(" ");
+	        MSGS[x]=substr(MSGS[x],2);
+              }
               MSG=system(BASEDIR"/traduko.sh " src " " dst " \"" MSGS[x] "\"" )
+	      #MSG=system(BASEDIR"/trans -no-warn -b --bidi " src ":" dst " \"" MSGS[x] "\"" )
+	      while(substr(MSGS[x],length(MSGS[x]),1) == " ")
+              {
+		printf(" ");
+	        MSGS[x]=substr(MSGS[x],1,length(MSGS[x])-1);
+              }
+#|sed "s/^  *//"
             }
             printf( SEPS[ x ] );
             if(SEPS[ x ] == "(")
@@ -94,7 +107,7 @@
               while( x<=length(MSGS) && SEPS[x] != "_ " && SEPS[x] != "_");
             }
           }
-        print;
+        print "\"";
       }
       FUZZY=0;
       MATTER="";

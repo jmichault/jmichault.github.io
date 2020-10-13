@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -37,21 +36,18 @@ msgstr "post"
 #. type: YAML Front Matter: slug
 #: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
 #, no-wrap
-#, fuzzy
 msgid "Bonvenon!"
-msgstr "Bienvenue!"
+msgstr "Bienvenue !"
 
 #. type: YAML Front Matter: title
 #: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
 #, no-wrap
-#, fuzzy
 msgid "Bonvenon al mia blogo!"
-msgstr "Bienvenue sur mon blog!"
+msgstr "Bienvenue sur mon blog !"
 
 #. type: Plain text
 #: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:9
 #, markdown-text, no-wrap
-#, fuzzy
 msgid "Bonvenon al mia blogo!\n"
-msgstr "Bienvenue sur mon blog!\n"
+msgstr "Bienvenue sur mon blog !\n"
 
