@@ -1,5 +1,6 @@
 ---
 lang: pa
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 'ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ'

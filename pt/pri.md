@@ -1,5 +1,6 @@
 ---
 lang: pt
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'Sobre o autor'

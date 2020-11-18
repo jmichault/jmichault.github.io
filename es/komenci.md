@@ -1,5 +1,6 @@
 ---
 lang: es
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 'Para principiantes'

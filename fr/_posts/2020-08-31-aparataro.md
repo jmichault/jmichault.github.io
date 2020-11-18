@@ -1,5 +1,6 @@
 ---
 lang: fr
+lang-niv: homa
 lang-ref: aparataro
 layout: post
 slug: Matériel
@@ -12,10 +13,10 @@ Voici le matériel que j'ai utilisé pour construire mon système domotique, per
 
 |type|image|marque|modèle|prix indicatif|Pourquoi|
 | --- | --- | --- | --- | --- | --- | 
-|ordinateur|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |pas de ventilateur, pas cher, a gpio, wifi, LAN RJ45|
+|ordinateur|![](/public/pi.jpg) | _raspberry_ |pi3b+| 35€ |pas de ventilateur, pas cher, a gpio, wifi, LAN RJ45|
 |boîtier d'ordinateur|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |tout boîtier d'ordinateur pour _raspberry-pi3_ convient. Choisissez celui que vous préférez.|
-|source de courant|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Quand mon alimentation "spéciale _raspberry-pi3_" s'est avéré trop faible, je l'ai remplacée avec succès par celle-ci. De nombreux autres modèles conviennent.|
-|cable USB|  |  |USB vers micro USB| 2€ |pour connecter le _raspberry-pi3_ à l'alimentation|
+|source de courant|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Quand mon alimentation "spéciale _raspberry-pi3_" s'est avérée trop faible, je l'ai remplacée avec succès par celle-ci. De nombreux autres modèles conviennent.|
+|câble USB|  |  |USB vers micro USB| 2€ |pour connecter le _raspberry-pi3_ à l'alimentation|
 |carte Micro SD|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |le pi a besoin d'une carte de qualité, il est fortement recommandé d'utiliser une carte d'une marque bien connue.|
 |Câbles Dupont|![](/public/dupont.jpg) | _SODIAL_ |Câbles Dupont femelle-femelle. 068187| 2€|pour connecter des appareils 433 Mhz et flasher une clé USB zigbee|
 |émetteur + récepteur|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |Émetteur + récepteur superhétérodyne 433mhz|
@@ -28,7 +29,7 @@ Voici le matériel que j'ai utilisé pour construire mon système domotique, per
 
 # Les dispositifs à piloter.
 
-De nombreux appareils peuvent être contrôlés. Pour commencer, ces trois éléments me semblent particulièrement intéressants:
+De nombreux appareils peuvent être contrôlés. Pour commencer, ces trois éléments me semblent particulièrement intéressants :
 
 |type|technologie|image|marque|modèle|prix indicatif|Pourquoi|
 | --- | --- | --- | --- | --- | --- | --- |

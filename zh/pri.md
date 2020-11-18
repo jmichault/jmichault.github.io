@@ -1,5 +1,6 @@
 ---
 lang: zh
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 关于作者

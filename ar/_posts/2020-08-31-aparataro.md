@@ -1,5 +1,6 @@
 ---
 lang: ar
+lang-niv: auto
 lang-ref: aparataro
 layout: post
 slug: المعدات

@@ -1,5 +1,6 @@
 ---
 lang: bn
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'লেখক সম্পর্কে'

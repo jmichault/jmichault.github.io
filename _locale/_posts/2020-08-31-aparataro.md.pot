@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-10-13 14:55+0200\n"
+"POT-Creation-Date: 2020-11-15 14:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,107 +17,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./_posts/2020-08-31-aparataro.md:1
+#: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
 msgid "eo"
 msgstr ""
 
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+msgid "fonto"
+msgstr ""
+
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2020-08-31-aparataro.md:1
+#: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
 msgid "aparataro"
 msgstr ""
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2020-08-31-aparataro.md:1
+#: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
 msgid "post"
 msgstr ""
 
 #. type: YAML Front Matter: slug
-#: ./_posts/2020-08-31-aparataro.md:1
+#: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
 msgid "Aparataro"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ./_posts/2020-08-31-aparataro.md:1
+#: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
 msgid "Aparataro por komenci."
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2020-08-31-aparataro.md:9
-#, markdown-text, no-wrap
+#: _posts/2020-08-31-aparataro.md:10
+#, no-wrap
 msgid "La materialoj por la domotika sistemo"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-08-31-aparataro.md:12
-#, markdown-text, no-wrap
-msgid ""
-"Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, "
-"permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
+#: _posts/2020-08-31-aparataro.md:13
+#, no-wrap
+msgid "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-08-31-aparataro.md:26
-#, markdown-text, no-wrap
+#: _posts/2020-08-31-aparataro.md:27
+#, no-wrap
 msgid ""
 "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
-"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu "
-"ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
-"| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por "
-"_raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
-"| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam "
-"mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese "
-"anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
-"| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ "
-"al la elektroprovizo  |\n"
-"| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ "
-"|la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata "
-"marko. |\n"
-"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj "
-"kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee "
-"USB-batono |\n"
-"| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | "
-"wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
-"| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra "
-"retkablo.  |\n"
-"| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | "
-"por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la "
-"_raspberry-pi3_.|\n"
-"|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | "
-"CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
+"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+"| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
+"| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+"| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
+"| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
+"| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
+"| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
+"| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
+"|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
 "| | | | **totala prezo** | **75€** | \n"
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2020-08-31-aparataro.md:29
-#, markdown-text, no-wrap
+#: _posts/2020-08-31-aparataro.md:30
+#, no-wrap
 msgid "La materialoj pilototaj."
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-08-31-aparataro.md:32
-#, markdown-text, no-wrap
-msgid ""
-"Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al "
-"mi aparte interesaj:\n"
+#: _posts/2020-08-31-aparataro.md:33
+#, no-wrap
+msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-08-31-aparataro.md:39
-#, markdown-text, no-wrap
+#: _posts/2020-08-31-aparataro.md:40
+#, no-wrap
 msgid ""
 "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
-"| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | "
-"7.50€| termometro kun ekrano je racia prezo.|\n"
-"| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj "
-"ingoj je racia prezo.|\n"
-"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 "
-"lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
+"| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
+"| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
+"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
 "| | | | | **totala prezo** | **50,5€** | |\n"
 msgstr ""

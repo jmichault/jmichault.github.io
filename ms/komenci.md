@@ -1,5 +1,6 @@
 ---
 lang: ms
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 'Untuk permulaan'

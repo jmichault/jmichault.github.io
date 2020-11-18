@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-10-13 18:12+0200\n"
+"POT-Creation-Date: 2020-11-15 14:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,12 @@ msgstr ""
 #, no-wrap
 msgid "eo"
 msgstr "ja"
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
 #: _posts/2020-08-31-aparataro.md:1
@@ -47,19 +53,19 @@ msgid "Aparataro por komenci."
 msgstr "始めるためのハードウェア。"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:9
+#: _posts/2020-08-31-aparataro.md:10
 #, fuzzy, no-wrap
 msgid "La materialoj por la domotika sistemo"
 msgstr "ホームオートメーションシステムの材料"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:12
+#: _posts/2020-08-31-aparataro.md:13
 #, fuzzy, no-wrap
 msgid "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
 msgstr "これは、ホームオートメーションシステムを構築するために使用した材料です。これにより、433 Mhz機器とzigbee機器を制御できます。\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:26
+#: _posts/2020-08-31-aparataro.md:27
 #, no-wrap
 msgid ""
 "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
@@ -91,19 +97,19 @@ msgstr ""
 "| | | | **合計金額** | **75€** | \n"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:29
+#: _posts/2020-08-31-aparataro.md:30
 #, fuzzy, no-wrap
 msgid "La materialoj pilototaj."
 msgstr "パイロットされる資料。"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:32
+#: _posts/2020-08-31-aparataro.md:33
 #, fuzzy, no-wrap
 msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
 msgstr "多くのデバイスを制御できます。まず、これらの3つは私にとって特に興味深いようです。\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:39
+#: _posts/2020-08-31-aparataro.md:40
 #, fuzzy, no-wrap
 msgid ""
 "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"

@@ -4,6 +4,7 @@ title: Aparataro por komenci.
 slug: Aparataro
 lang: eo
 lang-ref: aparataro
+lang-niv: fonto
 ---
    
 # La materialoj por la domotika sistemo

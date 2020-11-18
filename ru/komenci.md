@@ -1,5 +1,6 @@
 ---
 lang: ru
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 'Для начинающих'

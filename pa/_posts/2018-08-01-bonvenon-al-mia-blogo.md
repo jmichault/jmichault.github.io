@@ -1,5 +1,6 @@
 ---
 lang: pa
+lang-niv: auto
 lang-ref: bonvenon-al-mia-blogo
 layout: post
 slug: 'ਜੀ ਆਇਆਂ ਨੂੰ!'

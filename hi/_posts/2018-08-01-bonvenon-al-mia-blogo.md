@@ -1,5 +1,6 @@
 ---
 lang: hi
+lang-niv: auto
 lang-ref: bonvenon-al-mia-blogo
 layout: post
 slug: 'स्वागत हे!'

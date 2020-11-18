@@ -1,5 +1,6 @@
 ---
 lang: ar
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: للمبتدئين

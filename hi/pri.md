@@ -1,5 +1,6 @@
 ---
 lang: hi
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'लेखक के बारे में'

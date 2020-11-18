@@ -1,5 +1,6 @@
 ---
 lang: ms
+lang-niv: auto
 lang-ref: aparataro
 layout: post
 slug: Perkakasan

@@ -1,5 +1,6 @@
 ---
 lang: en
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'About the Author'

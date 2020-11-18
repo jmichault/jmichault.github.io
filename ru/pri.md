@@ -1,5 +1,6 @@
 ---
 lang: ru
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'об авторе'

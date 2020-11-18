@@ -41,8 +41,15 @@ do
     if [ ../${lang}/${FIC} -ot ../_locale/${lang}/${FIC}.po ]
     then
       echo "tradukante ${FIC} al ${lang}"
-      grep -v "^#, fuzzy" ../_locale/${lang}/${FIC}.po >../_locale/temp$$.po
+      #grep -v "^#, fuzzy" ../_locale/${lang}/${FIC}.po >../_locale/temp$$.po
+      cat ../_locale/${lang}/${FIC}.po|sed "s/^#, fuzzy/#/" >../_locale/temp$$.po
       po4a-translate -f text --option markdown -o neverwrap -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
+      if egrep -m 1 "^#.*, fuzzy" ../_locale/${lang}/${FIC}.po >/dev/null
+      then
+       true
+      else
+       sed -i "s/^lang-niv: auto$/lang-niv: homa/" ../${lang}/${FIC}
+      fi
       rm ../_locale/temp$$.po
     fi
   done

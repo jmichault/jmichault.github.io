@@ -1,5 +1,6 @@
 ---
 lang: zh
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 对于初学者

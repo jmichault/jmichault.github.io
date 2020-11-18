@@ -1,5 +1,6 @@
 ---
 lang: ms
+lang-niv: auto
 lang-ref: bonvenon-al-mia-blogo
 layout: post
 slug: 'Selamat datang!'

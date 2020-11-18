@@ -1,5 +1,6 @@
 ---
 lang: hi
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 'शुरुआत के लिए'

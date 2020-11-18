@@ -1,5 +1,6 @@
 ---
 lang: it
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: "Circa l'autore"

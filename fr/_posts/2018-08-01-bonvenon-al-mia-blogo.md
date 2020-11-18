@@ -1,5 +1,6 @@
 ---
 lang: fr
+lang-niv: auto
 lang-ref: bonvenon-al-mia-blogo
 layout: post
 slug: 'Bienvenue !'

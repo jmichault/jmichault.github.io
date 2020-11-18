@@ -1,5 +1,6 @@
 ---
 lang: zh
+lang-niv: auto
 lang-ref: aparataro
 layout: post
 slug: 硬件

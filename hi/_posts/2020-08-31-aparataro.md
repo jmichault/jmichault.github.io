@@ -1,5 +1,6 @@
 ---
 lang: hi
+lang-niv: auto
 lang-ref: aparataro
 layout: post
 slug: हार्डवेयर

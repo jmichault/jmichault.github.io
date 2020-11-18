@@ -1,5 +1,6 @@
 ---
 lang: pt
+lang-niv: auto
 lang-ref: bonvenon-al-mia-blogo
 layout: post
 slug: Bem-vinda!

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-10-13 18:10+0200\n"
+"POT-Creation-Date: 2020-11-15 14:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,137 +17,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./komenci.md:1
+#: komenci.md:1
 #, no-wrap
 msgid "eo"
 msgstr "it"
 
+#. type: YAML Front Matter: lang-niv
+#: komenci.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
+
 #. type: YAML Front Matter: lang-ref
-#: ./komenci.md:1
+#: komenci.md:1
 #, no-wrap
 msgid "komenci"
 msgstr "komenci"
 
 #. type: YAML Front Matter: layout
-#: ./komenci.md:1
+#: komenci.md:1
 #, no-wrap
 msgid "page"
 msgstr "page"
 
 #. type: YAML Front Matter: title
-#: ./komenci.md:1
-#, no-wrap
-#, fuzzy
+#: komenci.md:1
+#, fuzzy, no-wrap
 msgid "Por komenci"
 msgstr "Per i principianti"
 
 #. type: Plain text
-#: ./komenci.md:8
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:9
+#, fuzzy, no-wrap
 msgid "Paŝoj por prepari hejman aŭtomatan sistemon :  \n"
 msgstr "Passaggi per preparare un sistema domotico:  \n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:20
+#, fuzzy, no-wrap
 msgid "[akiru la materialon](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[prendi il materiale](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"instalu _raspbian_ : "
-"[raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
+#: komenci.md:20
+#, fuzzy, no-wrap
+msgid "instalu _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
 msgstr "installare _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"programu la firmvaron de la USB-batono _CC2531_ : "
-"[github.com](https://github.com/jmichault/flash_cc2531)\n"
+#: komenci.md:20
+#, fuzzy, no-wrap
+msgid "programu la firmvaron de la USB-batono _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
 msgstr "programmare il firmware della chiavetta USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:20
+#, fuzzy, no-wrap
 msgid "konstruu antenon\n"
 msgstr "costruire un'antenna\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"instalu _domoticz_ : "
-"[domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+#: komenci.md:20
+#, fuzzy, no-wrap
+msgid "instalu _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 msgstr "installare _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"instalu _zigbee_ : "
-"[zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+#: komenci.md:20
+#, fuzzy, no-wrap
+msgid "instalu _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 msgstr "installare _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"instalu _rf_gpio_ : "
-"[github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+#: komenci.md:20
+#, fuzzy, no-wrap
+msgid "instalu _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 msgstr "installare _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:20
+#, fuzzy, no-wrap
 msgid "malpermesu _sudo_ sen pasvorto\n"
 msgstr "proibire _sudo_ no Password\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:19
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"instalu sekurkopion : "
-"[borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
+#: komenci.md:20
+#, fuzzy, no-wrap
+msgid "instalu sekurkopion : [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "installa backup: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 
 #. type: Plain text
-#: ./komenci.md:20
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:21
+#, fuzzy, no-wrap
 msgid "Konektu viajn unuajn elementojn:  \n"
 msgstr "Collega i tuoi primi elementi:  \n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:24
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:25
+#, fuzzy, no-wrap
 msgid "konektu termometron\n"
 msgstr "collegare un termometro\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:24
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:25
+#, fuzzy, no-wrap
 msgid "konektu ingon\n"
 msgstr "connect ingon\n"
 
 #. type: Bullet: '* '
-#: ./komenci.md:24
-#, markdown-text, no-wrap
-#, fuzzy
+#: komenci.md:25
+#, fuzzy, no-wrap
 msgid "konektu ampolon\n"
 msgstr "collegare una lampadina\n"
-

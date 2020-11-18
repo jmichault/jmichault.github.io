@@ -1,5 +1,6 @@
 ---
 lang: ms
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'Mengenai Pengarang'

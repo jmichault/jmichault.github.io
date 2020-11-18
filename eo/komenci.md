@@ -1,6 +1,7 @@
 ---
 lang: eo
 lang-ref: komenci
+lang-niv: fonto
 layout: page
 title: Por komenci
 ---

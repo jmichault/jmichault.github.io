@@ -1,5 +1,6 @@
 ---
 lang: ja
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 初心者向け

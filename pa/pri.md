@@ -1,5 +1,6 @@
 ---
 lang: pa
+lang-niv: auto
 lang-ref: pri
 layout: page
 title: 'ਲੇਖਕ ਬਾਰੇ'

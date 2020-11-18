@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-08-30 20:25+0200\n"
+"POT-Creation-Date: 2020-11-15 14:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "eo"
 msgstr "hi"
 
+#. type: YAML Front Matter: lang-niv
+#: index.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
+
 #. type: YAML Front Matter: lang-ref
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "indekso"
 msgstr "indekso"
 
 #. type: YAML Front Matter: layout
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "index"
 msgstr "index"
 
 #. type: YAML Front Matter: title
-#: ./index.md:1
-#, no-wrap
-#, fuzzy
+#: index.md:1
+#, fuzzy, no-wrap
 msgid "Plej novaj afiŝoj"
 msgstr "नवीनतम पोस्ट"
-

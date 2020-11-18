@@ -1,5 +1,6 @@
 ---
 lang: bn
+lang-niv: auto
 lang-ref: aparataro
 layout: post
 slug: হার্ডওয়্যার

@@ -1,5 +1,6 @@
 ---
 lang: bn
+lang-niv: auto
 lang-ref: komenci
 layout: page
 title: 'নতুনদের জন্য'

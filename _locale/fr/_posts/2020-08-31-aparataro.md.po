@@ -5,21 +5,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-10-13 18:12+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-15 14:29+0100\n"
+"PO-Revision-Date: 2020-11-15 14:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
 msgid "eo"
 msgstr "fr"
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
 #: _posts/2020-08-31-aparataro.md:1
@@ -46,20 +53,20 @@ msgid "Aparataro por komenci."
 msgstr "Matériel pour débuter."
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:9
+#: _posts/2020-08-31-aparataro.md:10
 #, no-wrap
 msgid "La materialoj por la domotika sistemo"
 msgstr "Les matériels pour le système domotique"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:12
+#: _posts/2020-08-31-aparataro.md:13
 #, no-wrap
 msgid "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
 msgstr "Voici le matériel que j'ai utilisé pour construire mon système domotique, permettant de contrôler des équipements 433 Mhz et des équipements zigbee.\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:26
-#, fuzzy, no-wrap
+#: _posts/2020-08-31-aparataro.md:27
+#, no-wrap
 msgid ""
 "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
@@ -77,10 +84,10 @@ msgid ""
 msgstr ""
 "|type|image|marque|modèle|prix indicatif|Pourquoi|\n"
 "| --- | --- | --- | --- | --- | --- | \n"
-"|ordinateur|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |pas de ventilateur, pas cher, a gpio, wifi, LAN RJ45|\n"
+"|ordinateur|![](/public/pi.jpg) | _raspberry_ |pi3b+| 35€ |pas de ventilateur, pas cher, a gpio, wifi, LAN RJ45|\n"
 "|boîtier d'ordinateur|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |tout boîtier d'ordinateur pour _raspberry-pi3_ convient. Choisissez celui que vous préférez.|\n"
-"|source de courant|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Quand mon alimentation \"spéciale _raspberry-pi3_\" s'est avéré trop faible, je l'ai remplacée avec succès par celle-ci. De nombreux autres modèles conviennent.|\n"
-"|cable USB|  |  |USB vers micro USB| 2€ |pour connecter le _raspberry-pi3_ à l'alimentation|\n"
+"|source de courant|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Quand mon alimentation \"spéciale _raspberry-pi3_\" s'est avérée trop faible, je l'ai remplacée avec succès par celle-ci. De nombreux autres modèles conviennent.|\n"
+"|câble USB|  |  |USB vers micro USB| 2€ |pour connecter le _raspberry-pi3_ à l'alimentation|\n"
 "|carte Micro SD|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |le pi a besoin d'une carte de qualité, il est fortement recommandé d'utiliser une carte d'une marque bien connue.|\n"
 "|Câbles Dupont|![](/public/dupont.jpg) | _SODIAL_ |Câbles Dupont femelle-femelle. 068187| 2€|pour connecter des appareils 433 Mhz et flasher une clé USB zigbee|\n"
 "|émetteur + récepteur|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |Émetteur + récepteur superhétérodyne 433mhz|\n"
@@ -90,19 +97,20 @@ msgstr ""
 "| | | | **prix total** | **75€** | \n"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:29
-#, fuzzy, no-wrap
+#: _posts/2020-08-31-aparataro.md:30
+#, no-wrap
 msgid "La materialoj pilototaj."
 msgstr "Les dispositifs à piloter."
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:32
-#, fuzzy, no-wrap
+#: _posts/2020-08-31-aparataro.md:33
+#, no-wrap
 msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
-msgstr "De nombreux appareils peuvent être contrôlés. Pour commencer, ces trois éléments me semblent particulièrement intéressants:\n"
+msgstr "De nombreux appareils peuvent être contrôlés. Pour commencer, ces trois éléments me semblent particulièrement intéressants :\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:39
+#: _posts/2020-08-31-aparataro.md:40
+#, no-wrap
 msgid ""
 "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"

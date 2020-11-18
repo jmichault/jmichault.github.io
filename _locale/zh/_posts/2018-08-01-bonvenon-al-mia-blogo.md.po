@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-08-30 20:25+0200\n"
+"POT-Creation-Date: 2020-11-15 14:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,41 +17,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:1
 #, no-wrap
 msgid "eo"
 msgstr "zh"
 
+#. type: YAML Front Matter: lang-niv
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
+
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:1
 #, no-wrap
 msgid "bonvenon-al-mia-blogo"
 msgstr "bonvenon-al-mia-blogo"
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:1
 #, no-wrap
 msgid "post"
 msgstr "post"
 
 #. type: YAML Front Matter: slug
-#: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:1
+#, fuzzy, no-wrap
 msgid "Bonvenon!"
 msgstr "欢迎！"
 
 #. type: YAML Front Matter: title
-#: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:1
+#, fuzzy, no-wrap
 msgid "Bonvenon al mia blogo!"
 msgstr "欢迎到我的博客！"
 
 #. type: Plain text
-#: ./_posts/2018-08-01-bonvenon-al-mia-blogo.md:9
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2018-08-01-bonvenon-al-mia-blogo.md:10
+#, fuzzy, no-wrap
 msgid "Bonvenon al mia blogo!\n"
 msgstr "欢迎到我的博客！\n"
-
