@@ -4,22 +4,13 @@
         {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
     {% endif %}
     {% if posts.size > 1 %}
-      {% assign posteo=posts | where:"lang", 'eo' %}
-      {% assign postsok= posts | where:"lang-niv", 'homa' | sort: 'lang' %}
-      {% assign postsnok= posts | where:"lang-niv", 'auto' | sort: 'lang' %}
     <footer class="lang-options">
         <em>{{ site.data.translations['malsamaLingvo'][page.lang] }}:</em>
         <ul>
-        {% for post in posteo %}
-        <li><a title="{{ site.data.translations['viewIn'][page.lang] }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
-        {% endfor %}
-        {% for post in postsok %}
-        <li><a title="{{ site.data.translations['viewIn'][page.lang] }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
-        {% endfor %}
-        </ul>
-        <em>{{ site.data.translations['malsamaLingvo'][page.lang] }}:</em>
-        <ul>
         {% for post in posts %}
+	{% if post.lang == page.lang %}
+	  {% continue %}
+        {% endif %}
         <li><a title="{{ site.data.translations['viewIn'][page.lang] }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
         {% endfor %}
         </ul>
