@@ -3,7 +3,7 @@ layout: post
 title: Instali domoticz.
 slug: Instali domoticz.
 lang: eo
-lang-ref: bonvenon-al-mia-blogo
+lang-ref: instali-domoticz
 lang-niv: fonto
 ---
 
