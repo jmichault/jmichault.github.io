@@ -6,7 +6,7 @@ layout: page
 title: Por komenci
 ---
 
-Paŝoj por prepari hejman aŭtomatan sistemon :  
+Jen ekzemplo de la paŝoj, kiujn vi povas fari por krei hejman aŭtomatan sistemon:
 
 * [akiru la materialon](_posts/2020-08-31-aparataro.md)
 * instalu _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
