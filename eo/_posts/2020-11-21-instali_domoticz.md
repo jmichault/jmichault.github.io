@@ -7,7 +7,8 @@ lang-ref: bonvenon-al-mia-blogo
 lang-niv: fonto
 ---
 
-Jen ekzemplo de domoticz-instalado sub raspbian:
+Jen ekzemplo de domoticz-instalado sub raspbian.
+Ni komencos kreante dediĉitan uzanton, tiam ni instalos domoticz:
 
     sudo bash
     adduser domoticz
@@ -20,6 +21,9 @@ _«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.
 _«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  
 _«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  
 _«Installation Complete!»_  , Eniru.
+
+
+Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:
 
     service domoticz stop
     rm /etc/*.d/*domoticz*
@@ -46,20 +50,20 @@ _«Installation Complete!»_  , Eniru.
     systemctl start domoticz
 
 domoticz estas instalita kaj alirebla ĉe:  
-* de la pi: http: // localhost: 8080 aŭ https: // localhost: 8443
-* de la reto: http: // adress_du_pi: 8080 aŭ https: // adress_du_pi: 8443
+* de la pi: http://localhost:8080 aŭ https://localhost:8443
+* de la reto: http://ip-adreso_de_la_pi:8080 aŭ https://ip-adreso_de_la_pi:8443
 
 iu agordo:  
-iru al Agordo -> Agordoj  
+iru al _«Setup --> Settings»_
 ŝanĝi lingvon, agordi lokon  
 difini sekurecon: uzantnomon kaj pasvorton  
-difinu la "Lokajn Retojn", ekzemple: 127.0.0.*; 192.168.0.*  
+difinu la "Lokajn Retojn", ekzemplo: _«127.0.0.*;192.168.0.*»_  
 aktivigi "Aŭtomatan Sekurkopion"  
-Aparataro / Aparatoj: malaktivigu "Akcepti novajn Aparatojn"  
+Aparataro/Aparatoj: malaktivigu "Akcepti novajn Aparatojn"  
 alklaku "Apliki Agordojn".  
 
-nun ni devas aldoni la aparataron.  
+Nun ni devas aldoni la aparataron.  
 vidu https://www.domoticz.com/wiki/Getting_started
 
-
+Por pli da detaloj,
 vidu https://www.domoticz.com/wiki/Raspberry_Pi
