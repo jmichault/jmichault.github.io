@@ -53,4 +53,6 @@ Lanĉu la skripton _scripts/traduki duan fojon:
 _scripts/traduki
 ```
 
+## Ekzemplo
+vidu https://jmichault.github.io
 
