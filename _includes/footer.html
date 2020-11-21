@@ -8,6 +8,9 @@
         <em>{{ site.data.translations['malsamaLingvo'][page.lang] }}:</em>
         <ul>
         {% for post in posts %}
+	{% if post.lang == page.lang %}
+	  {% continue %}
+        {% endif %}
         <li><a title="{{ site.data.translations['viewIn'][page.lang] }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
         {% endfor %}
         </ul>

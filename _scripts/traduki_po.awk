@@ -58,6 +58,11 @@
         print ("msgid " MSGID);
         print ("msgstr " MSGID);
       }
+      else if(MATTER == "lang-niv")
+      {
+        print ("msgid " MSGID);
+        print ("msgstr \"auto\"" );
+      }
       else
       {
         if(FUZZY ==0)

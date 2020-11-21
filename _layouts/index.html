@@ -16,8 +16,8 @@ layout: default
     </h1>
 
     <span class="post-date">{{ post.date | date: "%F" }}</span>
+    {{ post.content| markdownify | strip_html | truncate: 200 }} ...
 
-    {{ post.content }}
   </div>
   {% endfor %}
 </div>
