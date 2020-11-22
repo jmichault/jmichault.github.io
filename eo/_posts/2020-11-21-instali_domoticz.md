@@ -57,7 +57,7 @@ iu agordo:
 iru al _«Setup --> Settings»_
 ŝanĝi lingvon, agordi lokon  
 difini sekurecon: uzantnomon kaj pasvorton  
-difinu la "Lokajn Retojn", ekzemplo: _«127.0.0.*;192.168.0.*»_  
+difinu la "Lokajn Retojn", ekzemplo: _«127.0.0.\*;192.168.0.*»_  
 aktivigi "Aŭtomatan Sekurkopion"  
 Aparataro/Aparatoj: malaktivigu "Akcepti novajn Aparatojn"  
 alklaku "Apliki Agordojn".  
