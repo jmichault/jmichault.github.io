@@ -10,8 +10,11 @@ baseurl:          /
 
 exclude:	[ _locale , _scripts ]
 
+url: "https://jmichault.github.io"
+
 plugins:
   - jekyll-relative-links
+  - jekyll-sitemap
 
 relative_links:
   enabled:     true
