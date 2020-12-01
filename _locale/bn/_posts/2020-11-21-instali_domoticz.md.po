@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-11-27 16:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "eo"
+msgstr "bn"
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "instali-domoticz"
+msgstr "instali-domoticz"
+
+#. type: YAML Front Matter: layout
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: title
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, fuzzy, no-wrap
+msgid "Instali domoticz."
+msgstr "ইনস্টল করুন domoticz."
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:11
+#, fuzzy, no-wrap
+msgid "Jen ekzemplo de domoticz-instalado sub raspbian.\n"
+msgstr "এখানে রাস্পবিয়ানের অধীনে ডোমোটিক ইনস্টলেশন করার উদাহরণ।\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:13
+#, fuzzy, no-wrap
+msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
+msgstr "আমরা একটি উত্সর্গীকৃত ব্যবহারকারী তৈরি করে শুরু করি, তারপরে আমরা ডোমোটিক ইনস্টল করি:\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-11-21-instali_domoticz.md:13
+#, no-wrap
+msgid ""
+"sudo bash\n"
+"adduser domoticz\n"
+"cd /home/domoticz\n"
+"curl -sSL install.domoticz.com | bash\n"
+msgstr ""
+"sudo bash\n"
+"adduser domoticz\n"
+"cd /home/domoticz\n"
+"curl -sSL install.domoticz.com | bash\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:19
+#, fuzzy, no-wrap
+msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
+msgstr "উপস্থাপিত হলে এন্টার টিপুন (\\<OK> estas la sola elekto).  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:20
+#, fuzzy, no-wrap
+msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+msgstr "পরিষেবাদির পছন্দ: HTTP এবং https চেক করুন, ঠিক আছে যান, প্রবেশ করান।  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:21
+#, fuzzy, no-wrap
+msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
+msgstr "_«HTTP Port number:»_ 8080 প্রস্থান করুন, ওকে যান, এন্টার টিপুন।  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:22
+#, fuzzy, no-wrap
+msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
+msgstr "_«HTTPS Port number:»_ 8443 রাখুন, ঠিক আছে যান, প্রবেশ করুন।  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:23
+#, fuzzy, no-wrap
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
+msgstr "_«Installation Folder:»_ আমিও _/home/domoticz/domoticz_, ওকে যান, প্রবেশ করুন।  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:25
+#, fuzzy, no-wrap
+msgid "_«Installation Complete!»_  , Eniru.\n"
+msgstr "_«Installation Complete!»_  , প্রবেশ করান।\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:28
+#, fuzzy, no-wrap
+msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
+msgstr "এখন আমরা তৈরি _«systemd»_ পরিষেবা যা ডোমোটিক্স চালু করবে:\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-11-21-instali_domoticz.md:28
+#, no-wrap
+msgid ""
+"service domoticz stop\n"
+"rm /etc/*.d/*domoticz*\n"
+"echo \"[Unit]\n"
+"Description=domoticz\n"
+"\n"
+"[Service]\n"
+"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
+"User=domoticz\n"
+"RuntimeDirectory=domoticz\n"
+"LogsDirectory=domoticz\n"
+"Restart=on-abort\n"
+"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target\n"
+"\" >/etc/systemd/system/domoticz.service\n"
+"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
+"\" >/etc/sudoers.d/010_domoticz\n"
+"chmod 440 /etc/sudoers.d/010_domoticz\n"
+"systemctl daemon-reload\n"
+"chown -R domoticz.domoticz domoticz\n"
+"systemctl enable domoticz\n"
+"systemctl start domoticz\n"
+msgstr ""
+"service domoticz stop\n"
+"rm /etc/*.d/*domoticz*\n"
+"echo \"[Unit]\n"
+"Description=domoticz\n"
+"\n"
+"[Service]\n"
+"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
+"User=domoticz\n"
+"RuntimeDirectory=domoticz\n"
+"LogsDirectory=domoticz\n"
+"Restart=on-abort\n"
+"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target\n"
+"\" >/etc/systemd/system/domoticz.service\n"
+"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
+"\" >/etc/sudoers.d/010_domoticz\n"
+"chmod 440 /etc/sudoers.d/010_domoticz\n"
+"systemctl daemon-reload\n"
+"chown -R domoticz.domoticz domoticz\n"
+"systemctl enable domoticz\n"
+"systemctl start domoticz\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:57
+#, fuzzy, no-wrap
+msgid ""
+"domoticz estas instalita kaj alirebla ĉe:\n"
+"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+"* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+msgstr ""
+"ডোমোটিক্স ইনস্টল করা আছে এবং এতে অ্যাক্সেসযোগ্য:\n"
+"* পাই এর: <http://localhost:8080> বা <https://localhost:8443>\n"
+"* নেটওয়ার্কের: <http://ip-adreso_de_la_pi:8080> বা <https://ip-adreso_de_la_pi:8443>\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:58
+#, fuzzy, no-wrap
+msgid "iu agordo:  \n"
+msgstr "যে কোনও কনফিগারেশন:  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:59
+#, fuzzy, no-wrap
+msgid "iru al _«Setup --> Settings»_  \n"
+msgstr "যাও _«Setup --> Settings»_  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:60
+#, fuzzy, no-wrap
+msgid "ŝanĝi lingvon, agordi lokon  \n"
+msgstr "ভাষা পরিবর্তন করুন, অবস্থান নির্ধারণ করুন  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:61
+#, fuzzy, no-wrap
+msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+msgstr "সুরক্ষা সংজ্ঞা: ব্যবহারকারীর নাম এবং পাসওয়ার্ড  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:62
+#, fuzzy, no-wrap
+msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+msgstr "সংজ্ঞায়িত \"স্থানীয় অঞ্চল নেটওয়ার্কসমূহ\"উদাহরণস্বরূপ: _«127.0.0.\\*;192.168.0.*»_  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:63
+#, fuzzy, no-wrap
+msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
+msgstr "সক্রিয় করুন \"স্বয়ংক্রিয় ব্যাকআপ\"  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:64
+#, fuzzy, no-wrap
+msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
+msgstr "হার্ডওয়্যার / ডিভাইসগুলি: অক্ষম করুন \"নতুন ডিভাইস গ্রহণ করুন\"  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:65
+#, fuzzy, no-wrap
+msgid "alklaku \"Apliki Agordojn\".  \n"
+msgstr "ক্লিক \"সেটিংস প্রয়োগ করুন\".  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:67
+#, fuzzy, no-wrap
+msgid "Nun ni devas aldoni la aparataron.  \n"
+msgstr "এখন আমাদের হার্ডওয়্যার যুক্ত করতে হবে।  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:69
+#, fuzzy, no-wrap
+msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
+msgstr "দেখা <https://www.domoticz.com/wiki/Getting_started>\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:71
+#, fuzzy, no-wrap
+msgid ""
+"Por pli da detaloj,\n"
+"vidu <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+msgstr ""
+"আরো বিস্তারিত জানার জন্য,\n"
+"দেখা <https://www.domoticz.com/wiki/Raspberry_Pi>\n"

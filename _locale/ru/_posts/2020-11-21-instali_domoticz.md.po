@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-11-27 16:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "eo"
+msgstr "ru"
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "fonto"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "instali-domoticz"
+msgstr "instali-domoticz"
+
+#. type: YAML Front Matter: layout
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: title
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, fuzzy, no-wrap
+msgid "Instali domoticz."
+msgstr "Установить domoticz."
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:11
+#, fuzzy, no-wrap
+msgid "Jen ekzemplo de domoticz-instalado sub raspbian.\n"
+msgstr "Вот пример установки domoticz под raspbian.\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:13
+#, fuzzy, no-wrap
+msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
+msgstr "Мы начинаем с создания выделенного пользователя, затем устанавливаем domoticz:\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-11-21-instali_domoticz.md:13
+#, no-wrap
+msgid ""
+"sudo bash\n"
+"adduser domoticz\n"
+"cd /home/domoticz\n"
+"curl -sSL install.domoticz.com | bash\n"
+msgstr ""
+"sudo bash\n"
+"adduser domoticz\n"
+"cd /home/domoticz\n"
+"curl -sSL install.domoticz.com | bash\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:19
+#, fuzzy, no-wrap
+msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
+msgstr "Нажмите Enter, когда появится (\\<OK> estas la sola elekto).  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:20
+#, fuzzy, no-wrap
+msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+msgstr "Выбор услуг: оставьте http и https отмеченными, нажмите ОК, введите.  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:21
+#, fuzzy, no-wrap
+msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
+msgstr "_«HTTP Port number:»_ выйдите из 8080, перейдите в ОК, нажмите Enter.  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:22
+#, fuzzy, no-wrap
+msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
+msgstr "_«HTTPS Port number:»_ ставим 8443, идем в ОК, вводим.  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:23
+#, fuzzy, no-wrap
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
+msgstr "_«Installation Folder:»_ мету _/home/domoticz/domoticz_, перейдите в ОК, введите.  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:25
+#, fuzzy, no-wrap
+msgid "_«Installation Complete!»_  , Eniru.\n"
+msgstr "_«Installation Complete!»_  , Войти.\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:28
+#, fuzzy, no-wrap
+msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
+msgstr "Теперь создадим _«systemd»_ сервис, который запустит домотик:\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-11-21-instali_domoticz.md:28
+#, no-wrap
+msgid ""
+"service domoticz stop\n"
+"rm /etc/*.d/*domoticz*\n"
+"echo \"[Unit]\n"
+"Description=domoticz\n"
+"\n"
+"[Service]\n"
+"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
+"User=domoticz\n"
+"RuntimeDirectory=domoticz\n"
+"LogsDirectory=domoticz\n"
+"Restart=on-abort\n"
+"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target\n"
+"\" >/etc/systemd/system/domoticz.service\n"
+"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
+"\" >/etc/sudoers.d/010_domoticz\n"
+"chmod 440 /etc/sudoers.d/010_domoticz\n"
+"systemctl daemon-reload\n"
+"chown -R domoticz.domoticz domoticz\n"
+"systemctl enable domoticz\n"
+"systemctl start domoticz\n"
+msgstr ""
+"service domoticz stop\n"
+"rm /etc/*.d/*domoticz*\n"
+"echo \"[Unit]\n"
+"Description=domoticz\n"
+"\n"
+"[Service]\n"
+"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
+"User=domoticz\n"
+"RuntimeDirectory=domoticz\n"
+"LogsDirectory=domoticz\n"
+"Restart=on-abort\n"
+"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target\n"
+"\" >/etc/systemd/system/domoticz.service\n"
+"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
+"\" >/etc/sudoers.d/010_domoticz\n"
+"chmod 440 /etc/sudoers.d/010_domoticz\n"
+"systemctl daemon-reload\n"
+"chown -R domoticz.domoticz domoticz\n"
+"systemctl enable domoticz\n"
+"systemctl start domoticz\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:57
+#, fuzzy, no-wrap
+msgid ""
+"domoticz estas instalita kaj alirebla ĉe:\n"
+"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+"* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+msgstr ""
+"domoticz установлен и доступен по адресу:\n"
+"* числа пи: <http://localhost:8080> или <https://localhost:8443>\n"
+"* сети: <http://ip-adreso_de_la_pi:8080> или <https://ip-adreso_de_la_pi:8443>\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:58
+#, fuzzy, no-wrap
+msgid "iu agordo:  \n"
+msgstr "любая конфигурация:  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:59
+#, fuzzy, no-wrap
+msgid "iru al _«Setup --> Settings»_  \n"
+msgstr "перейти к _«Setup --> Settings»_  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:60
+#, fuzzy, no-wrap
+msgid "ŝanĝi lingvon, agordi lokon  \n"
+msgstr "изменить язык, установить местоположение  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:61
+#, fuzzy, no-wrap
+msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+msgstr "определить безопасность: имя пользователя и пароль  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:62
+#, fuzzy, no-wrap
+msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+msgstr "определить \"Локальные сети\", пример: _«127.0.0.\\*;192.168.0.*»_  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:63
+#, fuzzy, no-wrap
+msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
+msgstr "активировать \"Автоматическое резервное копирование\"  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:64
+#, fuzzy, no-wrap
+msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
+msgstr "Оборудование / Устройства: отключить \"Принять новые устройства\"  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:65
+#, fuzzy, no-wrap
+msgid "alklaku \"Apliki Agordojn\".  \n"
+msgstr "щелкнуть \"Применить настройки\".  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:67
+#, fuzzy, no-wrap
+msgid "Nun ni devas aldoni la aparataron.  \n"
+msgstr "Теперь нам нужно добавить оборудование.  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:69
+#, fuzzy, no-wrap
+msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
+msgstr "увидеть <https://www.domoticz.com/wiki/Getting_started>\n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:71
+#, fuzzy, no-wrap
+msgid ""
+"Por pli da detaloj,\n"
+"vidu <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+msgstr ""
+"Больше подробностей,\n"
+"увидеть <https://www.domoticz.com/wiki/Raspberry_Pi>\n"

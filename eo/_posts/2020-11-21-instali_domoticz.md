@@ -9,7 +9,7 @@ lang-niv: fonto
 
 Jen ekzemplo de domoticz-instalado sub raspbian.
 
-Ni komencos kreante dediĉitan uzanton, tiam ni instalos domoticz:
+Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:
 ```bash
 sudo bash
 adduser domoticz

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-11-15 14:28+0100\n"
+"POT-Creation-Date: 2020-11-26 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,9 +47,9 @@ msgid "Por komenci"
 msgstr "对于初学者"
 
 #. type: Plain text
-#: komenci.md:9
+#: komenci.md:10
 #, fuzzy, no-wrap
-msgid "Paŝoj por prepari hejman aŭtomatan sistemon :  \n"
+msgid "Jen ekzemplo de la paŝoj, kiujn vi povas fari por krei hejman aŭtomatan sistemon:\n"
 msgstr "准备家庭自动化系统的步骤：  \n"
 
 #. type: Bullet: '* '
