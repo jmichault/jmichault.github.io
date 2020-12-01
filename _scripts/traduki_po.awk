@@ -107,7 +107,7 @@
               }
               while( x<=length(MSGS) && SEPS[x] != ")");
             }
-            if(SEPS[ x ] == " _")
+            if(SEPS[ x ] == " _" || SEPS[ x ] == "_")
             {
               do
               {
