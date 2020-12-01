@@ -1,6 +1,6 @@
 ---
 lang: fr
-lang-niv: auto
+lang-niv: homa
 lang-ref: instali-domoticz
 layout: post
 slug: 'Installer domoticz.'

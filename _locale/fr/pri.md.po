@@ -44,7 +44,7 @@ msgstr "page"
 #: pri.md:1
 #, no-wrap
 msgid "Pri la Aŭtoro"
-msgstr "A propos de l'auteur"
+msgstr "À propos de l'auteur"
 
 #. type: Plain text
 #: pri.md:11

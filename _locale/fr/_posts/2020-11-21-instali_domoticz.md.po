@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -74,13 +73,13 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
 msgstr "Appuyez sur Entrée lorsque la présentation s'affiche (\\<OK> est le seul choix).  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
 msgstr "Choix des services: laissez http et https cochés, allez sur OK, appuyez sur Entrée.  \n"
 

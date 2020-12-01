@@ -1,9 +1,9 @@
 ---
 lang: fr
-lang-niv: auto
+lang-niv: homa
 lang-ref: pri
 layout: page
-title: "A propos de l'auteur"
+title: "À propos de l'auteur"
 ---
 
 Passionné d'électronique depuis l'âge de 10 ans et accro aux ordinateurs depuis l'âge de 18 ans.
