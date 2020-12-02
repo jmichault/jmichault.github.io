@@ -8,7 +8,7 @@ permalink:        pretty
 title:            Ĝi estas Blogo
 baseurl:          /
 
-exclude:	[ _locale , _scripts ]
+exclude: [ _locale , _scripts , "*.backup" ]
 
 url: "https://jmichault.github.io"
 
