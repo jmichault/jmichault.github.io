@@ -255,9 +255,20 @@ footer.lang-options {
   padding-top: 1em;
 }
 
+div.lang-options ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 footer.lang-options ul {
   padding-left: 0;
   margin-left: 0;
+}
+
+div.lang-options ul > li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1em;
 }
 
 footer.lang-options ul > li {
