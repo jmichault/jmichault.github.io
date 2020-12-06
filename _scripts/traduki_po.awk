@@ -25,7 +25,7 @@
   }
   else if ($1 == "msgstr")
   {
-    if($2 != "\"\"" || MSGID == "\"\"")
+    if( ($2 != "\"\"" && $2 != "\"\\n\"") || MSGID == "\"\"")
     {
       print ("msgid " MSGID);
       print $0;
@@ -63,13 +63,18 @@
         print ("msgid " MSGID);
         print ("msgstr \"auto\"" );
       }
+      else if(MATTER == "Fenced")
+      {
+        print ("msgid " MSGID);
+        print ("msgstr " MSGID);
+      }
       else
       {
         if(FUZZY ==0)
           print ("#, fuzzy");
         print ("msgid " MSGID);
         printf("msgstr \"");
-          split(MSGSTR,MSGS,"__| _|_ |_|\\\\n|**|\n|!|\\[|\\]|\\(|\\)|\\|\\\"|\"|\\\\|\\|",SEPS);
+          split(MSGSTR,MSGS,"__| _|_ |_|<|>|\\\\n|**|\n|!|\\[|\\]|\\(|\\)|\\|\\\"|\"|\\\\|\\|",SEPS);
           for (x=1 ; x<=length(MSGS) ; x++)
           {
             if(match(MSGS[x],"[[:alpha:]]")==0 )
@@ -102,7 +107,7 @@
               }
               while( x<=length(MSGS) && SEPS[x] != ")");
             }
-            if(SEPS[ x ] == " _")
+            if(SEPS[ x ] == " _" || SEPS[ x ] == "_")
             {
               do
               {
@@ -110,6 +115,15 @@
                 printf(MSGS[x] SEPS[x]);
               }
               while( x<=length(MSGS) && SEPS[x] != "_ " && SEPS[x] != "_");
+            }
+            if(SEPS[ x ] == "<")
+            {
+              do
+              {
+                x++;
+                printf(MSGS[x] SEPS[x]);
+              }
+              while( x<=length(MSGS) && SEPS[x] != ">" );
             }
           }
         print "\"";
@@ -122,6 +136,11 @@
   else if (substr($0,1,28) == "#. type: YAML Front Matter: ")
   {
     MATTER=substr($0,29);
+    print $0;
+  }
+  else if (substr($0,1,15) == "#. type: Fenced")
+  {
+    MATTER="Fenced";
     print $0;
   }
   else

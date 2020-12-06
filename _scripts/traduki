@@ -28,7 +28,7 @@ do
     if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${FIC}.pot ]
     then
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
-      po4a-updatepo --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
+      po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
     fi
     ../_scripts/traduki_po.sh ../_locale/${lang}/${FIC}.po
     if diff ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po >/dev/null
