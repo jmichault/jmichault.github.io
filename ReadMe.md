@@ -9,7 +9,7 @@ jekyll-dokumentaro : <https://jekyllrb.com/docs/>
 
 Instalu la antaŭkondiĉojn :
 ```bash
-sudo apt install ruby-bundler ruby-dev 
+sudo apt install ruby-bundler ruby-dev gawk
 sudo apt -t buster-backports install po4a
 ```
 
