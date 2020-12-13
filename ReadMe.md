@@ -9,7 +9,7 @@ jekyll-dokumentaro : <https://jekyllrb.com/docs/>
 
 Instalu la antaŭkondiĉojn :
 ```bash
-sudo apt install ruby-bundler ruby-dev 
+sudo apt install ruby-bundler ruby-dev gawk
 sudo apt -t buster-backports install po4a
 ```
 
@@ -17,6 +17,11 @@ Kopiu la arbon, metu vian prezenton en eo/pri.md.
 Komencu la retejon per:  
 ```bash
 _scripts/komenci "Via titolo" "Via priskribo"
+```
+
+Preparu jekyll :
+```bash
+bundle install
 ```
 
 Lanĉu la retejon :
