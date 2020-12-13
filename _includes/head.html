@@ -1,6 +1,5 @@
 <head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta name="google-site-verification" content="18VDPPz0m52h84SEaG7jVodfrYmoiLbiFVzeoznFxgs" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -16,14 +15,14 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/public/css/poole.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/public/css/hyde.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{site.baseurl}}/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="{{site.baseurl}}/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -34,7 +33,7 @@
   {% endif %}
   {% if posts.size > 0 %}
     {% for post in posts %}
-  <link rel="alternate" hreflang="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}" />
+  <link rel="alternate" hreflang="{{post.lang}}" href="{{ site.baseurl }}{{ post.url }}" />
     {% endfor %}
   {% endif %}
 </head>
