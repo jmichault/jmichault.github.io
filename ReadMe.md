@@ -19,6 +19,11 @@ Komencu la retejon per:
 _scripts/komenci "Via titolo" "Via priskribo"
 ```
 
+Preparu jekyll :
+```bash
+bundle install
+```
+
 Lanĉu la retejon :
 ```bash
 bundle exec jekyll serve
