@@ -6,11 +6,10 @@ permalink:        pretty
 
 # Setup
 title:            Ĝi estas Blogo
-baseurl:          /
+baseurl:          ""
+auxtoro: Jean Michault
 
 exclude: [ _locale , _scripts , "*.backup" ]
-
-url: "https://xxx.github.io"
 
 plugins:
   - jekyll-relative-links
