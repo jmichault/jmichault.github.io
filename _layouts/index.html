@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.title | markdownify }}</h1>
   {{ content }}
   <br />
   {% assign posts = site.posts | where:"lang", page.lang %}
@@ -11,7 +11,7 @@ layout: default
   <div class="post">
     <h2 class="post-title">
       <a href="{{site.baseurl}}{{ post.url }}">
-        {{ post.title }}
+        {{ post.title | markdownify }}
       </a>
     </h1>
 
