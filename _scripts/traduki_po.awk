@@ -1,6 +1,14 @@
+# gawk-skripto por traduki po-dosieron el esperanto al alia lingvo
+# la ideo estas prilabori MSGIDojn por kiuj la MSGSTR estas malplena.
+# MSGID-oj, kiuj havas Aferon inter layout, lang-ref, lang-niv, Fenced ne estas tradukitaj.
+# Ni tiam eltranĉas la tradukenda tekston por forigi la elementojn de la sintakso ~ Markdown ~
+# hiperligoj, kodblokoj kaj teksto kursivigita per "_" ne estas tradukitaj.
+#
+# google web translate konservas la etikedon html «<q> xxx </q>».
+# 
 {
   if ( CONTMSG==1 && substr($1,1,1) != "\"")
-  {
+  { # fino de plurlinia mesaĝo
     CONTMSG=0;
   }
   if ($2 == "fuzzy")
@@ -19,14 +27,16 @@
     }
   }
   else if ( CONTMSG==1 && substr($1,1,1) == "\"")
-  {
+  { # daŭrigo de plurlinia mesaĝo
+    # enmemorigi MSGID-liniojn
     MSGID=MSGID "\n" $0;
+    # enmemorigi netradukitan mesaĝon
     MSGSTR=MSGSTR substr($0,2,length($0)-2);
   }
   else if ($1 == "msgstr")
   {
     if( ($2 != "\"\"" && $2 != "\"\\n\"") || MSGID == "\"\"")
-    {
+    { # mesaĝo jam tradukita
       print ("msgid " MSGID);
       print $0;
     }
@@ -36,10 +46,10 @@
       $0="";
       getline
       if ( substr($1,1,1) == "\"")
-      { # plurlinia mesaĝo
+      { # plurlinia mesaĝo jam tradukita
         print ("msgid " MSGID);
         printf("msgstr \"\"\n");
-	print $0;
+        print $0;
         FUZZY=0;
 	next;
       }
@@ -69,64 +79,82 @@
         print ("msgstr " MSGID);
       }
       else
-      {
+      { # ĉi tiu mesaĝo estas tradukenda
         if(FUZZY ==0)
           print ("#, fuzzy");
         print ("msgid " MSGID);
         printf("msgstr \"");
-          split(MSGSTR,MSGS,"__| _|_ |_|<|>|\\\\n|**|\n|!|\\[|\\]|\\(|\\)|\\|\\\"|\"|\\\\|\\|",SEPS);
-          for (x=1 ; x<=length(MSGS) ; x++)
-          {
-            if(match(MSGS[x],"[[:alpha:]]")==0 )
-            {
-              printf(MSGS[x]);
-            }
-            else if(MSGS[x] != "")
-            {
-	      while(substr(MSGS[x],1,1) == " ")
-              {
-		printf(" ");
-	        MSGS[x]=substr(MSGS[x],2);
-              }
-              MSG=system(BASEDIR"/traduko.sh " src " " dst " \"" MSGS[x] "\"" )
-	      #MSG=system(BASEDIR"/trans -no-warn -b --bidi " src ":" dst " \"" MSGS[x] "\"" )
-	      while(substr(MSGS[x],length(MSGS[x]),1) == " ")
-              {
-		printf(" ");
-	        MSGS[x]=substr(MSGS[x],1,length(MSGS[x])-1);
-              }
-#|sed "s/^  *//"
-            }
-            printf( SEPS[ x ] );
-            if(SEPS[ x ] == "(")
-            {
-              do
+	#  anstataŭigi markdown-etikedojn per markoj
+        split(MSGSTR,MSGS,"^[ \t]*|[ \t]*\\\\\\\\.|[ \t]*\\\\.|[ \t]*!\\[[ \t]*|[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*",SEPS);
+	MSG0 = "";
+        ##for (x=1 ; x<=length(MSGS) ; x++)		##
+	##	print (" sep " x " : "  SEPS[x]);	##
+	MSGSLEN = length(MSGS);
+        for (x=1 ; x<=MSGSLEN ; x++)
+        {
+	  MSG0 = MSG0 MSGS[x] ;
+	  ##print "x = " x;	##
+	  if (SEPS[x] != "")
+	  {
+	    MSG0 = MSG0 "<q> xxx" x " </q>";
+	    # ne traduku hiperligon, kodon, kursivigita kun "_"
+	    if( match(SEPS[ x ] ,"^ *`") == 1 )
+	    { # kodo : ne traduku.
+	      x0 = x ;
+	      do
               {
                 x++;
-                printf(MSGS[x] SEPS[x]);
+                SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
               }
-              while( x<=length(MSGS) && SEPS[x] != ")");
-            }
-            if(SEPS[ x ] == " _" || SEPS[ x ] == "_")
-            {
-              do
+              while( x<=MSGSLEN && ! match(SEPS[x] ,"`"));
+	    }
+	    else if( match(SEPS[ x ] ,"^ *_$") == 1 )
+	    { # kursivigita kun "_"
+	      x0 = x ;
+	      do
               {
                 x++;
-                printf(MSGS[x] SEPS[x]);
-              }
-              while( x<=length(MSGS) && SEPS[x] != "_ " && SEPS[x] != "_");
-            }
-            if(SEPS[ x ] == "<")
-            {
-              do
+                SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
+              } while( (x <= MSGSLEN) && (match(SEPS[x] ,"^_[ \t]*")==0));
+	    }
+	    else if( match(SEPS[ x ] ,"[ \t]*!?\\[[ \t]*") == 1 )
+	    { # hiperligo : ne traduku.
+	      x0 = x ;
+	      do
               {
                 x++;
-                printf(MSGS[x] SEPS[x]);
+                SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
               }
-              while( x<=length(MSGS) && SEPS[x] != ">" );
-            }
+              while( x<=MSGSLEN && ! match(SEPS[x] ," *\\] *"));
+	      if( match(SEPS[ x ] ," *\\( *") == 1 )
+	      {
+	        do
+                {
+                  x++;
+                  SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
+                }
+                while( x<=MSGSLEN && ! match(SEPS[x] ," *\\) *"));
+              }
+	    }
+	  }
+	}
+        ##print("\nMSG0 " MSG0);	##
+        BASEDIR"/traduko.sh " src " " dst " \"" MSG0 "\"" |getline MSG
+        ## print("MSG " MSG);		##
+	split(MSG, MSGS2," *< *q *> xxx[0-9]+ < */ *q *> *",SEPS2);
+	MSGT="";
+        for (x=1 ; x<=length(MSGS2) ; x++)
+	{ # anstataŭigi markoj per markdown-etikedojn
+	  MSGT = MSGT MSGS2[x];
+	  if (SEPS2[x] != "")
+	  {
+	    match(SEPS2[x],"> xxx[0-9]+");
+	    x2 = substr(SEPS2[x],RSTART+5,RLENGTH-5);
+	    ## print("x2=" x2);		##
+	    MSGT = MSGT SEPS[x2];
           }
-        print "\"";
+	}
+        print(MSGT "\"");
       }
       FUZZY=0;
       MATTER="";
