@@ -4,10 +4,6 @@ then
   exit 1
 fi
 
-# FARENDA :
-# aŭtoro
-# baseurl
-
 if [ $# -ge 1 ]
 then
   titolo="$1"
