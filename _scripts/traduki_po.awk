@@ -4,7 +4,7 @@
 # Ni tiam eltranĉas la tradukenda tekston por forigi la elementojn de la sintakso ~ Markdown ~
 # hiperligoj, kodblokoj kaj teksto kursivigita per "_" ne estas tradukitaj.
 #
-# google web translate konservas la etikedon html «<q> xxx </q>».
+# google web translate konservas  «(zzz99)».
 # 
 {
   if ( CONTMSG==1 && substr($1,1,1) != "\"")
@@ -96,7 +96,7 @@
 	  ##print "x = " x;	##
 	  if (SEPS[x] != "")
 	  {
-	    MSG0 = MSG0 "<q> xxx" x " </q>";
+	    MSG0 = MSG0 " (zzz" x ") ";
 	    # ne traduku hiperligon, kodon, kursivigita kun "_"
 	    if( match(SEPS[ x ] ,"^ *`") == 1 )
 	    { # kodo : ne traduku.
@@ -140,20 +140,27 @@
 	}
         ##print("\nMSG0 " MSG0);	##
         BASEDIR"/traduko.sh " src " " dst " \"" MSG0 "\"" |getline MSG
-        ## print("MSG " MSG);		##
-	split(MSG, MSGS2," *< *q *> xxx[0-9]+ < */ *q *> *",SEPS2);
+        ##print("MSG " MSG);		##
+        ##print("MSGSLEN=" MSGSLEN);    ##
+	split(MSG, MSGS2," *[（\\(][zZ]{3}[0-9]+[）\\)] *",SEPS2);
 	MSGT="";
+        DOSEPMAX=0;
         for (x=1 ; x<=length(MSGS2) ; x++)
 	{ # anstataŭigi markoj per markdown-etikedojn
 	  MSGT = MSGT MSGS2[x];
 	  if (SEPS2[x] != "")
 	  {
-	    match(SEPS2[x],"> xxx[0-9]+");
-	    x2 = substr(SEPS2[x],RSTART+5,RLENGTH-5);
-	    ## print("x2=" x2);		##
-	    MSGT = MSGT SEPS[x2];
+	    match(SEPS2[x],"[zZ]{3}[0-9]+");
+	    x2 = substr(SEPS2[x],RSTART+3,RLENGTH-3);
+	    ##print("x2=" x2);		##
+	    if (x2 == (MSGSLEN-1) && match(SEPS[x2]," *\\\\n" ))
+              DOSEPMAX=1
+            else
+              MSGT = MSGT SEPS[x2];
           }
 	}
+	if (match(SEPS[MSGSLEN-1]," *\\\\n" ))
+          MSGT = MSGT SEPS[MSGSLEN-1];
         print(MSGT "\"");
       }
       FUZZY=0;
