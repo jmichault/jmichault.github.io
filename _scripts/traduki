@@ -1,4 +1,7 @@
 
+BASEDIR=`dirname $0`
+cd $BASEDIR
+cd ../$lang0
 cd eo
 
 #for FIC in pri.md

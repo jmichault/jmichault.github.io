@@ -1,6 +1,7 @@
 
 lang0=$1
 
+BASEDIR=`dirname $0`
 cd $lang0
 
 #for FIC in pri.md
@@ -33,7 +34,7 @@ do
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
       po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
     fi
-    ../_scripts/traduki_po.sh ../_locale/${lang}/${FIC}.po
+    cat ../_locale/${lang}/${FIC}.po|gawk -v BASEDIR=../$BASEDIR -v src=${lang0} -v dst=eo -f ../$BASEDIR/traduki_po.awk >../_locale/${lang}/${FIC}.po.nova
     if diff ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po >/dev/null
     then
       rm ../_locale/${lang}/${FIC}.po.nova

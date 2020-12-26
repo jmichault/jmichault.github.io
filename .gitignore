@@ -7,5 +7,7 @@
 *.backup
 *.nova
 toto*
+tst*
+temp*
 _site/*
 Gemfile.lock
