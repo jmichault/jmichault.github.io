@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-12-26 14:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "eo"
+msgstr "zh"
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "homa"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "instali_raspbian"
+msgstr "instali_raspbian"
+
+#. type: YAML Front Matter: layout
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: slug
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+#, fuzzy
+msgid "instali raspbian"
+msgstr "安装树莓派"
+
+#. type: YAML Front Matter: title
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+#, fuzzy
+msgid "instalu _raspbian_ sur la _Raspberry_"
+msgstr "在 _Raspberry_上安装 _raspbian_ "
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:11
+#, no-wrap
+#, fuzzy
+msgid "Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. \n"
+msgstr "我们将系统 _raspbian_ 写入micro-SD卡，然后进行一些基本的系统设置。 \n"
+
+#. type: Title #
+#: _posts/2020-12-22-instali_raspbian.md:13
+#, no-wrap
+#, fuzzy
+msgid "prepari la mikro-SD-karton."
+msgstr "准备Micro SD卡。"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:16
+#, no-wrap
+#, fuzzy
+msgid "En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.\n"
+msgstr "在此示例中，我选择从命令行为 _raspberry pi 3_ Debian Linux计算机准备微型SD卡。\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:18
+#, no-wrap
+#, fuzzy
+msgid "Se ĉi tio ne respondas al viaj deziroj, vi facile trovos aliajn metodojn en la interreto, ekzemple en la retejo <https://howtoraspberrypi.com/>.\n"
+msgstr "如果这不符合您的意愿，您可以在Internet上轻松找到其他方法，例如在Web <https://howtoraspberrypi.com/>上。\n"
+
+#. type: Bullet: ' 1. '
+#: _posts/2020-12-22-instali_raspbian.md:20
+#, no-wrap
+#, fuzzy
+msgid "**akiru la plej novan version de _raspbian_ de la oficiala retejo:**\n"
+msgstr "**从官方网站获取 _raspbian_ 的最新版本：**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:27
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n"
+"    unzip raspbian.zip\n"
+"    ```\n"
+"Notu la nomon de la dosiero ĉerpita de la zip-dosiero.\n"
+msgstr "    ```bash\n    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n    unzip raspbian.zip\n    ```\n记下从zip文件提取的文件的名称。\n"
+
+#. type: Bullet: ' 2. '
+#: _posts/2020-12-22-instali_raspbian.md:29
+#, no-wrap
+#, fuzzy
+msgid "**identigu la ĉeestantajn diskojn:**\n"
+msgstr "**识别当前磁盘：**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:36
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"Notu la rezulton de la komando.\n"
+"3. **enmetu la karton en la komputilon**\n"
+msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\n注意命令的结果。\n3. **将卡插入计算机**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:38
+#, no-wrap
+#, fuzzy
+msgid "    tiam identigu la vojon de la karto:\n"
+msgstr "    然后确定卡的路径：\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:42
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"ĉi tio estas kutime la lasta linio.  \n"
+msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\n这通常是最后一行。  \n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:44
+#, no-wrap
+#, fuzzy
+msgid "    **AVERTO** : kontrolu, ke ĉi tiu aparato ne ĉeestis antaŭe \\(vidu, kio montriĝis en paŝo 2\\) **!!!**\n"
+msgstr "    **警告** ：检查该设备是否不存在 \\(才能看到步骤2\\) **中显示的内容！**\n"
+
+#. type: Bullet: ' 4. '
+#: _posts/2020-12-22-instali_raspbian.md:46
+#, no-wrap
+#, fuzzy
+msgid "**skribu bildon al karto**\n"
+msgstr "**将图像写入卡**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:49
+#, no-wrap
+#, fuzzy
+msgid "    Rulu la suban komandon, anstataŭigante _vojo\\_raspbian_ per la nomo notita en paŝo 1, kaj _vojo\\_karto_ kun la nomo notita en paŝo 3.\n"
+msgstr "    运行以下命令，将 _vojo\\_raspbian_ 替换为步骤1中的名称，将 _vojo\\_karto_ 替换为步骤3中的名称。\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:54
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n"
+"    ```\n"
+"    (daŭro: ~40 minutoj)\n"
+msgstr "    ```bash\n    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n    ```\n    (时长： ~40分钟)\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:59
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    sync\n"
+"    eject vojo_karto\n"
+"    ``` \n"
+msgstr "    ```bash\n    sync\n    eject vojo_karto\n    ``` \n"
+
+#. type: Title #
+#: _posts/2020-12-22-instali_raspbian.md:61
+#, no-wrap
+#, fuzzy
+msgid "unua komenco de _raspberry_"
+msgstr " _raspberry_的首次启动"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:62
+#, no-wrap
+#, fuzzy
+msgid "Konekti klavaron, muson kaj ekranon, enmeti mikro-SD-karton en _raspberry_.  \n"
+msgstr "连接键盘，鼠标和显示器，将Micro SD卡插入 _raspberry_。  \n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:64
+#, no-wrap
+#, fuzzy
+msgid "Konekti la potencon al la _raspberry_.\n"
+msgstr "将电源连接到 _raspberry_。\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:66
+#, no-wrap
+#, fuzzy
+msgid "La _raspberry_ ekfunkciigas, kaj la agorda utileco startas. Lasu vin gvidi por agordi la landon, la pasvorton, la vifian reton.\n"
+msgstr " _raspberry_ 启动，并且配置实用程序启动。让您自己指导设置国家/地区，密码和wifi网络。\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:67
+#, no-wrap
+#, fuzzy
+msgid "Mi konsilas al vi doni fiksan IP-adreson al via _raspberry_. Vi povas fari tion aŭ ĉe via DHCP-servilo, se vi havas, aŭ en la agordo de _raspberry_.  \n"
+msgstr "我建议您为 _raspberry_提供一个固定的IP地址。您可以在DHCP服务器（如果有）上或在 _raspberry_的配置中执行此操作。  \n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:69
+#, no-wrap
+#, fuzzy
+msgid "Por fari ĝin je la nivelo de _raspberry_, simple modifu la dosieron _/etc/dhcpcp.conf_, ekzemple per _nano_ :\n"
+msgstr "要在 _raspberry_级别执行此操作，只需修改文件 _/etc/dhcpcp.conf_，例如使用 _nano_ ：\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-12-22-instali_raspbian.md:70
+#, no-wrap
+msgid "sudo nano /etc/dhcpcd.conf\n"
+msgstr "sudo nano /etc/dhcpcd.conf\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:75
+#, no-wrap
+#, fuzzy
+msgid "Poste vi devas modifi aŭ aldoni la agordon de la interfaco, kiu interesas vin (eth0 por la kabligita reto, wlan0 por la vifia-reto). Ekzemple, por atribui la IP-adreson 192.168.0.101 al reto kies enkursigilo estas 192.168.0.1:\n"
+msgstr "然后，您需要为有线网络修改或添加您感兴趣的接口配置 (eth0，对于wifia网络)则需要wlan0。例如，将IP地址192.168.0.101分配给路由器为192.168.0.1的网络：\n"
+
+#. type: Fenced code block
+#: _posts/2020-12-22-instali_raspbian.md:76
+#, no-wrap
+msgid ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+msgstr ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:82
+#, no-wrap
+#, fuzzy
+msgid "Vi ankaŭ povas specifi la nomajn servilojn (DNS). \n"
+msgstr "您还可以指定名称服务器 (DNS)。 \n"
+
+#. type: Fenced code block
+#: _posts/2020-12-22-instali_raspbian.md:83
+#, no-wrap
+msgid ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+"static domain_name_servers=192.168.0.1 8.8.8.8\n"
+msgstr ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+"static domain_name_servers=192.168.0.1 8.8.8.8\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:90
+#, no-wrap
+#, fuzzy
+msgid "se vi volas aliri la komandlinion malproksime, aktivigu ssh:\n"
+msgstr "如果要远程访问命令行，请启用ssh：\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-12-22-instali_raspbian.md:91
+#, no-wrap
+msgid ""
+"sudo systemctl start ssh\n"
+"sudo systemctl enable ssh\n"
+msgstr ""
+"sudo systemctl start ssh\n"
+"sudo systemctl enable ssh\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:97
+#, no-wrap
+#, fuzzy
+msgid "Por teni la _raspberry_ ĝustatempe, instalu ntp:\n"
+msgstr "要保持 _raspberry_ 的时间不变，请安装ntp：\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-12-22-instali_raspbian.md:98
+#, no-wrap
+msgid "sudo apt install ntp\n"
+msgstr "sudo apt install ntp\n"
+

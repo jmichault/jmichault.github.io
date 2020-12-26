@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-12-26 14:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "eo"
+msgstr "pa"
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "homa"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "instali_raspbian"
+msgstr "instali_raspbian"
+
+#. type: YAML Front Matter: layout
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: slug
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+#, fuzzy
+msgid "instali raspbian"
+msgstr "ਰਸਬੇਨੀਅਨ ਸਥਾਪਿਤ ਕਰੋ"
+
+#. type: YAML Front Matter: title
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+#, fuzzy
+msgid "instalu _raspbian_ sur la _Raspberry_"
+msgstr " _Raspberry_ਤੇ _raspbian_ ਸਥਾਪਤ ਕਰੋ"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:11
+#, no-wrap
+#, fuzzy
+msgid "Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. \n"
+msgstr "ਅਸੀਂ ਮਾਈਕ੍ਰੋ- SD ਕਾਰਡ ਨੂੰ ਸਿਸਟਮ _raspbian_ ਲਿਖਾਂਗੇ, ਫਿਰ ਅਸੀਂ ਕੁਝ ਮੁ someਲੀਆਂ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ ਕਰਾਂਗੇ. \n"
+
+#. type: Title #
+#: _posts/2020-12-22-instali_raspbian.md:13
+#, no-wrap
+#, fuzzy
+msgid "prepari la mikro-SD-karton."
+msgstr "ਮਾਈਕਰੋ- SD ਕਾਰਡ ਤਿਆਰ ਕਰੋ."
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:16
+#, no-wrap
+#, fuzzy
+msgid "En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.\n"
+msgstr "ਇਸ ਉਦਾਹਰਣ ਵਿੱਚ, ਮੈਂ ਆਪਣੇ _raspberry pi 3_ ਡੇਬੀਅਨ ਲੀਨਕਸ ਕੰਪਿ computerਟਰ ਲਈ, ਅਤੇ ਕਮਾਂਡ ਲਾਈਨ ਤੋਂ ਮਾਈਕਰੋ-ਐਸਡੀ ਕਾਰਡ ਤਿਆਰ ਕਰਨਾ ਚੁਣਿਆ.\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:18
+#, no-wrap
+#, fuzzy
+msgid "Se ĉi tio ne respondas al viaj deziroj, vi facile trovos aliajn metodojn en la interreto, ekzemple en la retejo <https://howtoraspberrypi.com/>.\n"
+msgstr "ਜੇ ਇਹ ਤੁਹਾਡੀਆਂ ਇੱਛਾਵਾਂ ਨੂੰ ਪੂਰਾ ਨਹੀਂ ਕਰਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਇੰਟਰਨੈਟ 'ਤੇ ਆਸਾਨੀ ਨਾਲ ਹੋਰ findੰਗਾਂ ਨੂੰ ਲੱਭ ਸਕੋਗੇ, ਉਦਾਹਰਣ ਲਈ ਵੈੱਬ' ਤੇ <https://howtoraspberrypi.com/>.\n"
+
+#. type: Bullet: ' 1. '
+#: _posts/2020-12-22-instali_raspbian.md:20
+#, no-wrap
+#, fuzzy
+msgid "**akiru la plej novan version de _raspbian_ de la oficiala retejo:**\n"
+msgstr "**ਆਧਿਕਾਰਿਕ ਵੈਬਸਾਈਟ ਤੋਂ _raspbian_ ਦਾ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਪ੍ਰਾਪਤ ਕਰੋ:**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:27
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n"
+"    unzip raspbian.zip\n"
+"    ```\n"
+"Notu la nomon de la dosiero ĉerpita de la zip-dosiero.\n"
+msgstr "    ```bash\n    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n    unzip raspbian.zip\n    ```\nਜ਼ਿਪ ਫਾਈਲ ਤੋਂ ਕੱractedੀ ਗਈ ਫਾਈਲ ਦਾ ਨਾਮ ਨੋਟ ਕਰੋ.\n"
+
+#. type: Bullet: ' 2. '
+#: _posts/2020-12-22-instali_raspbian.md:29
+#, no-wrap
+#, fuzzy
+msgid "**identigu la ĉeestantajn diskojn:**\n"
+msgstr "**ਮੌਜੂਦਾ ਡਿਸਕਾਂ ਦੀ ਪਛਾਣ ਕਰੋ:**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:36
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"Notu la rezulton de la komando.\n"
+"3. **enmetu la karton en la komputilon**\n"
+msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\nਕਮਾਂਡ ਦੇ ਨਤੀਜੇ ਨੂੰ ਨੋਟ ਕਰੋ.\n3. **ਕੰਪਿ theਟਰ ਵਿਚ ਕਾਰਡ ਪਾਓ**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:38
+#, no-wrap
+#, fuzzy
+msgid "    tiam identigu la vojon de la karto:\n"
+msgstr "    ਫਿਰ ਕਾਰਡ ਦੇ ਮਾਰਗ ਦੀ ਪਛਾਣ ਕਰੋ:\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:42
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"ĉi tio estas kutime la lasta linio.  \n"
+msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\nਇਹ ਆਮ ਤੌਰ 'ਤੇ ਆਖਰੀ ਲਾਈਨ ਹੁੰਦੀ ਹੈ.  \n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:44
+#, no-wrap
+#, fuzzy
+msgid "    **AVERTO** : kontrolu, ke ĉi tiu aparato ne ĉeestis antaŭe \\(vidu, kio montriĝis en paŝo 2\\) **!!!**\n"
+msgstr "    **ਚੇਤਾਵਨੀ** : ਜਾਂਚ ਕਰੋ ਕਿ ਇਹ ਉਪਕਰਣ ਪਹਿਲਾਂ ਮੌਜੂਦ ਨਹੀਂ ਸੀ \\(ਵੇਖੋ ਕਿ ਕਦਮ 2\\) **ਵਿੱਚ ਕੀ ਦਿਖਾਇਆ ਗਿਆ ਹੈ !!!**\n"
+
+#. type: Bullet: ' 4. '
+#: _posts/2020-12-22-instali_raspbian.md:46
+#, no-wrap
+#, fuzzy
+msgid "**skribu bildon al karto**\n"
+msgstr "**ਇੱਕ ਕਾਰਡ ਤੇ ਇੱਕ ਚਿੱਤਰ ਲਿਖੋ**\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:49
+#, no-wrap
+#, fuzzy
+msgid "    Rulu la suban komandon, anstataŭigante _vojo\\_raspbian_ per la nomo notita en paŝo 1, kaj _vojo\\_karto_ kun la nomo notita en paŝo 3.\n"
+msgstr "    ਹੇਠਾਂ ਦਿੱਤੀ ਕਮਾਂਡ ਚਲਾਓ, _vojo\\_raspbian_ ਨੂੰ ਪਗ਼ 1 ਵਿੱਚ ਦੱਸੇ ਗਏ ਨਾਮ ਨਾਲ ਤਬਦੀਲ ਕਰੋ, ਅਤੇ _vojo\\_karto_ ਕਦਮ 3 ਵਿੱਚ ਦਿੱਤੇ ਨਾਮ ਨਾਲ.\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:54
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n"
+"    ```\n"
+"    (daŭro: ~40 minutoj)\n"
+msgstr "    ```bash\n    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n    ```\n    (ਅਵਧੀ: ~40 ਮਿੰਟ)\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:59
+#, no-wrap
+#, fuzzy
+msgid ""
+"    ```bash\n"
+"    sync\n"
+"    eject vojo_karto\n"
+"    ``` \n"
+msgstr "    ```bash\n    sync\n    eject vojo_karto\n    ``` \n"
+
+#. type: Title #
+#: _posts/2020-12-22-instali_raspbian.md:61
+#, no-wrap
+#, fuzzy
+msgid "unua komenco de _raspberry_"
+msgstr " _raspberry_ਦੀ ਪਹਿਲੀ ਸ਼ੁਰੂਆਤ"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:62
+#, no-wrap
+#, fuzzy
+msgid "Konekti klavaron, muson kaj ekranon, enmeti mikro-SD-karton en _raspberry_.  \n"
+msgstr "ਕੀਬੋਰਡ, ਮਾ mouseਸ ਅਤੇ ਡਿਸਪਲੇਅ ਨਾਲ ਜੁੜੋ, _raspberry_ਵਿਚ ਮਾਈਕ੍ਰੋ- SD ਕਾਰਡ ਪਾਓ.  \n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:64
+#, no-wrap
+#, fuzzy
+msgid "Konekti la potencon al la _raspberry_.\n"
+msgstr "ਪਾਵਰ ਨੂੰ _raspberry_ਨਾਲ ਕਨੈਕਟ ਕਰੋ.\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:66
+#, no-wrap
+#, fuzzy
+msgid "La _raspberry_ ekfunkciigas, kaj la agorda utileco startas. Lasu vin gvidi por agordi la landon, la pasvorton, la vifian reton.\n"
+msgstr " _raspberry_ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਅਤੇ ਕੌਂਫਿਗਰੇਸ਼ਨ ਉਪਯੋਗਤਾ ਅਰੰਭ ਹੋ ਜਾਂਦੀ ਹੈ. ਆਪਣੇ ਆਪ ਨੂੰ ਦੇਸ਼, ਪਾਸਵਰਡ, ਫਾਈ ਨੈਟਵਰਕ ਸਥਾਪਤ ਕਰਨ ਲਈ ਅਗਵਾਈ ਦਿਉ.\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:67
+#, no-wrap
+#, fuzzy
+msgid "Mi konsilas al vi doni fiksan IP-adreson al via _raspberry_. Vi povas fari tion aŭ ĉe via DHCP-servilo, se vi havas, aŭ en la agordo de _raspberry_.  \n"
+msgstr "ਮੈਂ ਤੁਹਾਨੂੰ ਸਲਾਹ ਦਿੰਦਾ ਹਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੇ zZ1 ਨੂੰ ਇੱਕ ਸਥਿਰ IP ਐਡਰੈੱਸ ਦਿਓ. ਤੁਸੀਂ ਇਹ ਆਪਣੇ DHCP ਸਰਵਰ ਤੇ ਕਰ ਸਕਦੇ ਹੋ, ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਹੈ, ਜਾਂ _raspberry_ਦੀ ਸੰਰਚਨਾ ਵਿੱਚ ਹੈ.  \n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:69
+#, no-wrap
+#, fuzzy
+msgid "Por fari ĝin je la nivelo de _raspberry_, simple modifu la dosieron _/etc/dhcpcp.conf_, ekzemple per _nano_ :\n"
+msgstr " _raspberry_ਦੇ ਪੱਧਰ 'ਤੇ ਅਜਿਹਾ ਕਰਨ ਲਈ, ਫਾਈਲ _/etc/dhcpcp.conf_ਨੂੰ ਸੋਧੋ, ਉਦਾਹਰਣ ਵਜੋਂ _nano_ ਨਾਲ:\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-12-22-instali_raspbian.md:70
+#, no-wrap
+msgid "sudo nano /etc/dhcpcd.conf\n"
+msgstr "sudo nano /etc/dhcpcd.conf\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:75
+#, no-wrap
+#, fuzzy
+msgid "Poste vi devas modifi aŭ aldoni la agordon de la interfaco, kiu interesas vin (eth0 por la kabligita reto, wlan0 por la vifia-reto). Ekzemple, por atribui la IP-adreson 192.168.0.101 al reto kies enkursigilo estas 192.168.0.1:\n"
+msgstr "ਤਦ ਤੁਹਾਨੂੰ ਇੰਟਰਫੇਸ ਕੌਂਫਿਗਰੇਸ਼ਨ ਨੂੰ ਸੰਸ਼ੋਧਿਤ ਕਰਨ ਜਾਂ ਜੋੜਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ ਜੋ ਤੁਹਾਡੀ (zZ1) ਈਥ0 ਵਾਇਰਡ ਨੈਟਵਰਕ ਲਈ, wlan0 wifia ਨੈੱਟਵਰਕ)ਲਈ ਹੈ. ਉਦਾਹਰਣ ਦੇ ਲਈ, ਇੱਕ IP ਐਡਰੈੱਸ 192.168.0.101 ਨੂੰ ਇੱਕ ਨੈਟਵਰਕ ਨੂੰ ਨਿਰਧਾਰਤ ਕਰਨਾ ਜਿਸ ਦਾ ਰਾterਟਰ 192.168.0.1 ਹੈ:\n"
+
+#. type: Fenced code block
+#: _posts/2020-12-22-instali_raspbian.md:76
+#, no-wrap
+msgid ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+msgstr ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:82
+#, no-wrap
+#, fuzzy
+msgid "Vi ankaŭ povas specifi la nomajn servilojn (DNS). \n"
+msgstr "ਤੁਸੀਂ ਨਾਮ ਸਰਵਰ (DNS)ਵੀ ਦਰਸਾ ਸਕਦੇ ਹੋ. \n"
+
+#. type: Fenced code block
+#: _posts/2020-12-22-instali_raspbian.md:83
+#, no-wrap
+msgid ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+"static domain_name_servers=192.168.0.1 8.8.8.8\n"
+msgstr ""
+"interface eth0\n"
+"static ip_address=192.168.0.101/24\n"
+"static routers=192.168.0.1\n"
+"static domain_name_servers=192.168.0.1 8.8.8.8\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:90
+#, no-wrap
+#, fuzzy
+msgid "se vi volas aliri la komandlinion malproksime, aktivigu ssh:\n"
+msgstr "ਜੇ ਤੁਸੀਂ ਕਮਾਂਡ ਲਾਈਨ ਨੂੰ ਰਿਮੋਟ ਤੋਂ ਐਕਸੈਸ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ssh ਨੂੰ ਸਮਰੱਥ ਕਰੋ:\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-12-22-instali_raspbian.md:91
+#, no-wrap
+msgid ""
+"sudo systemctl start ssh\n"
+"sudo systemctl enable ssh\n"
+msgstr ""
+"sudo systemctl start ssh\n"
+"sudo systemctl enable ssh\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:97
+#, no-wrap
+#, fuzzy
+msgid "Por teni la _raspberry_ ĝustatempe, instalu ntp:\n"
+msgstr " _raspberry_ ਨੂੰ ਸਮੇਂ ਸਿਰ ਰੱਖਣ ਲਈ, ਐਨਟੀਪੀ:ਸਥਾਪਤ ਕਰੋ\n"
+
+#. type: Fenced code block (bash)
+#: _posts/2020-12-22-instali_raspbian.md:98
+#, no-wrap
+msgid "sudo apt install ntp\n"
+msgstr "sudo apt install ntp\n"
+
