@@ -85,12 +85,15 @@
         print ("msgid " MSGID);
         printf("msgstr \"");
 	#  anstataŭigi markdown-etikedojn per markoj
+        ##print ( "MSGSTR="MSGSTR);	##
         split(MSGSTR,MSGS,"^[ \t]*|[ \t]*\\\\\\\\.|[ \t]*\\\\.|[ \t]*!\\[[ \t]*|[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*",SEPS);
 	MSG0 = "";
-        ##for (x=1 ; x<=length(MSGS) ; x++)		##
-	##	print (" sep " x " : "  SEPS[x]);	##
 	MSGSLEN = length(MSGS);
-        for (x=1 ; x<=MSGSLEN ; x++)
+        ##print ("MSGSLEN="MSGSLEN); ##
+        ##for (x=0 ; x<=MSGSLEN ; x++)		##
+	##	print ("MSGS "x " : " MSGS[x] ". sep " x " : "  SEPS[x]".");	##
+        if(MSGSLEN==1) MSG0 = MSGSTR; # cimon en «split» : unua signo perdita ?
+        else for (x=1 ; x<MSGSLEN ; x++)
         {
 	  MSG0 = MSG0 MSGS[x] ;
 	  ##print "x = " x;	##
