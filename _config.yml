@@ -9,7 +9,7 @@ title:            Ĝi estas Blogo
 baseurl:          ""
 auxtoro: Jean Michault
 
-exclude: [ _locale , _scripts , "*.backup" ]
+exclude: [ _locale , _scripts , "*.backup", "*.bak" ]
 
 plugins:
   - jekyll-relative-links
