@@ -3,35 +3,85 @@ lang: pt
 lang-niv: auto
 lang-ref: komenci
 layout: page
-title: 'Para iniciantes'
+title: 'Para estrear'
 ---
 
-Passos para preparar um sistema de automação residencial:  
+# introdução
+Como exemplo de estreia, pode-se criar um sistema de automação residencial com nanocomputador _raspberry Pi3 B+_, equipando-o para administrar equipamentos e dispositivos de 433 Mhz _zigbee_. Escolhi o programa gratuito domoticz para gerenciar tudo.
 
-* [pegue o material](_posts/2020-08-31-aparataro.md)
+**O _raspberry Pi3 B+_ tem as seguintes vantagens:**
 
-* instalar _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+ 1. seu preço baixo
 
-* programe o firmware do stick USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+ 2. poder de computador muito confortável para automação residencial.
 
-* construir uma antena
+ 3. consumo reduzido.
+
+ 4. nenhum ventilador necessário.
+
+ 5. conectividade fornecida: porta Ethernet, 4 portas USB, Wifi, Bluetooth, portas GPIO.
+
+
+
+**O interesse de 433 Mhz é:**
+
+ 1. ele foi autorizado em todo o mundo por décadas.
+
+ 2. portanto, há material muito barato.
+
+
+ 
+Suas desvantagens são:
+
+ 1. não existe um protocolo definido, cada fabricante faz o que quer.
+
+ 2. o protocolo usado raramente é bidirecional.
+
+
+
+**O interesse de zigbee é:**
+
+ 1. foi projetado para possibilitar a construção de módulos baratos, de modo que os preços estão caindo gradativamente.
+
+ 1. ele usa um protocolo aberto, seguro e bidirecional.
+
+ 1. cada módulo pode ser usado como um relé para aumentar a distância de detecção.
+
+ 1. ele usa uma faixa de frequência internacional e torna possível gerenciar um grande número de módulos.
+
+ 1. foi escolhido por grandes marcas como _Philips_ (sistema _HUE_), sistema Ikea ( _TRÅDFRI_), Legrand, Xiaomi e muitos outros ...
+
+
+
+# Passos:
+
+* [akiru aparataron](_posts/2020-08-31-aparataro.md)
+
+* [instalar _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+
+* programe o firmware da chave USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+  
+
+* construir uma antena para 433 Mhz.
 
 * instalar _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+  
 
 * instalar _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
 
 * instalar _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+  
 
-* proibir _sudo_ nenhuma senha
+* banir _sudo_ sem senha
 
-* instalar backup: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+* instale a reserva: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
 
+* Conecte seus primeiros itens:  
 
-Conecte seus primeiros itens:  
-* conecte um termômetro
+  * conectar termômetro
 
-* conectar ingon
+  * conecte o plugue
 
-* conecte uma lâmpada
+  * conectar lâmpada
 
 

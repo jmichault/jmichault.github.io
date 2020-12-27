@@ -3,35 +3,85 @@ lang: en
 lang-niv: auto
 lang-ref: komenci
 layout: page
-title: 'For starters'
+title: 'To debut'
 ---
 
-Steps to prepare a home automation system:  
+# introduction
+As an example of a debut, you can create a home automation system with a nanocomputer _raspberry Pi3 B+_, equipping it to be able to manage 433 Mhz equipment and devices _zigbee_. I chose the free program domoticz to manage everything.
 
-* [get the material](_posts/2020-08-31-aparataro.md)
+**The _raspberry Pi3 B+_ has the following advantages:**
 
-* install _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+ 1. its low price
 
-* program the firmware of the USB stick _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+ 2. very comfortable computer power for home automation.
 
-* build an antenna
+ 3. reduced consumption.
+
+ 4. no fan needed.
+
+ 5. connectivity provided: ethernet port, 4 USB ports, Wifi, Bluetooth, GPIO ports.
+
+
+
+**The interest of 433 Mhz is:**
+
+ 1. it has been licensed worldwide for decades.
+
+ 2. therefore there is very cheap material.
+
+
+ 
+Its disadvantages are:
+
+ 1. there is no defined protocol, each manufacturer does what he wants.
+
+ 2. the protocol used is rarely bidirectional.
+
+
+
+**The interest of zigbee is:**
+
+ 1. it was designed to make it possible to build cheap modules, so prices are gradually falling.
+
+ 1. it uses an open, secure and two-way protocol.
+
+ 1. each module can be used as a relay to increase the sensing distance.
+
+ 1. it uses an international frequency range and makes it possible to manage a large number of modules.
+
+ 1. it has been chosen by big brands such as _Philips_ (system _HUE_), Ikea (system _TRÅDFRI_), Legrand, Xiaomi, and many others ...
+
+
+
+# Steps:
+
+* [akiru aparataron](_posts/2020-08-31-aparataro.md)
+
+* [install _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+
+* program the firmware of the USB key _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+  
+
+* build an antenna for 433 Mhz.
 
 * install _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+  
 
 * install _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
 
 * install _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+  
 
-* forbid _sudo_ no password
+* ban _sudo_ without password
 
-* install backup: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+* install the reservation: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
 
+* Connect your first items:  
 
-Connect your first items:  
-* connect a thermometer
+  * connect thermometer
 
-* connect ingon
+  * connect plug
 
-* connect a light bulb
+  * connect light bulb
 
 

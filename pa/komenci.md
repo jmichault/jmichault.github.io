@@ -3,35 +3,85 @@ lang: pa
 lang-niv: auto
 lang-ref: komenci
 layout: page
-title: 'ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ'
+title: 'ਡੈਬਿ. ਕਰਨ ਲਈ'
 ---
 
-ਘਰੇਲੂ ਸਵੈਚਾਲਨ ਪ੍ਰਣਾਲੀ ਨੂੰ ਤਿਆਰ ਕਰਨ ਲਈ ਕਦਮ:  
+# ਜਾਣ ਪਛਾਣ
+ਡੈਬਿ. ਦੀ ਇੱਕ ਉਦਾਹਰਣ ਦੇ ਤੌਰ ਤੇ, ਤੁਸੀਂ ਇੱਕ ਨੈਨੋ ਕੰਪਿuterਟਰ _raspberry Pi3 B+_ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇੱਕ ਘਰੇਲੂ ਸਵੈਚਾਲਨ ਪ੍ਰਣਾਲੀ ਬਣਾ ਸਕਦੇ ਹੋ, ਇਸਨੂੰ 433 ਮੈਗਾਹਰਟਜ਼ ਉਪਕਰਣ ਅਤੇ ਉਪਕਰਣਾਂ _zigbee_ਦੇ ਪ੍ਰਬੰਧਨ ਦੇ ਯੋਗ ਬਣਾਉਣ ਲਈ ਲੈਸ ਕਰ ਸਕਦੇ ਹੋ. ਮੈਂ ਹਰ ਚੀਜ਼ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਮੁਫਤ ਪ੍ਰੋਗਰਾਮ ਡੋਮੋਟਿਕਜ਼ ਦੀ ਚੋਣ ਕੀਤੀ.
 
-* [ਸਮੱਗਰੀ ਨੂੰ ਪ੍ਰਾਪਤ](_posts/2020-08-31-aparataro.md)
+**ਦੇ _raspberry Pi3 B+_ ਦੇ ਹੇਠਾਂ ਦਿੱਤੇ ਫਾਇਦੇ ਹਨ:**
 
-* ਇੰਸਟਾਲ ਕਰੋ _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+ 1. ਇਸਦੀ ਘੱਟ ਕੀਮਤ
 
-* USB ਸਟਿਕ ਦੇ ਫਰਮਵੇਅਰ ਦਾ ਪ੍ਰੋਗਰਾਮ _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+ 2. ਘਰੇਲੂ ਸਵੈਚਾਲਨ ਲਈ ਬਹੁਤ ਆਰਾਮਦਾਇਕ ਕੰਪਿ powerਟਰ ਪਾਵਰ.
 
-* ਇੱਕ ਐਂਟੀਨਾ ਬਣਾਓ
+ 3. ਖਪਤ ਘੱਟ.
 
-* ਇੰਸਟਾਲ ਕਰੋ _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+ 4. ਕਿਸੇ ਪੱਖੇ ਦੀ ਲੋੜ ਨਹੀਂ.
 
-* ਇੰਸਟਾਲ ਕਰੋ _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
-
-* ਇੰਸਟਾਲ ਕਰੋ _rf_ਜੀਪੀਓ_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-
-* ਵਰਜੋ _sudo_ ਕੋਈ ਪਾਸਵਰਡ ਨਹੀਂ
-
-* ਬੈਕਅਪ ਸਥਾਪਿਤ ਕਰੋ: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+ 5. ਕੁਨੈਕਟੀਵਿਟੀ ਪ੍ਰਦਾਨ ਕੀਤੀ ਗਈ ਹੈ: ਈਥਰਨੈੱਟ ਪੋਰਟ, 4 USB ਪੋਰਟ, ਫਾਈਫਾਈ, ਬਲਿ ,ਟੁੱਥ, ਜੀਪੀਆਈਓ ਪੋਰਟਸ.
 
 
-ਆਪਣੀਆਂ ਪਹਿਲੀ ਚੀਜ਼ਾਂ ਨੂੰ ਜੋੜੋ:  
-* ਇੱਕ ਥਰਮਾਮੀਟਰ ਨਾਲ ਜੁੜੋ
 
-* ਜੁੜੋ
+**433 ਮੈਗਾਹਰਟਜ਼ ਦੀ ਦਿਲਚਸਪੀ ਇਹ ਹੈ:**
 
-* ਇੱਕ ਲਾਈਟ ਬੱਲਬ ਨਾਲ ਜੁੜੋ
+ 1. ਇਹ ਦਹਾਕਿਆਂ ਤੋਂ ਦੁਨੀਆ ਭਰ ਵਿੱਚ ਲਾਇਸੈਂਸਸ਼ੁਦਾ ਹੈ.
+
+ 2. ਇਸ ਲਈ ਬਹੁਤ ਸਸਤੀ ਸਮੱਗਰੀ ਹੈ.
+
+
+ 
+ਇਸ ਦੇ ਨੁਕਸਾਨ ਹਨ:
+
+ 1. ਕੋਈ ਨਿਰਧਾਰਤ ਪ੍ਰੋਟੋਕੋਲ ਨਹੀਂ ਹੈ, ਹਰ ਨਿਰਮਾਤਾ ਉਹੀ ਕਰਦਾ ਹੈ ਜੋ ਉਹ ਚਾਹੁੰਦਾ ਹੈ.
+
+ 2. ਪ੍ਰੋਟੋਕੋਲ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ ਸ਼ਾਇਦ ਹੀ ਦੁਭਾਵੀ.
+
+
+
+**ਜਿਗਬੀ ਦੀ ਦਿਲਚਸਪੀ ਇਹ ਹੈ:**
+
+ 1. ਇਹ ਸਸਤੇ ਮੋਡੀulesਲ ਬਣਾਉਣਾ ਸੰਭਵ ਬਣਾਉਣ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਕੀਮਤਾਂ ਹੌਲੀ ਹੌਲੀ ਘੱਟ ਰਹੀਆਂ ਹਨ.
+
+ 1. ਇਹ ਇੱਕ ਖੁੱਲਾ, ਸੁਰੱਖਿਅਤ ਅਤੇ ਦੋ-ਪੱਖੀ ਪ੍ਰੋਟੋਕੋਲ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ.
+
+ 1. ਹਰੇਕ ਮੈਡਿ .ਲ ਨੂੰ ਸੈਂਸਿੰਗ ਦੂਰੀ ਵਧਾਉਣ ਲਈ ਰਿਲੇਅ ਦੇ ਤੌਰ ਤੇ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ.
+
+ 1. ਇਹ ਅੰਤਰਰਾਸ਼ਟਰੀ ਬਾਰੰਬਾਰਤਾ ਰੇਂਜ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ ਅਤੇ ਵੱਡੀ ਗਿਣਤੀ ਵਿੱਚ ਮੋਡੀulesਲ ਪ੍ਰਬੰਧਿਤ ਕਰਨਾ ਸੰਭਵ ਬਣਾਉਂਦਾ ਹੈ.
+
+ 1. ਇਸ ਨੂੰ ਵੱਡੇ ਬ੍ਰਾਂਡਾਂ ਦੁਆਰਾ ਚੁਣਿਆ ਗਿਆ ਹੈ ਜਿਵੇਂ ਕਿ _Philips_ (ਸਿਸਟਮ _HUE_), Ikea (ਸਿਸਟਮ _TRÅDFRI_), Legrand, Xiaomi, ਅਤੇ ਹੋਰ ਬਹੁਤ ਸਾਰੇ ...
+
+
+
+# ਕਦਮ:
+
+* [ਅਕੀਰੂ ਅਪਾਰਤਾਰਨ](_posts/2020-08-31-aparataro.md)
+
+* [ਇੰਸਟੌਲ ਕਰੋ _ਰਸਪਬੀਅਨ_](_posts/2020-12-22-instali_raspbian.md)
+
+* ਯੂਐਸਬੀ ਕੁੰਜੀ _CC2531_ ਦੇ ਫਰਮਵੇਅਰ ਦਾ ਪ੍ਰੋਗਰਾਮ: [github.com](https://github.com/jmichault/flash_cc2531)
+  
+
+* 433 ਮੈਗਾਹਰਟਜ਼ ਲਈ ਇੱਕ ਐਂਟੀਨਾ ਬਣਾਓ.
+
+*  _domoticz_ ਸਥਾਪਤ ਕਰੋ: [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+  
+
+* ਸਥਾਪਿਤ ਕਰੋ _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+
+*  _rf_gpio_ ਸਥਾਪਿਤ ਕਰੋ: [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+  
+
+* ਪਾਬੰਦੀ _sudo_ ਬਿਨਾ ਪਾਸਵਰਡ
+
+* ਰਿਜ਼ਰਵੇਸ਼ਨ ਸਥਾਪਤ ਕਰੋ: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+
+* ਆਪਣੀਆਂ ਪਹਿਲੀ ਚੀਜ਼ਾਂ ਨੂੰ ਜੋੜੋ:  
+
+  * ਜੁੜੋ ਥਰਮਾਮੀਟਰ
+
+  * ਕਨੈਕਟ ਪਲੱਗ
+
+  * ਕਨੈਕਟ ਲਾਈਟ ਬੱਲਬ
 
 

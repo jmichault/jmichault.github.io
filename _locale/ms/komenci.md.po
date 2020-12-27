@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-11-26 12:13+0100\n"
+"POT-Creation-Date: 2020-12-27 16:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "ms"
 #. type: YAML Front Matter: lang-niv
 #: komenci.md:1
 #, no-wrap
-msgid "fonto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -43,89 +43,352 @@ msgstr "page"
 #. type: YAML Front Matter: title
 #: komenci.md:1
 #, fuzzy, no-wrap
-msgid "Por komenci"
-msgstr "Untuk permulaan"
+msgid "Por debuti"
+msgstr "Untuk memulakan debutnya"
+
+#. type: Title #
+#: komenci.md:9
+#, no-wrap
+msgid "enkonduko"
+msgstr "pengenalan"
 
 #. type: Plain text
-#: komenci.md:10
+#: komenci.md:11
+#, no-wrap
+#, fuzzy
+msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+msgstr "Sebagai contoh debut, anda dapat membuat sistem automasi rumah dengan nanocomputer _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan peralatan dan peranti 433 Mhz _zigbee_. Saya memilih domoticz program percuma untuk menguruskan semuanya.\n"
+
+#. type: Plain text
+#: komenci.md:13
 #, fuzzy, no-wrap
-msgid "Jen ekzemplo de la paŝoj, kiujn vi povas fari por krei hejman aŭtomatan sistemon:\n"
-msgstr "Langkah-langkah untuk menyediakan sistem automasi rumah:  \n"
+msgid "**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**\n"
+msgstr "**The _raspberry Pi3 B+_ mempunyai kelebihan berikut:**\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:19
+#, fuzzy, no-wrap
+msgid "ĝia malalta prezo\n"
+msgstr "harganya rendah\n"
+
+#. type: Bullet: ' 2. '
+#: komenci.md:19
+#, fuzzy, no-wrap
+msgid "tre komforta komputila potenco por hejma aŭtomatigo.\n"
+msgstr "kuasa komputer yang sangat selesa untuk automasi rumah.\n"
+
+#. type: Bullet: ' 3. '
+#: komenci.md:19
+#, fuzzy, no-wrap
+msgid "reduktita konsumo.\n"
+msgstr "pengurangan penggunaan.\n"
+
+#. type: Bullet: ' 4. '
+#: komenci.md:19
+#, fuzzy, no-wrap
+msgid "neniu ventolilo bezonis.\n"
+msgstr "tidak perlu kipas.\n"
+
+#. type: Bullet: ' 5. '
+#: komenci.md:19
+#, fuzzy, no-wrap
+msgid "konektebleco provizita: ethernet-haveno, 4 USB-havenoj, Wifi, Bluetooth, GPIO-havenoj.\n"
+msgstr "penyambungan yang disediakan: port ethernet, 4 port USB, Wifi, Bluetooth, port GPIO.\n"
+
+#. type: Plain text
+#: komenci.md:22
+#, fuzzy, no-wrap
+msgid "**La intereso de 433 Mhz estas:**\n"
+msgstr "**Minat 433 Mhz adalah:**\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:25
+#, fuzzy, no-wrap
+msgid "ĝi estas rajtigita tutmonde de jardekoj.\n"
+msgstr "ia telah dilesenkan di seluruh dunia selama beberapa dekad.\n"
+
+#. type: Bullet: ' 2. '
+#: komenci.md:25
+#, no-wrap
+#, fuzzy
+msgid "tial ekzistas tre malmultekosta materialo.\n"
+msgstr "oleh itu terdapat bahan yang sangat murah.\n"
+
+#. type: Plain text
+#: komenci.md:28
+#, fuzzy, no-wrap
+msgid "Ĝiaj malavantaĝoj estas:\n"
+msgstr "Kelemahannya adalah:\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:31
+#, fuzzy, no-wrap
+msgid "ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas.\n"
+msgstr "tidak ada protokol yang ditentukan, setiap pengeluar melakukan apa yang dia mahukan.\n"
+
+#. type: Bullet: ' 2. '
+#: komenci.md:31
+#, fuzzy, no-wrap
+msgid "la uzata protokolo malofte estas dudirekta.\n"
+msgstr "protokol yang digunakan jarang dua arah.\n"
+
+#. type: Plain text
+#: komenci.md:34
+#, fuzzy, no-wrap
+msgid "**La intereso de zigbee estas:**\n"
+msgstr "**Minat zigbee adalah:**\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:40
+#, fuzzy, no-wrap
+msgid "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
+msgstr "ia dirancang untuk memungkinkan untuk membina modul yang murah, sehingga harga secara beransur-ansur jatuh.\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:40
+#, fuzzy, no-wrap
+msgid "ĝi uzas malferman, sekuran kaj dudirektan protokolon.\n"
+msgstr "ia menggunakan protokol terbuka, selamat dan dua hala.\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:40
+#, fuzzy, no-wrap
+msgid "ĉiu modulo povas esti uzata kiel relajso por pliigi la sensodistancon.\n"
+msgstr "setiap modul boleh digunakan sebagai geganti untuk meningkatkan jarak penginderaan.\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:40
+#, fuzzy, no-wrap
+msgid "ĝi uzas internacian frekvencan gamon kaj ebligas administri grandan nombron da moduloj.\n"
+msgstr "ia menggunakan julat frekuensi antarabangsa dan memungkinkan untuk menguruskan sebilangan besar modul.\n"
+
+#. type: Bullet: ' 1. '
+#: komenci.md:40
+#, fuzzy, no-wrap
+msgid "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+msgstr "ia telah dipilih oleh jenama besar seperti sistem _Philips_ ( _HUE_), sistem Ikea ( _TRÅDFRI_), Legrand, Xiaomi, dan banyak lagi ...\n"
+
+#. type: Title #
+#: komenci.md:42
+#, no-wrap
+#, fuzzy
+msgid "Paŝoj:"
+msgstr "Langkah-langkah:"
 
 #. type: Bullet: '* '
-#: komenci.md:20
-#, fuzzy, no-wrap
-msgid "[akiru la materialon](_posts/2020-08-31-aparataro.md)\n"
-msgstr "[dapatkan bahan](_posts/2020-08-31-aparataro.md)\n"
+#: komenci.md:53
+#, no-wrap
+#, fuzzy
+msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
+msgstr "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
-#, fuzzy, no-wrap
-msgid "instalu _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
-msgstr "pasang _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)\n"
+#: komenci.md:53
+#, no-wrap
+#, fuzzy
+msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
+msgstr "[pasang _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "programu la firmvaron de la USB-batono _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
-msgstr "atur firmware firmware USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+msgstr ""
+"atur perisian firmware kekunci USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+"\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "konstruu antenon\n"
-msgstr "membina antena\n"
+msgid "konstruu antenon por 433 Mhz.\n"
+msgstr "bina antena untuk 433 Mhz.\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "instalu _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
-msgstr "pasang _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+msgid "instali _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+msgstr ""
+"pasang _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+"\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "instalu _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+msgid "instali _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 msgstr "pasang _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "instalu _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
-msgstr "pasang _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+msgid "instali _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+msgstr ""
+"pasang _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+"\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "malpermesu _sudo_ sen pasvorto\n"
-msgstr "melarang _sudo_ tiada kata laluan\n"
+msgid "malpermesi _sudo_ sen pasvorto\n"
+msgstr "larangan _sudo_ tanpa kata laluan\n"
 
 #. type: Bullet: '* '
-#: komenci.md:20
-#, fuzzy, no-wrap
-msgid "instalu sekurkopion : [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
-msgstr "pasang sandaran: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
-
-#. type: Plain text
-#: komenci.md:21
-#, fuzzy, no-wrap
-msgid "Konektu viajn unuajn elementojn:  \n"
-msgstr "Sambungkan barang pertama anda:  \n"
+#: komenci.md:53
+#, no-wrap
+#, fuzzy
+msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
+msgstr "pasang tempahan: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:25
+#: komenci.md:53
 #, fuzzy, no-wrap
-msgid "konektu termometron\n"
+msgid "Konekti viajn unuajn elementojn:  \n"
+msgstr "Sambungkan item pertama anda:  \n"
+
+#. type: Bullet: '  * '
+#: komenci.md:57
+#, fuzzy, no-wrap
+msgid "konekti termometron\n"
 msgstr "sambungkan termometer\n"
 
-#. type: Bullet: '* '
-#: komenci.md:25
+#. type: Bullet: '  * '
+#: komenci.md:57
 #, fuzzy, no-wrap
-msgid "konektu ingon\n"
-msgstr "sambung ingon\n"
+msgid "konekti ŝtopilon\n"
+msgstr "sambungkan palam\n"
 
-#. type: Bullet: '* '
-#: komenci.md:25
+#. type: Bullet: '  * '
+#: komenci.md:57
 #, fuzzy, no-wrap
-msgid "konektu ampolon\n"
+msgid "konekti ampolon\n"
 msgstr "sambungkan mentol lampu\n"
+
+#, fuzzy
+#~ msgid "Enkonduko"
+#~ msgstr "Pengenalan"
+
+#, fuzzy
+#~ msgid ""
+#~ "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per "
+#~ "nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 "
+#~ "Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan domoticz-"
+#~ "programon por administri ĉion.\n"
+#~ msgstr ""
+#~ "Sebagai contoh debut, anda dapat membuat sistem automasi rumah dengan "
+#~ "nanocomputer _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan "
+#~ "peralatan dan peranti 433 Mhz _zigbee_. Saya memilih program domoticz "
+#~ "percuma untuk menguruskan semuanya.\n"
+
+#, fuzzy
+#~ msgid "tial eksistas tre malmultekosta materialo.\n"
+#~ msgstr "oleh itu terdapat bahan yang sangat murah.\n"
+
+#, fuzzy
+#~ msgid "La Fazoj:"
+#~ msgstr "Fasa-fasa:"
+
+#, fuzzy
+#~ msgid "[akiru la materialojn](_afiŝojn / 2020-08-31-aparataro.md)\n"
+#~ msgstr "[dapatkan bahan](_jawatan / 2020-08-31-aparataro.md)\n"
+
+#, fuzzy
+#~ msgid "[instalu _raspbian_](_afiŝojn / 2020-12-22-instali_raspbian.md)\n"
+#~ msgstr ""
+#~ "[pasang _siaran raspbian_](_/ 2020-12-22-pasang_raspbian.md)\n"
+#~ "\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "instali sekurkopion: [borgbackup.readthedocs.io](https://borgbackup."
+#~ "readthedocs.io/en/stable/installation.html)\n"
+#~ msgstr ""
+#~ "pasang sandaran: [borgbackup.readthedocs.io](https://borgbackup."
+#~ "readthedocs.io/en/stable/installation.html)\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid "Por komenci"
+#~ msgstr "Untuk permulaan"
+
+#, fuzzy
+#~ msgid ""
+#~ "Jen ekzemplo de la paŝoj, kiujn vi povas fari por krei hejman aŭtomatan "
+#~ "sistemon:\n"
+#~ msgstr "Langkah-langkah untuk menyediakan sistem automasi rumah:  \n"
+
+#, fuzzy
+#~ msgid "[akiru la materialon](_posts/2020-08-31-aparataro.md)\n"
+#~ msgstr "[dapatkan bahan](_posts/2020-08-31-aparataro.md)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "instalu _raspbian_ : [raspberry.org](https://www.raspberrypi.org/"
+#~ "documentation/installation/installing-images/README.md)\n"
+#~ msgstr ""
+#~ "pasang _raspbian_ : [raspberry.org](https://www.raspberrypi.org/"
+#~ "documentation/installation/installing-images/README.md)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "programu la firmvaron de la USB-batono _CC2531_ : [github.com](https://"
+#~ "github.com/jmichault/flash_cc2531)\n"
+#~ msgstr ""
+#~ "atur firmware firmware USB _CC2531_ : [github.com](https://github.com/"
+#~ "jmichault/flash_cc2531)\n"
+
+#, fuzzy
+#~ msgid "konstruu antenon\n"
+#~ msgstr "membina antena\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "instalu _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/"
+#~ "Raspberry_Pi)\n"
+#~ msgstr ""
+#~ "pasang _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/"
+#~ "Raspberry_Pi)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "instalu _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/"
+#~ "getting_started/running_zigbee2mqtt.html)\n"
+#~ msgstr ""
+#~ "pasang _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/"
+#~ "getting_started/running_zigbee2mqtt.html)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "instalu _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/"
+#~ "blob/master/LeguMin.md)\n"
+#~ msgstr ""
+#~ "pasang _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/"
+#~ "master/LeguMin.md)\n"
+
+#, fuzzy
+#~ msgid "malpermesu _sudo_ sen pasvorto\n"
+#~ msgstr "melarang _sudo_ tiada kata laluan\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "instalu sekurkopion : [borgbackup.readthedocs.io](https://borgbackup."
+#~ "readthedocs.io/en/stable/installation.html)\n"
+#~ msgstr ""
+#~ "pasang sandaran: [borgbackup.readthedocs.io](https://borgbackup."
+#~ "readthedocs.io/en/stable/installation.html)\n"
+
+#, fuzzy
+#~ msgid "Konektu viajn unuajn elementojn:  \n"
+#~ msgstr "Sambungkan barang pertama anda:  \n"
+
+#, fuzzy
+#~ msgid "konektu termometron\n"
+#~ msgstr "sambungkan termometer\n"
+
+#, fuzzy
+#~ msgid "konektu ingon\n"
+#~ msgstr "sambung ingon\n"
+
+#, fuzzy
+#~ msgid "konektu ampolon\n"
+#~ msgstr "sambungkan mentol lampu\n"

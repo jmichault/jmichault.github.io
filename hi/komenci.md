@@ -3,35 +3,85 @@ lang: hi
 lang-niv: auto
 lang-ref: komenci
 layout: page
-title: 'शुरुआत के लिए'
+title: 'पदार्पण करना'
 ---
 
-घर स्वचालन प्रणाली तैयार करने के लिए कदम:  
+# परिचय
+पदार्पण के एक उदाहरण के रूप में, आप एक नैनोकम्प्यूटर _raspberry Pi3 B+_के साथ एक होम ऑटोमेशन सिस्टम बना सकते हैं, जिससे यह लैस हो सकता है कि 433 मेगाहर्ट्ज उपकरण और उपकरणों _zigbee_को प्रबंधित करने में सक्षम हो। मैंने सब कुछ मैनेज करने के लिए फ्री प्रोग्राम डोमोटिक को चुना।
 
-* [सामग्री प्राप्त करें](_posts/2020-08-31-aparataro.md)
+** _raspberry Pi3 B+_ के निम्नलिखित लाभ हैं:**
 
-* इंस्टॉल _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+ 1. इसकी कम कीमत
 
-* USB स्टिक के फर्मवेयर को प्रोग्राम करें _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+ 2. घर स्वचालन के लिए बहुत आरामदायक कंप्यूटर शक्ति।
 
-* एक एंटीना का निर्माण
+ 3. कम खपत।
 
-* इंस्टॉल _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+ 4. पंखे की जरूरत नहीं।
 
-* इंस्टॉल _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
-
-* इंस्टॉल _rf_GPIO_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-
-* रोकना _sudo_ कोई पारणशब्द नहीं
-
-* बैकअप स्थापित करें: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+ 5. कनेक्टिविटी प्रदान की गई: ईथरनेट पोर्ट, 4 यूएसबी पोर्ट, वाईफाई, ब्लूटूथ, जीपीआईओ पोर्ट।
 
 
-अपने पहले आइटम कनेक्ट करें:  
-* एक थर्मामीटर कनेक्ट करें
 
-* इंगोन कनेक्ट करें
+**433 मेगाहर्ट्ज का ब्याज है:**
 
-* एक प्रकाश बल्ब कनेक्ट करें
+ 1. यह दशकों से दुनिया भर में लाइसेंस प्राप्त है।
+
+ 2. इसलिए बहुत सस्ती सामग्री है।
+
+
+ 
+इसके नुकसान हैं:
+
+ 1. कोई परिभाषित प्रोटोकॉल नहीं है, प्रत्येक निर्माता वह करता है जो वह चाहता है।
+
+ 2. इस्तेमाल किया प्रोटोकॉल शायद ही कभी अप्रत्यक्ष है।
+
+
+
+**zigbee का हित है:**
+
+ 1. यह सस्ता मॉड्यूल बनाने के लिए संभव बनाने के लिए डिज़ाइन किया गया था, इसलिए कीमतें धीरे-धीरे गिर रही हैं।
+
+ 1. यह एक खुला, सुरक्षित और दो-तरफ़ा प्रोटोकॉल का उपयोग करता है।
+
+ 1. प्रत्येक मॉड्यूल को संवेदन दूरी बढ़ाने के लिए एक रिले के रूप में उपयोग किया जा सकता है।
+
+ 1. यह एक अंतरराष्ट्रीय आवृत्ति रेंज का उपयोग करता है और बड़ी संख्या में मॉड्यूल का प्रबंधन करना संभव बनाता है।
+
+ 1. इसे बड़े ब्रांडों जैसे _Philips_ (सिस्टम _HUE_), Ikea (सिस्टम _TRÅDFRI_), Legrand, Xiaomi, और कई अन्य लोगों द्वारा चुना गया है ...
+
+
+
+# कदम:
+
+* [अधिग्रहण उपकरण](_posts/2020-08-31-aparataro.md)
+
+* [स्थापित करें _रास्पियन_](_posts/2020-12-22-instali_raspbian.md)
+
+* USB कुंजी _CC2531_ के फर्मवेयर को प्रोग्राम करें: [github.com](https://github.com/jmichault/flash_cc2531)
+  
+
+* 433 मेगाहर्ट्ज के लिए एक एंटीना का निर्माण।
+
+* स्थापित करें _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+  
+
+* install _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+
+* स्थापित करें _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+  
+
+* प्रतिबंध _sudo_ पासवर्ड के बिना
+
+* आरक्षण स्थापित करें: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+
+* अपने पहले आइटम कनेक्ट करें:  
+
+  * कनेक्ट थर्मामीटर
+
+  * कनेक्ट प्लग
+
+  * कनेक्ट लाइट बल्ब
 
 

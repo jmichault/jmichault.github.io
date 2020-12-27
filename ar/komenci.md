@@ -3,35 +3,85 @@ lang: ar
 lang-niv: auto
 lang-ref: komenci
 layout: page
-title: للمبتدئين
+title: 'لاول مرة'
 ---
 
-خطوات تحضير نظام أتمتة المنزل:  
+# المقدمة
+كمثال على الظهور لأول مرة ، يمكنك إنشاء نظام أتمتة منزلي باستخدام كمبيوتر نانوي _raspberry Pi3 B+_، وتجهيزه ليكون قادرًا على إدارة معدات وأجهزة 433 ميجا هرتز _zigbee_. اخترت برنامج domoticz المجاني لإدارة كل شيء.
 
-* [الحصول على المواد](_posts/2020-08-31-aparataro.md)
+** _raspberry Pi3 B+_ له المزايا التالية:**
 
-* تثبيت _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+ 1. سعره المنخفض
 
-* قم ببرمجة البرامج الثابتة الخاصة بعصا USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+ 2. طاقة كمبيوتر مريحة للغاية لأتمتة المنزل.
 
-* بناء هوائي
+ 3. انخفاض الاستهلاك.
+
+ 4. لا حاجة لمروحة.
+
+ 5. الاتصال المقدم: منفذ إيثرنت ، 4 منافذ USB ، واي فاي ، بلوتوث ، منافذ GPIO.
+
+
+
+**فائدة 433 ميجا هرتز هي:**
+
+ 1. تم ترخيصه في جميع أنحاء العالم منذ عقود.
+
+ 2. لذلك هناك مواد رخيصة جدا.
+
+
+ 
+عيوبه:
+
+ 1. لا يوجد بروتوكول محدد ، كل مصنع يفعل ما يريد.
+
+ 2. نادرا ما يكون البروتوكول المستخدم ثنائي الاتجاه.
+
+
+
+**مصلحة الزيجبي هي:**
+
+ 1. تم تصميمه لجعل من الممكن بناء وحدات رخيصة ، لذلك تنخفض الأسعار تدريجياً.
+
+ 1. يستخدم بروتوكول مفتوح وآمن وثنائي الاتجاه.
+
+ 1. يمكن استخدام كل وحدة كمرحل لزيادة مسافة الاستشعار.
+
+ 1. يستخدم نطاق تردد دولي ويجعل من الممكن إدارة عدد كبير من الوحدات.
+
+ 1. تم اختياره من قبل العلامات التجارية الكبرى مثل _Philips_ (system _HUE_)و Ikea (system _TRÅDFRI_)و Legrand و Xiaomi وغيرها الكثير ...
+
+
+
+# خطوات:
+
+* [أكيرو أباراتارون](_posts/2020-08-31-aparataro.md)
+
+* [تثبيت _راسبيان_](_posts/2020-12-22-instali_raspbian.md)
+
+* قم ببرمجة البرنامج الثابت لمفتاح USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+  
+
+* بناء هوائي 433 ميجا هرتز.
 
 * تثبيت _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+  
 
 * تثبيت _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
 
 * تثبيت _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+  
 
-* حرم _sudo_ لا توجد كلمة مرور
+* حظر _sudo_ بدون كلمة مرور
 
-* تثبيت النسخة الاحتياطية: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+* تثبيت الحجز: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
 
+* قم بتوصيل العناصر الأولى الخاصة بك:  
 
-قم بتوصيل العناصر الأولى الخاصة بك:  
-* قم بتوصيل مقياس حرارة
+  * ربط ميزان الحرارة
 
-* ربط إنغون
+  * توصيل المكونات
 
-* قم بتوصيل المصباح الكهربائي
+  * توصيل المصباح الكهربائي
 
 

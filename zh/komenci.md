@@ -3,35 +3,85 @@ lang: zh
 lang-niv: auto
 lang-ref: komenci
 layout: page
-title: 对于初学者
+title: 首次亮相
 ---
 
-准备家庭自动化系统的步骤：  
+# 介绍
+作为首次亮相的示例，您可以创建一个具有纳米计算机 _raspberry Pi3 B+_的家庭自动化系统，使其能够管理433 Mhz的设备和装置 _zigbee_。我选择了免费程序domoticz来管理所有内容。
 
-* [得到材料](_posts/2020-08-31-aparataro.md)
+** _raspberry Pi3 B+_ 具有以下优点：**
 
-* 安装 _raspbian_ : [raspberry.org](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+ 1. 低价
 
-* 编程USB记忆棒的固件 _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+ 2. 用于家庭自动化的非常舒适的计算机功能。
 
-* 搭建天线
+ 3. 减少消耗。
 
-* 安装 _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+ 4. 不需要风扇。
 
-* 安装 _zigbee_ : [](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
-
-*  _rf__ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-
-* 禁止 _sudo_ 没有密码
-
-* 安装备份： [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+ 5. 提供的连接性：以太网端口，4个USB端口，Wifi，蓝牙，GPIO端口。
 
 
-连接您的第一个项目：  
-* 连接温度计
 
-* 连接英格
+**433 Mhz的利息是：**
 
-* 连接灯泡
+ 1. 它已在全球范围内获得许可数十年。
+
+ 2. 因此，有非常便宜的材料。
+
+
+ 
+它的缺点是：
+
+ 1. 没有定义的协议，每个制造商都按照自己的意愿做。
+
+ 2. 使用的协议很少是双向的。
+
+
+
+**zigbee的兴趣是：**
+
+ 1. 它旨在使构建廉价模块成为可能，因此价格逐渐下降。
+
+ 1. 它使用开放，安全和双向协议。
+
+ 1. 每个模块都可以用作继电器以增加感应距离。
+
+ 1. 它使用国际频率范围，因此可以管理大量模块。
+
+ 1. 它已被 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格朗，小米等许多大品牌选择...
+
+
+
+# 脚步：
+
+* [akiru aparataron](_posts/2020-08-31-aparataro.md)
+
+* [安装 _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+
+* 编程USB密钥 _CC2531_ 的固件： [github.com](https://github.com/jmichault/flash_cc2531)
+  
+
+* 为433 Mhz制造天线。
+
+* 安装 _domoticz_ ： [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+  
+
+* 安装 _zigbee_ ： [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+
+* 安装 _rf_gpio_ ： [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+  
+
+* 禁令 _sudo_ 没有密码
+
+* 安装预订： [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
+
+* 连接您的第一个项目：  
+
+  * 连接温度计
+
+  * 连接插头
+
+  * 连接灯泡
 
 
