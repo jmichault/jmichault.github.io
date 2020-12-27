@@ -112,7 +112,7 @@
               while( x<=MSGSLEN && ! match(SEPS[x] ,"`"));
 	    }
 	    else if( match(SEPS[ x ] ,"^ *_$") == 1 )
-	    { # kursivigita kun "_"
+	    { # kursivigita kun "_" : ne traduku
 	      x0 = x ;
 	      do
               {
@@ -121,22 +121,32 @@
               } while( (x <= MSGSLEN) && (match(SEPS[x] ,"^_[ \t]*")==0));
 	    }
 	    else if( match(SEPS[ x ] ,"[ \t]*!?\\[[ \t]*") == 1 )
-	    { # hiperligo : ne traduku.
+	    { # hiperligo : traduku teksto,ne traduku linko.
+              ## print ("teksto hiperligo :" SEPS[ x ]);	##
 	      x0 = x ;
 	      do
               {
                 x++;
-                SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
+		# FARENDA : prilabori la _ inter la [
+	        MSG0 = MSG0 MSGS[x] ;
+	        MSG0 = MSG0 " (zzz" x ") ";
               }
               while( x<=MSGSLEN && ! match(SEPS[x] ," *\\] *"));
-	      if( match(SEPS[ x ] ," *\\( *") == 1 )
+              ## print ("teksto hiperligo endo :" SEPS[ x ]);	##
+	      x1 = x;
+	      if( match(SEPS[ x ] ," *\\]\\( *") )
 	      {
+                ## print ("hiperligo  :" SEPS[ x ]);	##
 	        do
                 {
                   x++;
-                  SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
+                  SEPS[x1] = SEPS[x1] MSGS[x] SEPS[x];
                 }
                 while( x<=MSGSLEN && ! match(SEPS[x] ," *\\) *"));
+              }
+              else
+	      {
+                x--;
               }
 	    }
 	  }
