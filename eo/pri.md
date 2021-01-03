@@ -2,7 +2,7 @@
 title: Pri la Aŭtoro
 layout: page
 lang: eo
-lang-ref: pri
+lang-ref: 999-pri
 lang-niv: fonto
 
 ---
