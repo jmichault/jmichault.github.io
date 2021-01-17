@@ -1,6 +1,7 @@
-<div class="sidebar">
+<div id="sideNavigation" class="sidebar">
   {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
 
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="container">
     <nav class="sidebar-nav">
     {% if posts.size == 0 %}
