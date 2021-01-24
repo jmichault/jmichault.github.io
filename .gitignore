@@ -1,13 +1,13 @@
 *.log
 *.jar
 *.bak
-*.bak.po
 *.po~
 *.pot~
 *.old
+toto*
+*.bak.po
 *.backup
 *.nova
-toto*
 tst*
 temp*
 _site/*
