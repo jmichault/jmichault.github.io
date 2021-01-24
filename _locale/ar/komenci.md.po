@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:39+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,7 @@ msgstr "المقدمة"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 msgstr "كمثال على الظهور لأول مرة ، يمكنك إنشاء نظام أتمتة منزلي باستخدام كمبيوتر نانوي _raspberry Pi3 B+_، وتجهيزه ليكون قادرًا على إدارة معدات وأجهزة 433 ميجا هرتز _zigbee_. اخترت برنامج domoticz المجاني لإدارة كل شيء.\n"
 
@@ -109,8 +108,7 @@ msgstr "تم ترخيصه في جميع أنحاء العالم منذ عقود.
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr "لذلك هناك مواد رخيصة جدا.\n"
 
@@ -170,22 +168,19 @@ msgstr "تم اختياره من قبل العلامات التجارية الك
 
 #. type: Title #
 #: komenci.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Paŝoj:"
 msgstr "خطوات:"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[أكيرو أباراتارون](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[تثبيت _راسبيان_](_posts/2020-12-22-instali_raspbian.md)\n"
 
@@ -233,8 +228,7 @@ msgstr "حظر _sudo_ بدون كلمة مرور\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "تثبيت الحجز: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 

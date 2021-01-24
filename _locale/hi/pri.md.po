@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-11-15 14:28+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,8 @@ msgstr "auto"
 #. type: YAML Front Matter: lang-ref
 #: pri.md:1
 #, no-wrap
-msgid "pri"
-msgstr "pri"
+msgid "999-pri"
+msgstr "999-pri"
 
 #. type: YAML Front Matter: layout
 #: pri.md:1
@@ -55,3 +55,6 @@ msgid ""
 msgstr ""
 "10 साल की उम्र से इलेक्ट्रॉनिक्स के बारे में जुनून और 18 साल की उम्र से कंप्यूटर के आदी।\n"
 "मैं 20 वीं शताब्दी के अंत से खुले स्रोत में शामिल था।\n"
+
+#~ msgid "pri"
+#~ msgstr "pri"

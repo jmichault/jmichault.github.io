@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:39+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,7 @@ msgstr "介绍"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 msgstr "作为首次亮相的示例，您可以创建一个具有纳米计算机 _raspberry Pi3 B+_的家庭自动化系统，使其能够管理433 Mhz的设备和装置 _zigbee_。我选择了免费程序domoticz来管理所有内容。\n"
 
@@ -109,8 +108,7 @@ msgstr "它已在全球范围内获得许可数十年。\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr "因此，有非常便宜的材料。\n"
 
@@ -170,22 +168,19 @@ msgstr "它已被 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格
 
 #. type: Title #
 #: komenci.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Paŝoj:"
 msgstr "脚步："
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[安装 _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 
@@ -233,8 +228,7 @@ msgstr "禁令 _sudo_ 没有密码\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "安装预订： [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 

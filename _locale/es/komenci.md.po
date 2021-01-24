@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:39+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,7 @@ msgstr "Introducción"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 msgstr "Como ejemplo de debut, se puede crear un sistema domótico con un nanoordenador _raspberry Pi3 B+_, equipándolo para poder gestionar equipos y dispositivos de 433 Mhz _zigbee_. Elegí el programa gratuito domoticz para gestionarlo todo.\n"
 
@@ -109,8 +108,7 @@ msgstr "tiene licencia en todo el mundo durante décadas.\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr "por eso hay material muy barato.\n"
 
@@ -170,22 +168,19 @@ msgstr "ha sido elegido por grandes marcas como _Philips_ (system _HUE_), Ikea (
 
 #. type: Title #
 #: komenci.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Paŝoj:"
 msgstr "Pasos:"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[instalar _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 
@@ -233,8 +228,7 @@ msgstr "ban _sudo_ sin contraseña\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "instalar la reserva: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 

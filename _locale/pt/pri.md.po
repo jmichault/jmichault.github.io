@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-11-15 14:28+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,8 @@ msgstr "auto"
 #. type: YAML Front Matter: lang-ref
 #: pri.md:1
 #, no-wrap
-msgid "pri"
-msgstr "pri"
+msgid "999-pri"
+msgstr "999-pri"
 
 #. type: YAML Front Matter: layout
 #: pri.md:1
@@ -55,3 +55,6 @@ msgid ""
 msgstr ""
 "Apaixonado por eletrônica desde os 10 anos e viciado em informática desde os 18.\n"
 "Estou envolvido com código aberto desde o final do século XX.\n"
+
+#~ msgid "pri"
+#~ msgstr "pri"

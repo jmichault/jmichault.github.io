@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:39+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,7 @@ msgstr "前書き"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 msgstr "デビューの例として、ナノコンピューター _raspberry Pi3 B+_を備えたホームオートメーションシステムを作成し、433 Mhzの機器とデバイス _zigbee_を管理できるように装備することができます。私はすべてを管理するために無料のプログラムdomoticzを選びました。\n"
 
@@ -109,8 +108,7 @@ msgstr "それは何十年もの間世界中で認可されてきました。\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr "したがって、非常に安価な材料があります。\n"
 
@@ -170,22 +168,19 @@ msgstr " _Philips_ (システム _HUE_)、Ikea (システム _TRÅDFRI_)、Legra
 
 #. type: Title #
 #: komenci.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Paŝoj:"
 msgstr "手順："
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[アキルアパラタロン](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[インストール _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 
@@ -233,8 +228,7 @@ msgstr "パスワードなしで禁止 _sudo_ \n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "予約をインストールします： [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 

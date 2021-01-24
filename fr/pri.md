@@ -1,7 +1,7 @@
 ---
 lang: fr
 lang-niv: homa
-lang-ref: pri
+lang-ref: 999-pri
 layout: page
 title: "À propos de l'auteur"
 ---

@@ -1,6 +1,6 @@
 ---
 lang: fr
-lang-niv: auto
+lang-niv: homa
 lang-ref: indekso
 layout: index
 title: 'Derniers articles'

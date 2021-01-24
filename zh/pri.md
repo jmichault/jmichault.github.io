@@ -1,7 +1,7 @@
 ---
 lang: zh
 lang-niv: auto
-lang-ref: pri
+lang-ref: 999-pri
 layout: page
 title: 关于作者
 ---

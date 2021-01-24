@@ -1,7 +1,7 @@
 ---
 lang: ja
 lang-niv: auto
-lang-ref: pri
+lang-ref: 999-pri
 layout: page
 title: 著者について
 ---

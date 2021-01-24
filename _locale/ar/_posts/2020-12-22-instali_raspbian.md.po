@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-26 14:29+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,184 +42,182 @@ msgstr "post"
 
 #. type: YAML Front Matter: slug
 #: _posts/2020-12-22-instali_raspbian.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instali raspbian"
 msgstr "تثبيت raspbian"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-12-22-instali_raspbian.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu _raspbian_ sur la _Raspberry_"
 msgstr "تثبيت _raspbian_ على _Raspberry_"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. \n"
 msgstr "سنكتب النظام _raspbian_ إلى بطاقة micro-SD ، ثم سنقوم ببعض إعدادات النظام الأساسية. \n"
 
 #. type: Title #
 #: _posts/2020-12-22-instali_raspbian.md:13
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "prepari la mikro-SD-karton."
 msgstr "تحضير بطاقة micro-SD."
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:16
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.\n"
 msgstr "في هذا المثال ، اخترت تجهيز بطاقة micro-SD لجهاز كمبيوتر _raspberry pi 3_ Debian Linux ، ومن سطر الأوامر.\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:18
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se ĉi tio ne respondas al viaj deziroj, vi facile trovos aliajn metodojn en la interreto, ekzemple en la retejo <https://howtoraspberrypi.com/>.\n"
 msgstr "إذا كان هذا لا يلبي رغباتك ، فستجد بسهولة طرقًا أخرى على الإنترنت ، على سبيل المثال على الويب <https://howtoraspberrypi.com/>.\n"
 
 #. type: Bullet: ' 1. '
 #: _posts/2020-12-22-instali_raspbian.md:20
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**akiru la plej novan version de _raspbian_ de la oficiala retejo:**\n"
 msgstr "**احصل على أحدث نسخة من _raspbian_ من الموقع الرسمي:**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:27
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n"
 "    unzip raspbian.zip\n"
 "    ```\n"
 "Notu la nomon de la dosiero ĉerpita de la zip-dosiero.\n"
-msgstr "    ```bash\n    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n    unzip raspbian.zip\n    ```\nلاحظ اسم الملف المستخرج من الملف المضغوط.\n"
+msgstr ""
+"    ```bash\n"
+"    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n"
+"    unzip raspbian.zip\n"
+"    ```\n"
+"لاحظ اسم الملف المستخرج من الملف المضغوط.\n"
 
 #. type: Bullet: ' 2. '
 #: _posts/2020-12-22-instali_raspbian.md:29
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**identigu la ĉeestantajn diskojn:**\n"
 msgstr "**تحديد الأقراص الحالية:**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:36
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    ls -lrt /dev/sd?\n"
 "    ```\n"
 "Notu la rezulton de la komando.\n"
 "3. **enmetu la karton en la komputilon**\n"
-msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\nلاحظ نتيجة الأمر. 3. **أدخل البطاقة في الحاسب**\n"
+msgstr ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"لاحظ نتيجة الأمر. 3. **أدخل البطاقة في الحاسب**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:38
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "    tiam identigu la vojon de la karto:\n"
 msgstr "    ثم حدد مسار البطاقة:\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    ls -lrt /dev/sd?\n"
 "    ```\n"
 "ĉi tio estas kutime la lasta linio.  \n"
-msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\nعادة ما يكون هذا هو السطر الأخير.  \n"
+msgstr ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"عادة ما يكون هذا هو السطر الأخير.  \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:44
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "    **AVERTO** : kontrolu, ke ĉi tiu aparato ne ĉeestis antaŭe \\(vidu, kio montriĝis en paŝo 2\\) **!!!**\n"
 msgstr "    **تحذير** : تحقق من عدم وجود هذا الجهاز من قبل \\(انظر ما تم عرضه في الخطوة 2\\) **!!!**\n"
 
 #. type: Bullet: ' 4. '
 #: _posts/2020-12-22-instali_raspbian.md:46
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**skribu bildon al karto**\n"
 msgstr "**اكتب صورة إلى بطاقة**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:49
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "    Rulu la suban komandon, anstataŭigante _vojo\\_raspbian_ per la nomo notita en paŝo 1, kaj _vojo\\_karto_ kun la nomo notita en paŝo 3.\n"
 msgstr "    قم بتشغيل الأمر أدناه ، مع استبدال _vojo\\_raspbian_ بالاسم المذكور في الخطوة 1 ، و _vojo\\_karto_ بالاسم المذكور في الخطوة 3.\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:54
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n"
 "    ```\n"
 "    (daŭro: ~40 minutoj)\n"
-msgstr "    ```bash\n    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n    ```\n    (المدة: ~40 دقيقة)\n"
+msgstr ""
+"    ```bash\n"
+"    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n"
+"    ```\n"
+"    (المدة: ~40 دقيقة)\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    sync\n"
 "    eject vojo_karto\n"
 "    ``` \n"
-msgstr "    ```bash\n    sync\n    eject vojo_karto\n    ``` \n"
+msgstr ""
+"    ```bash\n"
+"    sync\n"
+"    eject vojo_karto\n"
+"    ``` \n"
 
 #. type: Title #
 #: _posts/2020-12-22-instali_raspbian.md:61
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "unua komenco de _raspberry_"
 msgstr "أول بداية لـ _raspberry_"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:62
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti klavaron, muson kaj ekranon, enmeti mikro-SD-karton en _raspberry_.  \n"
 msgstr "قم بتوصيل لوحة المفاتيح والماوس والشاشة ، أدخل بطاقة micro-SD في _raspberry_.  \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:64
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la potencon al la _raspberry_.\n"
 msgstr "قم بتوصيل الطاقة بـ _raspberry_.\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:66
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "La _raspberry_ ekfunkciigas, kaj la agorda utileco startas. Lasu vin gvidi por agordi la landon, la pasvorton, la vifian reton.\n"
 msgstr "يبدأ _raspberry_ ، وتبدأ أداة التكوين المساعدة. دع نفسك يتم إرشادك لإعداد البلد وكلمة المرور وشبكة wifi.\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:67
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mi konsilas al vi doni fiksan IP-adreson al via _raspberry_. Vi povas fari tion aŭ ĉe via DHCP-servilo, se vi havas, aŭ en la agordo de _raspberry_.  \n"
 msgstr "أنصحك بإعطاء عنوان IP ثابت لـ _raspberry_الخاص بك. يمكنك القيام بذلك إما على خادم DHCP ، إذا كان لديك واحد ، أو في تكوين _raspberry_.  \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:69
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por fari ĝin je la nivelo de _raspberry_, simple modifu la dosieron _/etc/dhcpcp.conf_, ekzemple per _nano_ :\n"
 msgstr "للقيام بذلك على مستوى _raspberry_، ما عليك سوى تعديل الملف _/etc/dhcpcp.conf_، على سبيل المثال باستخدام _nano_ :\n"
 
@@ -231,8 +229,7 @@ msgstr "sudo nano /etc/dhcpcd.conf\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:75
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Poste vi devas modifi aŭ aldoni la agordon de la interfaco, kiu interesas vin (eth0 por la kabligita reto, wlan0 por la vifia-reto). Ekzemple, por atribui la IP-adreson 192.168.0.101 al reto kies enkursigilo estas 192.168.0.1:\n"
 msgstr "ثم تحتاج إلى تعديل أو إضافة تهيئة الواجهة التي تهمك (eth0 للشبكة السلكية ، wlan0 لشبكة wifia). على سبيل المثال ، لتعيين عنوان IP 192.168.0.101 لشبكة يكون جهاز التوجيه الخاص بها 192.168.0.1:\n"
 
@@ -250,8 +247,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:82
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Vi ankaŭ povas specifi la nomajn servilojn (DNS). \n"
 msgstr "يمكنك أيضًا تحديد خوادم الأسماء (DNS). \n"
 
@@ -271,8 +267,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:90
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "se vi volas aliri la komandlinion malproksime, aktivigu ssh:\n"
 msgstr "إذا كنت تريد الوصول إلى سطر الأوامر عن بعد ، فقم بتمكين ssh:\n"
 
@@ -288,8 +283,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:97
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por teni la _raspberry_ ĝustatempe, instalu ntp:\n"
 msgstr "للحفاظ على _raspberry_ في الوقت المحدد ، قم بتثبيت ntp:\n"
 
@@ -298,4 +292,3 @@ msgstr "للحفاظ على _raspberry_ في الوقت المحدد ، قم ب�
 #, no-wrap
 msgid "sudo apt install ntp\n"
 msgstr "sudo apt install ntp\n"
-

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:39+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,7 @@ msgstr "ਜਾਣ ਪਛਾਣ"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 msgstr "ਡੈਬਿ. ਦੀ ਇੱਕ ਉਦਾਹਰਣ ਦੇ ਤੌਰ ਤੇ, ਤੁਸੀਂ ਇੱਕ ਨੈਨੋ ਕੰਪਿuterਟਰ _raspberry Pi3 B+_ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇੱਕ ਘਰੇਲੂ ਸਵੈਚਾਲਨ ਪ੍ਰਣਾਲੀ ਬਣਾ ਸਕਦੇ ਹੋ, ਇਸਨੂੰ 433 ਮੈਗਾਹਰਟਜ਼ ਉਪਕਰਣ ਅਤੇ ਉਪਕਰਣਾਂ _zigbee_ਦੇ ਪ੍ਰਬੰਧਨ ਦੇ ਯੋਗ ਬਣਾਉਣ ਲਈ ਲੈਸ ਕਰ ਸਕਦੇ ਹੋ. ਮੈਂ ਹਰ ਚੀਜ਼ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਮੁਫਤ ਪ੍ਰੋਗਰਾਮ ਡੋਮੋਟਿਕਜ਼ ਦੀ ਚੋਣ ਕੀਤੀ.\n"
 
@@ -109,8 +108,7 @@ msgstr "ਇਹ ਦਹਾਕਿਆਂ ਤੋਂ ਦੁਨੀਆ ਭਰ ਵਿੱ�
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr "ਇਸ ਲਈ ਬਹੁਤ ਸਸਤੀ ਸਮੱਗਰੀ ਹੈ.\n"
 
@@ -170,22 +168,19 @@ msgstr "ਇਸ ਨੂੰ ਵੱਡੇ ਬ੍ਰਾਂਡਾਂ ਦੁਆਰਾ �
 
 #. type: Title #
 #: komenci.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Paŝoj:"
 msgstr "ਕਦਮ:"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[ਅਕੀਰੂ ਅਪਾਰਤਾਰਨ](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[ਇੰਸਟੌਲ ਕਰੋ _ਰਸਪਬੀਅਨ_](_posts/2020-12-22-instali_raspbian.md)\n"
 
@@ -233,8 +228,7 @@ msgstr "ਪਾਬੰਦੀ _sudo_ ਬਿਨਾ ਪਾਸਵਰਡ\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "ਰਿਜ਼ਰਵੇਸ਼ਨ ਸਥਾਪਤ ਕਰੋ: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 

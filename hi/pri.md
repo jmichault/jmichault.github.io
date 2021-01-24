@@ -1,7 +1,7 @@
 ---
 lang: hi
 lang-niv: auto
-lang-ref: pri
+lang-ref: 999-pri
 layout: page
 title: 'लेखक के बारे में'
 ---

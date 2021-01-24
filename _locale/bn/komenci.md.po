@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:39+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,7 @@ msgstr "ভূমিকা"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 msgstr "অভিষেকের উদাহরণ হিসাবে, আপনি একটি ন্যানো কম্পিউটার _raspberry Pi3 B+_দিয়ে একটি হোম অটোমেশন সিস্টেম তৈরি করতে পারেন, এটি 433 মেগাহার্টজ সরঞ্জাম এবং ডিভাইস _zigbee_পরিচালনা করতে সক্ষম হতে সজ্জিত করুন। আমি সবকিছু পরিচালনা করার জন্য ফ্রি প্রোগ্রাম ডোমোটিক্স বেছে নিয়েছি।\n"
 
@@ -109,8 +108,7 @@ msgstr "এটি কয়েক দশক ধরে বিশ্বব্য�
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr "সুতরাং খুব সস্তা উপাদান আছে।\n"
 
@@ -170,22 +168,19 @@ msgstr "এটি _Philips_ (সিস্টেম _HUE_), Ikea (সিস্ট
 
 #. type: Title #
 #: komenci.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Paŝoj:"
 msgstr "পদক্ষেপ:"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[আকিরু অপারেটর](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[ইনস্টল করুন _রাস্পবিয়ান_](_posts/2020-12-22-instali_raspbian.md)\n"
 
@@ -233,8 +228,7 @@ msgstr "পাসওয়ার্ড ছাড়াই নিষিদ্ধ 
 
 #. type: Bullet: '* '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 msgstr "রিজার্ভেশনটি ইনস্টল করুন: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
 

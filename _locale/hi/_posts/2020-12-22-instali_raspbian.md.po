@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-26 14:29+0100\n"
+"POT-Creation-Date: 2021-01-24 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,184 +42,183 @@ msgstr "post"
 
 #. type: YAML Front Matter: slug
 #: _posts/2020-12-22-instali_raspbian.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instali raspbian"
 msgstr "रास्पियन स्थापित करें"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-12-22-instali_raspbian.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instalu _raspbian_ sur la _Raspberry_"
 msgstr " _raspbian_ पर स्थापित करें _raspbian_ "
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. \n"
 msgstr "हम माइक्रो-एसडी कार्ड में सिस्टम _raspbian_ लिखेंगे, फिर हम कुछ बुनियादी सिस्टम सेटिंग्स करेंगे। \n"
 
 #. type: Title #
 #: _posts/2020-12-22-instali_raspbian.md:13
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "prepari la mikro-SD-karton."
 msgstr "माइक्रो-एसडी कार्ड तैयार करें।"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:16
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.\n"
 msgstr "इस उदाहरण में, मैंने अपने _raspberry pi 3_ डेबियन लिनक्स कंप्यूटर के लिए माइक्रो-एसडी कार्ड तैयार करने के लिए चुना, और कमांड लाइन से।\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:18
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se ĉi tio ne respondas al viaj deziroj, vi facile trovos aliajn metodojn en la interreto, ekzemple en la retejo <https://howtoraspberrypi.com/>.\n"
 msgstr "यदि यह आपकी इच्छाओं को पूरा नहीं करता है, तो आप आसानी से इंटरनेट पर अन्य तरीके पाएंगे, उदाहरण के लिए वेब पर <https://howtoraspberrypi.com/>।\n"
 
 #. type: Bullet: ' 1. '
 #: _posts/2020-12-22-instali_raspbian.md:20
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**akiru la plej novan version de _raspbian_ de la oficiala retejo:**\n"
 msgstr "**आधिकारिक वेबसाइट से _raspbian_ का नवीनतम संस्करण प्राप्त करें:**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:27
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n"
 "    unzip raspbian.zip\n"
 "    ```\n"
 "Notu la nomon de la dosiero ĉerpita de la zip-dosiero.\n"
-msgstr "    ```bash\n    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n    unzip raspbian.zip\n    ```\nज़िप फ़ाइल से निकाले गए फ़ाइल का नाम नोट करें।\n"
+msgstr ""
+"    ```bash\n"
+"    wget http://raspberry-pi.fr/download/raspbian_latest.zip -O raspbian.zip\n"
+"    unzip raspbian.zip\n"
+"    ```\n"
+"ज़िप फ़ाइल से निकाले गए फ़ाइल का नाम नोट करें।\n"
 
 #. type: Bullet: ' 2. '
 #: _posts/2020-12-22-instali_raspbian.md:29
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**identigu la ĉeestantajn diskojn:**\n"
 msgstr "**वर्तमान डिस्क की पहचान करें:**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:36
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    ls -lrt /dev/sd?\n"
 "    ```\n"
 "Notu la rezulton de la komando.\n"
 "3. **enmetu la karton en la komputilon**\n"
-msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\nकमांड के परिणाम पर ध्यान दें।\n3. **कार्ड को कंप्यूटर में डालें**\n"
+msgstr ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"कमांड के परिणाम पर ध्यान दें।\n"
+"3. **कार्ड को कंप्यूटर में डालें**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:38
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "    tiam identigu la vojon de la karto:\n"
 msgstr "    तब कार्ड के पथ की पहचान करें:\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    ls -lrt /dev/sd?\n"
 "    ```\n"
 "ĉi tio estas kutime la lasta linio.  \n"
-msgstr "    ```bash\n    ls -lrt /dev/sd?\n    ```\nयह आमतौर पर अंतिम पंक्ति है।  \n"
+msgstr ""
+"    ```bash\n"
+"    ls -lrt /dev/sd?\n"
+"    ```\n"
+"यह आमतौर पर अंतिम पंक्ति है।  \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:44
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "    **AVERTO** : kontrolu, ke ĉi tiu aparato ne ĉeestis antaŭe \\(vidu, kio montriĝis en paŝo 2\\) **!!!**\n"
 msgstr "    **चेतावनी** : जाँच करें कि यह उपकरण पहले से मौजूद नहीं था \\(देखें कि चरण 2\\) **में क्या दिखाया गया था !!!**\n"
 
 #. type: Bullet: ' 4. '
 #: _posts/2020-12-22-instali_raspbian.md:46
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**skribu bildon al karto**\n"
 msgstr "**कार्ड पर एक छवि लिखें**\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:49
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "    Rulu la suban komandon, anstataŭigante _vojo\\_raspbian_ per la nomo notita en paŝo 1, kaj _vojo\\_karto_ kun la nomo notita en paŝo 3.\n"
 msgstr "    चरण 1 में नोट किए गए नाम के साथ, _vojo\\_raspbian_ को नीचे रखकर कमांड _vojo\\_raspbian_ चलाएँ और चरण 3 में दिए गए नाम के साथ _vojo\\_karto_ \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:54
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n"
 "    ```\n"
 "    (daŭro: ~40 minutoj)\n"
-msgstr "    ```bash\n    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n    ```\n    (अवधि: ~४० मिनट)\n"
+msgstr ""
+"    ```bash\n"
+"    sudo dd bs=1M if=vojo_raspbian of=vojo_karto status=progress conv=fsync\n"
+"    ```\n"
+"    (अवधि: ~४० मिनट)\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
 "    sync\n"
 "    eject vojo_karto\n"
 "    ``` \n"
-msgstr "    ```bash\n    sync\n    eject vojo_karto\n    ``` \n"
+msgstr ""
+"    ```bash\n"
+"    sync\n"
+"    eject vojo_karto\n"
+"    ``` \n"
 
 #. type: Title #
 #: _posts/2020-12-22-instali_raspbian.md:61
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "unua komenco de _raspberry_"
 msgstr "की पहली शुरुआत _raspberry_"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:62
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti klavaron, muson kaj ekranon, enmeti mikro-SD-karton en _raspberry_.  \n"
 msgstr "कीबोर्ड, माउस और डिस्प्ले कनेक्ट करें, _raspberry_में माइक्रो एसडी कार्ड डालें।  \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:64
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la potencon al la _raspberry_.\n"
 msgstr " _raspberry_को पावर कनेक्ट करें।\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:66
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "La _raspberry_ ekfunkciigas, kaj la agorda utileco startas. Lasu vin gvidi por agordi la landon, la pasvorton, la vifian reton.\n"
 msgstr " _raspberry_ शुरू होता है, और कॉन्फ़िगरेशन उपयोगिता शुरू होती है। अपने आप को देश, पासवर्ड, वाईफाई नेटवर्क स्थापित करने के लिए निर्देशित किया जाए।\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:67
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mi konsilas al vi doni fiksan IP-adreson al via _raspberry_. Vi povas fari tion aŭ ĉe via DHCP-servilo, se vi havas, aŭ en la agordo de _raspberry_.  \n"
 msgstr "मैं आपको अपने _raspberry_एक निश्चित आईपी पता देने की सलाह देता हूं। आप इसे या तो अपने डीएचसीपी सर्वर पर कर सकते हैं, यदि आपके पास एक है, या _raspberry_के कॉन्फ़िगरेशन में है।  \n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:69
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por fari ĝin je la nivelo de _raspberry_, simple modifu la dosieron _/etc/dhcpcp.conf_, ekzemple per _nano_ :\n"
 msgstr " _raspberry_के स्तर पर ऐसा करने के लिए, बस फ़ाइल _/etc/dhcpcp.conf_को संशोधित करें, उदाहरण के लिए _nano_ :\n"
 
@@ -231,8 +230,7 @@ msgstr "sudo nano /etc/dhcpcd.conf\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:75
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Poste vi devas modifi aŭ aldoni la agordon de la interfaco, kiu interesas vin (eth0 por la kabligita reto, wlan0 por la vifia-reto). Ekzemple, por atribui la IP-adreson 192.168.0.101 al reto kies enkursigilo estas 192.168.0.1:\n"
 msgstr "फिर आपको इंटरफ़ेस कॉन्फ़िगरेशन को संशोधित करने या जोड़ने की आवश्यकता है जो वायर्ड नेटवर्क के लिए आपकी (eth0, wifia नेटवर्क के लिए wlan0)को दिलचस्पी देता है। उदाहरण के लिए, IP पता 192.168.0.101 को एक नेटवर्क जिसका राउटर 192.168.0.1 है: (Zzzo) असाइन करने के लिए\n"
 
@@ -250,8 +248,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:82
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Vi ankaŭ povas specifi la nomajn servilojn (DNS). \n"
 msgstr "आप नाम सर्वर (DNS)भी निर्दिष्ट कर सकते हैं। \n"
 
@@ -271,8 +268,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:90
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "se vi volas aliri la komandlinion malproksime, aktivigu ssh:\n"
 msgstr "यदि आप कमांड लाइन को दूरस्थ रूप से एक्सेस करना चाहते हैं, तो ssh को सक्षम करें:\n"
 
@@ -288,8 +284,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:97
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por teni la _raspberry_ ĝustatempe, instalu ntp:\n"
 msgstr "समय पर _raspberry_ रखने के लिए, ntp स्थापित करें:\n"
 
@@ -298,4 +293,3 @@ msgstr "समय पर _raspberry_ रखने के लिए, ntp स्�
 #, no-wrap
 msgid "sudo apt install ntp\n"
 msgstr "sudo apt install ntp\n"
-
