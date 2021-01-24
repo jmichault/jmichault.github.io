@@ -1,15 +1,24 @@
+#!/bin/bash
 
 lang0=$1
 
 BASEDIR=`dirname $0`
+cd "$BASEDIR"
+cd ../..
 cd $lang0
 
-FIC="$2"
 
-if [ -f ../_locale/${lang0}/${FIC}.po ]
-then
-  rm -f ../_locale/${lang0}/${FIC}.po
-fi
+for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
+do
+  if [ -f ../_locale/${lang0}/${FIC}.po ]
+  then
+    rm -f ../_locale/${lang0}/${FIC}.po
+    if [ -f ../eo/${FIC} ]
+    then
+      rm -f ../eo/${FIC}
+    fi
+  fi
+
 
   if [ ! -f ../_locale/${lang0}/${FIC}.pot ]
   then
@@ -37,7 +46,7 @@ fi
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
       po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
     fi
-    cat ../_locale/${lang}/${FIC}.po|gawk -v BASEDIR=../$BASEDIR -v src=${lang0} -v dst=eo -f ../$BASEDIR/traduki_po.awk >../_locale/${lang}/${FIC}.po.nova
+    cat ../_locale/${lang}/${FIC}.po|gawk -v BASEDIR=../$BASEDIR -v src=${lang0} -v dst=eo -f ../_scripts/lib/traduki_po.awk >../_locale/${lang}/${FIC}.po.nova
     if diff ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po >/dev/null
     then
       rm ../_locale/${lang}/${FIC}.po.nova
@@ -60,6 +69,7 @@ fi
       rm ../_locale/temp$$.po
     fi
   done
+done
 
 
 
