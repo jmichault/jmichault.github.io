@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:15+0100\n"
+"POT-Creation-Date: 2021-01-24 15:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-ref
 #: komenci.md:1
 #, no-wrap
-msgid "komenci"
+msgid "000-komenci"
 msgstr ""
 
 #. type: YAML Front Matter: layout
@@ -173,79 +173,67 @@ msgid "Les étapes :"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "[obtenir le matériel](_posts/2020-08-31-aparataro.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "[installer _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "programmer le firmware de la clé USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "construire une antenne pour 433 Mhz.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "installer _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "installer _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "installez _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
-#, no-wrap
-msgid "interdire _sudo_ sans mot de passe\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: komenci.md:53
-#, no-wrap
-msgid "installer la sauvegarde: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
 msgid "Connectez vos premiers éléments:  \n"
 msgstr ""
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:55
 #, no-wrap
-msgid "connecter un thermomètre\n"
+msgid "connecter un thermomètre _433Mhz_\n"
 msgstr ""
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:55
 #, no-wrap
-msgid "connecter une prise\n"
+msgid "connecter une prise _433Mhz_\n"
 msgstr ""
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:55
 #, no-wrap
-msgid "connecter une ampoule\n"
+msgid "connecter une ampoule _zigbee_\n"
 msgstr ""

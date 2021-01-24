@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-24 16:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-ref
 #: komenci.md:1
 #, no-wrap
-msgid "komenci"
+msgid "000-komenci"
 msgstr ""
 
 #. type: YAML Front Matter: layout
@@ -65,13 +65,13 @@ msgid "**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:19
+#: komenci.md:15
 #, no-wrap
 msgid "ĝia malalta prezo\n"
 msgstr ""
 
 #. type: Bullet: ' 2. '
-#: komenci.md:19
+#: komenci.md:17
 #, no-wrap
 msgid "tre komforta komputila potenco por hejma aŭtomatigo.\n"
 msgstr ""
@@ -83,169 +83,157 @@ msgid "reduktita konsumo.\n"
 msgstr ""
 
 #. type: Bullet: ' 4. '
-#: komenci.md:19
+#: komenci.md:21
 #, no-wrap
 msgid "neniu ventolilo bezonis.\n"
 msgstr ""
 
 #. type: Bullet: ' 5. '
-#: komenci.md:19
+#: komenci.md:23
 #, no-wrap
 msgid "konektebleco provizita: ethernet-haveno, 4 USB-havenoj, Wifi, Bluetooth, GPIO-havenoj.\n"
 msgstr ""
 
 #. type: Plain text
-#: komenci.md:22
+#: komenci.md:27
 #, no-wrap
 msgid "**La intereso de 433 Mhz estas:**\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:25
+#: komenci.md:29
 #, no-wrap
 msgid "ĝi estas rajtigita tutmonde de jardekoj.\n"
 msgstr ""
 
 #. type: Bullet: ' 2. '
-#: komenci.md:25
+#: komenci.md:31
 #, no-wrap
 msgid "tial ekzistas tre malmultekosta materialo.\n"
 msgstr ""
 
 #. type: Plain text
-#: komenci.md:28
+#: komenci.md:35
 #, no-wrap
 msgid "Ĝiaj malavantaĝoj estas:\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:31
+#: komenci.md:37
 #, no-wrap
 msgid "ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas.\n"
 msgstr ""
 
 #. type: Bullet: ' 2. '
-#: komenci.md:31
+#: komenci.md:39
 #, no-wrap
 msgid "la uzata protokolo malofte estas dudirekta.\n"
 msgstr ""
 
 #. type: Plain text
-#: komenci.md:34
+#: komenci.md:43
 #, no-wrap
 msgid "**La intereso de zigbee estas:**\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:40
+#: komenci.md:45
 #, no-wrap
-msgid "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
+msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:40
+#: komenci.md:47
 #, no-wrap
 msgid "ĝi uzas malferman, sekuran kaj dudirektan protokolon.\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:40
+#: komenci.md:49
 #, no-wrap
 msgid "ĉiu modulo povas esti uzata kiel relajso por pliigi la sensodistancon.\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:40
+#: komenci.md:51
 #, no-wrap
 msgid "ĝi uzas internacian frekvencan gamon kaj ebligas administri grandan nombron da moduloj.\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: komenci.md:40
+#: komenci.md:53
 #, no-wrap
-msgid "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr ""
 
 #. type: Title #
-#: komenci.md:42
+#: komenci.md:56
 #, no-wrap
 msgid "Paŝoj:"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:59
 #, no-wrap
 msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:61
 #, no-wrap
 msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:63
 #, no-wrap
 msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:65
 #, no-wrap
 msgid "konstruu antenon por 433 Mhz.\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:67
 #, no-wrap
 msgid "instali _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:69
 #, no-wrap
 msgid "instali _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:71
 #, no-wrap
 msgid "instali _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: komenci.md:53
-#, no-wrap
-msgid "malpermesi _sudo_ sen pasvorto\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: komenci.md:53
-#, no-wrap
-msgid "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
-msgstr ""
-
-#. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:72
 #, no-wrap
 msgid "Konekti viajn unuajn elementojn:  \n"
 msgstr ""
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:75
 #, no-wrap
-msgid "konekti termometron\n"
+msgid "konekti termometron _433Mhz_\n"
 msgstr ""
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:77
 #, no-wrap
-msgid "konekti ŝtopilon\n"
+msgid "konekti ŝtopilon _433Mhz_\n"
 msgstr ""
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:79
 #, no-wrap
-msgid "konekti ampolon\n"
+msgid "konekti ampolon _zigbee_\n"
 msgstr ""

@@ -1,7 +1,7 @@
 ---
 lang: zh
 lang-niv: auto
-lang-ref: komenci
+lang-ref: 000-komenci
 layout: page
 title: 首次亮相
 ---
@@ -13,13 +13,18 @@ title: 首次亮相
 
  1. 低价
 
+
  2. 用于家庭自动化的非常舒适的计算机功能。
+
 
  3. 减少消耗。
 
+
  4. 不需要风扇。
 
+
  5. 提供的连接性：以太网端口，4个USB端口，Wifi，蓝牙，GPIO端口。
+
 
 
 
@@ -27,7 +32,9 @@ title: 首次亮相
 
  1. 它已在全球范围内获得许可数十年。
 
+
  2. 因此，有非常便宜的材料。
+
 
 
  
@@ -35,21 +42,28 @@ title: 首次亮相
 
  1. 没有定义的协议，每个制造商都按照自己的意愿做。
 
+
  2. 使用的协议很少是双向的。
+
 
 
 
 **zigbee的兴趣是：**
 
- 1. 它旨在使构建廉价模块成为可能，因此价格逐渐下降。
+ 1. 旨在使构建廉价模块成为可能，从而使价格逐渐下降。
+
 
  1. 它使用开放，安全和双向协议。
 
+
  1. 每个模块都可以用作继电器以增加感应距离。
+
 
  1. 它使用国际频率范围，因此可以管理大量模块。
 
- 1. 它已被 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格朗，小米等许多大品牌选择...
+
+ 1. 它已被主要品牌（例如 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格朗（Legrand），小米
+
 
 
 
@@ -57,31 +71,38 @@ title: 首次亮相
 
 * [akiru aparataron](_posts/2020-08-31-aparataro.md)
 
+
 * [安装 _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+
 
 * 编程USB密钥 _CC2531_ 的固件： [github.com](https://github.com/jmichault/flash_cc2531)
   
 
+
 * 为433 Mhz制造天线。
+
 
 * 安装 _domoticz_ ： [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
   
 
+
 * 安装 _zigbee_ ： [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+
 
 * 安装 _rf_gpio_ ： [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
   
 
-* 禁令 _sudo_ 没有密码
-
-* 安装预订： [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
 
 * 连接您的第一个项目：  
 
-  * 连接温度计
 
-  * 连接插头
+  * 连接温度计 _433Mhz_
 
-  * 连接灯泡
+
+  * 连接插头 _433Mhz_
+
+
+  * 连接灯泡 _zigbee_
+
 
 

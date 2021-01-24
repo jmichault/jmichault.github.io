@@ -1,7 +1,7 @@
 ---
 lang: de
 lang-niv: auto
-lang-ref: komenci
+lang-ref: 000-komenci
 layout: page
 title: 'Zum Debüt'
 ---
@@ -13,13 +13,18 @@ Als Beispiel für ein Debüt können Sie ein Hausautomationssystem mit einem Nan
 
  1. sein niedriger Preis
 
+
  2. Sehr komfortable Computerleistung für die Heimautomation.
+
 
  3. reduzierter Verbrauch.
 
+
  4. Kein Lüfter erforderlich.
 
+
  5. Konnektivität bereitgestellt: Ethernet-Port, 4 USB-Ports, Wifi, Bluetooth, GPIO-Ports.
+
 
 
 
@@ -27,7 +32,9 @@ Als Beispiel für ein Debüt können Sie ein Hausautomationssystem mit einem Nan
 
  1. Es ist seit Jahrzehnten weltweit lizenziert.
 
+
  2. Daher gibt es sehr billiges Material.
+
 
 
  
@@ -35,21 +42,28 @@ Seine Nachteile sind:
 
  1. Es gibt kein definiertes Protokoll, jeder Hersteller macht, was er will.
 
+
  2. Das verwendete Protokoll ist selten bidirektional.
+
 
 
 
 **Das Interesse von zigbee ist:**
 
- 1. Es wurde entwickelt, um den Bau billiger Module zu ermöglichen, sodass die Preise allmählich fallen.
+ 1. wurde entwickelt, um den Bau billiger Module zu ermöglichen, so dass die Preise allmählich fallen.
+
 
  1. Es verwendet ein offenes, sicheres und bidirektionales Protokoll.
 
+
  1. Jedes Modul kann als Relais verwendet werden, um den Erfassungsabstand zu vergrößern.
+
 
  1. Es verwendet einen internationalen Frequenzbereich und ermöglicht die Verwaltung einer großen Anzahl von Modulen.
 
- 1. Es wurde von großen Marken wie _Philips_ (System _HUE_), Ikea (System _TRÅDFRI_), Legrand, Xiaomi und vielen anderen ausgewählt ...
+
+ 1. Es wurde von großen Marken wie _Philips_ (System _HUE_), Ikea (System _TRÅDFRI_), Legrand, Xiaomi und vielen anderen ...gewählt. °)
+
 
 
 
@@ -57,31 +71,38 @@ Seine Nachteile sind:
 
 * [akiru aparataron](_posts/2020-08-31-aparataro.md)
 
+
 * [installiere _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+
 
 * Programmieren Sie die Firmware des USB-Sticks _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
   
 
+
 * baue eine Antenne für 433 MHz.
+
 
 * install _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
   
 
+
 * install _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+
 
 * installiere _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
   
 
-* Verbot _sudo_ ohne Passwort
-
-* Installieren Sie die Reservierung: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
 
 * Verbinde deine ersten Gegenstände:  
 
-  * Thermometer anschließen
 
-  * Stecker anschließen
+  * Thermometer anschließen _433Mhz_
 
-  * Glühbirne anschließen
+
+  * Stecker anschließen _433Mhz_
+
+
+  * Glühlampe anschließen _zigbee_
+
 
 

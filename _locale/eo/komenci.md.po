@@ -3,11 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-27 16:15+0100\n"
+"POT-Creation-Date: 2021-01-24 15:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +30,8 @@ msgstr "homa"
 #. type: YAML Front Matter: lang-ref
 #: komenci.md:1
 #, no-wrap
-msgid "komenci"
-msgstr "komenci"
+msgid "000-komenci"
+msgstr "000-komenci"
 
 #. type: YAML Front Matter: layout
 #: komenci.md:1
@@ -42,246 +41,199 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: komenci.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Pour débuter"
 msgstr "Por debuti"
 
 #. type: Title #
 #: komenci.md:9
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "introduction"
 msgstr "enkonduko"
 
 #. type: Plain text
 #: komenci.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Comme exemple de début, vous pouvez réaliser un système domotique fait maison avec un nano-ordinateur _raspberry Pi3 B+_, en l’équipant pour pouvoir gérer des équipements 433 Mhz et des équipements _zigbee_. J’ai choisi le logiciel libre domoticz pour gérer l’ensemble.\n"
 msgstr "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
 
 #. type: Plain text
 #: komenci.md:13
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**Le _raspberry Pi3 B+_ a pour avantages :**\n"
 msgstr "**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:19
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "son bas prix\n"
 msgstr "ĝia malalta prezo\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:19
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "une puissance de calcul trés confortable pour la domotique.\n"
 msgstr "tre komforta komputila potenco por hejma aŭtomatigo.\n"
 
 #. type: Bullet: ' 3. '
 #: komenci.md:19
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "une consommation réduite.\n"
 msgstr "reduktita konsumo.\n"
 
 #. type: Bullet: ' 4. '
 #: komenci.md:19
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "pas besoin de ventilateur.\n"
 msgstr "neniu ventolilo bezonis.\n"
 
 #. type: Bullet: ' 5. '
 #: komenci.md:19
 #, no-wrap
-#, fuzzy
 msgid "une connectivité fournie : un port éthernet, 4 ports USB, le Wifi, le Bluetooth, des ports GPIO.\n"
 msgstr "konektebleco provizita: ethernet-haveno, 4 USB-havenoj, Wifi, Bluetooth, GPIO-havenoj.\n"
 
 #. type: Plain text
 #: komenci.md:22
 #, no-wrap
-#, fuzzy
 msgid "**L'intérêt du 433 Mhz est:**\n"
 msgstr "**La intereso de 433 Mhz estas:**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:25
 #, no-wrap
-#, fuzzy
 msgid "il est autorisé au niveau mondial depuis des décennies.\n"
 msgstr "ĝi estas rajtigita tutmonde de jardekoj.\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:25
 #, no-wrap
-#, fuzzy
 msgid "de ce fait il existe du matériel très bon marché.\n"
 msgstr "tial ekzistas tre malmultekosta materialo.\n"
 
 #. type: Plain text
 #: komenci.md:28
 #, no-wrap
-#, fuzzy
 msgid "Ses inconvénients sont:\n"
 msgstr "Ĝiaj malavantaĝoj estas:\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:31
 #, no-wrap
-#, fuzzy
 msgid "il n’y a pas de protocole défini, chaque constructeur fait ce qu’il veut.\n"
 msgstr "ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas.\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:31
 #, no-wrap
-#, fuzzy
 msgid "le protocole utilisé est rarement bidirectionnel.\n"
 msgstr "la uzata protokolo malofte estas dudirekta.\n"
 
 #. type: Plain text
 #: komenci.md:34
 #, no-wrap
-#, fuzzy
 msgid "**L'intérêt du zigbee est:**\n"
 msgstr "**La intereso de zigbee estas:**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:40
 #, no-wrap
-#, fuzzy
 msgid "il a été conçu pour rendre possible la construction de modules bon marché, de ce fait les prix sont en train de baisser progressivement.\n"
-msgstr "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
+msgstr "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:40
 #, no-wrap
-#, fuzzy
 msgid "il utilise un protocole ouvert, sécurisé et bidirectionnel.\n"
 msgstr "ĝi uzas malferman, sekuran kaj dudirektan protokolon.\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:40
 #, no-wrap
-#, fuzzy
 msgid "chaque module peut servir comme relais pour augmenter la portée.\n"
 msgstr "ĉiu modulo povas esti uzata kiel relajso por pliigi la sensodistancon.\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:40
 #, no-wrap
-#, fuzzy
 msgid "il utilise une gamme de fréquence internationale et permettant de gérer un grand nombre de modules.\n"
 msgstr "ĝi uzas internacian frekvencan gamon kaj ebligas administri grandan nombron da moduloj.\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:40
 #, no-wrap
-#, fuzzy
 msgid "il a été choisi par de grandes marques telles que _Philips_ (système _HUE_), Ikea (système _TRÅDFRI_), Legrand, Xiaomi, et bien d'autres ...\n"
-msgstr "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+msgstr "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 
 #. type: Title #
 #: komenci.md:42
 #, no-wrap
-#, fuzzy
 msgid "Les étapes :"
 msgstr "Paŝoj:"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "[obtenir le matériel](_posts/2020-08-31-aparataro.md)\n"
 msgstr "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "[installer _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 msgstr "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "programmer le firmware de la clé USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
 msgstr "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "construire une antenne pour 433 Mhz.\n"
 msgstr "konstruu antenon por 433 Mhz.\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "installer _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 msgstr "instali _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "installer _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 msgstr "instali _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "installez _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 msgstr "instali _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 
 #. type: Bullet: '* '
-#: komenci.md:53
+#: komenci.md:51
 #, no-wrap
-#, fuzzy
-msgid "interdire _sudo_ sans mot de passe\n"
-msgstr "malpermesi _sudo_ sen pasvorto\n"
-
-#. type: Bullet: '* '
-#: komenci.md:53
-#, no-wrap
-#, fuzzy
-msgid "installer la sauvegarde: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
-msgstr "instalu la rezervon: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)\n"
-
-#. type: Bullet: '* '
-#: komenci.md:53
-#, no-wrap
-#, fuzzy
 msgid "Connectez vos premiers éléments:  \n"
 msgstr "Konekti viajn unuajn elementojn:  \n"
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:55
 #, no-wrap
-#, fuzzy
-msgid "connecter un thermomètre\n"
-msgstr "konekti termometron\n"
+msgid "connecter un thermomètre _433Mhz_\n"
+msgstr "konekti termometron _433Mhz_\n"
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:55
 #, no-wrap
-#, fuzzy
-msgid "connecter une prise\n"
-msgstr "konekti ŝtopilon\n"
+msgid "connecter une prise _433Mhz_\n"
+msgstr "konekti ŝtopilon _433Mhz_\n"
 
 #. type: Bullet: '  * '
-#: komenci.md:57
+#: komenci.md:55
 #, no-wrap
-#, fuzzy
-msgid "connecter une ampoule\n"
-msgstr "konekti ampolon\n"
+msgid "connecter une ampoule _zigbee_\n"
+msgstr "konekti ampolon _zigbee_\n"
 

@@ -1,7 +1,7 @@
 ---
 lang: fr
 lang-niv: homa
-lang-ref: komenci
+lang-ref: 000-komenci
 layout: page
 title: 'Pour débuter'
 ---
@@ -48,10 +48,8 @@ Ses inconvénients sont:
 * installer _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
 * installer _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
 * installez _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-* interdire _sudo_ sans mot de passe
-* installer la sauvegarde: [borgbackup.readthedocs.io](https://borgbackup.readthedocs.io/en/stable/installation.html)
 * Connectez vos premiers éléments:  
-  * connecter un thermomètre
-  * connecter une prise
-  * connecter une ampoule
+  * connecter un thermomètre _433Mhz_
+  * connecter une prise _433Mhz_
+  * connecter une ampoule _zigbee_
 
