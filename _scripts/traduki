@@ -1,3 +1,20 @@
+#!/bin/bash
+
+BASEDIR=`dirname $0`
+cd "$BASEDIR"
+cd ..
+
+
+LABORLINGVO=`grep "laborlingvo:" _config.yml|awk '{print $2;}'`
+
+if [ $LABORLINGVO != eo ]
+then
+ _scripts/lib/al_eo $LABORLINGVO
+fi
+
+exit
+
+
 
 cd eo
 
@@ -30,7 +47,7 @@ do
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
       po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
     fi
-    ../_scripts/traduki_po.sh ../_locale/${lang}/${FIC}.po
+    ../_scripts/lib/traduki_po.sh ../_locale/${lang}/${FIC}.po
     if diff ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po >/dev/null
     then
       rm ../_locale/${lang}/${FIC}.po.nova
