@@ -10,7 +10,7 @@ Its most striking features:
  * adapted to websites _Github Pages_ .
  * all possibilities of jekyll.
  * can be used to create a blog.
- * Scripts allow you to automatically translate the pages to all languages <200b><200b>of the site.
+ * Scripts allow you to automatically translate the pages to all languages of the site.
  * the translations are managed by po files:
    * if you edit or add a paragraph on a page, only that paragraph needs to be retranslated.
    * you can send this file to a human translator for correction.
