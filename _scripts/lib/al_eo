@@ -1,24 +1,32 @@
 #!/bin/bash
 
+if [ $# -lt 1 ] ; then
+  echo "pas assez d'arguments."
+  exit
+fi
+
 lang0=$1
 
 BASEDIR=`dirname $0`
-cd "$BASEDIR"
-cd ../..
-cd $lang0
-
+if [ ! -d "$BASEDIR"/../../$lang0 ] ; then
+  echo "chemin introuvable."
+  exit
+fi
+cd "$BASEDIR"/../../$lang0
 
 for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
 do
+  # détruire le fichier eo --> langue s'il existe pour éviter la retraduction eo-->langue
   if [ -f ../_locale/${lang0}/${FIC}.po ]
   then
     rm -f ../_locale/${lang0}/${FIC}.po
-    if [ -f ../eo/${FIC} ]
-    then
-      rm -f ../eo/${FIC}
-    fi
   fi
-
+  if [ -f ../eo/${FIC} -a ! -f ../_locale/eo/${FIC}.po ]
+  then
+    # si ce fichier est une bonne traduction, il faut la récupérer
+    po4a-gettextize -f text -m ${FIC} -M "UTF-8" --option markdown -o neverwrap -l ../eo/${FIC} -L "UTF-8" --po ../_locale/eo/${FIC}.po 
+    rm -f gettextization.failed.po ../eo/${FIC}
+  fi
 
   if [ ! -f ../_locale/${lang0}/${FIC}.pot ]
   then
