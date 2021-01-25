@@ -6,7 +6,7 @@
     {% if posts.size > 1 %}
     <div>
     <header class="lang-options">
-        <em>{{ site.data.translations['malsamaLingvo'][page.lang] }}:</em>
+        <em>{{ site.data.translations[page.lang]['malsamaLingvo'] }}:</em>
         <div class="dropdown">
          <button class="dropbtn">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }} 🔽</button>
          <div class="dropdown-content">

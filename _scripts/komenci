@@ -1,38 +1,74 @@
-if [ -f _data/translations.yml ]
-then
-  echo "init-skripto jam ekzekutita."
+#!/bin/bash
+
+BASEDIR=`dirname $0`
+cd "$BASEDIR"
+cd ..
+
+if [ $# -ge 1 ] ; then
+  LABORLINGVO="$1"
+else
+  read -p "Laborlingvo (2 litero, defaŭlte=eo) : " LABORLINGVO
+fi
+if [ x$LABORLINGVO != x -a ! -d _locale/$LABORLINGVO ] ; then
+  echo "ne"
+  sleep 2
   exit 1
 fi
+if [ x$LABORLINGVO != x ] ; then
+  cat _config.yml |sed "s/^laborlingvo:.*/laborlingvo: $LABORLINGVO/" >_config.$$
+  mv _config.$$ _config.yml
+else
+  LABORLINGVO=eo
+fi
 
-if [ $# -ge 1 ]
-then
-  titolo="$1"
+
+if [ $# -ge 2 ] ; then
+  titolo="$2"
 else
   read -p "Titolo : " titolo
 fi
 
-if [ $# -ge 2 ]
-then
-  priskribo="$2"
+if [ x"$titolo" != x ] ; then
+  cat _data/translations.$LABORLINGVO |sed "s/^  titolo:.*/  titolo: \"$titolo\"/" >_data/tr.$$
+  mv _data/tr.$$ _data/translations.$LABORLINGVO
+fi
+
+if [ $# -ge 3 ] ; then
+  priskribo="$3"
 else
   read -p "Priskribo:" priskribo
 fi
 
-echo "titolo:"  >_data/translations.yml
-for x in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
-do
-  ( echo -n "  $x: \"";_scripts/traduko.sh eo $x "$titolo";echo "\""; )>>_data/translations.yml
-done
-echo "priskribo:" >>_data/translations.yml
-for x in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
-do
-  ( echo -n "  $x: \"";_scripts/traduko.sh eo $x "$priskribo";echo "\""; )>>_data/translations.yml
-done
-cat _data/translations.yml.0 >>_data/translations.yml
+if [ x"$priskribo" != x ] ; then
+  cat _data/translations.$LABORLINGVO |sed "s/^  priskribo:.*/  priskribo: \"$priskribo\"/" >_data/tr.$$
+  mv _data/tr.$$ _data/translations.$LABORLINGVO
+fi
 
-for x in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
+for lang in `grep "^..:$" _data/languages.yml|sed "s/:$//"|grep -v $LABORLINGVO`
 do
-  mkdir -p $x/_posts _locale/$x _locale/$x/_posts
+   MSG=`_scripts/lib/traduko.sh $LABORLINGVO $lang "$titolo"`
+   if [ x"$MSG" == x ] ;then
+     MSG="."
+   fi
+   cat _data/translations.$lang |sed "s/^  titolo:.*/  titolo: \"$MSG\"/" >_data/tr.$$
+   mv _data/tr.$$ _data/translations.$lang
+   MSG=`_scripts/lib/traduko.sh $LABORLINGVO $lang "$priskribo"`
+   if [ x"$MSG" == x ] ;then
+     MSG="."
+   fi
+   cat _data/translations.$lang |sed "s/^  priskribo:.*/  priskribo: \"$MSG\"/" >_data/tr.$$
+   mv _data/tr.$$ _data/translations.$lang
+   po4a-gettextize -f yaml -m _data/translations.$LABORLINGVO -M UTF-8 -l _data/translations.$lang -L UTF-8 -p _locale/$lang/site-translations.po
 done
+cat _data/translations.?? >_data/translations.yml
+
+for lang in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
+do
+  mkdir -p $lang/_posts _locale/$lang/_posts
+done
+mkdir -p $LABORLINGVO/_drafts $LABORLINGVO/_publish
+
+
+
 
 _scripts/traduki

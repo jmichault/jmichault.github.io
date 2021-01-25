@@ -27,7 +27,7 @@
       <header class="lang-options">
       <form method="get" action="http://www.google.com/search" target="_blank">
 	<input type="hidden" name="sitesearch" value="{{ site.url }}" />
-	<input type="text" name="q" maxlength="255" placeholder="{{ site.data.translations['serĉi'][page.lang] }}" />
+	<input type="text" name="q" maxlength="255" placeholder="{{ site.data.translations[page.lang]['serĉi'] }}" />
       </form>
       </header>
     </div>
@@ -37,19 +37,19 @@
     <div class="sidebar-about">
       <h1>
         <a href="{{site.baseurl}}/{{page.lang}}">
-          {{ site.data.translations['titolo'][page.lang] | markdownify }}
+          {{ site.data.translations[page.lang]['titolo'] | markdownify }}
         </a>
       </h1>
-      <p class="lead">{{ site.data.translations['priskribo'][page.lang] | markdownify }}</p>
+      <p class="lead">{{ site.data.translations[page.lang]['priskribo'] | markdownify }}</p>
     </div>
 
     {% if site.ne_afisxoj != "true" %}
-        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations['cxiujAfisxoj'][page.lang] }}</a>
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
     {% endif %}
     {% assign page_indekso = site.pages | where:"lang", page.lang | where:"lang-ref", "indekso" %}
     {% for node in pages_list %}
       {% if node.layout == "index" %}
-        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations['cxiujAfisxoj'][page.lang] }}</a>
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
         {% break %}
       {% endif %}
     {% endfor %}
@@ -70,7 +70,7 @@
         {% endif %}
       {% endfor %}
     </nav>
-    <p>&copy; {{ site.auxtoro }} {{ site.time | date: '%Y' }}.<br>{{ site.data.translations['rajtoj'][page.lang] }}
-    <br> {{ site.data.translations['Funkciigita'][page.lang] }} <a href="https://github.com/jmichault/jekyll-plurlingva">jekyll-plurlingva</a> </p>
+    <p>&copy; {{ site.auxtoro }} {{ site.time | date: '%Y' }}.<br>{{ site.data.translations[page.lang]['rajtoj'] }} {{site.permesilo}}
+    <br> {{ site.data.translations[page.lang]['Funkciigita'] }} <a href="https://github.com/jmichault/jekyll-plurlingva">jekyll-plurlingva</a> </p>
   </div>
 </div>

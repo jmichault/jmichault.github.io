@@ -1,0 +1,12 @@
+fr:
+  titolo: "Domotique maison"
+  priskribo: "Quelques idées pour concevoir votre domotique à moindre coût."
+  elektuLingvon: "Choisissez votre langue"
+  cxiujAfisxoj: "Tous les messages"
+  rilatajAfisxoj: "Articles Similaires"
+  malsamaLingvo: "Lisez cette page dans une autre langue"
+  tradukoAverto: "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
+  rigardiEn: "Regarder dans"
+  rajtoj: "licence"
+  serĉi: "Recherche Google."
+  Funkciigita: "Propulsé par"

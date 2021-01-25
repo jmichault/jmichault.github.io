@@ -12,9 +12,6 @@ then
  _scripts/lib/al_eo $LABORLINGVO
 fi
 
-exit
-
-
 
 cd eo
 
@@ -73,5 +70,5 @@ do
 done
 
 
-
+sleep 2
 
