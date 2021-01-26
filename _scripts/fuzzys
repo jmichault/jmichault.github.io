@@ -1,29 +1,11 @@
 #!/bin/bash
 
-export TEXTDOMAINDIR=$(dirname $(readlink -f $0))/locale
-export TEXTDOMAIN=$(basename $0)
-. gettext.sh
+. $(dirname $(readlink -f $0))/lib/head
 
-
-BASEDIR=$(dirname $(readlink -f $0))
 cd "$BASEDIR"
 cd ..
 
-trad()
-{
-MSG0="$1"
-MSG1=`eval_gettext "$1"`
-if [ "$MSG1" == "$MSG0" ] ; then
-  L2=$(echo $LANG|awk '{print substr($1,1,2);}' )
-  MSG2=`$BASEDIR/lib/traduko.sh eo $L2 "$1"`
-  if [ "MSG2" != "" ] ; then
-    MSG1="$MSG2"
-  fi
-fi
-echo "$MSG1"
-}
-
-echo "`trad 'ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato.'`"
+echo "`trad 'ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato.'`\n"
 
 if [ $# -ge 1 ]
 then
@@ -34,7 +16,7 @@ fi
 
 if [ ! -d _locale/$LINGVO ]
 then
-  echo "`trad 'Pardonu, ne troviĝis'` $LINGVO."
+  echo "`trad 'Pardonu, lingvo ne troviĝis'` $LINGVO."
   sleep 2
   exit
 fi
@@ -67,7 +49,7 @@ case $ACTION in
     sleep 2
     ;;
   *)
-    echo "`trad 'pardonu,'` ${ACTION} `trad 'ago ne rekonita.'`"
+    echo "`trad 'pardonu, ago ne rekonita :'` ${ACTION}"
     sleep 2
     ;;
 esac

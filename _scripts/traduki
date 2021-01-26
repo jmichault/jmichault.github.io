@@ -1,9 +1,9 @@
 #!/bin/bash
 
-BASEDIR=`dirname $0`
+. $(dirname $(readlink -f $0))/lib/head
+
 cd "$BASEDIR"
 cd ..
-
 
 LABORLINGVO=`grep "laborlingvo:" _config.yml|awk '{print $2;}'`
 
@@ -15,7 +15,6 @@ fi
 
 cd eo
 
-#for FIC in pri.md
 for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
 do
   if [ ! -f ../_locale/${FIC}.pot ]
@@ -27,7 +26,6 @@ do
       po4a-updatepo --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${FIC}.pot 
     fi
   fi
-  #for lang in fr
   for lang in `grep "^..:$" ../_data/languages.yml|sed "s/:$//"|grep -v eo`
   do
     if [ ! -f ../_locale/${lang}/${FIC}.po -a -f ../${lang}/${FIC} ]
@@ -36,7 +34,7 @@ do
     fi
     if [ ! -f ../_locale/${lang}/${FIC}.po ]
     then
-      echo "krei traduko ${FIC} al ${lang}"
+      echo "`trad 'krei traduko'` ${FIC} `trad'al'` ${lang}"
       cat ../_locale/${FIC}.pot|sed "s/^\"Language: \\\n\"/\"Language: "${lang}"\\\n\"/" > ../_locale/${lang}/${FIC}.po
     fi
     if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${FIC}.pot ]

@@ -4,6 +4,7 @@
 *.po~
 *.pot~
 *.old
+*.nova
 toto*
 _site/*
 Gemfile.lock
