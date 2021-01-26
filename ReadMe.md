@@ -20,5 +20,5 @@ Its most striking features:
    * it is a very precise language, generating less ambiguity than English.
    * it is very easy to learn, whatever the language of the learner.
 
-Consult the [documentation](https://jmichault.github.io/jekyll-plurlingva-dok/) for more information.
+**[Consult the documentation for more information.](https://jmichault.github.io/jekyll-plurlingva-dok/)**
 
