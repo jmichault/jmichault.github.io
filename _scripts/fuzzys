@@ -1,21 +1,40 @@
 #!/bin/bash
 
-BASEDIR=`dirname $0`
+export TEXTDOMAINDIR=$(dirname $(readlink -f $0))/locale
+export TEXTDOMAIN=$(basename $0)
+. gettext.sh
+
+
+BASEDIR=$(dirname $(readlink -f $0))
 cd "$BASEDIR"
 cd ..
 
-echo "ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato."
+trad()
+{
+MSG0="$1"
+MSG1=`eval_gettext "$1"`
+if [ "$MSG1" == "$MSG0" ] ; then
+  L2=$(echo $LANG|awk '{print substr($1,1,2);}' )
+  MSG2=`$BASEDIR/lib/traduko.sh eo $L2 "$1"`
+  if [ "MSG2" != "" ] ; then
+    MSG1="$MSG2"
+  fi
+fi
+echo "$MSG1"
+}
+
+echo "`trad 'ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato.'`"
 
 if [ $# -ge 1 ]
 then
   LINGVO=$1
 else
-  read -p "Kiu cellingvo ? " LINGVO
+  read -p "`trad 'Kiu cellingvo ?'` " LINGVO
 fi
 
 if [ ! -d _locale/$LINGVO ]
 then
-  echo "Pardonu, ne troviĝis $ LINGVO."
+  echo "`trad 'Pardonu, ne troviĝis'` $LINGVO."
   sleep 2
   exit
 fi
@@ -24,7 +43,7 @@ if [ $# -ge 2 ]
 then
   ACTION=$2
 else
-  read -p "Kia ago ? l=ls, z=zip, v=malfermi per virtaal, p=malfermi per poedit : " ACTION
+  read -p "`trad 'Kia ago ?'` l=ls, z=zip, v=virtaal, p=poedit : " ACTION
 fi
 
 case $ACTION in
@@ -48,8 +67,9 @@ case $ACTION in
     sleep 2
     ;;
   *)
-    echo "pardonu, ${ACTION} ago ne rekonita."
+    echo "`trad 'pardonu,'` ${ACTION} `trad 'ago ne rekonita.'`"
     sleep 2
     ;;
 esac
 
+read -p "`trad 'Premu enigoklavon.'` " 
