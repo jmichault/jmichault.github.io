@@ -59,6 +59,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   height: 100%; /* 100% Full-height */
+  max-width: 50%;
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
@@ -139,6 +140,8 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    3rem;
   padding-bottom: 2rem;
+  margin-left: 18rem;
+  min-width: 40%;
 }
 
 /* Style the links inside the navigation bar */
