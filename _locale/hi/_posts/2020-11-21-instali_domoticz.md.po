@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-31 17:17+0100\n"
+"POT-Creation-Date: 2021-02-06 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,7 @@ msgstr "post"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-11-21-instali_domoticz.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Instalu domoticz."
 msgstr "अधिवास स्थापित करें।"
 
@@ -55,8 +54,7 @@ msgstr "यहाँ रास्पबियन के तहत एक डो�
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:13
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
 msgstr "हम एक समर्पित उपयोगकर्ता बनाकर शुरू करते हैं, फिर हम डोमोटिकज़ स्थापित करते हैं:\n"
 
@@ -76,15 +74,13 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
 msgstr "प्रेस दर्ज करें जब प्रस्तुति प्रदर्शित होती है (\\<ठीक है> एकमात्र विकल्प)है।  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:20
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
 msgstr "सेवाओं की पसंद: http और https चेक किया हुआ छोड़ें, ठीक पर जाएँ, Enter दबाएँ।  \n"
 
@@ -96,15 +92,13 @@ msgstr "_«HTTP Port number:»_ 8080 से बाहर निकलें, ओ
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
 msgstr "_«HTTPS Port number:»_ 8443 दर्ज करें, ठीक है, दर्ज करें।  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
 msgstr "_«Installation Folder:»_ सेट _/home/domoticz/domoticz_, ठीक पर जाएं, दर्ज करें।  \n"
 
@@ -116,8 +110,7 @@ msgstr "_«Installation Complete!»_  , दर्ज।\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:28
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 msgstr "अब हम सेवा _«systemd»_ बनाते हैं, जो domoticz लॉन्च करेगी:\n"
 
@@ -175,18 +168,19 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:57
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "domoticz estas instalita kaj alirebla:\n"
 "* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
 "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
-msgstr "डोमोटिकज़ स्थापित और सुलभ है:\n* pi से: <http: // localhost: 8080> या <https: // localhost: 8443>\n* नेटवर्क का: <http: // पता_IP_का_pi:8080> ou <https://adresse_IP_du_pi: 844318 °)\n"
+msgstr ""
+"डोमोटिकज़ स्थापित और सुलभ है:\n"
+"* pi से: <http: // localhost: 8080> या <https: // localhost: 8443>\n"
+"* नेटवर्क का: <http: // पता_IP_का_pi:8080> ou <https://adresse_IP_du_pi: 844318 °)\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:58
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "iom da agordo:  \n"
 msgstr "कुछ विन्यास:  \n"
 
@@ -198,50 +192,43 @@ msgstr "के लिए जाओ _«Setup --> Settings»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:60
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "भाषा बदलें, स्थान परिभाषित करें  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:61
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "सुरक्षा परिभाषित करें: उपयोगकर्ता नाम और पासवर्ड  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:62
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr "उदाहरण के लिए \"स्थानीय क्षेत्र नेटवर्क\"को परिभाषित करें: _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
 msgstr "सक्रिय करें \"ऑटो सहेजें\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:64
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 msgstr "हार्डवेयर / साइड डिवाइस: अक्षम \"नए उपकरणों को स्वीकार करें\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:65
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Alklaku \"Apliki parametrojn\".  \n"
 msgstr "क्लिक करें \"पैरामीटर लागू करें\"।  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:67
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "अब हमें हार्डवेयर जोड़ने की आवश्यकता है।  \n"
 
@@ -270,14 +257,16 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
-#~ msgstr "हम एक समर्पित उपयोगकर्ता बनाकर शुरू करते हैं, फिर हम डोमोटिकज़ स्थापित करते हैं:\n"
+#~ msgstr ""
+#~ "हम एक समर्पित उपयोगकर्ता बनाकर शुरू करते हैं, फिर हम डोमोटिकज़ स्थापित करते हैं:\n"
 
 #, fuzzy
 #~ msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
 #~ msgstr "प्रस्तुत करने पर Enter दबाएँ (\\<OK> estas la sola elekto).  \n"
 
 #, fuzzy
-#~ msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+#~ msgid ""
+#~ "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
 #~ msgstr "सेवाओं की पसंद: http और https चेक किया हुआ छोड़ें, ठीक पर जाएं, दर्ज करें।  \n"
 
 #, fuzzy
@@ -285,8 +274,12 @@ msgstr ""
 #~ msgstr "_«HTTPS Port number:»_ 8443 डालें, ओके पर जाएं, एंटर करें।  \n"
 
 #, fuzzy
-#~ msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
-#~ msgstr "_«Installation Folder:»_ मैं भी _/home/domoticz/domoticz_, ठीक है, दर्ज करें।  \n"
+#~ msgid ""
+#~ "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, "
+#~ "eniru.  \n"
+#~ msgstr ""
+#~ "_«Installation Folder:»_ मैं भी _/home/domoticz/domoticz_, ठीक है, दर्ज "
+#~ "करें।  \n"
 
 #, fuzzy
 #~ msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
@@ -296,11 +289,13 @@ msgstr ""
 #~ msgid ""
 #~ "domoticz estas instalita kaj alirebla ĉe:\n"
 #~ "* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
-#~ "* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+#~ "* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-"
+#~ "adreso_de_la_pi:8443>\n"
 #~ msgstr ""
 #~ "डोमोटिकज़ स्थापित और सुलभ है:\n"
 #~ "* पी के: <http://localhost:8080> या <https://localhost:8443>\n"
-#~ "* नेटवर्क का: <http://ip-adreso_de_la_pi:8080> या <https://ip-adreso_de_la_pi:8443>\n"
+#~ "* नेटवर्क का: <http://ip-adreso_de_la_pi:8080> या <https://ip-"
+#~ "adreso_de_la_pi:8443>\n"
 
 #, fuzzy
 #~ msgid "iu agordo:  \n"
@@ -315,8 +310,11 @@ msgstr ""
 #~ msgstr "सुरक्षा को परिभाषित करें: उपयोगकर्ता नाम और पासवर्ड  \n"
 
 #, fuzzy
-#~ msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
-#~ msgstr "को परिभाषित करो \"स्थानीय क्षेत्र नेटवर्क\", उदाहरण: _«127.0.0.\\*;192.168.0.*»_  \n"
+#~ msgid ""
+#~ "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+#~ msgstr ""
+#~ "को परिभाषित करो \"स्थानीय क्षेत्र नेटवर्क\", उदाहरण: _«127.0.0.\\*;192.168.0."
+#~ "*»_  \n"
 
 #, fuzzy
 #~ msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:21+0100\n"
+"POT-Creation-Date: 2021-02-06 15:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,8 +44,8 @@ msgstr "Baca halaman ini dalam bahasa lain"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Priskribo."
-msgstr "Penerangan."
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "Beberapa idea untuk merancang automasi rumah anda dengan kos yang lebih rendah."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
@@ -67,16 +67,17 @@ msgstr "Catatan Berkaitan"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "Cari di Google."
+#, no-wrap
+#, fuzzy
+msgid "Ŝercu per Google."
+msgstr "Bercanda dengan Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Titolo."
-msgstr "Tajuk."
+msgid "Hejma aŭtomatigo"
+msgstr "Automasi rumah"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -84,3 +85,14 @@ msgstr "Tajuk."
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Harap maklum: halaman ini telah diterjemahkan secara automatik. Sekiranya boleh, anda mesti membacanya dalam salah satu bahasa berikut:"
 
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "Penerangan."
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "Cari di Google."
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "Tajuk."

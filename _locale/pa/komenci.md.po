@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 16:03+0100\n"
+"POT-Creation-Date: 2021-02-06 15:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,8 +138,7 @@ msgstr "**ਜਿਗਬੀ ਦੀ ਦਿਲਚਸਪੀ ਇਹ ਹੈ:**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:45
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
 msgstr "ਸਸਤੇ ਮੋਡੀulesਲ ਬਣਾਉਣਾ ਸੰਭਵ ਬਣਾਉਣ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ, ਤਾਂ ਜੋ ਕੀਮਤਾਂ ਹੌਲੀ ਹੌਲੀ ਘੱਟ ਜਾਣ.\n"
 
@@ -163,8 +162,7 @@ msgstr "ਇਹ ਅੰਤਰਰਾਸ਼ਟਰੀ ਬਾਰੰਬਾਰਤਾ ਰ
 
 #. type: Bullet: ' 1. '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr "ਇਹ ਵੱਡੇ ਬ੍ਰਾਂਡਾਂ ਦੁਆਰਾ ਚੁਣਿਆ ਗਿਆ ਹੈ (ਜਿਵੇਂ ਕਿ _Philips_ (ਸਿਸਟਮ _HUE_), ਆਈਕੇਆ (ਸਿਸਟਮ _TRÅDFRI_), ਲੇਗਰੇਂਡ, ਜ਼ਿਆਓਮੀ ਅਤੇ ਹੋਰ ਬਹੁਤ ਸਾਰੇ .... °)\n"
 
@@ -242,18 +240,25 @@ msgstr "ਕਨੈਕਟ ਪਲੱਗ _433Mhz_\n"
 
 #. type: Bullet: '  * '
 #: komenci.md:79
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "konekti ampolon _zigbee_\n"
 msgstr "ਕਨੈਕਟ ਬਲਬ _zigbee_\n"
 
 #, fuzzy
-#~ msgid "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
-#~ msgstr "ਇਹ ਸਸਤੇ ਮੋਡੀulesਲ ਬਣਾਉਣਾ ਸੰਭਵ ਬਣਾਉਣ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਕੀਮਤਾਂ ਹੌਲੀ ਹੌਲੀ ਘੱਟ ਰਹੀਆਂ ਹਨ.\n"
+#~ msgid ""
+#~ "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do "
+#~ "prezoj iom post iom falas.\n"
+#~ msgstr ""
+#~ "ਇਹ ਸਸਤੇ ਮੋਡੀulesਲ ਬਣਾਉਣਾ ਸੰਭਵ ਬਣਾਉਣ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਕੀਮਤਾਂ ਹੌਲੀ ਹੌਲੀ "
+#~ "ਘੱਟ ਰਹੀਆਂ ਹਨ.\n"
 
 #, fuzzy
-#~ msgid "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
-#~ msgstr "ਇਸ ਨੂੰ ਵੱਡੇ ਬ੍ਰਾਂਡਾਂ ਦੁਆਰਾ ਚੁਣਿਆ ਗਿਆ ਹੈ ਜਿਵੇਂ ਕਿ _Philips_ (ਸਿਸਟਮ _HUE_), Ikea (ਸਿਸਟਮ _TRÅDFRI_), Legrand, Xiaomi, ਅਤੇ ਹੋਰ ਬਹੁਤ ਸਾਰੇ ...\n"
+#~ msgid ""
+#~ "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo "
+#~ "_TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+#~ msgstr ""
+#~ "ਇਸ ਨੂੰ ਵੱਡੇ ਬ੍ਰਾਂਡਾਂ ਦੁਆਰਾ ਚੁਣਿਆ ਗਿਆ ਹੈ ਜਿਵੇਂ ਕਿ _Philips_ (ਸਿਸਟਮ _HUE_), Ikea (ਸਿਸਟਮ "
+#~ "_TRÅDFRI_), Legrand, Xiaomi, ਅਤੇ ਹੋਰ ਬਹੁਤ ਸਾਰੇ ...\n"
 
 #, fuzzy
 #~ msgid "konekti bulbon _zigbee_\n"

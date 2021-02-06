@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 16:03+0100\n"
+"POT-Creation-Date: 2021-02-06 15:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,8 +138,7 @@ msgstr "**zigbee的兴趣是：**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:45
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
 msgstr "旨在使构建廉价模块成为可能，从而使价格逐渐下降。\n"
 
@@ -163,8 +162,7 @@ msgstr "它使用国际频率范围，因此可以管理大量模块。\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr "它已被主要品牌（例如 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格朗（Legrand），小米\n"
 
@@ -242,18 +240,23 @@ msgstr "连接插头 _433Mhz_\n"
 
 #. type: Bullet: '  * '
 #: komenci.md:79
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "konekti ampolon _zigbee_\n"
 msgstr "连接灯泡 _zigbee_\n"
 
 #, fuzzy
-#~ msgid "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
+#~ msgid ""
+#~ "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do "
+#~ "prezoj iom post iom falas.\n"
 #~ msgstr "它旨在使构建廉价模块成为可能，因此价格逐渐下降。\n"
 
 #, fuzzy
-#~ msgid "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
-#~ msgstr "它已被 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格朗，小米等许多大品牌选择...\n"
+#~ msgid ""
+#~ "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo "
+#~ "_TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+#~ msgstr ""
+#~ "它已被 _Philips_ (系统 _HUE_)，宜家 (系统 _TRÅDFRI_)，罗格朗，小米等许多大"
+#~ "品牌选择...\n"
 
 #, fuzzy
 #~ msgid "konekti bulbon _zigbee_\n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-31 17:17+0100\n"
+"POT-Creation-Date: 2021-02-06 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,22 +42,19 @@ msgstr "post"
 
 #. type: YAML Front Matter: slug
 #: _posts/2020-08-31-aparataro.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ekipaĵo"
 msgstr "Equipamento"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-08-31-aparataro.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Materialo por komenci."
 msgstr "Material para começar."
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:10
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Materialoj por la hejma aŭtomatiga sistemo"
 msgstr "Materiais para o sistema de automação residencial"
 
@@ -69,8 +66,7 @@ msgstr "Aqui está o material que usei para construir meu sistema de automação
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:27
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| tipo | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
@@ -85,26 +81,36 @@ msgid ""
 "| ŝirmado | | | Folio de aluminia folio enmetita en paperfolion falditan en duonon | 0 € | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_. |\n"
 "| USB-bastono _Zigbee_ kaj kablo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | ŝlosilo _zigbee_ kaj elŝuta kablo por CC |\n"
 "| | | | **totala prezo** | **75 €** | \n"
-msgstr "| tipo | imagem | marca | modelo | preço indicativo | Por que |\n| --- | --- | --- | --- | --- | --- | \n| computador |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 € | sem ventilador, barato, tem gpio, wi-fi, LAN RJ45 |\n| caixa do computador |![](/public/loĝejo.jpg) | _Aukru_ | | 7 € | qualquer caixa de computador para _raspberry-pi3_ é adequada. Escolha o que você preferir.\n| fonte atual |![](/public/elektroprovizo.jpg) | _Konky_ | | 10 € | Quando meu especial \" _raspberry-pi3_\"acabou ficando muito fraco, substituí-o com sucesso por este. Muitos outros modelos são adequados.\n| Cabo USB | | | USB para micro USB | 2 € | conectar o _raspberry-pi3_ à fonte de alimentação |\n| Cartão Micro SD |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 € | o pi precisa de um cartão de qualidade, é altamente recomendável usar um cartão de uma marca bem conhecida. |\n| Cabos duplex |![](/public/dupont.jpg) | _SODIAL_ | Cabos Duplex fêmea-fêmea. 068187 | 2 € | conectar dispositivos de 433 MHz e uma chave USB flash zigbee |\n| transmissor + receptor |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | Transmissor + receptor superheteródino 433 MHz |\n| cabo | | || 0 € | um pedaço de cabo para criar uma antena. Por exemplo, um antigo cabo de rede de 3 metros.\n| blindagem | | | Uma folha de papel alumínio inserida em uma folha de papel dobrada ao meio | 0 € | para proteger o receptor 433 Mhz da interferência gerada pelo _raspberry-pi3_. |\n| Pen drive USB _Zigbee_ e cabo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | _zigbee_ e download do cabo para CC |\n| | | | **Preço total** | **75 €** | \n"
+msgstr ""
+"| tipo | imagem | marca | modelo | preço indicativo | Por que |\n"
+"| --- | --- | --- | --- | --- | --- | \n"
+"| computador |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 € | sem ventilador, barato, tem gpio, wi-fi, LAN RJ45 |\n"
+"| caixa do computador |![](/public/loĝejo.jpg) | _Aukru_ | | 7 € | qualquer caixa de computador para _raspberry-pi3_ é adequada. Escolha o que você preferir.\n"
+"| fonte atual |![](/public/elektroprovizo.jpg) | _Konky_ | | 10 € | Quando meu especial \" _raspberry-pi3_\"acabou ficando muito fraco, substituí-o com sucesso por este. Muitos outros modelos são adequados.\n"
+"| Cabo USB | | | USB para micro USB | 2 € | conectar o _raspberry-pi3_ à fonte de alimentação |\n"
+"| Cartão Micro SD |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 € | o pi precisa de um cartão de qualidade, é altamente recomendável usar um cartão de uma marca bem conhecida. |\n"
+"| Cabos duplex |![](/public/dupont.jpg) | _SODIAL_ | Cabos Duplex fêmea-fêmea. 068187 | 2 € | conectar dispositivos de 433 MHz e uma chave USB flash zigbee |\n"
+"| transmissor + receptor |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | Transmissor + receptor superheteródino 433 MHz |\n"
+"| cabo | | || 0 € | um pedaço de cabo para criar uma antena. Por exemplo, um antigo cabo de rede de 3 metros.\n"
+"| blindagem | | | Uma folha de papel alumínio inserida em uma folha de papel dobrada ao meio | 0 € | para proteger o receptor 433 Mhz da interferência gerada pelo _raspberry-pi3_. |\n"
+"| Pen drive USB _Zigbee_ e cabo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | _zigbee_ e download do cabo para CC |\n"
+"| | | | **Preço total** | **75 €** | \n"
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:30
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "La regotaj aparatoj."
 msgstr "Os dispositivos de controle."
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:33
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Multaj aparatoj povas esti kontrolataj. Unue, ĉi tiuj tri elementoj ŝajnas al mi aparte interesaj:\n"
 msgstr "Muitos dispositivos podem ser controlados. Em primeiro lugar, esses três elementos me parecem particularmente interessantes:\n"
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:40
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| tipo | teknologio | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
@@ -112,7 +118,13 @@ msgid ""
 "| elektraj ellasejoj | 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 teleregataj ingoj je racia prezo. |\n"
 "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumenoj | 10 € | alĝustigebla ampolo je racia prezo. |\n"
 "| | | | | **totala prezo** | **50,5 €** | |\n"
-msgstr "| tipo | tecnologia | imagem | marca | modelo | preço indicativo | Por que |\n| --- | --- | --- | --- | --- | --- | --- |\n| termômetro | 433 MHz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7,50 € | termômetro com tela a um preço razoável. |\n| tomadas elétricas | 433 MHz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 tomadas de controle remoto a um preço razoável. |\n| lâmpada | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumens | 10 € | lâmpada ajustável a um preço razoável. |\n| | | | | **Preço total** | **50,5 €** | |\n"
+msgstr ""
+"| tipo | tecnologia | imagem | marca | modelo | preço indicativo | Por que |\n"
+"| --- | --- | --- | --- | --- | --- | --- |\n"
+"| termômetro | 433 MHz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7,50 € | termômetro com tela a um preço razoável. |\n"
+"| tomadas elétricas | 433 MHz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 tomadas de controle remoto a um preço razoável. |\n"
+"| lâmpada | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumens | 10 € | lâmpada ajustável a um preço razoável. |\n"
+"| | | | | **Preço total** | **50,5 €** | |\n"
 
 #~ msgid "fonto"
 #~ msgstr "auto"
@@ -132,30 +144,60 @@ msgstr "| tipo | tecnologia | imagem | marca | modelo | preço indicativo | Por 
 #~ msgid ""
 #~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
 #~ "| --- | --- | --- | --- | --- | --- | \n"
-#~ "| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
-#~ "| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
-#~ "| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
-#~ "| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
-#~ "| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
-#~ "| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
-#~ "| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
-#~ "| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
-#~ "| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
-#~ "|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
+#~ "| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu "
+#~ "ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+#~ "| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo "
+#~ "por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
+#~ "| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | "
+#~ "Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi "
+#~ "sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+#~ "| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-"
+#~ "pi3_ al la elektroprovizo  |\n"
+#~ "| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | "
+#~ "11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de "
+#~ "konata marko. |\n"
+#~ "| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj "
+#~ "kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-"
+#~ "batono |\n"
+#~ "| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | "
+#~ "wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + "
+#~ "ricevilo|\n"
+#~ "| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-"
+#~ "metra retkablo.  |\n"
+#~ "| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ "
+#~ "| por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la "
+#~ "_raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | "
+#~ "CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
 #~ "| | | | **totala prezo** | **75€** | \n"
 #~ msgstr ""
 #~ "|tipo|cenário|marca|modelo|preço indicado|porque|\n"
 #~ "| --- | --- | --- | --- | --- | --- | \n"
-#~ "|computador|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |sem ventilador, barato, tem gpio, wi-fi, LAN RJ45|\n"
-#~ "||![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |qualquer caso de computador para _raspberry-pi3_ apropriado. Escolha o que você preferir.|\n"
-#~ "|fonte de energia|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Quando meu\" _raspberry-pi3_ especial\"a corrente revelou-se muito fraca, substituí-a com sucesso por esta. Muitos outros modelos são adequados.|\n"
-#~ "|cabo USB|  |  |USB para micro USB| 2€ |para conectar o _raspberry-pi3_ para a fonte de alimentação|\n"
-#~ "|cartão micro SD|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |o pi precisa de um cartão de qualidade, é altamente recomendável usar um cartão de uma marca bem conhecida.|\n"
-#~ "|Cabos duplex|![](/public/dupont.jpg) | _SODIAL_ |Cabos Duplex fêmea-fêmea. 068187| 2€|para conectar dispositivos de 433 Mhz e instalar um stick USB Zigbee|\n"
-#~ "|transmissor + receptor|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |Transmissor + receptor super-heteródino 433mhz|\n"
-#~ "|cabo| | || 0€ |um pedaço de cabo para fazer uma antena. Por exemplo, um antigo cabo de rede de 3 metros.|\n"
-#~ "|blindagem| | |Folha de alumínio inserida em uma folha de papel dobrada pela metade| 0€ |para proteger o receptor de 433 Mhz da interferência gerada pelo _raspberry-pi3_.|\n"
-#~ "|  _Zigbee_ Stick e cabo USB|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ stick e download de cabo para CC|\n"
+#~ "|computador|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |sem "
+#~ "ventilador, barato, tem gpio, wi-fi, LAN RJ45|\n"
+#~ "||![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |qualquer caso de computador "
+#~ "para _raspberry-pi3_ apropriado. Escolha o que você preferir.|\n"
+#~ "|fonte de energia|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |"
+#~ "Quando meu\" _raspberry-pi3_ especial\"a corrente revelou-se muito fraca, "
+#~ "substituí-a com sucesso por esta. Muitos outros modelos são adequados.|\n"
+#~ "|cabo USB|  |  |USB para micro USB| 2€ |para conectar o _raspberry-pi3_ "
+#~ "para a fonte de alimentação|\n"
+#~ "|cartão micro SD|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | "
+#~ "11€ |o pi precisa de um cartão de qualidade, é altamente recomendável "
+#~ "usar um cartão de uma marca bem conhecida.|\n"
+#~ "|Cabos duplex|![](/public/dupont.jpg) | _SODIAL_ |Cabos Duplex fêmea-"
+#~ "fêmea. 068187| 2€|para conectar dispositivos de 433 Mhz e instalar um "
+#~ "stick USB Zigbee|\n"
+#~ "|transmissor + receptor|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |"
+#~ "wl101-341 + wl102-341| 2€ |Transmissor + receptor super-heteródino "
+#~ "433mhz|\n"
+#~ "|cabo| | || 0€ |um pedaço de cabo para fazer uma antena. Por exemplo, um "
+#~ "antigo cabo de rede de 3 metros.|\n"
+#~ "|blindagem| | |Folha de alumínio inserida em uma folha de papel dobrada "
+#~ "pela metade| 0€ |para proteger o receptor de 433 Mhz da interferência "
+#~ "gerada pelo _raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ Stick e cabo USB|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ "
+#~ "| _zigbee_ stick e download de cabo para CC|\n"
 #~ "| | | | **preço total** | **75€** | \n"
 
 #, fuzzy
@@ -163,23 +205,33 @@ msgstr "| tipo | tecnologia | imagem | marca | modelo | preço indicativo | Por 
 #~ msgstr "Os materiais a serem testados."
 
 #, fuzzy
-#~ msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
-#~ msgstr "Muitos dispositivos podem ser controlados. Para começar, esses três parecem particularmente interessantes para mim:\n"
+#~ msgid ""
+#~ "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas "
+#~ "al mi aparte interesaj:\n"
+#~ msgstr ""
+#~ "Muitos dispositivos podem ser controlados. Para começar, esses três "
+#~ "parecem particularmente interessantes para mim:\n"
 
 #, fuzzy
 #~ msgid ""
 #~ "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
 #~ "| --- | --- | --- | --- | --- | --- | --- |\n"
-#~ "| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
-#~ "| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
-#~ "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
+#~ "| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | "
+#~ "7.50€| termometro kun ekrano je racia prezo.|\n"
+#~ "| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 "
+#~ "teleregataj ingoj je racia prezo.|\n"
+#~ "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 "
+#~ "806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
 #~ "| | | | | **totala prezo** | **50,5€** | |\n"
 #~ msgstr ""
 #~ "|tipo|tecnologia|cenário|marca|modelo|preço indicado|porque|\n"
 #~ "| --- | --- | --- | --- | --- | --- | --- |\n"
-#~ "| termometro |433Mhz| ![](/public/fanju.jpeg)| _Fanju_ |por fj3378| 7.50€||\n"
-#~ "| ingoj |433Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5 tomadas de controle remoto a um preço razoável.|\n"
-#~ "|lâmpada| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806 lumens| 10€ |lâmpada ajustável a um preço razoável.|\n"
+#~ "| termometro |433Mhz| ![](/public/fanju.jpeg)| _Fanju_ |por fj3378| "
+#~ "7.50€||\n"
+#~ "| ingoj |433Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5 tomadas de "
+#~ "controle remoto a um preço razoável.|\n"
+#~ "|lâmpada| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 "
+#~ "806 lumens| 10€ |lâmpada ajustável a um preço razoável.|\n"
 #~ "| | | | | **preço total** | **50,5€** | |\n"
 
 #~ msgid ""

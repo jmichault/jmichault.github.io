@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: ./_posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "eo"
+msgstr ""
+
+#. type: YAML Front Matter: lang-niv
+#: ./_posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "auto"
+msgstr ""
+
+#. type: YAML Front Matter: lang-ref
+#: ./_posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "instali-domoticz"
+msgstr ""
+
+#. type: YAML Front Matter: layout
+#: ./_posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "post"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: ./_posts/2020-11-21-instali_domoticz.md:1
+#, no-wrap
+msgid "Instalu domoticz."
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:11
+#, markdown-text, no-wrap
+msgid "Jen ekzemplo de domoticz-instalado sub raspbian.\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:13
+#, markdown-text, no-wrap
+msgid "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ./_posts/2020-11-21-instali_domoticz.md:13
+#, no-wrap
+msgid ""
+"sudo bash\n"
+"adduser domoticz\n"
+"cd /home/domoticz\n"
+"curl -sSL install.domoticz.com | bash\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:19
+#, markdown-text, no-wrap
+msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:20
+#, markdown-text, no-wrap
+msgid ""
+"Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:21
+#, markdown-text, no-wrap
+msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:22
+#, markdown-text, no-wrap
+msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:23
+#, markdown-text, no-wrap
+msgid ""
+"_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  "
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:25
+#, markdown-text, no-wrap
+msgid "_«Installation Complete!»_  , Eniru.\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:28
+#, markdown-text, no-wrap
+msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: ./_posts/2020-11-21-instali_domoticz.md:28
+#, no-wrap
+msgid ""
+"service domoticz stop\n"
+"rm /etc/*.d/*domoticz*\n"
+"echo \"[Unit]\n"
+"Description=domoticz\n"
+"\n"
+"[Service]\n"
+"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 "
+"-pidfile /var/run/domoticz/domoticz.pid\n"
+"User=domoticz\n"
+"RuntimeDirectory=domoticz\n"
+"LogsDirectory=domoticz\n"
+"Restart=on-abort\n"
+"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target\n"
+"\" >/etc/systemd/system/domoticz.service\n"
+"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh "
+"*,/bin/systemctl stop domoticz.service,/bin/systemctl start "
+"domoticz.service\n"
+"\" >/etc/sudoers.d/010_domoticz\n"
+"chmod 440 /etc/sudoers.d/010_domoticz\n"
+"systemctl daemon-reload\n"
+"chown -R domoticz.domoticz domoticz\n"
+"systemctl enable domoticz\n"
+"systemctl start domoticz\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:57
+#, markdown-text, no-wrap
+msgid ""
+"domoticz estas instalita kaj alirebla:\n"
+"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: "
+"8443>\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:58
+#, markdown-text, no-wrap
+msgid "iom da agordo:  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:59
+#, markdown-text, no-wrap
+msgid "iru al _«Setup --> Settings»_  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:60
+#, markdown-text, no-wrap
+msgid "ŝanĝi lingvon, difini lokon  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:61
+#, markdown-text, no-wrap
+msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:62
+#, markdown-text, no-wrap
+msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:63
+#, markdown-text, no-wrap
+msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:64
+#, markdown-text, no-wrap
+msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:65
+#, markdown-text, no-wrap
+msgid "Alklaku \"Apliki parametrojn\".  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:67
+#, markdown-text, no-wrap
+msgid "Nun ni bezonas aldoni la aparataron.  \n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:69
+#, markdown-text, no-wrap
+msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
+msgstr ""
+
+#. type: Plain text
+#: ./_posts/2020-11-21-instali_domoticz.md:73
+#, markdown-text, no-wrap
+msgid ""
+"Por pli da detaloj,\n"
+"vidu <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:20+0100\n"
+"POT-Creation-Date: 2021-02-06 15:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,8 +44,8 @@ msgstr "Leer esta página en otro idioma"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Priskribo."
-msgstr "Descripción."
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "Algunas ideas para diseñar su domótica a menor costo."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
@@ -67,16 +67,17 @@ msgstr "Artículos Relacionados"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "Busca en Google."
+#, no-wrap
+#, fuzzy
+msgid "Ŝercu per Google."
+msgstr "Bromea con Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Titolo."
-msgstr "Título."
+msgid "Hejma aŭtomatigo"
+msgstr "Automatización del hogar"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -84,3 +85,14 @@ msgstr "Título."
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:"
 
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "Descripción."
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "Busca en Google."
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "Título."

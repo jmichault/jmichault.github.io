@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:21+0100\n"
+"POT-Creation-Date: 2021-02-06 15:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,13 +44,12 @@ msgstr "ਇਸ ਪੇਜ ਨੂੰ ਦੂਜੀ ਭਾਸ਼ਾ ਵਿਚ ਪੜ
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Priskribo."
-msgstr "ਵੇਰਵਾ."
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "ਤੁਹਾਡੇ ਘਰ ਦੇ ਸਵੈਚਾਲਨ ਨੂੰ ਘੱਟ ਕੀਮਤ 'ਤੇ ਡਿਜ਼ਾਈਨ ਕਰਨ ਲਈ ਕੁਝ ਵਿਚਾਰ."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
 msgstr "ਲਾਇਸੈਂਸ <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਲਾਇਸੈਂਸ\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"ਸੀਸੀ-ਬਾਈ-ਐਸਏ 4.0\"/></a>"
 
@@ -68,16 +67,17 @@ msgstr "ਸੰਬੰਧਿਤ ਪੋਸਟ"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "ਗੂਗਲ ਖੋਜੋ."
+#, no-wrap
+#, fuzzy
+msgid "Ŝercu per Google."
+msgstr "ਗੂਗਲ ਨਾਲ ਮਜ਼ਾਕ."
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Titolo."
-msgstr "ਸਿਰਲੇਖ"
+msgid "Hejma aŭtomatigo"
+msgstr "ਘਰ ਸਵੈਚਾਲਨ"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -85,3 +85,14 @@ msgstr "ਸਿਰਲੇਖ"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਨੋਟ ਕਰੋ: ਇਹ ਪੰਨਾ ਆਪਣੇ ਆਪ ਅਨੁਵਾਦ ਹੋ ਗਿਆ ਹੈ. ਜੇ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ:"
 
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "ਵੇਰਵਾ."
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "ਗੂਗਲ ਖੋਜੋ."
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "ਸਿਰਲੇਖ"

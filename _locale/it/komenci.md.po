@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 16:03+0100\n"
+"POT-Creation-Date: 2021-02-06 15:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,8 +138,7 @@ msgstr "**L'interesse di zigbee è:**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:45
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
 msgstr "è stato progettato per rendere possibile la costruzione di moduli economici, in modo che i prezzi scendano gradualmente.\n"
 
@@ -163,8 +162,7 @@ msgstr "utilizza una gamma di frequenze internazionale e permette di gestire un 
 
 #. type: Bullet: ' 1. '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr "è stato scelto da grandi marchi come _Philips_ (sistema _HUE_), Ikea (sistema _TRÅDFRI_), Legrand, Xiaomi e molti altri .... °)\n"
 
@@ -242,18 +240,25 @@ msgstr "collegare la spina _433Mhz_\n"
 
 #. type: Bullet: '  * '
 #: komenci.md:79
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "konekti ampolon _zigbee_\n"
 msgstr "collegare la lampadina _zigbee_\n"
 
 #, fuzzy
-#~ msgid "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
-#~ msgstr "è stato progettato per rendere possibile la costruzione di moduli economici, quindi i prezzi stanno gradualmente diminuendo.\n"
+#~ msgid ""
+#~ "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do "
+#~ "prezoj iom post iom falas.\n"
+#~ msgstr ""
+#~ "è stato progettato per rendere possibile la costruzione di moduli "
+#~ "economici, quindi i prezzi stanno gradualmente diminuendo.\n"
 
 #, fuzzy
-#~ msgid "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
-#~ msgstr "è stato scelto da grandi marchi come _Philips_ (system _HUE_), Ikea (system _TRÅDFRI_), Legrand, Xiaomi e molti altri ...\n"
+#~ msgid ""
+#~ "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo "
+#~ "_TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+#~ msgstr ""
+#~ "è stato scelto da grandi marchi come _Philips_ (system _HUE_), Ikea "
+#~ "(system _TRÅDFRI_), Legrand, Xiaomi e molti altri ...\n"
 
 #, fuzzy
 #~ msgid "konekti bulbon _zigbee_\n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-31 17:17+0100\n"
+"POT-Creation-Date: 2021-02-06 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,7 @@ msgstr "post"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-11-21-instali_domoticz.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Instalu domoticz."
 msgstr "domoticzをインストールします。"
 
@@ -55,8 +54,7 @@ msgstr "これは、raspbianでのdomoticzインストールの例です。\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:13
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
 msgstr "専用ユーザーを作成することから始め、次にdomoticzをインストールします：\n"
 
@@ -76,15 +74,13 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
 msgstr "プレゼンテーションが表示されたらEnterキーを押します (\\<OK> が唯一の選択肢)です。  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:20
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
 msgstr "サービスの選択：httpとhttpsをオンのままにし、[OK]に移動して、Enterキーを押します。  \n"
 
@@ -96,15 +92,13 @@ msgstr "_«HTTP Port number:»_ 8080を終了し、[OK]に移動して、Enter�
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
 msgstr "_«HTTPS Port number:»_ 8443と入力し、[OK]に移動して、[Enter]をクリックします。  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
 msgstr "_«Installation Folder:»_ 設定 _/home/domoticz/domoticz_、[OK]に移動し、Enterキーを押します。  \n"
 
@@ -116,8 +110,7 @@ msgstr "_«Installation Complete!»_  、 入る。\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:28
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 msgstr "次に、domoticzを起動するサービス _«systemd»_ を作成します：\n"
 
@@ -175,18 +168,19 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:57
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "domoticz estas instalita kaj alirebla:\n"
 "* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
 "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
-msgstr "domoticzがインストールされ、アクセス可能：\n* from pi： <http：// localhost：8080> または <https：// localhost：8443（ネットワークの°6°）\n* ： <http：//_pi:8080> ou <https://adresse_IP_du_のアドレス_IP_pi：8443>\n"
+msgstr ""
+"domoticzがインストールされ、アクセス可能：\n"
+"* from pi： <http：// localhost：8080> または <https：// localhost：8443（ネットワークの°6°）\n"
+"* ： <http：//_pi:8080> ou <https://adresse_IP_du_のアドレス_IP_pi：8443>\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:58
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "iom da agordo:  \n"
 msgstr "いくつかの構成：  \n"
 
@@ -198,50 +192,43 @@ msgstr "に行く _«Setup --> Settings»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:60
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "言語を変更し、場所を定義します  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:61
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "セキュリティの定義：ユーザー名とパスワード  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:62
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr " \"ローカルエリアネットワーク\"を定義します。例： _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
 msgstr "アクティブ化 \"自動保存\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:64
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 msgstr "ハードウェア/サイドデバイス：無効 \"新しいデバイスを受け入れる\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:65
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Alklaku \"Apliki parametrojn\".  \n"
 msgstr "クリック \"パラメータの適用\"。  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:67
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "次に、ハードウェアを追加する必要があります。  \n"
 
@@ -270,23 +257,32 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
-#~ msgstr "専用ユーザーを作成することから始め、次にdomoticzをインストールします。\n"
+#~ msgstr ""
+#~ "専用ユーザーを作成することから始め、次にdomoticzをインストールします。\n"
 
 #, fuzzy
 #~ msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
 #~ msgstr "表示されたらEnterキーを押します (\\<OK> estas la sola elekto).  \n"
 
 #, fuzzy
-#~ msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
-#~ msgstr "サービスの選択：httpとhttpsをオンのままにし、[OK]に移動して、入力します。  \n"
+#~ msgid ""
+#~ "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+#~ msgstr ""
+#~ "サービスの選択：httpとhttpsをオンのままにし、[OK]に移動して、入力しま"
+#~ "す。  \n"
 
 #, fuzzy
 #~ msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
-#~ msgstr "_«HTTPS Port number:»_ 8443を入力し、[OK]に移動して、入力します。  \n"
+#~ msgstr ""
+#~ "_«HTTPS Port number:»_ 8443を入力し、[OK]に移動して、入力します。  \n"
 
 #, fuzzy
-#~ msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
-#~ msgstr "_«Installation Folder:»_ メトゥ _/home/domoticz/domoticz_、OKに移動し、入力します。  \n"
+#~ msgid ""
+#~ "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, "
+#~ "eniru.  \n"
+#~ msgstr ""
+#~ "_«Installation Folder:»_ メトゥ _/home/domoticz/domoticz_、OKに移動し、入"
+#~ "力します。  \n"
 
 #, fuzzy
 #~ msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
@@ -296,11 +292,13 @@ msgstr ""
 #~ msgid ""
 #~ "domoticz estas instalita kaj alirebla ĉe:\n"
 #~ "* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
-#~ "* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+#~ "* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-"
+#~ "adreso_de_la_pi:8443>\n"
 #~ msgstr ""
 #~ "domoticzは次の場所にインストールされ、アクセスできます。\n"
 #~ "* パイの： <http://localhost:8080> または <https://localhost:8443>\n"
-#~ "* ネットワークの： <http://ip-adreso_de_la_pi:8080> または <https://ip-adreso_de_la_pi:8443>\n"
+#~ "* ネットワークの： <http://ip-adreso_de_la_pi:8080> または <https://ip-"
+#~ "adreso_de_la_pi:8443>\n"
 
 #, fuzzy
 #~ msgid "iu agordo:  \n"
@@ -315,8 +313,11 @@ msgstr ""
 #~ msgstr "セキュリティを定義する：ユーザー名とパスワード  \n"
 
 #, fuzzy
-#~ msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
-#~ msgstr "を定義する \"ローカルエリアネットワーク\"、例： _«127.0.0.\\*;192.168.0.*»_  \n"
+#~ msgid ""
+#~ "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+#~ msgstr ""
+#~ "を定義する \"ローカルエリアネットワーク\"、例： _«127.0.0.\\*;192.168.0."
+#~ "*»_  \n"
 
 #, fuzzy
 #~ msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
@@ -324,7 +325,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
-#~ msgstr "ハードウェア/デバイス：無効にする \"新しいデバイスを受け入れる\"  \n"
+#~ msgstr ""
+#~ "ハードウェア/デバイス：無効にする \"新しいデバイスを受け入れる\"  \n"
 
 #, fuzzy
 #~ msgid "alklaku \"Apliki Agordojn\".  \n"

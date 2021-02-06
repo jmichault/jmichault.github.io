@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-31 17:09+0100\n"
+"POT-Creation-Date: 2021-02-06 15:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,19 +48,21 @@ msgstr "著者について"
 
 #. type: Plain text
 #: pri.md:10
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Pasia pri elektroniko ekde la aĝo de 10 jaroj kaj toksomaniulo al komputiloj ekde la aĝo de 18 jaroj.\n"
 "Mi okupiĝis pri malfermfonteco ekde la fino de la 20a jarcento.\n"
-msgstr "10歳から電子機器に情熱を持ち、18歳からコンピューターに夢中になっています。\n私は20世紀の終わりからオープンソースに携わってきました。\n"
+msgstr ""
+"10歳から電子機器に情熱を持ち、18歳からコンピューターに夢中になっています。\n"
+"私は20世紀の終わりからオープンソースに携わってきました。\n"
 
 #~ msgid "fonto"
 #~ msgstr "auto"
 
 #, fuzzy
 #~ msgid ""
-#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-"
+#~ "jara.\n"
 #~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
 #~ msgstr ""
 #~ "10歳から電子機器に情熱を持ち、18歳からコンピューターに夢中です。\n"

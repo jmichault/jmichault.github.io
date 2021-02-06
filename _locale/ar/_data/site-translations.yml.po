@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:20+0100\n"
+"POT-Creation-Date: 2021-02-06 15:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,8 +44,8 @@ msgstr "اقرأ هذه الصفحة بلغة أخرى"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Priskribo."
-msgstr "وصف."
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "بعض الأفكار لتصميم أتمتة منزلك بتكلفة أقل."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
@@ -67,16 +67,17 @@ msgstr "المنشورات ذات الصلة"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "ابحث في جوجل."
+#, no-wrap
+#, fuzzy
+msgid "Ŝercu per Google."
+msgstr "نكتة مع جوجل."
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Titolo."
-msgstr "عنوان."
+msgid "Hejma aŭtomatigo"
+msgstr "أتمتة المنزل"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -84,3 +85,14 @@ msgstr "عنوان."
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
 
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "وصف."
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "ابحث في جوجل."
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "عنوان."

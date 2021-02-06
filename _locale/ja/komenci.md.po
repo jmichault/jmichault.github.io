@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 16:03+0100\n"
+"POT-Creation-Date: 2021-02-06 15:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,8 +138,7 @@ msgstr "**zigbeeの関心は次のとおりです：**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:45
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
 msgstr "安価なモジュールを構築できるように設計されているため、価格は徐々に下がります。\n"
 
@@ -163,8 +162,7 @@ msgstr "国際的な周波数範囲を使用し、多数のモジュールの管
 
 #. type: Bullet: ' 1. '
 #: komenci.md:53
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr " _Philips_ (システム _HUE_)、Ikea (システム _TRÅDFRI_)、Legrand、Xiaomi、その他多くの主要ブランドによって選出されています...。 °）\n"
 
@@ -242,18 +240,25 @@ msgstr "プラグを接続します _433Mhz_\n"
 
 #. type: Bullet: '  * '
 #: komenci.md:79
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "konekti ampolon _zigbee_\n"
 msgstr "バルブを接続する _zigbee_\n"
 
 #, fuzzy
-#~ msgid "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do prezoj iom post iom falas.\n"
-#~ msgstr "安価なモジュールを構築できるように設計されているため、価格は徐々に下がっています。\n"
+#~ msgid ""
+#~ "ĝi estis desegnita por ebligi konstrui malmultekostajn modulojn, do "
+#~ "prezoj iom post iom falas.\n"
+#~ msgstr ""
+#~ "安価なモジュールを構築できるように設計されているため、価格は徐々に下がって"
+#~ "います。\n"
 
 #, fuzzy
-#~ msgid "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
-#~ msgstr " _Philips_ (システム _HUE_)、Ikea (システム _TRÅDFRI_)、Legrand、Xiaomi、その他多くの大手ブランドによって選ばれています...\n"
+#~ msgid ""
+#~ "ĝin elektis grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo "
+#~ "_TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+#~ msgstr ""
+#~ " _Philips_ (システム _HUE_)、Ikea (システム _TRÅDFRI_)、Legrand、Xiaomi、"
+#~ "その他多くの大手ブランドによって選ばれています...\n"
 
 #, fuzzy
 #~ msgid "konekti bulbon _zigbee_\n"
