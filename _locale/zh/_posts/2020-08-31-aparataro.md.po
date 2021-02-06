@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "zh"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,20 +42,23 @@ msgstr "post"
 
 #. type: YAML Front Matter: slug
 #: _posts/2020-08-31-aparataro.md:1
-#, fuzzy, no-wrap
-msgid "Aparataro"
-msgstr "硬件"
+#, no-wrap
+#, fuzzy
+msgid "Ekipaĵo"
+msgstr "设备"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-08-31-aparataro.md:1
-#, fuzzy, no-wrap
-msgid "Aparataro por komenci."
-msgstr "硬件入门。"
+#, no-wrap
+#, fuzzy
+msgid "Materialo por komenci."
+msgstr "开始的材料。"
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:10
-#, fuzzy, no-wrap
-msgid "La materialoj por la domotika sistemo"
+#, no-wrap
+#, fuzzy
+msgid "Materialoj por la hejma aŭtomatiga sistemo"
 msgstr "家庭自动化系统的材料"
 
 #. type: Plain text
@@ -67,64 +70,117 @@ msgstr "这是我用来构建家庭自动化系统的材料，可以控制433 Mh
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:27
 #, no-wrap
+#, fuzzy
 msgid ""
-"| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+"| tipo | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
-"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
-"| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
-"| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
-"| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
-"| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
-"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
-"| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
-"| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
-"| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
-"|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
-"| | | | **totala prezo** | **75€** | \n"
-msgstr ""
-"|类型|图片|标记|模型|参考价|为什么|\n"
-"| --- | --- | --- | --- | --- | --- | \n"
-"|电脑|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |没有风扇，便宜，有gpio，wifi，LAN RJ45|\n"
-"|电脑机箱|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |任何电脑机箱 _raspberry-pi3_ 适当。选择您喜欢的一种。|\n"
-"|电源供应|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |当我的\" _raspberry-pi3_ 特别\"电流实在是太弱了，我成功地用这个代替了它。许多其他型号也适用。|\n"
-"|USB电缆|  |  |USB转Micro USB| 2€ |连接 _raspberry-pi3_ 到电源|\n"
-"|微型SD卡|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |pi需要高质量的卡，强烈建议使用知名品牌的卡。|\n"
-"|双工电缆|![](/public/dupont.jpg) | _SODIAL_ |雌雄双工电缆。 068187| 2€|连接433 Mhz设备，并闪烁Zigbee USB闪存盘|\n"
-"|发射器+接收器|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |433MHz超外差发射器+接收器|\n"
-"|电缆| | || 0€ |用一根电缆制成天线。例如，旧的3米长网线。|\n"
-"|屏蔽| | |将铝箔插入对折的纸片中| 0€ |保护433 Mhz接收器免受 _raspberry-pi3_.|\n"
-"|  _Zigbee_ USB记忆棒和电缆|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ 棒和CC的下载电缆|\n"
-"| | | | **总价** | **75€** | \n"
+"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 € | neniu ventumilo, malmultekosta, havas gpio, wifi, LAN RJ45 |\n"
+"| komputila ujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7 € | iu komputila ujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas.\n"
+"| aktuala fonto |![](/public/elektroprovizo.jpg) | _Konky_ | | 10 € | Kiam mia speciala \" _raspberry-pi3_\"montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.\n"
+"| USBa kablo | | | USB al mikro USB | 2 € | por konekti la _raspberry-pi3_ al la elektroprovizo |\n"
+"| Mikro SD-karto |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 € | la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ | Inaj-inaj Dupontaj kabloj. 068187 | 2 € | por konekti 433 Mhz-aparatojn kaj fulmi zigbee USB-ŝlosilon |\n"
+"| dissendilo + ricevilo |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | 433mhz-superheterodina dissendilo + ricevilo |\n"
+"| kablo | | || 0 € | peco de kablo por krei antenon. Ekzemple, malnova 3-metra retkablo.\n"
+"| ŝirmado | | | Folio de aluminia folio enmetita en paperfolion falditan en duonon | 0 € | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_. |\n"
+"| USB-bastono _Zigbee_ kaj kablo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | ŝlosilo _zigbee_ kaj elŝuta kablo por CC |\n"
+"| | | | **totala prezo** | **75 €** | \n"
+msgstr "|类型图片标记|型号参考价|为什么\n| --- | --- | --- | --- | --- | --- | \n|电脑|![](/public/pi.jpg) | _raspberry_ | pi3b + | 35€|没有风扇，便宜，有gpio，wifi，LAN RJ45 |\n|电脑机箱|![](/public/loĝejo.jpg) | _Aukru_ | | 7€|适用于 _raspberry-pi3_ 的任何计算机机箱。选择您喜欢的一种。\n|当前来源|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€|当我的特殊 \" _raspberry-pi3_\"太弱时，我成功地用了它。许多其他型号也适用。\n| USB电缆| | | USB转micro USB | 2€|将 _raspberry-pi3_ 连接到电源|\n|微型SD卡|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€| pi需要高质量的卡，强烈建议使用知名品牌的卡。 |\n|双工电缆|![](/public/dupont.jpg) | _SODIAL_ |雌雄双工电缆。 068187 | 2€|连接433 Mhz设备和Flash Zigbee USB闪存|\n|发射器+接收器|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2€| 433MHz超外差发射机和接收机|\n|电缆| | || 0€|用一根电缆制成天线。例如，一条旧的3米长的网络电缆。\n|屏蔽| | |将铝箔插入一张对折的纸中| 0€|保护433 Mhz接收器免受 _raspberry-pi3_产生的干扰。 |\n| USB记忆棒 _Zigbee_ 和电缆|![](/public/cc2531+kablo.jpg) | | CC2531 | 6€|键 _zigbee_ 和CC的下载电缆|\n| | | | **总价** | **75€** | \n"
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:30
-#, fuzzy, no-wrap
-msgid "La materialoj pilototaj."
-msgstr "要试行的材料。"
+#, no-wrap
+#, fuzzy
+msgid "La regotaj aparatoj."
+msgstr "控制设备。"
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:33
-#, fuzzy, no-wrap
-msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
-msgstr "许多设备可以控制。对于初学者而言，这三个对我而言似乎特别有趣：\n"
+#, no-wrap
+#, fuzzy
+msgid "Multaj aparatoj povas esti kontrolataj. Unue, ĉi tiuj tri elementoj ŝajnas al mi aparte interesaj:\n"
+msgstr "许多设备都可以控制。首先，这三个元素对我而言尤其有趣：\n"
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:40
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
+"| tipo | teknologio | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
-"| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
-"| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
-"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
-"| | | | | **totala prezo** | **50,5€** | |\n"
-msgstr ""
-"|类型|技术|图片|标记|模型|参考价|为什么|\n"
-"| --- | --- | --- | --- | --- | --- | --- |\n"
-"| termometro |433兆赫| ![](/public/fanju.jpeg)| _Fanju_ |由fj3378| 7.50€|带屏幕的温度计，价格合理。|\n"
-"| ingoj |433兆赫|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5个遥控插座，价格合理。|\n"
-"|| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806流明| 10€ |价格合理的可调式灯泡。|\n"
-"| | | | | **总价** | **50,5€** | |\n"
+"| termometro | 433 Mhz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7.50 € | termometro kun ekrano je akceptebla prezo. |\n"
+"| elektraj ellasejoj | 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 teleregataj ingoj je racia prezo. |\n"
+"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumenoj | 10 € | alĝustigebla ampolo je racia prezo. |\n"
+"| | | | | **totala prezo** | **50,5 €** | |\n"
+msgstr "|类型技术|图片标记|型号参考价|为什么\n| --- | --- | --- | --- | --- | --- | --- |\n|温度计| 433 Mhz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7.50€|欧元带屏幕的温度计，价格合理。 |\n|电源插座| 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€| 5个遥控插座，价格合理。 |\n|灯泡| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806流明| 10€|价格合理的可调式灯泡。 |\n| | | | | **总价格** | **50.5€** | |\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid "Aparataro"
+#~ msgstr "硬件"
+
+#, fuzzy
+#~ msgid "Aparataro por komenci."
+#~ msgstr "硬件入门。"
+
+#, fuzzy
+#~ msgid "La materialoj por la domotika sistemo"
+#~ msgstr "家庭自动化系统的材料"
+
+#~ msgid ""
+#~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+#~ "| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
+#~ "| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+#~ "| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
+#~ "| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+#~ "| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
+#~ "| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
+#~ "| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
+#~ "| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
+#~ "| | | | **totala prezo** | **75€** | \n"
+#~ msgstr ""
+#~ "|类型|图片|标记|模型|参考价|为什么|\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "|电脑|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |没有风扇，便宜，有gpio，wifi，LAN RJ45|\n"
+#~ "|电脑机箱|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |任何电脑机箱 _raspberry-pi3_ 适当。选择您喜欢的一种。|\n"
+#~ "|电源供应|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |当我的\" _raspberry-pi3_ 特别\"电流实在是太弱了，我成功地用这个代替了它。许多其他型号也适用。|\n"
+#~ "|USB电缆|  |  |USB转Micro USB| 2€ |连接 _raspberry-pi3_ 到电源|\n"
+#~ "|微型SD卡|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |pi需要高质量的卡，强烈建议使用知名品牌的卡。|\n"
+#~ "|双工电缆|![](/public/dupont.jpg) | _SODIAL_ |雌雄双工电缆。 068187| 2€|连接433 Mhz设备，并闪烁Zigbee USB闪存盘|\n"
+#~ "|发射器+接收器|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |433MHz超外差发射器+接收器|\n"
+#~ "|电缆| | || 0€ |用一根电缆制成天线。例如，旧的3米长网线。|\n"
+#~ "|屏蔽| | |将铝箔插入对折的纸片中| 0€ |保护433 Mhz接收器免受 _raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ USB记忆棒和电缆|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ 棒和CC的下载电缆|\n"
+#~ "| | | | **总价** | **75€** | \n"
+
+#, fuzzy
+#~ msgid "La materialoj pilototaj."
+#~ msgstr "要试行的材料。"
+
+#, fuzzy
+#~ msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
+#~ msgstr "许多设备可以控制。对于初学者而言，这三个对我而言似乎特别有趣：\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | --- |\n"
+#~ "| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
+#~ "| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
+#~ "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
+#~ "| | | | | **totala prezo** | **50,5€** | |\n"
+#~ msgstr ""
+#~ "|类型|技术|图片|标记|模型|参考价|为什么|\n"
+#~ "| --- | --- | --- | --- | --- | --- | --- |\n"
+#~ "| termometro |433兆赫| ![](/public/fanju.jpeg)| _Fanju_ |由fj3378| 7.50€|带屏幕的温度计，价格合理。|\n"
+#~ "| ingoj |433兆赫|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5个遥控插座，价格合理。|\n"
+#~ "|| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806流明| 10€ |价格合理的可调式灯泡。|\n"
+#~ "| | | | | **总价** | **50,5€** | |\n"
 
 #~ msgid ""
 #~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"

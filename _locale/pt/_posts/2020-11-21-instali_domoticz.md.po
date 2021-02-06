@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "pt"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,9 +42,10 @@ msgstr "post"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-11-21-instali_domoticz.md:1
-#, fuzzy, no-wrap
-msgid "Instali domoticz."
-msgstr "Instalar domoticz."
+#, no-wrap
+#, fuzzy
+msgid "Instalu domoticz."
+msgstr "Instale o domoticz."
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:11
@@ -54,9 +55,10 @@ msgstr "Aqui está um exemplo de uma instalação domoticz sob raspbian.\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:13
-#, fuzzy, no-wrap
-msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
-msgstr "Começamos criando um usuário dedicado e, em seguida, instalamos o domoticz:\n"
+#, no-wrap
+#, fuzzy
+msgid "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
+msgstr "Começamos criando um usuário dedicado, depois instalamos domoticz:\n"
 
 #. type: Fenced code block (bash)
 #: _posts/2020-11-21-instali_domoticz.md:13
@@ -74,15 +76,17 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
-#, fuzzy, no-wrap
-msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
-msgstr "Pressione Enter quando apresentado (\\<OK> estas la sola elekto).  \n"
+#, no-wrap
+#, fuzzy
+msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
+msgstr "Pressione Enter quando a apresentação for exibida (\\<OK> é a única opção).  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:20
-#, fuzzy, no-wrap
-msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
-msgstr "Escolha de serviços: deixe http e https marcados, vá em OK, entre.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
+msgstr "Escolha de serviços: deixe http e https marcados, vá para OK e pressione Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:21
@@ -92,15 +96,17 @@ msgstr "_«HTTP Port number:»_ saia 8080, vá para OK, pressione Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
-#, fuzzy, no-wrap
-msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
-msgstr "_«HTTPS Port number:»_ coloque 8443, vá em OK, entre.  \n"
+#, no-wrap
+#, fuzzy
+msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
+msgstr "_«HTTPS Port number:»_ digite 8443, vá para OK, Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
-#, fuzzy, no-wrap
-msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
-msgstr "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, vá para OK, entre.  \n"
+#, no-wrap
+#, fuzzy
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
+msgstr "_«Installation Folder:»_ definido _/home/domoticz/domoticz_, vá para OK, Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:25
@@ -110,9 +116,10 @@ msgstr "_«Installation Complete!»_  , Entrar.\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:28
-#, fuzzy, no-wrap
-msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
-msgstr "Agora criamos o _«systemd»_ serviço que lançará domoticz:\n"
+#, no-wrap
+#, fuzzy
+msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
+msgstr "Agora criamos o serviço _«systemd»_ , que vai lançar domoticz:\n"
 
 #. type: Fenced code block (bash)
 #: _posts/2020-11-21-instali_domoticz.md:28
@@ -168,21 +175,20 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:57
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"domoticz estas instalita kaj alirebla ĉe:\n"
-"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
-"* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
-msgstr ""
-"domoticz está instalado e acessível em:\n"
-"* do pi: <http://localhost:8080> ou <https://localhost:8443>\n"
-"* da rede: <http://ip-adreso_de_la_pi:8080> ou <https://ip-adreso_de_la_pi:8443>\n"
+"domoticz estas instalita kaj alirebla:\n"
+"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
+msgstr "domoticz está instalado e acessível:\n* de pi: <http: // localhost: 8080> ou <https: // localhost: 8443>\n* da rede: <http: // endereço_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:58
-#, fuzzy, no-wrap
-msgid "iu agordo:  \n"
-msgstr "qualquer configuração:  \n"
+#, no-wrap
+#, fuzzy
+msgid "iom da agordo:  \n"
+msgstr "alguma configuração:  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:59
@@ -192,44 +198,51 @@ msgstr "vamos para _«Setup --> Settings»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:60
-#, fuzzy, no-wrap
-msgid "ŝanĝi lingvon, agordi lokon  \n"
+#, no-wrap
+#, fuzzy
+msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "alterar idioma, definir localização  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:61
-#, fuzzy, no-wrap
-msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+#, no-wrap
+#, fuzzy
+msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "definir segurança: nome de usuário e senha  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:62
-#, fuzzy, no-wrap
-msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
-msgstr "Defina a \"Redes Locais\", exemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+#, no-wrap
+#, fuzzy
+msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
+msgstr "definir as \"Redes Locais\", por exemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:63
-#, fuzzy, no-wrap
-msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
-msgstr "ativar \"Backup Automático\"  \n"
+#, no-wrap
+#, fuzzy
+msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
+msgstr "Ativar \"Salvar automaticamente\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:64
-#, fuzzy, no-wrap
-msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
-msgstr "Hardware / Dispositivos: desativar \"Aceitar novos dispositivos\"  \n"
+#, no-wrap
+#, fuzzy
+msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+msgstr "Hardware / Dispositivos laterais: desabilitar \"Aceitar novos dispositivos\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:65
-#, fuzzy, no-wrap
-msgid "alklaku \"Apliki Agordojn\".  \n"
-msgstr "clique \"Aplicar configurações\".  \n"
+#, no-wrap
+#, fuzzy
+msgid "Alklaku \"Apliki parametrojn\".  \n"
+msgstr "Clique em \"Aplicar parâmetros\".  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:67
-#, fuzzy, no-wrap
-msgid "Nun ni devas aldoni la aparataron.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "Agora precisamos adicionar o hardware.  \n"
 
 #. type: Plain text
@@ -239,7 +252,7 @@ msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr "Vejo <https://www.domoticz.com/wiki/Getting_started>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:71
+#: _posts/2020-11-21-instali_domoticz.md:73
 #, fuzzy, no-wrap
 msgid ""
 "Por pli da detaloj,\n"
@@ -247,3 +260,76 @@ msgid ""
 msgstr ""
 "Para mais detalhes,\n"
 "Vejo <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid "Instali domoticz."
+#~ msgstr "Instalar domoticz."
+
+#, fuzzy
+#~ msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
+#~ msgstr "Começamos criando um usuário dedicado e, em seguida, instalamos o domoticz:\n"
+
+#, fuzzy
+#~ msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
+#~ msgstr "Pressione Enter quando apresentado (\\<OK> estas la sola elekto).  \n"
+
+#, fuzzy
+#~ msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+#~ msgstr "Escolha de serviços: deixe http e https marcados, vá em OK, entre.  \n"
+
+#, fuzzy
+#~ msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
+#~ msgstr "_«HTTPS Port number:»_ coloque 8443, vá em OK, entre.  \n"
+
+#, fuzzy
+#~ msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
+#~ msgstr "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, vá para OK, entre.  \n"
+
+#, fuzzy
+#~ msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
+#~ msgstr "Agora criamos o _«systemd»_ serviço que lançará domoticz:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "domoticz estas instalita kaj alirebla ĉe:\n"
+#~ "* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+#~ "* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+#~ msgstr ""
+#~ "domoticz está instalado e acessível em:\n"
+#~ "* do pi: <http://localhost:8080> ou <https://localhost:8443>\n"
+#~ "* da rede: <http://ip-adreso_de_la_pi:8080> ou <https://ip-adreso_de_la_pi:8443>\n"
+
+#, fuzzy
+#~ msgid "iu agordo:  \n"
+#~ msgstr "qualquer configuração:  \n"
+
+#, fuzzy
+#~ msgid "ŝanĝi lingvon, agordi lokon  \n"
+#~ msgstr "alterar idioma, definir localização  \n"
+
+#, fuzzy
+#~ msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+#~ msgstr "definir segurança: nome de usuário e senha  \n"
+
+#, fuzzy
+#~ msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+#~ msgstr "Defina a \"Redes Locais\", exemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+
+#, fuzzy
+#~ msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
+#~ msgstr "ativar \"Backup Automático\"  \n"
+
+#, fuzzy
+#~ msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
+#~ msgstr "Hardware / Dispositivos: desativar \"Aceitar novos dispositivos\"  \n"
+
+#, fuzzy
+#~ msgid "alklaku \"Apliki Agordojn\".  \n"
+#~ msgstr "clique \"Aplicar configurações\".  \n"
+
+#, fuzzy
+#~ msgid "Nun ni devas aldoni la aparataron.  \n"
+#~ msgstr "Agora precisamos adicionar o hardware.  \n"

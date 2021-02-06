@@ -98,7 +98,9 @@ BEGIN {
         printf("msgstr \"");
 	#  anstataŭigi markdown-etikedojn per markoj, kaj jekyll
         ##print ( "MSGSTR="MSGSTR);	##
-        split(MSGSTR,MSGS,"{{|}}|{%|%}|^<a *id *=|</a>|^[ \t]*|[ \t]*\\\\\\\\.|[ \t]*\\\\.|[ \t]*!\\[[ \t]*|[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*",SEPS);
+        #split(MSGSTR,MSGS,"{{|}}|{%|%}|^<a *id *=|</a>|^[ \t]*|[ \t]*\\\\\\\\.|[ \t]*\\\\.|[ \t]*!\\[[ \t]*|[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*",SEPS);
+        #split(MSGSTR,MSGS,"<a [!>]*>|{{|}}|{%|%}|</ *a>| *href=\\\\\".*\\\\\"| *ref=\\\\\".*\\\\\"| *src=\\\\\".*\\\\\"|^[ \t]*",SEPS);
+        split(MSGSTR,MSGS,"<a [!>]*>|{{|}}|{%|%}|</ *a>| *href=\\\\\".*\\\\\"| *ref=\\\\\".*\\\\\"| *src=\\\\\".*\\\\\"|^[ \t]*|[ \t]*\\\\\\\\.",SEPS);
 	MSG0 = "";
 	MSGSLEN = length(MSGS);
         ##print ("MSGSLEN="MSGSLEN); ##

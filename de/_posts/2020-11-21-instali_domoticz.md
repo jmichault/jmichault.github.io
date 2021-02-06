@@ -3,8 +3,8 @@ lang: de
 lang-niv: auto
 lang-ref: instali-domoticz
 layout: post
-slug: 'Installieren domoticz.'
-title: 'Installieren domoticz.'
+slug: 'Installieren Sie domoticz.'
+title: 'Installieren Sie domoticz.'
 ---
 
 Hier ist ein Beispiel einer Domoticz-Installation unter Raspbian.
@@ -16,15 +16,15 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Drücken Sie bei der Eingabe die Eingabetaste (\<OK> estas la sola elekto).  
-Auswahl der Dienste: Lassen Sie http und https aktiviert, gehen Sie zu OK und geben Sie ein.  
+Drücken Sie die Eingabetaste, wenn die Präsentation angezeigt wird (\<. OK> ist die einzige Option).  
+Auswahl der Dienste: Lassen Sie http und https aktiviert, gehen Sie zu OK und drücken Sie die Eingabetaste.  
 _«HTTP Port number:»_ Beenden Sie 8080, gehen Sie zu OK und drücken Sie die Eingabetaste.  
-_«HTTPS Port number:»_ 8443 setzen, auf OK gehen, eingeben.  
-_«Installation Folder:»_ metu _/home/domoticz/domoticz_, gehe zu OK, gib ein.  
+_«HTTPS Port number:»_ geben Sie 8443 ein, gehen Sie zu OK, geben Sie ein.  
+_«Installation Folder:»_ einstellen _/home/domoticz/domoticz_, gehen Sie zu OK, Enter.  
 _«Installation Complete!»_  , Eingeben.
 
 
-Jetzt erstellen wir die _«systemd»_ Dienst, der domoticz startet:
+Jetzt erstellen wir den Dienst _«systemd»_ , der domoticz startet:
 ```bash
 service domoticz stop
 rm /etc/*.d/*domoticz*
@@ -51,21 +51,23 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz ist installiert und zugänglich unter:
-* des pi: <http://localhost:8080> oder <https://localhost:8443>
-* des Netzwerks: <http://ip-adreso_de_la_pi:8080> oder <https://ip-adreso_de_la_pi:8443>
+domoticz ist installiert und zugänglich:
+* von pi: <http: // localhost: 8080> oder <https: // localhost: 8443>
+* des Netzwerks: <http: // Adresse_IP_von_pi:8080> ou <https://adresse_IP_du_pi: 8443>
 
-Beliebige Konfiguration:  
+einige Konfiguration:  
 gehe zu _«Setup --> Settings»_  
-Sprache ändern, Ort einstellen  
+Sprache ändern, Ort definieren  
 Sicherheit definieren: Benutzername und Passwort  
-definiere das "Lokale Netzwerke"Beispiel: _«127.0.0.\*;192.168.0.*»_  
-aktivieren Sie "Automatische Sicherung"  
-Hardware / Geräte: deaktivieren "Akzeptiere neue Geräte"  
-klicken "Einstellungen übernehmen".  
+Definieren Sie die "lokalen Netzwerke", zum Beispiel: _«127.0.0.\*;192.168.0.*»_  
+Aktivieren "Automatisches Speichern"  
+Hardware / Nebengeräte: deaktivieren "Neue Geräte akzeptieren"  
+Klicken Sie auf ". Übernehmen Sie die Parameter".  
 
 Jetzt müssen wir die Hardware hinzufügen.  
 sehen <https://www.domoticz.com/wiki/Getting_started>
 
+
 Für mehr Details,
 sehen <https://www.domoticz.com/wiki/Raspberry_Pi>
+

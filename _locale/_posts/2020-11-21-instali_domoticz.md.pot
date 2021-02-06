@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
@@ -43,7 +43,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "Instali domoticz."
+msgid "Instalu domoticz."
 msgstr ""
 
 #. type: Plain text
@@ -55,7 +55,7 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:13
 #, no-wrap
-msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
+msgid "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -71,13 +71,13 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
 #, no-wrap
-msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
+msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:20
 #, no-wrap
-msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
 msgstr ""
 
 #. type: Plain text
@@ -89,13 +89,13 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
 #, no-wrap
-msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
+msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
 #, no-wrap
-msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
 msgstr ""
 
 #. type: Plain text
@@ -107,7 +107,7 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:28
 #, no-wrap
-msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
+msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -143,15 +143,15 @@ msgstr ""
 #: _posts/2020-11-21-instali_domoticz.md:57
 #, no-wrap
 msgid ""
-"domoticz estas instalita kaj alirebla ĉe:\n"
-"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
-"* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+"domoticz estas instalita kaj alirebla:\n"
+"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:58
 #, no-wrap
-msgid "iu agordo:  \n"
+msgid "iom da agordo:  \n"
 msgstr ""
 
 #. type: Plain text
@@ -163,43 +163,43 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:60
 #, no-wrap
-msgid "ŝanĝi lingvon, agordi lokon  \n"
+msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:61
 #, no-wrap
-msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:62
 #, no-wrap
-msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:63
 #, no-wrap
-msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
+msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:64
 #, no-wrap
-msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
+msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:65
 #, no-wrap
-msgid "alklaku \"Apliki Agordojn\".  \n"
+msgid "Alklaku \"Apliki parametrojn\".  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:67
 #, no-wrap
-msgid "Nun ni devas aldoni la aparataron.  \n"
+msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr ""
 
 #. type: Plain text
@@ -209,7 +209,7 @@ msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:71
+#: _posts/2020-11-21-instali_domoticz.md:73
 #, no-wrap
 msgid ""
 "Por pli da detaloj,\n"

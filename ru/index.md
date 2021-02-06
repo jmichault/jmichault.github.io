@@ -3,5 +3,5 @@ lang: ru
 lang-niv: auto
 lang-ref: indekso
 layout: index
-title: 'Последние посты'
+title: 'Последние статьи'
 ---

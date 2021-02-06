@@ -16,15 +16,15 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Tekan Enter semasa dibentangkan (\<OK> estas la sola elekto).  
-Pilihan perkhidmatan: biarkan http dan https dicentang, pergi ke OK, masukkan.  
+Tekan Enter semasa persembahan ditunjukkan (\<OK> adalah satu-satunya pilihan).  
+Pilihan perkhidmatan: biarkan http dan https dicentang, pergi ke OK, tekan Enter.  
 _«HTTP Port number:»_ jalan keluar 8080, pergi ke OK, tekan Enter.  
-_«HTTPS Port number:»_ masukkan 8443, pergi ke OK, masukkan.  
-_«Installation Folder:»_ saya juga _/home/domoticz/domoticz_, pergi ke OK, masukkan.  
+_«HTTPS Port number:»_ masukkan 8443, pergi ke OK, Enter.  
+_«Installation Folder:»_ set _/home/domoticz/domoticz_, pergi ke OK, Enter.  
 _«Installation Complete!»_  , Masukkan.
 
 
-Sekarang kita membuat _«systemd»_ perkhidmatan yang akan melancarkan domoticz:
+Sekarang kami membuat perkhidmatan _«systemd»_ , yang akan melancarkan domoticz:
 ```bash
 service domoticz stop
 rm /etc/*.d/*domoticz*
@@ -51,21 +51,23 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz dipasang dan boleh diakses di:
-* pi: <http://localhost:8080> atau <https://localhost:8443>
-* rangkaian: <http://ip-adreso_de_la_pi:8080> atau <https://ip-adreso_de_la_pi:8443>
+domoticz dipasang dan boleh diakses:
+* dari pi: <http: // localhost: 8080> atau <https: // localhost: 8443>
+* rangkaian: <http: // alamat_IP_dari_pi:8080> ou <https://adresse_IP_du_pi: 8443>
 
-sebarang konfigurasi:  
+beberapa konfigurasi:  
 pergi ke _«Setup --> Settings»_  
-tukar bahasa, tetapkan lokasi  
+tukar bahasa, tentukan lokasi  
 tentukan keselamatan: nama pengguna dan kata laluan  
-tentukan "Rangkaian Kawasan Setempat", contoh: _«127.0.0.\*;192.168.0.*»_  
-aktifkan "Sandaran Automatik"  
-Perkakasan / Peranti: lumpuhkan "Terima Peranti baru"  
-klik "Gunakan Tetapan".  
+tentukan "Rangkaian Kawasan Setempat", contohnya: _«127.0.0.\*;192.168.0.*»_  
+Aktifkan "Jimat automatik"  
+Peranti perkakasan / sampingan: lumpuhkan "Terima peranti baru"  
+Klik "Terapkan parameter".  
 
 Sekarang kita perlu menambah perkakasan.  
 lihat <https://www.domoticz.com/wiki/Getting_started>
 
+
 Untuk keterangan lebih lanjut,
 lihat <https://www.domoticz.com/wiki/Raspberry_Pi>
+

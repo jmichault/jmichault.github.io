@@ -1,32 +1,49 @@
 #!/bin/bash
 
+if [ $# -lt 1 ] ; then
+  echo "pas assez d'arguments."
+  exit
+fi
+
 lang0=$1
 
 BASEDIR=`dirname $0`
-cd "$BASEDIR"
-cd ../..
-cd $lang0
-
+if [ ! -d "$BASEDIR"/../../$lang0 ] ; then
+  echo "chemin introuvable."
+  exit
+fi
+cd "$BASEDIR"/../../$lang0
 
 for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
 do
+  EXT="${FIC##*.}"
+  case "$EXT" in
+	yml)
+	  OPTIONS="-f yaml" 
+          ;;
+	*)
+	  OPTIONS="-f text --option markdown -o neverwrap" 
+          ;;
+  esac
+  # détruire le fichier eo --> langue s'il existe pour éviter la retraduction eo-->langue
   if [ -f ../_locale/${lang0}/${FIC}.po ]
   then
     rm -f ../_locale/${lang0}/${FIC}.po
-    if [ -f ../eo/${FIC} ]
-    then
-      rm -f ../eo/${FIC}
-    fi
   fi
-
+  if [ -f ../eo/${FIC} -a ! -f ../_locale/eo/${FIC}.po ]
+  then
+    # si ce fichier est une bonne traduction, il faut la récupérer
+    po4a-gettextize -m ${FIC} -M "UTF-8" $OPTIONS -l ../eo/${FIC} -L "UTF-8" --po ../_locale/eo/${FIC}.po 
+    rm -f gettextization.failed.po ../eo/${FIC}
+  fi
 
   if [ ! -f ../_locale/${lang0}/${FIC}.pot ]
   then
-    po4a-gettextize -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang0}/${FIC}.pot 
+    po4a-gettextize -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang0}/${FIC}.pot 
   else
     if [ ../_locale/${lang0}/${FIC}.pot -ot ${FIC} ]
     then
-      po4a-updatepo --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang0}/${FIC}.pot 
+      po4a-updatepo --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang0}/${FIC}.pot 
     fi
   fi
   for lang in eo
@@ -44,7 +61,7 @@ do
     if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${lang0}/${FIC}.pot ]
     then
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
-      po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
+      po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang}/${FIC}.po
     fi
     cat ../_locale/${lang}/${FIC}.po|gawk -v BASEDIR=../$BASEDIR -v src=${lang0} -v dst=eo -f ../_scripts/lib/traduki_po.awk >../_locale/${lang}/${FIC}.po.nova
     if diff ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po >/dev/null
@@ -59,7 +76,7 @@ do
       echo "tradukante ${FIC} al ${lang}"
       #grep -v "^#, fuzzy" ../_locale/${lang}/${FIC}.po >../_locale/temp$$.po
       cat ../_locale/${lang}/${FIC}.po|sed "s/^#, fuzzy/#/" >../_locale/temp$$.po
-      po4a-translate -f text --option markdown -o neverwrap -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
+      po4a-translate $OPTIONS -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
       if egrep -m 1 "^#.*, fuzzy" ../_locale/${lang}/${FIC}.po >/dev/null
       then
        true

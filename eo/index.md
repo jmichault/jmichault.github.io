@@ -1,7 +1,7 @@
 ---
-layout: index
-title: Plej novaj afiŝoj
 lang: eo
+lang-niv: auto
 lang-ref: indekso
-lang-niv: fonto
+layout: index
+title: 'lastaj artikoloj'
 ---

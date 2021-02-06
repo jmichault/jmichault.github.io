@@ -1,11 +1,10 @@
 ---
-title: Pri la Aŭtoro
-layout: page
 lang: eo
+lang-niv: auto
 lang-ref: 999-pri
-lang-niv: fonto
-
+layout: page
+title: 'Pri la Aŭtoro'
 ---
 
-Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.
-Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.
+Pasia pri elektroniko ekde la aĝo de 10 jaroj kaj toksomaniulo al komputiloj ekde la aĝo de 18 jaroj.
+Mi okupiĝis pri malfermfonteco ekde la fino de la 20a jarcento.

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "ms"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,20 +42,23 @@ msgstr "post"
 
 #. type: YAML Front Matter: slug
 #: _posts/2020-08-31-aparataro.md:1
-#, fuzzy, no-wrap
-msgid "Aparataro"
-msgstr "Perkakasan"
+#, no-wrap
+#, fuzzy
+msgid "Ekipaĵo"
+msgstr "Peralatan"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-08-31-aparataro.md:1
-#, fuzzy, no-wrap
-msgid "Aparataro por komenci."
-msgstr "Perkakasan untuk bermula."
+#, no-wrap
+#, fuzzy
+msgid "Materialo por komenci."
+msgstr "Bahan untuk bermula."
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:10
-#, fuzzy, no-wrap
-msgid "La materialoj por la domotika sistemo"
+#, no-wrap
+#, fuzzy
+msgid "Materialoj por la hejma aŭtomatiga sistemo"
 msgstr "Bahan untuk sistem automasi rumah"
 
 #. type: Plain text
@@ -67,64 +70,117 @@ msgstr "Inilah bahan yang saya gunakan untuk membina sistem automasi rumah saya,
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:27
 #, no-wrap
+#, fuzzy
 msgid ""
-"| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+"| tipo | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
-"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
-"| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
-"| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
-"| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
-"| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
-"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
-"| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
-"| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
-"| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
-"|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
-"| | | | **totala prezo** | **75€** | \n"
-msgstr ""
-"||gambar|||harga yang dinyatakan|mengapa|\n"
-"| --- | --- | --- | --- | --- | --- | \n"
-"||![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ ||\n"
-"|bekas komputer|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |sebarang kes komputer untuk _raspberry-pi3_ sesuai. Pilih yang anda mahu.|\n"
-"|bekalan kuasa|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Semasa saya\" _raspberry-pi3_ khas\"semasa ternyata terlalu lemah, saya berjaya menggantinya dengan yang ini. Banyak model lain sesuai.|\n"
-"|wayar USB|  |  || 2€ | _raspberry-pi3_ ke bekalan kuasa|\n"
-"||![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |pi memerlukan kad yang berkualiti, sangat digalakkan menggunakan kad jenama terkenal.|\n"
-"|Kabel dupleks|![](/public/dupont.jpg) | _SODIAL_ |Kabel Dupleks wanita-wanita. 068187| 2€|untuk menyambungkan peranti 433 Mhz, dan menyalakan stik USB zigbee|\n"
-"|pemancar + penerima|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |Pemancar + penerima superheterodyne 433mhz|\n"
-"|kabel| | || 0€ |sekeping kabel untuk membuat antena. Contohnya kabel rangkaian 3 meter lama.|\n"
-"|melindungi| | |Kerajang aluminium dimasukkan ke dalam kepingan kertas yang dilipat separuh| 0€ |untuk melindungi penerima 433 Mhz daripada gangguan yang dihasilkan oleh _raspberry-pi3_.|\n"
-"|  _Zigbee_ |![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ melekat dan memuat turun kabel untuk CC|\n"
-"| | | | **harga keseluruhan** | **75€** | \n"
+"| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 € | neniu ventumilo, malmultekosta, havas gpio, wifi, LAN RJ45 |\n"
+"| komputila ujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7 € | iu komputila ujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas.\n"
+"| aktuala fonto |![](/public/elektroprovizo.jpg) | _Konky_ | | 10 € | Kiam mia speciala \" _raspberry-pi3_\"montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.\n"
+"| USBa kablo | | | USB al mikro USB | 2 € | por konekti la _raspberry-pi3_ al la elektroprovizo |\n"
+"| Mikro SD-karto |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 € | la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+"| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ | Inaj-inaj Dupontaj kabloj. 068187 | 2 € | por konekti 433 Mhz-aparatojn kaj fulmi zigbee USB-ŝlosilon |\n"
+"| dissendilo + ricevilo |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | 433mhz-superheterodina dissendilo + ricevilo |\n"
+"| kablo | | || 0 € | peco de kablo por krei antenon. Ekzemple, malnova 3-metra retkablo.\n"
+"| ŝirmado | | | Folio de aluminia folio enmetita en paperfolion falditan en duonon | 0 € | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_. |\n"
+"| USB-bastono _Zigbee_ kaj kablo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | ŝlosilo _zigbee_ kaj elŝuta kablo por CC |\n"
+"| | | | **totala prezo** | **75 €** | \n"
+msgstr "| taip | gambar | tanda | model | harga petunjuk | Mengapa |\n| --- | --- | --- | --- | --- | --- | \n| komputer |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 € | tiada kipas, murah, mempunyai gpio, wifi, LAN RJ45 |\n| sarung komputer |![](/public/loĝejo.jpg) | _Aukru_ | | 7 € | mana-mana casing komputer untuk _raspberry-pi3_ sesuai. Pilih yang anda mahu.\n| sumber semasa |![](/public/elektroprovizo.jpg) | _Konky_ | | 10 € | Apabila istimewa saya \" _raspberry-pi3_\"ternyata terlalu lemah, saya berjaya menggantinya dengan yang ini. Banyak model lain sesuai.\n| Kabel USB | | | USB ke mikro USB | 2 € | untuk menyambungkan _raspberry-pi3_ ke bekalan kuasa |\n| Kad SD mikro |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 € | pi memerlukan kad yang berkualiti, sangat digalakkan menggunakan kad jenama terkenal. |\n| Kabel dupleks |![](/public/dupont.jpg) | _SODIAL_ | Kabel Dupleks wanita-wanita. 068187 | 2 € | untuk menyambungkan peranti 433 Mhz dan kekunci flash zigbee USB |\n| pemancar + penerima |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | Pemancar + penerima superheterodyne 433mhz |\n| kabel | | || 0 € | sekeping kabel untuk membuat antena. Contohnya, kabel rangkaian 3 meter lama.\n| perisai | | | Selembar kerajang aluminium dimasukkan ke dalam selembar kertas yang dilipat separuh | 0 € | untuk melindungi penerima 433 Mhz dari gangguan yang dihasilkan oleh _raspberry-pi3_. |\n| Stik USB _Zigbee_ dan kabel |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | kunci _zigbee_ dan muat turun kabel untuk CC |\n| | | | **jumlah harga** | **75 €** | \n"
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:30
-#, fuzzy, no-wrap
-msgid "La materialoj pilototaj."
-msgstr "Bahan yang akan dicontohi."
+#, no-wrap
+#, fuzzy
+msgid "La regotaj aparatoj."
+msgstr "Peranti kawalan."
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:33
-#, fuzzy, no-wrap
-msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
-msgstr "Banyak peranti dapat dikawal. Sebagai permulaan, ketiga-tiga ini kelihatan sangat menarik bagi saya:\n"
+#, no-wrap
+#, fuzzy
+msgid "Multaj aparatoj povas esti kontrolataj. Unue, ĉi tiuj tri elementoj ŝajnas al mi aparte interesaj:\n"
+msgstr "Banyak peranti dapat dikawal. Pertama, ketiga elemen ini kelihatan sangat menarik bagi saya:\n"
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:40
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
+"| tipo | teknologio | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
-"| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
-"| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
-"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
-"| | | | | **totala prezo** | **50,5€** | |\n"
-msgstr ""
-"||teknologi|gambar||model|harga yang dinyatakan|mengapa|\n"
-"| --- | --- | --- | --- | --- | --- | --- |\n"
-"| termometro |433Mhz| ![](/public/fanju.jpeg)| _Fanju_ |oleh fj3378| 7.50€|termometer dengan skrin dengan harga yang berpatutan.|\n"
-"| ingoj |433Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5 soket kawalan jauh dengan harga yang berpatutan.|\n"
-"|mentol| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806 lumens| 10€ |mentol boleh laras dengan harga yang berpatutan.|\n"
-"| | | | | **harga keseluruhan** | **50,5€** | |\n"
+"| termometro | 433 Mhz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7.50 € | termometro kun ekrano je akceptebla prezo. |\n"
+"| elektraj ellasejoj | 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 teleregataj ingoj je racia prezo. |\n"
+"| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumenoj | 10 € | alĝustigebla ampolo je racia prezo. |\n"
+"| | | | | **totala prezo** | **50,5 €** | |\n"
+msgstr "| taip | teknologi | gambar | tanda | model | harga petunjuk | Mengapa |\n| --- | --- | --- | --- | --- | --- | --- |\n| termometer | 433 Mhz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7.50 € | termometer dengan skrin dengan harga yang berpatutan. |\n| cawangan elektrik | 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 soket kawalan jauh dengan harga yang berpatutan. |\n| mentol | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumens | 10 € | mentol boleh laras dengan harga yang berpatutan. |\n| | | | | **jumlah harga** | **50.5 €** | |\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid "Aparataro"
+#~ msgstr "Perkakasan"
+
+#, fuzzy
+#~ msgid "Aparataro por komenci."
+#~ msgstr "Perkakasan untuk bermula."
+
+#, fuzzy
+#~ msgid "La materialoj por la domotika sistemo"
+#~ msgstr "Bahan untuk sistem automasi rumah"
+
+#~ msgid ""
+#~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "| komputilo |![](/public/pi.jpg) | _raspberry_ | pi3b+ | 35€ | neniu ventumilo, malmultekoste, havas gpio, wifi, LAN RJ45 |\n"
+#~ "| komputilujo |![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |iu komputilujo por _raspberry-pi3_ taŭgas. Elektu tiun, kiun vi preferas. |\n"
+#~ "| elektroprovizo |![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ | Kiam mia \" _raspberry-pi3_ speciala\" fluo montriĝis tro malforta, mi sukcese anstataŭigis ĝin per ĉi tiu. Multaj aliaj modeloj taŭgas.|\n"
+#~ "| USB kablo |  |  | USB al mikro USB | 2€ | por konekti la _raspberry-pi3_ al la elektroprovizo  |\n"
+#~ "| mikro-SD karto|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |la pi bezonas kvalitan karton, estas tre rekomendinde uzi karton de konata marko. |\n"
+#~ "| Dupontaj kabloj |![](/public/dupont.jpg) | _SODIAL_ |Inaj-inaj Dupontaj kabloj. 068187| 2€| por konekti 433 Mhz aparatoj, kaj ekbrili zigbee USB-batono |\n"
+#~ "| dissendilo + ricevilo|![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341| 2€ | 433mhz-superheterodina dissendilo + ricevilo|\n"
+#~ "| kablo | | || 0€ |peco de kablo por fari antenon. Ekzemple malnova 3-metra retkablo.  |\n"
+#~ "| ŝirmado | | |Aluminia folio enmetita en paperfolion duone falditan | 0€ | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ USB-bastono kaj kablo|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ bastono kaj elŝutanta kablo por CC|\n"
+#~ "| | | | **totala prezo** | **75€** | \n"
+#~ msgstr ""
+#~ "||gambar|||harga yang dinyatakan|mengapa|\n"
+#~ "| --- | --- | --- | --- | --- | --- | \n"
+#~ "||![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ ||\n"
+#~ "|bekas komputer|![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |sebarang kes komputer untuk _raspberry-pi3_ sesuai. Pilih yang anda mahu.|\n"
+#~ "|bekalan kuasa|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Semasa saya\" _raspberry-pi3_ khas\"semasa ternyata terlalu lemah, saya berjaya menggantinya dengan yang ini. Banyak model lain sesuai.|\n"
+#~ "|wayar USB|  |  || 2€ | _raspberry-pi3_ ke bekalan kuasa|\n"
+#~ "||![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |pi memerlukan kad yang berkualiti, sangat digalakkan menggunakan kad jenama terkenal.|\n"
+#~ "|Kabel dupleks|![](/public/dupont.jpg) | _SODIAL_ |Kabel Dupleks wanita-wanita. 068187| 2€|untuk menyambungkan peranti 433 Mhz, dan menyalakan stik USB zigbee|\n"
+#~ "|pemancar + penerima|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |Pemancar + penerima superheterodyne 433mhz|\n"
+#~ "|kabel| | || 0€ |sekeping kabel untuk membuat antena. Contohnya kabel rangkaian 3 meter lama.|\n"
+#~ "|melindungi| | |Kerajang aluminium dimasukkan ke dalam kepingan kertas yang dilipat separuh| 0€ |untuk melindungi penerima 433 Mhz daripada gangguan yang dihasilkan oleh _raspberry-pi3_.|\n"
+#~ "|  _Zigbee_ |![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ melekat dan memuat turun kabel untuk CC|\n"
+#~ "| | | | **harga keseluruhan** | **75€** | \n"
+
+#, fuzzy
+#~ msgid "La materialoj pilototaj."
+#~ msgstr "Bahan yang akan dicontohi."
+
+#, fuzzy
+#~ msgid "Multaj aparatoj povas esti kontrolitaj. Por komenci, ĉi tiuj tri ŝajnas al mi aparte interesaj:\n"
+#~ msgstr "Banyak peranti dapat dikawal. Sebagai permulaan, ketiga-tiga ini kelihatan sangat menarik bagi saya:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| tipo | teknologio | bildo |marko | modelo  | indikata prezo | kial |\n"
+#~ "| --- | --- | --- | --- | --- | --- | --- |\n"
+#~ "| termometro | 433Mhz | ![](/public/fanju.jpeg)| _Fanju_ | por fj3378 | 7.50€| termometro kun ekrano je racia prezo.|\n"
+#~ "| ingoj | 433Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ | 5 teleregataj ingoj je racia prezo.|\n"
+#~ "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumen | 10€ | alĝustigebla ampolo je racia prezo.|\n"
+#~ "| | | | | **totala prezo** | **50,5€** | |\n"
+#~ msgstr ""
+#~ "||teknologi|gambar||model|harga yang dinyatakan|mengapa|\n"
+#~ "| --- | --- | --- | --- | --- | --- | --- |\n"
+#~ "| termometro |433Mhz| ![](/public/fanju.jpeg)| _Fanju_ |oleh fj3378| 7.50€|termometer dengan skrin dengan harga yang berpatutan.|\n"
+#~ "| ingoj |433Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5 soket kawalan jauh dengan harga yang berpatutan.|\n"
+#~ "|mentol| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806 lumens| 10€ |mentol boleh laras dengan harga yang berpatutan.|\n"
+#~ "| | | | | **harga keseluruhan** | **50,5€** | |\n"
 
 #~ msgid ""
 #~ "| tipo | bildo |marko | modelo  | indikita prezo | kial |\n"

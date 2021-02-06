@@ -3,8 +3,8 @@ lang: ru
 lang-niv: auto
 lang-ref: instali-domoticz
 layout: post
-slug: 'Установить domoticz.'
-title: 'Установить domoticz.'
+slug: 'Установите domoticz.'
+title: 'Установите domoticz.'
 ---
 
 Вот пример установки domoticz под raspbian.
@@ -16,15 +16,15 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Нажмите Enter, когда появится (\<OK> estas la sola elekto).  
-Выбор услуг: оставьте http и https отмеченными, нажмите ОК, введите.  
+Нажмите Enter, когда отображается презентация (\<ОК> - единственный выбор).  
+Выбор услуг: оставьте http и https отмеченными, перейдите в ОК, нажмите Enter.  
 _«HTTP Port number:»_ выйдите из 8080, перейдите в ОК, нажмите Enter.  
-_«HTTPS Port number:»_ ставим 8443, идем в ОК, вводим.  
-_«Installation Folder:»_ мету _/home/domoticz/domoticz_, перейдите в ОК, введите.  
+_«HTTPS Port number:»_ введите 8443, нажмите OK, Enter.  
+_«Installation Folder:»_ установите _/home/domoticz/domoticz_, нажмите OK, Enter.  
 _«Installation Complete!»_  , Войти.
 
 
-Теперь создадим _«systemd»_ сервис, который запустит домотик:
+Теперь создаем сервис _«systemd»_ , который будет запускать domoticz:
 ```bash
 service domoticz stop
 rm /etc/*.d/*domoticz*
@@ -51,21 +51,23 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz установлен и доступен по адресу:
-* числа пи: <http://localhost:8080> или <https://localhost:8443>
-* сети: <http://ip-adreso_de_la_pi:8080> или <https://ip-adreso_de_la_pi:8443>
+domoticz установлен и доступен:
+* из числа pi: <http: // localhost: 8080> или <https: // localhost: 8443>
+* сети: <http: // адрес_IP_из_pi:8080> ou <https://adresse_IP_du_pi: 8443>
 
-любая конфигурация:  
+некоторая конфигурация:  
 перейти к _«Setup --> Settings»_  
-изменить язык, установить местоположение  
+изменить язык, определить местоположение  
 определить безопасность: имя пользователя и пароль  
-определить "Локальные сети", пример: _«127.0.0.\*;192.168.0.*»_  
-активировать "Автоматическое резервное копирование"  
-Оборудование / Устройства: отключить "Принять новые устройства"  
-щелкнуть "Применить настройки".  
+определить "локальные вычислительные сети", например: _«127.0.0.\*;192.168.0.*»_  
+Активировать "Автосохранение"  
+Оборудование / Боковые устройства: отключить "Принять новые устройства"  
+Щелкните "Применить параметры".  
 
 Теперь нам нужно добавить оборудование.  
 увидеть <https://www.domoticz.com/wiki/Getting_started>
 
+
 Больше подробностей,
 увидеть <https://www.domoticz.com/wiki/Raspberry_Pi>
+

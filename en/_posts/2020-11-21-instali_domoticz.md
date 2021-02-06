@@ -16,15 +16,15 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Press Enter when presented (\<OK> estas la sola elekto).  
-Choice of services: leave http and https checked, go to OK, enter.  
+Press Enter when the presentation is displayed (\<OK> is the only choice).  
+Choice of services: leave http and https checked, go to OK, press Enter.  
 _«HTTP Port number:»_ exit 8080, go to OK, press Enter.  
-_«HTTPS Port number:»_ put 8443, go to OK, enter.  
-_«Installation Folder:»_ metu _/home/domoticz/domoticz_, go to OK, enter.  
+_«HTTPS Port number:»_ enter 8443, go to OK, Enter.  
+_«Installation Folder:»_ set _/home/domoticz/domoticz_, go to OK, Enter.  
 _«Installation Complete!»_  , Enter.
 
 
-Now we create the _«systemd»_ service that will launch domoticz:
+Now we create the service _«systemd»_ , which will launch domoticz:
 ```bash
 service domoticz stop
 rm /etc/*.d/*domoticz*
@@ -51,21 +51,23 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz is installed and accessible at:
-* of the pi: <http://localhost:8080> or <https://localhost:8443>
-* of the network: <http://ip-adreso_de_la_pi:8080> or <https://ip-adreso_de_la_pi:8443>
+domoticz is installed and accessible:
+* from pi: <http: // localhost: 8080> or <https: // localhost: 8443>
+* of the network: <http: // address_IP_of_pi:8080> ou <https://adresse_IP_du_pi: 8443>
 
-any configuration:  
+some configuration:  
 go to _«Setup --> Settings»_  
-change language, set location  
+change language, define location  
 define security: username and password  
-define the "Local Area Networks", example: _«127.0.0.\*;192.168.0.*»_  
-activate "Automatic Backup"  
-Hardware / Devices: disable "Accept new Devices"  
-click "Apply Settings".  
+define the "Local Area Networks", for example: _«127.0.0.\*;192.168.0.*»_  
+Activate "Auto save"  
+Hardware / Side devices: disable "Accept new devices"  
+Click "Apply parameters".  
 
 Now we need to add the hardware.  
 see <https://www.domoticz.com/wiki/Getting_started>
 
+
 For more details,
 see <https://www.domoticz.com/wiki/Raspberry_Pi>
+

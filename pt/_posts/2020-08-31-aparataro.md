@@ -3,38 +3,38 @@ lang: pt
 lang-niv: auto
 lang-ref: aparataro
 layout: post
-slug: Hardware
-title: 'Hardware para começar.'
+slug: Equipamento
+title: 'Material para começar.'
 ---
    
-# Os materiais para o sistema de automação residencial
+# Materiais para o sistema de automação residencial
 
 Aqui está o material que usei para construir meu sistema de automação residencial, permitindo controlar equipamentos de 433 Mhz e equipamentos zigbee.
 
-|tipo|cenário|marca|modelo|preço indicado|porque|
+| tipo | imagem | marca | modelo | preço indicativo | Por que |
 | --- | --- | --- | --- | --- | --- | 
-|computador|![](/public/pi.jpg) | _raspberry_ |pi3b +| 35€ |sem ventilador, barato, tem gpio, wi-fi, LAN RJ45|
-||![](/public/loĝejo.jpg) | _Aukru_ | | 7€ |qualquer caso de computador para _raspberry-pi3_ apropriado. Escolha o que você preferir.|
-|fonte de energia|![](/public/elektroprovizo.jpg) | _Konky_ | | 10€ |Quando meu" _raspberry-pi3_ especial"a corrente revelou-se muito fraca, substituí-a com sucesso por esta. Muitos outros modelos são adequados.|
-|cabo USB|  |  |USB para micro USB| 2€ |para conectar o _raspberry-pi3_ para a fonte de alimentação|
-|cartão micro SD|![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11€ |o pi precisa de um cartão de qualidade, é altamente recomendável usar um cartão de uma marca bem conhecida.|
-|Cabos duplex|![](/public/dupont.jpg) | _SODIAL_ |Cabos Duplex fêmea-fêmea. 068187| 2€|para conectar dispositivos de 433 Mhz e instalar um stick USB Zigbee|
-|transmissor + receptor|![](/public/dissendilo-ricevilo-433Mhz.jpg) | |wl101-341 + wl102-341| 2€ |Transmissor + receptor super-heteródino 433mhz|
-|cabo| | || 0€ |um pedaço de cabo para fazer uma antena. Por exemplo, um antigo cabo de rede de 3 metros.|
-|blindagem| | |Folha de alumínio inserida em uma folha de papel dobrada pela metade| 0€ |para proteger o receptor de 433 Mhz da interferência gerada pelo _raspberry-pi3_.|
-|  _Zigbee_ Stick e cabo USB|![](/public/cc2531+kablo.jpg) |  | CC2531|6€ | _zigbee_ stick e download de cabo para CC|
-| | | | **preço total** | **75€** | 
+| computador |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 € | sem ventilador, barato, tem gpio, wi-fi, LAN RJ45 |
+| caixa do computador |![](/public/loĝejo.jpg) | _Aukru_ | | 7 € | qualquer caixa de computador para _raspberry-pi3_ é adequada. Escolha o que você preferir.
+| fonte atual |![](/public/elektroprovizo.jpg) | _Konky_ | | 10 € | Quando meu especial " _raspberry-pi3_"acabou ficando muito fraco, substituí-o com sucesso por este. Muitos outros modelos são adequados.
+| Cabo USB | | | USB para micro USB | 2 € | conectar o _raspberry-pi3_ à fonte de alimentação |
+| Cartão Micro SD |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 € | o pi precisa de um cartão de qualidade, é altamente recomendável usar um cartão de uma marca bem conhecida. |
+| Cabos duplex |![](/public/dupont.jpg) | _SODIAL_ | Cabos Duplex fêmea-fêmea. 068187 | 2 € | conectar dispositivos de 433 MHz e uma chave USB flash zigbee |
+| transmissor + receptor |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | Transmissor + receptor superheteródino 433 MHz |
+| cabo | | || 0 € | um pedaço de cabo para criar uma antena. Por exemplo, um antigo cabo de rede de 3 metros.
+| blindagem | | | Uma folha de papel alumínio inserida em uma folha de papel dobrada ao meio | 0 € | para proteger o receptor 433 Mhz da interferência gerada pelo _raspberry-pi3_. |
+| Pen drive USB _Zigbee_ e cabo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | _zigbee_ e download do cabo para CC |
+| | | | **Preço total** | **75 €** | 
 
 
 
-# Os materiais a serem testados.
+# Os dispositivos de controle.
 
-Muitos dispositivos podem ser controlados. Para começar, esses três parecem particularmente interessantes para mim:
+Muitos dispositivos podem ser controlados. Em primeiro lugar, esses três elementos me parecem particularmente interessantes:
 
-|tipo|tecnologia|cenário|marca|modelo|preço indicado|porque|
+| tipo | tecnologia | imagem | marca | modelo | preço indicativo | Por que |
 | --- | --- | --- | --- | --- | --- | --- |
-| termometro |433Mhz| ![](/public/fanju.jpeg)| _Fanju_ |por fj3378| 7.50€||
-| ingoj |433Mhz|![](/public/KYG.jpg)| _KYG_ | 4315 | 33€ |5 tomadas de controle remoto a um preço razoável.|
-|lâmpada| _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_LED E27 806 lumens| 10€ |lâmpada ajustável a um preço razoável.|
-| | | | | **preço total** | **50,5€** | |
+| termômetro | 433 MHz | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7,50 € | termômetro com tela a um preço razoável. |
+| tomadas elétricas | 433 MHz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 tomadas de controle remoto a um preço razoável. |
+| lâmpada | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumens | 10 € | lâmpada ajustável a um preço razoável. |
+| | | | | **Preço total** | **50,5 €** | |
 

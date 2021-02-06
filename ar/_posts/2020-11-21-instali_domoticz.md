@@ -3,8 +3,8 @@ lang: ar
 lang-niv: auto
 lang-ref: instali-domoticz
 layout: post
-slug: 'تثبيت domoticz.'
-title: 'تثبيت domoticz.'
+slug: 'تثبيت Domoticz.'
+title: 'تثبيت Domoticz.'
 ---
 
 هذا مثال على تثبيت Domoticz تحت نظام raspbian.
@@ -16,15 +16,15 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-اضغط على Enter عند تقديمها (\<OK> estas la sola elekto).  
-اختيار الخدمات: اترك http و https محددًا ، وانتقل إلى موافق ، ثم أدخل.  
+اضغط على Enter عند عرض العرض التقديمي (\<OK> هو الخيار الوحيد).  
+اختيار الخدمات: اترك http و https محددًا ، وانتقل إلى موافق ، واضغط على Enter.  
 _«HTTP Port number:»_ خروج 8080 ، انتقل إلى "موافق" ، واضغط على Enter.  
-_«HTTPS Port number:»_ ضع 8443 ، اذهب إلى موافق ، أدخل.  
-_«Installation Folder:»_ ميتو _/home/domoticz/domoticz_، اذهب إلى "موافق" ، أدخل.  
+_«HTTPS Port number:»_ أدخل 8443 ، انتقل إلى موافق ، أدخل.  
+_«Installation Folder:»_ اضبط _/home/domoticz/domoticz_، انتقل إلى OK ، Enter.  
 _«Installation Complete!»_  ، أدخل.
 
 
-الآن نقوم بإنشاء ملف _«systemd»_ الخدمة التي ستطلق Domoticz:
+الآن نقوم بإنشاء الخدمة _«systemd»_ ، والتي ستطلق domoticz:
 ```bash
 service domoticz stop
 rm /etc/*.d/*domoticz*
@@ -51,21 +51,23 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz مثبت ويمكن الوصول إليه على:
-* من بي: <http://localhost:8080> أو <https://localhost:8443>
-* من الشبكة: <http://ip-adreso_de_la_pi:8080> أو <https://ip-adreso_de_la_pi:8443>
+domoticz مثبت ويمكن الوصول إليه:
+* من pi: <http: // localhost: 8080> أو <https: // localhost: 8443>
+* للشبكة: <http: // address_IP_من_pi:8080> ou <https://adresse_IP_du_pi: 844318 درجة) (19 درجة)
 
-أي تكوين:  
+بعض التكوين:  
 اذهب إلى _«Setup --> Settings»_  
 تغيير اللغة وتحديد الموقع  
 تعريف الأمان: اسم المستخدم وكلمة المرور  
-تحديد ال "الشبكات المحلية"، مثال: _«127.0.0.\*;192.168.0.*»_  
-تفعيل "النسخ الاحتياطي التلقائي"  
-الأجهزة / الأجهزة: تعطيل "قبول الأجهزة الجديدة"  
-انقر "تطبيق إعدادات".  
+حدد "شبكات المنطقة المحلية"، على سبيل المثال: _«127.0.0.\*;192.168.0.*»_  
+تنشيط "حفظ تلقائي"  
+الأجهزة / الأجهزة الجانبية: تعطيل "قبول الأجهزة الجديدة"  
+انقر فوق "تطبيق المعلمات".  
 
 الآن نحن بحاجة إلى إضافة الأجهزة.  
 نرى <https://www.domoticz.com/wiki/Getting_started>
 
+
 لمزيد من التفاصيل،
 نرى <https://www.domoticz.com/wiki/Raspberry_Pi>
+

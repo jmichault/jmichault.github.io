@@ -1,10 +1,10 @@
 ---
-layout: post
-title: Bonvenon al mia blogo!
-slug: Bonvenon!
 lang: eo
+lang-niv: auto
 lang-ref: bonvenon-al-mia-blogo
-lang-niv: fonto
+layout: post
+slug: Bonvenon!
+title: 'Bonvenon al mia blogo!'
 ---
 
 Bonvenon al mia blogo!

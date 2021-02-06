@@ -3,5 +3,5 @@ lang: bn
 lang-niv: auto
 lang-ref: indekso
 layout: index
-title: 'সর্বশেষ পোস্ট'
+title: 'সাম্প্রতিক প্রবন্ধসমূহ'
 ---

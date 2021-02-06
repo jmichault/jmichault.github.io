@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "pa"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,9 +42,10 @@ msgstr "post"
 
 #. type: YAML Front Matter: title
 #: _posts/2020-11-21-instali_domoticz.md:1
-#, fuzzy, no-wrap
-msgid "Instali domoticz."
-msgstr "ਸਥਾਪਿਤ ਕਰੋ domoticz."
+#, no-wrap
+#, fuzzy
+msgid "Instalu domoticz."
+msgstr "ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਿਤ ਕਰੋ."
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:11
@@ -54,8 +55,9 @@ msgstr "ਇਹ ਰਸਪਬੀਅਨ ਦੇ ਅਧੀਨ ਡੋਮੋਟਿਕ�
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:13
-#, fuzzy, no-wrap
-msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
+#, no-wrap
+#, fuzzy
+msgid "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
 msgstr "ਅਸੀਂ ਇੱਕ ਸਮਰਪਿਤ ਉਪਭੋਗਤਾ ਬਣਾ ਕੇ ਅਰੰਭ ਕਰਦੇ ਹਾਂ, ਫਿਰ ਅਸੀਂ ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਕਰਦੇ ਹਾਂ:\n"
 
 #. type: Fenced code block (bash)
@@ -74,15 +76,17 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
-#, fuzzy, no-wrap
-msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
-msgstr "ਪੇਸ਼ ਕਰਨ ਤੇ ਐਂਟਰ ਦਬਾਓ (\\<OK> estas la sola elekto).  \n"
+#, no-wrap
+#, fuzzy
+msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
+msgstr "ਜਦੋਂ ਪ੍ਰਸਤੁਤੀ ਪ੍ਰਦਰਸ਼ਿਤ ਹੁੰਦੀ ਹੈ ਤਾਂ ਐਂਟਰ ਦਬਾਓ (\\<ਠੀਕ ਹੈ> ਸਿਰਫ ਇਕੋ ਵਿਕਲਪ)ਹੁੰਦਾ ਹੈ.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:20
-#, fuzzy, no-wrap
-msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
-msgstr "ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੱਡੋ http ਅਤੇ https ਨੂੰ ਚੈੱਕ ਕਰੋ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
+msgstr "ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੱਡੋ HTTP ਅਤੇ https ਚੈੱਕ ਕੀਤੇ, ਠੀਕ ਤੇ ਜਾਓ, ਐਂਟਰ ਦਬਾਓ.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:21
@@ -92,15 +96,17 @@ msgstr "_«HTTP Port number:»_ 8080 ਬੰਦ ਕਰੋ, ਠੀਕ ਹੈ ਤ�
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
-#, fuzzy, no-wrap
-msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
-msgstr "_«HTTPS Port number:»_ 8443 ਪਾਓ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
+#, no-wrap
+#, fuzzy
+msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
+msgstr "_«HTTPS Port number:»_ 8443 ਦਿਓ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
-#, fuzzy, no-wrap
-msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
-msgstr "_«Installation Folder:»_ ਮੀਟੂ _/home/domoticz/domoticz_, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
+#, no-wrap
+#, fuzzy
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
+msgstr "_«Installation Folder:»_ ਸੈੱਟ _/home/domoticz/domoticz_, ਠੀਕ ਹੈ, ਐਂਟਰ ਤੇ ਜਾਓ.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:25
@@ -110,9 +116,10 @@ msgstr "_«Installation Complete!»_  , ਦਰਜ ਕਰੋ.\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:28
-#, fuzzy, no-wrap
-msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
-msgstr "ਹੁਣ ਅਸੀਂ ਬਣਾਉਂਦੇ ਹਾਂ _«systemd»_ ਸੇਵਾ ਜੋ ਡੋਮੋਟਿਕਜ਼ ਲਾਂਚ ਕਰੇਗੀ:\n"
+#, no-wrap
+#, fuzzy
+msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
+msgstr "ਹੁਣ ਅਸੀਂ ਸੇਵਾ _«systemd»_ ਬਣਾਉਂਦੇ ਹਾਂ, ਜੋ ਡੋਮੋਟਿਕਜ਼ ਲਾਂਚ ਕਰੇਗੀ:\n"
 
 #. type: Fenced code block (bash)
 #: _posts/2020-11-21-instali_domoticz.md:28
@@ -168,21 +175,20 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:57
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"domoticz estas instalita kaj alirebla ĉe:\n"
-"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
-"* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
-msgstr ""
-"ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਹੈ ਅਤੇ ਇਸ ਤੇ ਪਹੁੰਚਯੋਗ ਹੈ:\n"
-"* pi ਦੇ: <http://localhost:8080> ਜਾਂ <https://localhost:8443>\n"
-"* ਨੈੱਟਵਰਕ ਦੇ: <http://ip-adreso_de_la_pi:8080> ਜਾਂ <https://ip-adreso_de_la_pi:8443>\n"
+"domoticz estas instalita kaj alirebla:\n"
+"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
+msgstr "ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਹੈ ਅਤੇ ਪਹੁੰਚਯੋਗ ਹੈ:\n* pi ਤੋਂ: <http: // ਲੋਕਲਹੋਸਟ: 8080> ਜਾਂ <https: // ਲੋਕਲਹੋਸਟ: 8443 Network 6 °)\n* ਨੈਟਵਰਕ ਦਾ: <http: // ਐਡਰੈੱਸ_IP_ਆਈਪੀ_du_ਪੀਆਈ: 8443>\n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:58
-#, fuzzy, no-wrap
-msgid "iu agordo:  \n"
-msgstr "ਕੋਈ ਵੀ ਸੰਰਚਨਾ:  \n"
+#, no-wrap
+#, fuzzy
+msgid "iom da agordo:  \n"
+msgstr "ਕੁਝ ਕੌਨਫਿਗਰੇਸ਼ਨ:  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:59
@@ -192,44 +198,51 @@ msgstr "ਵੱਲ ਜਾ _«Setup --> Settings»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:60
-#, fuzzy, no-wrap
-msgid "ŝanĝi lingvon, agordi lokon  \n"
+#, no-wrap
+#, fuzzy
+msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "ਭਾਸ਼ਾ ਬਦਲੋ, ਨਿਰਧਾਰਿਤ ਸਥਾਨ  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:61
-#, fuzzy, no-wrap
-msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+#, no-wrap
+#, fuzzy
+msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "ਸੁਰੱਖਿਆ ਨੂੰ ਪ੍ਰਭਾਸ਼ਿਤ ਕਰੋ: ਉਪਭੋਗਤਾ ਨਾਮ ਅਤੇ ਪਾਸਵਰਡ  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:62
-#, fuzzy, no-wrap
-msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
-msgstr "ਪਰਿਭਾਸ਼ਤ \"ਸਥਾਨਕ ਏਰੀਆ ਨੈਟਵਰਕ\", ਉਦਾਹਰਣ: _«127.0.0.\\*;192.168.0.*»_  \n"
+#, no-wrap
+#, fuzzy
+msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
+msgstr " \"ਸਥਾਨਕ ਏਰੀਆ ਨੈਟਵਰਕ\"ਪਰਿਭਾਸ਼ਤ ਕਰੋ, ਉਦਾਹਰਣ ਵਜੋਂ: _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:63
-#, fuzzy, no-wrap
-msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
-msgstr "ਸਰਗਰਮ \"ਆਟੋਮੈਟਿਕ ਬੈਕਅਪ\"  \n"
+#, no-wrap
+#, fuzzy
+msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
+msgstr "ਸਕਿਰਿਆ ਬਣਾਓ \"ਆਟੋ ਸੇਵ\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:64
-#, fuzzy, no-wrap
-msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
-msgstr "ਹਾਰਡਵੇਅਰ / ਜੰਤਰ: ਅਯੋਗ \"ਨਵੇਂ ਉਪਕਰਣ ਸਵੀਕਾਰ ਕਰੋ\"  \n"
+#, no-wrap
+#, fuzzy
+msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+msgstr "ਹਾਰਡਵੇਅਰ / ਸਾਈਡ ਉਪਕਰਣ: ਅਯੋਗ \"ਨਵੇਂ ਉਪਕਰਣ ਸਵੀਕਾਰ ਕਰੋ\"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:65
-#, fuzzy, no-wrap
-msgid "alklaku \"Apliki Agordojn\".  \n"
-msgstr "ਕਲਿਕ ਕਰੋ \"ਸੈਟਿੰਗ ਲਾਗੂ ਕਰੋ\".  \n"
+#, no-wrap
+#, fuzzy
+msgid "Alklaku \"Apliki parametrojn\".  \n"
+msgstr "ਕਲਿਕ ਕਰੋ \"ਪੈਰਾਮੀਟਰ ਲਾਗੂ ਕਰੋ\".  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:67
-#, fuzzy, no-wrap
-msgid "Nun ni devas aldoni la aparataron.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "ਹੁਣ ਸਾਨੂੰ ਹਾਰਡਵੇਅਰ ਜੋੜਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ.  \n"
 
 #. type: Plain text
@@ -239,7 +252,7 @@ msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr "ਵੇਖੋ <https://www.domoticz.com/wiki/Getting_started>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:71
+#: _posts/2020-11-21-instali_domoticz.md:73
 #, fuzzy, no-wrap
 msgid ""
 "Por pli da detaloj,\n"
@@ -247,3 +260,76 @@ msgid ""
 msgstr ""
 "ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ,\n"
 "ਵੇਖੋ <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid "Instali domoticz."
+#~ msgstr "ਸਥਾਪਿਤ ਕਰੋ domoticz."
+
+#, fuzzy
+#~ msgid "Ni komencas kreante dediĉitan uzanton, tiam ni instalas domoticz:\n"
+#~ msgstr "ਅਸੀਂ ਇੱਕ ਸਮਰਪਿਤ ਉਪਭੋਗਤਾ ਬਣਾ ਕੇ ਅਰੰਭ ਕਰਦੇ ਹਾਂ, ਫਿਰ ਅਸੀਂ ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਕਰਦੇ ਹਾਂ:\n"
+
+#, fuzzy
+#~ msgid "Premu Enter kiam prezentas (\\<OK> estas la sola elekto).  \n"
+#~ msgstr "ਪੇਸ਼ ਕਰਨ ਤੇ ਐਂਟਰ ਦਬਾਓ (\\<OK> estas la sola elekto).  \n"
+
+#, fuzzy
+#~ msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, eniru.  \n"
+#~ msgstr "ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੱਡੋ http ਅਤੇ https ਨੂੰ ਚੈੱਕ ਕਰੋ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
+
+#, fuzzy
+#~ msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, enigu.  \n"
+#~ msgstr "_«HTTPS Port number:»_ 8443 ਪਾਓ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
+
+#, fuzzy
+#~ msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, eniru.  \n"
+#~ msgstr "_«Installation Folder:»_ ਮੀਟੂ _/home/domoticz/domoticz_, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  \n"
+
+#, fuzzy
+#~ msgid "Nun ni kreas la _«systemd»_ servon, kiu lanĉos domoticz:\n"
+#~ msgstr "ਹੁਣ ਅਸੀਂ ਬਣਾਉਂਦੇ ਹਾਂ _«systemd»_ ਸੇਵਾ ਜੋ ਡੋਮੋਟਿਕਜ਼ ਲਾਂਚ ਕਰੇਗੀ:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "domoticz estas instalita kaj alirebla ĉe:\n"
+#~ "* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+#~ "* de la reto: <http://ip-adreso_de_la_pi:8080> aŭ <https://ip-adreso_de_la_pi:8443>\n"
+#~ msgstr ""
+#~ "ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਹੈ ਅਤੇ ਇਸ ਤੇ ਪਹੁੰਚਯੋਗ ਹੈ:\n"
+#~ "* pi ਦੇ: <http://localhost:8080> ਜਾਂ <https://localhost:8443>\n"
+#~ "* ਨੈੱਟਵਰਕ ਦੇ: <http://ip-adreso_de_la_pi:8080> ਜਾਂ <https://ip-adreso_de_la_pi:8443>\n"
+
+#, fuzzy
+#~ msgid "iu agordo:  \n"
+#~ msgstr "ਕੋਈ ਵੀ ਸੰਰਚਨਾ:  \n"
+
+#, fuzzy
+#~ msgid "ŝanĝi lingvon, agordi lokon  \n"
+#~ msgstr "ਭਾਸ਼ਾ ਬਦਲੋ, ਨਿਰਧਾਰਿਤ ਸਥਾਨ  \n"
+
+#, fuzzy
+#~ msgid "difinu sekurecon: uzantnomon kaj pasvorton  \n"
+#~ msgstr "ਸੁਰੱਖਿਆ ਨੂੰ ਪ੍ਰਭਾਸ਼ਿਤ ਕਰੋ: ਉਪਭੋਗਤਾ ਨਾਮ ਅਤੇ ਪਾਸਵਰਡ  \n"
+
+#, fuzzy
+#~ msgid "difinu la \"Lokajn Retojn\", ekzemplo: _«127.0.0.\\*;192.168.0.*»_  \n"
+#~ msgstr "ਪਰਿਭਾਸ਼ਤ \"ਸਥਾਨਕ ਏਰੀਆ ਨੈਟਵਰਕ\", ਉਦਾਹਰਣ: _«127.0.0.\\*;192.168.0.*»_  \n"
+
+#, fuzzy
+#~ msgid "aktivigu \"Aŭtomatan Sekurkopion\"  \n"
+#~ msgstr "ਸਰਗਰਮ \"ਆਟੋਮੈਟਿਕ ਬੈਕਅਪ\"  \n"
+
+#, fuzzy
+#~ msgid "Aparataro/Aparatoj: malaktivigu \"Akcepti novajn Aparatojn\"  \n"
+#~ msgstr "ਹਾਰਡਵੇਅਰ / ਜੰਤਰ: ਅਯੋਗ \"ਨਵੇਂ ਉਪਕਰਣ ਸਵੀਕਾਰ ਕਰੋ\"  \n"
+
+#, fuzzy
+#~ msgid "alklaku \"Apliki Agordojn\".  \n"
+#~ msgstr "ਕਲਿਕ ਕਰੋ \"ਸੈਟਿੰਗ ਲਾਗੂ ਕਰੋ\".  \n"
+
+#, fuzzy
+#~ msgid "Nun ni devas aldoni la aparataron.  \n"
+#~ msgstr "ਹੁਣ ਸਾਨੂੰ ਹਾਰਡਵੇਅਰ ਜੋੜਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ.  \n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "ja"
 #. type: YAML Front Matter: lang-niv
 #: index.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,6 +42,14 @@ msgstr "index"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy, no-wrap
-msgid "Plej novaj afiŝoj"
-msgstr "最新の投稿"
+#, no-wrap
+#, fuzzy
+msgid "lastaj artikoloj"
+msgstr "最新記事"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid "Plej novaj afiŝoj"
+#~ msgstr "最新の投稿"

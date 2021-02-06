@@ -3,8 +3,8 @@ lang: it
 lang-niv: auto
 lang-ref: instali-domoticz
 layout: post
-slug: 'Installare domoticz.'
-title: 'Installare domoticz.'
+slug: 'Installa domoticz.'
+title: 'Installa domoticz.'
 ---
 
 Ecco un esempio di installazione di domoticz sotto raspbian.
@@ -16,15 +16,15 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Premere Invio quando viene presentato (\<OK> estas la sola elekto).  
-Scelta dei servizi: lasciare spuntati http e https, andare su OK, entrare.  
+Premere Invio quando viene visualizzata la presentazione (\<OK> è l'unica scelta).  
+Scelta dei servizi: lasciare spuntati http e https, andare su OK, premere Invio.  
 _«HTTP Port number:»_ esci da 8080, vai su OK, premi Invio.  
-_«HTTPS Port number:»_ metti 8443, vai su OK, entra.  
-_«Installation Folder:»_ metu _/home/domoticz/domoticz_, vai su OK, entra.  
+_«HTTPS Port number:»_ inserisci 8443, vai su OK, Invio.  
+_«Installation Folder:»_ impostato _/home/domoticz/domoticz_, vai su OK, Invio.  
 _«Installation Complete!»_  , Accedere.
 
 
-Ora creiamo il file _«systemd»_ servizio che lancerà domoticz:
+Ora creiamo il servizio _«systemd»_ , che lancerà domoticz:
 ```bash
 service domoticz stop
 rm /etc/*.d/*domoticz*
@@ -51,21 +51,23 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz è installato e accessibile a:
-* del pi: <http://localhost:8080> o <https://localhost:8443>
-* della rete: <http://ip-adreso_de_la_pi:8080> o <https://ip-adreso_de_la_pi:8443>
+domoticz è installato e accessibile:
+* da pi: <http: // localhost: 8080> o <https: // localhost: 8443>
+* della rete: <http: // indirizzo_IP_di_pi:8080> ou <https://adresse_IP_du_pi: 8443>
 
-qualsiasi configurazione:  
+alcune configurazioni:  
 vai a _«Setup --> Settings»_  
-cambia lingua, imposta posizione  
+cambia lingua, definisci posizione  
 definire la sicurezza: nome utente e password  
-definire il "Reti locali", esempio: _«127.0.0.\*;192.168.0.*»_  
-attivare "Backup automatico"  
-Hardware / dispositivi: disabilita "Accetta nuovi dispositivi"  
-clic "Applica le impostazioni".  
+definire le "reti locali", ad esempio: _«127.0.0.\*;192.168.0.*»_  
+Attiva "Salvataggio automatico"  
+Dispositivi hardware / laterali: disabilita "Accetta nuovi dispositivi"  
+Fare clic su "Applica parametri".  
 
 Ora dobbiamo aggiungere l'hardware.  
 vedere <https://www.domoticz.com/wiki/Getting_started>
 
+
 Per ulteriori dettagli,
 vedere <https://www.domoticz.com/wiki/Raspberry_Pi>
+

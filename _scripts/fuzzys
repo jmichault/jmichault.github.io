@@ -1,21 +1,22 @@
 #!/bin/bash
 
-BASEDIR=`dirname $0`
+. $(dirname $(readlink -f $0))/lib/head
+
 cd "$BASEDIR"
 cd ..
 
-echo "ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato."
+echo "`trad 'ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato.'`\n"
 
 if [ $# -ge 1 ]
 then
   LINGVO=$1
 else
-  read -p "Kiu cellingvo ? " LINGVO
+  read -p "`trad 'Kiu cellingvo ?'` " LINGVO
 fi
 
 if [ ! -d _locale/$LINGVO ]
 then
-  echo "Pardonu, ne troviĝis $ LINGVO."
+  echo "`trad 'Pardonu, lingvo ne troviĝis'` $LINGVO."
   sleep 2
   exit
 fi
@@ -24,7 +25,7 @@ if [ $# -ge 2 ]
 then
   ACTION=$2
 else
-  read -p "Kia ago ? l=ls, z=zip, v=malfermi per virtaal, p=malfermi per poedit : " ACTION
+  read -p "`trad 'Kia ago ?'` l=ls, z=zip, v=virtaal, p=poedit : " ACTION
 fi
 
 case $ACTION in
@@ -48,8 +49,9 @@ case $ACTION in
     sleep 2
     ;;
   *)
-    echo "pardonu, ${ACTION} ago ne rekonita."
+    echo "`trad 'pardonu, ago ne rekonita :'` ${ACTION}"
     sleep 2
     ;;
 esac
 
+read -p "`trad 'Premu enigoklavon.'` " 

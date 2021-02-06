@@ -4,6 +4,7 @@
 *.po~
 *.pot~
 *.old
+*.nova
 toto*
 *.bak.po
 *.backup

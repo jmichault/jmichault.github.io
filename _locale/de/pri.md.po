@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 13:10+0100\n"
+"POT-Creation-Date: 2021-01-31 17:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "de"
 #. type: YAML Front Matter: lang-niv
 #: pri.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -47,14 +47,24 @@ msgid "Pri la Aŭtoro"
 msgstr "Über den Autor"
 
 #. type: Plain text
-#: pri.md:11
-#, fuzzy, no-wrap
+#: pri.md:10
+#, no-wrap
+#, fuzzy
 msgid ""
-"Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
-"Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
-msgstr ""
-"Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit seinem 18. Lebensjahr computerabhängig.\n"
-"\n"
+"Pasia pri elektroniko ekde la aĝo de 10 jaroj kaj toksomaniulo al komputiloj ekde la aĝo de 18 jaroj.\n"
+"Mi okupiĝis pri malfermfonteco ekde la fino de la 20a jarcento.\n"
+msgstr "Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit seinem 18. Lebensjahr computerabhängig.\nIch beschäftige mich seit Ende des 20. Jahrhunderts mit Open Source.\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+#~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
+#~ msgstr ""
+#~ "Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit seinem 18. Lebensjahr computerabhängig.\n"
+#~ "\n"
 
 #~ msgid "pri"
 #~ msgstr "pri"
