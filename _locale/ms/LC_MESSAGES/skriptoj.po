@@ -19,46 +19,58 @@ msgstr ""
 "X-Source-Language: eo\n"
 
 #: traduki:37
+#, fuzzy
 msgid "krei traduko"
-msgstr ""
+msgstr "buat terjemahan"
 
 #: fuzzys:8
+#, fuzzy
 msgid ""
 "ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato."
-msgstr ""
+msgstr "skrip ini digunakan untuk menguruskan fail po dalam keadaan membingungkan."
 
 #: fuzzys:14
+#, fuzzy
 msgid "Kiu cellingvo ?"
-msgstr ""
+msgstr "Bahasa sasaran mana?"
 
 #: fuzzys:19 komenci:16
+#, fuzzy
 msgid "Pardonu, lingvo ne troviĝis"
-msgstr ""
+msgstr "Maaf, bahasa tidak dijumpai"
 
 #: fuzzys:28
+#, fuzzy
 msgid "Kia ago ?"
-msgstr ""
+msgstr "Apa tindakan?"
 
 #: fuzzys:52
+#, fuzzy
 msgid "pardonu, ago ne rekonita :"
-msgstr ""
+msgstr "maaf, tindakan yang tidak dikenali:"
 
 #: fuzzys:57
+#, fuzzy
 msgid "Premu enigoklavon."
-msgstr ""
+msgstr "Tekan enter."
 
 #: komenci:8
+#, fuzzy
 msgid "ĉi tiu skripto estas uzata por pravalorizi la retejon."
-msgstr ""
+msgstr "skrip ini digunakan untuk memulakan laman web ini."
 
 #: komenci:13
+#, fuzzy
 msgid "Laborlingvo (2 litero, defaŭlte="
-msgstr ""
+msgstr "Bahasa kerja ("
 
 #: komenci:31
+#, fuzzy
 msgid "Titolo :"
-msgstr ""
+msgstr "Tajuk:"
 
 #: komenci:42
+#, fuzzy
 msgid "Priskribo :"
-msgstr ""
+msgstr "Penerangan:"
+

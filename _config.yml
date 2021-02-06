@@ -7,13 +7,6 @@ laborlingvo: fr
 #ne_afisxoj: "true"
 # malkomentigu la sekvan linion por forigi la menuon "serĉu per google"
 #ne_googlesearch: "true"
-permesilo: 
-#'<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="width:88px;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Partage dans les Mêmes Conditions " /></a>'
-# Google search verification ID
-#GSV-id: "123"
-# Google Analytics ID
-#GA-ID: "456"
-
 
 # Dependencies
 highlighter:      rouge

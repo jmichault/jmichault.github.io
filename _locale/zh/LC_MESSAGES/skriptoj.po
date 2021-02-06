@@ -19,46 +19,58 @@ msgstr ""
 "X-Source-Language: eo\n"
 
 #: traduki:37
+#, fuzzy
 msgid "krei traduko"
-msgstr ""
+msgstr "创建翻译"
 
 #: fuzzys:8
+#, fuzzy
 msgid ""
 "ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato."
-msgstr ""
+msgstr "该脚本用于管理处于混乱状态的po文件。"
 
 #: fuzzys:14
+#, fuzzy
 msgid "Kiu cellingvo ?"
-msgstr ""
+msgstr "哪种目标语言？"
 
 #: fuzzys:19 komenci:16
+#, fuzzy
 msgid "Pardonu, lingvo ne troviĝis"
-msgstr ""
+msgstr "抱歉，找不到语言"
 
 #: fuzzys:28
+#, fuzzy
 msgid "Kia ago ?"
-msgstr ""
+msgstr "什么动作"
 
 #: fuzzys:52
+#, fuzzy
 msgid "pardonu, ago ne rekonita :"
-msgstr ""
+msgstr "抱歉，无法识别的动作："
 
 #: fuzzys:57
+#, fuzzy
 msgid "Premu enigoklavon."
-msgstr ""
+msgstr "按回车。"
 
 #: komenci:8
+#, fuzzy
 msgid "ĉi tiu skripto estas uzata por pravalorizi la retejon."
-msgstr ""
+msgstr "该脚本用于初始化站点。"
 
 #: komenci:13
+#, fuzzy
 msgid "Laborlingvo (2 litero, defaŭlte="
-msgstr ""
+msgstr "工作语言 ("
 
 #: komenci:31
+#, fuzzy
 msgid "Titolo :"
-msgstr ""
+msgstr "标题："
 
 #: komenci:42
+#, fuzzy
 msgid "Priskribo :"
-msgstr ""
+msgstr "描述："
+

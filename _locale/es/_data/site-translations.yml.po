@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"POT-Creation-Date: 2021-02-06 10:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,16 +42,16 @@ msgstr "Leer esta página en otro idioma"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
-msgstr "Algunas ideas para diseñar su domótica a menor costo."
+#, no-wrap
+#, fuzzy
+msgid "Priskribo."
+msgstr "Descripción."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "Licencia <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "Licencia <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Licencia Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -68,14 +68,15 @@ msgstr "Artículos Relacionados"
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, fuzzy, no-wrap
-msgid "Ŝercu per Google."
-msgstr "Bromea con Google."
+msgid "Serĉu per Google."
+msgstr "Busca en Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Hejma aŭtomatigo"
-msgstr "Automatización del hogar"
+#, no-wrap
+#, fuzzy
+msgid "Titolo."
+msgstr "Título."
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -83,83 +84,3 @@ msgstr "Automatización del hogar"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:"
 
-#, fuzzy
-#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
-#~ msgstr "Permiso <a rel =\"licencia\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style =\"display: inline; border-width0\"src =\"https: // i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"title =\"Esta obra está autorizada bajo una licencia Creative Commons Atribución-CompartirIgual.\"/></ a>"
-
-#, fuzzy
-#~ msgid "Åercu per Google."
-#~ msgstr "Busca Google."
-
-#, fuzzy
-#~ msgid "Ĉiuj afiŝoj"
-#~ msgstr "Todos los mensajes"
-
-#, fuzzy
-#~ msgid ""
-#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
-#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
-#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
-#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
-#~ msgstr ""
-#~ "licencia <a rel =\"licencia\"href =\"http://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt =\"Licencia Creative Commons\"estilo ="
-#~ "\"visualización: en línea; ancho del borde: 0\"src =\"https: //i."
-#~ "creativecommons.org/l/by-sa/4.0/88x31.png\"title =\"Este(tte) el trabajo "
-#~ "está disponible bajo los términos de la Licencia Creative Commons "
-#~ "Reconocimiento-CompartirIgual \"/></ a>"
-
-#, fuzzy
-#~ msgid "Enrigardu"
-#~ msgstr "Echar un vistazo"
-
-#, fuzzy
-#~ msgid "Similaj Eroj"
-#~ msgstr "Artículos similares"
-
-#, fuzzy
-#~ msgid "Google serĉo."
-#~ msgstr "Búsqueda de Google."
-
-#, fuzzy
-#~ msgid ""
-#~ "lang:\n"
-#~ "titolo: \"Hejma aŭtomatigo\"\n"
-#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
-#~ "malalta kosto.\"\n"
-#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
-#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
-#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
-#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
-#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
-#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
-#~ "rigardiEn: \"Rigardu\"\n"
-#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
-#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
-#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
-#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
-#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
-#~ "a>'\n"
-#~ "serĉoj: \"Google Search.\"\n"
-#~ "Funkciigita: \"Funkciigita de\"\n"
-#~ msgstr ""
-#~ "lang:\n"
-#~ "título: \"Domótica\"\n"
-#~ "descripción: \"Algunas ideas para diseñar su domótica a menor costo.\"\n"
-#~ "selectLanguage: \"Seleccione su idioma\"\n"
-#~ "allPosts: \"All messages\"\n"
-#~ "relatedPosts : \"Elementos similares\"\n"
-#~ "Idioma diferente: \"Lea esta página en otro idioma\"\n"
-#~ "traducción Advertencia: \"Por favor nota: esta página ha sido traducida "
-#~ "automáticamente. Si puede, debe leerlo en uno de los siguientes idiomas:"
-#~ "\"\n"
-#~ "viewIn: \"View\"\n"
-#~ "derechos: 'licencia <a rel =\"licenco\"href =\"http://creativecommons.org/"
-#~ "licenses/by-sa/4.0/\"><img alt =\"Licencia Creative Commons\"estilo ="
-#~ "\"pantalla: en línea; ancho del borde: 0\"src =\"https: // i."
-#~ "creativecommons .org / l / by-sa / 4.0 / 88x31.png\"title =\"Este(tte) el "
-#~ "trabajo está disponible bajo los términos de la Licencia Creative Commons "
-#~ "Reconocimiento-CompartirIgual \"/></ a>'\n"
-#~ "búsquedas : \"Búsqueda de Google.\"\n"
-#~ "Desarrollado por: \"Desarrollado por\"\n"

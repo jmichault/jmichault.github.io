@@ -49,7 +49,6 @@ msgstr "কম খরচে আপনার হোম অটোমেশন ড�
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap
-#, fuzzy
 msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
 msgstr "লাইসেন্স <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
 
@@ -65,11 +64,10 @@ msgstr "ভিতরে তাকান"
 msgid "Rilataj Afiŝoj"
 msgstr "সম্পর্কিত পোস্ট"
 
-#. type: Hash Value - Key: serĉi
+#. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Ŝercu per Google."
+#, fuzzy, no-wrap
+msgid "Serĉu per Google."
 msgstr "গুগল অনুসন্ধান করুন।"
 
 #. type: Hash Value - Key: titolo
@@ -84,6 +82,3 @@ msgstr "অধিবাস স্বয়ংক্রিয়তা"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
 
-#, fuzzy
-#~ msgid "Ŝercu per Google."
-#~ msgstr "গুগল অনুসন্ধান করুন।"

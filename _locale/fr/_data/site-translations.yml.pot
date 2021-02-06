@@ -7,7 +7,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+<<<<<<< HEAD:_locale/fr/_data/site-translations.yml.pot
 "POT-Creation-Date: 2021-02-01 18:24+0100\n"
+=======
+"POT-Creation-Date: 2021-02-06 10:21+0100\n"
+>>>>>>> 48cf72a15294c127d0fa1b85742c52b8ca62ea53:_locale/zh/_data/site-translations.yml.po
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +22,7 @@ msgstr ""
 
 #. type: Hash Value - Key: Funkciigita
 #: >lang
+<<<<<<< HEAD:_locale/fr/_data/site-translations.yml.pot
 #, no-wrap
 msgid "Propulsé par"
 msgstr ""
@@ -39,10 +44,34 @@ msgstr ""
 #, no-wrap
 msgid "Lisez cette page dans une autre langue"
 msgstr ""
+=======
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "供电"
+
+#. type: Hash Value - Key: cxiujAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ĉiuj Afiŝoj"
+msgstr "所有帖子"
+
+#. type: Hash Value - Key: elektuLingvon
+#: >lang
+#, fuzzy, no-wrap
+msgid "Elektu vian lingvon"
+msgstr "选择你的语言"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "阅读另一种语言的页面"
+>>>>>>> 48cf72a15294c127d0fa1b85742c52b8ca62ea53:_locale/zh/_data/site-translations.yml.po
 
 #. type: Hash Value - Key: priskribo
 #: >lang
 #, no-wrap
+<<<<<<< HEAD:_locale/fr/_data/site-translations.yml.pot
 msgid "Quelques idées pour concevoir votre domotique à moindre coût."
 msgstr ""
 
@@ -69,10 +98,40 @@ msgstr ""
 #, no-wrap
 msgid "Recherche Google."
 msgstr ""
+=======
+#, fuzzy
+msgid "Priskribo."
+msgstr "描述。"
+
+#. type: Hash Value - Key: rajtoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "许可 <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"知识共享许可\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+
+#. type: Hash Value - Key: rigardiEn
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rigardi en"
+msgstr "在看"
+
+#. type: Hash Value - Key: rilatajAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rilataj Afiŝoj"
+msgstr "相关文章"
+
+#. type: Hash Value - Key: sercxi
+#: >lang
+#, fuzzy, no-wrap
+msgid "Serĉu per Google."
+msgstr "搜索谷歌。"
+>>>>>>> 48cf72a15294c127d0fa1b85742c52b8ca62ea53:_locale/zh/_data/site-translations.yml.po
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
+<<<<<<< HEAD:_locale/fr/_data/site-translations.yml.pot
 msgid "Domotique maison"
 msgstr ""
 
@@ -81,3 +140,15 @@ msgstr ""
 #, no-wrap
 msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
 msgstr ""
+=======
+#, fuzzy
+msgid "Titolo."
+msgstr "标题。"
+
+#. type: Hash Value - Key: tradukoAverto
+#: >lang
+#, fuzzy, no-wrap
+msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它："
+
+>>>>>>> 48cf72a15294c127d0fa1b85742c52b8ca62ea53:_locale/zh/_data/site-translations.yml.po

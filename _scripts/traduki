@@ -13,6 +13,7 @@ then
 fi
 
 
+lang0=eo
 cd eo
 
 for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
@@ -26,16 +27,16 @@ do
 	  OPTIONS="-f text --option markdown -o neverwrap" 
           ;;
   esac
-  if [ ! -f ../_locale/${FIC}.pot ]
+  if [ ! -f ../_locale/${lang0}/${FIC}.pot ]
   then
-    po4a-gettextize -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${FIC}.pot 
+    po4a-gettextize -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang0}/${FIC}.pot 
   else
-    if [ ../_locale/${FIC}.pot -ot ${FIC} ]
+    if [ ../_locale/${lang0}/${FIC}.pot -ot ${FIC} ]
     then
-      po4a-updatepo --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${FIC}.pot 
+      po4a-updatepo --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang0}/${FIC}.pot 
     fi
   fi
-  for lang in `grep "^..:$" ../_data/languages.yml|sed "s/:$//"|grep -v eo`
+  for lang in `grep "^..:$" ../_data/languages.yml|sed "s/:$//"|grep -v $lang0`
   do
     if [ ! -f ../_locale/${lang}/${FIC}.po -a -f ../${lang}/${FIC} ]
     then
@@ -43,14 +44,14 @@ do
     fi
     if [ ! -d `dirname ../_locale/${lang}/${FIC}.po` ]
     then
-      mkdir `dirname ../_locale/${lang}/${FIC}.po`
+      mkdir -p `dirname ../_locale/${lang}/${FIC}.po`
     fi
     if [ ! -f ../_locale/${lang}/${FIC}.po ]
     then
-      echo "`trad 'krei traduko'` ${FIC} `trad'al'` ${lang}"
-      cat ../_locale/${FIC}.pot|sed "s/^\"Language: \\\n\"/\"Language: "${lang}"\\\n\"/" > ../_locale/${lang}/${FIC}.po
+      echo "`trad 'krei traduko al'` ${lang} ';' ${FIC} '.' "
+      cat ../_locale/${lang0}/${FIC}.pot|sed "s/^\"Language: \\\n\"/\"Language: "${lang}"\\\n\"/" > ../_locale/${lang}/${FIC}.po
     fi
-    if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${FIC}.pot ]
+    if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${lang0}/${FIC}.pot ]
     then
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
       po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang}/${FIC}.po
@@ -65,7 +66,7 @@ do
     fi
     if [ ! -d `dirname ../${lang}/${FIC}` ]
     then
-      mkdir `dirname ../${lang}/${FIC}`
+      mkdir -p `dirname ../${lang}/${FIC}`
     fi
     if [ ../${lang}/${FIC} -ot ../_locale/${lang}/${FIC}.po ]
     then

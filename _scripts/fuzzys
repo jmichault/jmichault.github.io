@@ -30,22 +30,22 @@ fi
 
 case $ACTION in
   l)
-    find _locale/$LINGVO -type f -name "*.po" -exec grep -l fuzzy {} \;
+    find _locale/$LINGVO -type f -name "*.po" -exec grep -l ", fuzzy" {} \;
     ;;
   p)
     cd _locale/$LINGVO
-    poedit `find . -type f -name "*.po" -exec grep -l fuzzy {} \;`
+    poedit `find . -type f -name "*.po" -exec grep -l ", fuzzy" {} \;`
     ;;
   v)
     cd _locale/$LINGVO
-    for x in `find . -type f -name "*.po" -exec grep -l fuzzy {} \;`;
+    for x in `find . -type f -name "*.po" -exec grep -l ", fuzzy" {} \;`;
      do
       virtaal "$x" &
      done
     ;;
   z)
     cd _locale/$LINGVO
-    find . -type f -name "*.po" -exec grep -l fuzzy {} \;|zip ../$LINGVO -@
+    find . -type f -name "*.po" -exec grep -l ", fuzzy" {} \;|zip ../$LINGVO -@
     sleep 2
     ;;
   *)

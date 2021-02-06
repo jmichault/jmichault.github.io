@@ -29,12 +29,12 @@ do
   if [ -f ../_locale/${lang0}/${FIC}.po ]
   then
     rm -f ../_locale/${lang0}/${FIC}.po
-  fi
-  if [ -f ../eo/${FIC} -a ! -f ../_locale/eo/${FIC}.po ]
-  then
-    # si ce fichier est une bonne traduction, il faut la récupérer
-    po4a-gettextize -m ${FIC} -M "UTF-8" $OPTIONS -l ../eo/${FIC} -L "UTF-8" --po ../_locale/eo/${FIC}.po 
-    rm -f gettextization.failed.po ../eo/${FIC}
+    if [ -f ../eo/${FIC} -a ! -f ../_locale/eo/${FIC}.po ]
+    then
+      # si ce fichier est une bonne traduction, il faut la récupérer en générant le .po
+      po4a-gettextize -m ${FIC} -M "UTF-8" $OPTIONS -l ../eo/${FIC} -L "UTF-8" --po ../_locale/eo/${FIC}.po 
+      rm -f gettextization.failed.po ../eo/${FIC}
+    fi
   fi
 
   if [ ! -f ../_locale/${lang0}/${FIC}.pot ]

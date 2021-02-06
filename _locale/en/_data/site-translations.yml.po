@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"POT-Creation-Date: 2021-02-06 10:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,16 +42,16 @@ msgstr "Read this page in another language"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
-msgstr "Some ideas for designing your home automation at a lower cost."
+#, no-wrap
+#, fuzzy
+msgid "Priskribo."
+msgstr "Description."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "License <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "License <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -68,14 +68,15 @@ msgstr "Related Posts"
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, fuzzy, no-wrap
-msgid "Ŝercu per Google."
-msgstr "Joke with Google."
+msgid "Serĉu per Google."
+msgstr "Search Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Hejma aŭtomatigo"
-msgstr "Home automation"
+#, no-wrap
+#, fuzzy
+msgid "Titolo."
+msgstr "Title."
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -83,83 +84,3 @@ msgstr "Home automation"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Please note: this page has been translated automatically. If you can, you should read it in one of these languages:"
 
-#, fuzzy
-#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
-#~ msgstr "Permit <a rel =\"license\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style =\"display: inline; border-width0\"src =\"https: // i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"title =\"This work is licensed under a Creative Commons Attribution-ShareAlike License.\"/></ a>"
-
-#, fuzzy
-#~ msgid "Åercu per Google."
-#~ msgstr "Search for Google."
-
-#, fuzzy
-#~ msgid "Ĉiuj afiŝoj"
-#~ msgstr "All posts"
-
-#, fuzzy
-#~ msgid ""
-#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
-#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
-#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
-#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
-#~ msgstr ""
-#~ "license <a rel =\"license\"href =\"http://creativecommons.org/licenses/by-"
-#~ "sa/4.0/\"><img alt =\"Creative Commons License\"style =\"display: inline; "
-#~ "border width: 0\"src =\"https: //i.creativecommons.org/l/by-sa/4.0/88x31."
-#~ "png\"title =\"This(tte) work is available under the terms of the Creative "
-#~ "Commons Attribution-ShareAlike License \"/></ a>"
-
-#, fuzzy
-#~ msgid "Enrigardu"
-#~ msgstr "Take a look"
-
-#, fuzzy
-#~ msgid "Similaj Eroj"
-#~ msgstr "Similar Items"
-
-#, fuzzy
-#~ msgid "Google serĉo."
-#~ msgstr "Google search."
-
-#, fuzzy
-#~ msgid ""
-#~ "lang:\n"
-#~ "titolo: \"Hejma aŭtomatigo\"\n"
-#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
-#~ "malalta kosto.\"\n"
-#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
-#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
-#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
-#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
-#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
-#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
-#~ "rigardiEn: \"Rigardu\"\n"
-#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
-#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
-#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
-#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
-#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
-#~ "a>'\n"
-#~ "serĉoj: \"Google Search.\"\n"
-#~ "Funkciigita: \"Funkciigita de\"\n"
-#~ msgstr ""
-#~ "lang:\n"
-#~ "title: \"Home automation\"\n"
-#~ "description: \"Some ideas for designing your home automation at a lower "
-#~ "cost.\"\n"
-#~ "selectLanguage: \"Select your language\"\n"
-#~ "allPosts: \"All messages\"\n"
-#~ "relatedPosts : \"Similar items\"\n"
-#~ "different Language: \"Read this page in another language\"\n"
-#~ "translationWarning: \"Please note: this page has been translated "
-#~ "automatically. If you can, you must read it in one of the following "
-#~ "languages:\"\n"
-#~ "viewIn: \"View\"\n"
-#~ "rights: 'license <a rel =\"licenco\"href =\"http://creativecommons.org/"
-#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style ="
-#~ "\"screen: online; border width: 0\"src =\"https: // i.creativecommons ."
-#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"This(tte) work is available "
-#~ "under the terms of the Creative Commons Attribution-ShareAlike License \"/"
-#~ "></ a>'\n"
-#~ "searches: \"Google Search.\"\n"
-#~ "Powered by: \"Powered by\"\n"

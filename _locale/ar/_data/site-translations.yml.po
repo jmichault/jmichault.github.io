@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"POT-Creation-Date: 2021-02-06 10:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,16 +42,16 @@ msgstr "اقرأ هذه الصفحة بلغة أخرى"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
-msgstr "بعض الأفكار لتصميم أتمتة منزلك بتكلفة أقل."
+#, no-wrap
+#, fuzzy
+msgid "Priskribo."
+msgstr "وصف."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>الترخيص"
+msgstr "الرخصة <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"رخصة المشاع الإبداعي\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -68,14 +68,15 @@ msgstr "المنشورات ذات الصلة"
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, fuzzy, no-wrap
-msgid "Ŝercu per Google."
-msgstr "نكتة مع جوجل."
+msgid "Serĉu per Google."
+msgstr "ابحث في جوجل."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Hejma aŭtomatigo"
-msgstr "أتمتة المنزل"
+#, no-wrap
+#, fuzzy
+msgid "Titolo."
+msgstr "عنوان."
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -83,6 +84,3 @@ msgstr "أتمتة المنزل"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
 
-#, fuzzy
-#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
-#~ msgstr "<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>الترخيص"
