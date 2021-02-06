@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Hash Value - Key: Funkciigita
+#: >lang
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "Unterstützt von"
+
+#. type: Hash Value - Key: cxiujAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ĉiuj Afiŝoj"
+msgstr "Alle Beiträge"
+
+#. type: Hash Value - Key: elektuLingvon
+#: >lang
+#, fuzzy, no-wrap
+msgid "Elektu vian lingvon"
+msgstr "Wähle deine Sprache"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "Lesen Sie diese Seite in einer anderen Sprache"
+
+#. type: Hash Value - Key: priskribo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "Einige Ideen für die Gestaltung Ihrer Hausautomation zu geringeren Kosten."
+
+#. type: Hash Value - Key: rajtoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "Lizenz <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+
+#. type: Hash Value - Key: rigardiEn
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rigardi en"
+msgstr "Blick in"
+
+#. type: Hash Value - Key: rilatajAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rilataj Afiŝoj"
+msgstr "zusammenhängende Posts"
+
+#. type: Hash Value - Key: sercxi
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ŝercu per Google."
+msgstr "Scherz mit Google."
+
+#. type: Hash Value - Key: titolo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "Heimautomatisierung"
+
+#. type: Hash Value - Key: tradukoAverto
+#: >lang
+#, fuzzy, no-wrap
+msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
+
+#, fuzzy
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#~ msgstr "Erlaube <eine rel =\"Lizenz\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style =\"Anzeige: Inline; Rahmenbreite0\"src =\"https: // i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"title =\"Diese Arbeit unterliegt den Bestimmungen einer Creative Commons Attribution-ShareAlike-Lizenz.\"/></ a>"
+
+#, fuzzy
+#~ msgid "Åercu per Google."
+#~ msgstr "Suche nach Google."
+
+#, fuzzy
+#~ msgid "Ĉiuj afiŝoj"
+#~ msgstr "Alle Beiträge"
+
+#, fuzzy
+#~ msgid ""
+#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
+#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
+#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
+#~ msgstr ""
+#~ "Lizenz <eine rel =\"Lizenz\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Creative Commons License\"style =\"Anzeige: "
+#~ "Inline; Randbreite: 0\"src =\"https: //i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"title =\"Dies(tte) Arbeiten sind unter den Bedingungen "
+#~ "der Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen "
+#~ "\"/></ a>verfügbar."
+
+#, fuzzy
+#~ msgid "Enrigardu"
+#~ msgstr "Schau mal"
+
+#, fuzzy
+#~ msgid "Similaj Eroj"
+#~ msgstr "ähnliche Gegenstände"
+
+#, fuzzy
+#~ msgid "Google serĉo."
+#~ msgstr "Google-Suche."
+
+#, fuzzy
+#~ msgid ""
+#~ "lang:\n"
+#~ "titolo: \"Hejma aŭtomatigo\"\n"
+#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
+#~ "malalta kosto.\"\n"
+#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
+#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
+#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
+#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
+#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
+#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
+#~ "rigardiEn: \"Rigardu\"\n"
+#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
+#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
+#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
+#~ "a>'\n"
+#~ "serĉoj: \"Google Search.\"\n"
+#~ "Funkciigita: \"Funkciigita de\"\n"
+#~ msgstr ""
+#~ "lang:\n"
+#~ "title: \"Hausautomation\"\n"
+#~ "Beschreibung: \"Einige Ideen für die Gestaltung Ihrer Hausautomation zu "
+#~ "geringeren Kosten.\"\n"
+#~ "selectSprache: \"Wählen Sie Ihre Sprache\"\n"
+#~ "allPosts: \"Alle Nachrichten\"\n"
+#~ "relatedPosts : \"Ähnliche Artikel\"\n"
+#~ "verschiedene Sprache: \"Lesen Sie diese Seite in einer anderen Sprache\"\n"
+#~ "ÜbersetzungWarnung: \"Bitte Hinweis: Diese Seite wurde automatisch "
+#~ "übersetzt. Wenn Sie können, müssen Sie es in einer der folgenden Sprachen "
+#~ "lesen:\"\n"
+#~ "viewIn: \"View\"\n"
+#~ "Rechte: 'Lizenz <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style ="
+#~ "\"Bildschirm: online; Randbreite: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Dies(tte) Arbeiten sind unter "
+#~ "den Bedingungen der Creative Commons Namensnennung-Weitergabe unter "
+#~ "gleichen Bedingungen \"/></ a>'\n"
+#~ "verfügbar : \"Google-Suche.\"\n"
+#~ "Angetrieben von: \"Angetrieben von\"\n"

@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Hash Value - Key: Funkciigita
+#: >lang
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "द्वारा संचालित"
+
+#. type: Hash Value - Key: cxiujAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ĉiuj Afiŝoj"
+msgstr "सभी पद"
+
+#. type: Hash Value - Key: elektuLingvon
+#: >lang
+#, fuzzy, no-wrap
+msgid "Elektu vian lingvon"
+msgstr "अपनी भाषा चुनें"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "इस पृष्ठ को अन्य भाषा में पढ़ें"
+
+#. type: Hash Value - Key: priskribo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "कम लागत पर अपने घर के स्वचालन को डिजाइन करने के लिए कुछ विचार।"
+
+#. type: Hash Value - Key: rajtoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "लाइसेंस <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+
+#. type: Hash Value - Key: rigardiEn
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rigardi en"
+msgstr "यहां देखो"
+
+#. type: Hash Value - Key: rilatajAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rilataj Afiŝoj"
+msgstr "संबंधित पोस्ट"
+
+#. type: Hash Value - Key: sercxi
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ŝercu per Google."
+msgstr "गूगल के साथ मजाक।"
+
+#. type: Hash Value - Key: titolo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "घर स्वचालन"
+
+#. type: Hash Value - Key: tradukoAverto
+#: >lang
+#, fuzzy, no-wrap
+msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
+
+#, fuzzy
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#~ msgstr "Permit <a rel =\"लाइसेंस\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"6 °) img alt =\"क्रिएटिव कॉमन्स लाइसेंस\"शैली =\": इनलाइन; सीमा-चौड़ाई 0\"src =\"https: // i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"शीर्षक =\"यह कार्य क्रिएटिव कॉमन्स एट्रिब्यूशन-शेयरएलाइल लाइसेंस के तहत लाइसेंस प्राप्त है।\"/></ a>"
+
+#, fuzzy
+#~ msgid "Åercu per Google."
+#~ msgstr "Google के लिए खोजें।"
+
+#, fuzzy
+#~ msgid "Ĉiuj afiŝoj"
+#~ msgstr "सभी पद"
+
+#, fuzzy
+#~ msgid ""
+#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
+#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
+#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
+#~ msgstr ""
+#~ "लाइसेंस <एक rel =\"लाइसेंस\"href = (° ४ °) http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"6 °) img alt =\"क्रिएटिव कॉमन्स लाइसेंस\"शैली =\"प्रदर्शन: "
+#~ "इनलाइन; सीमा चौड़ाई: 0\"src =\"https: //i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"शीर्षक =\"यह(tte) कार्य क्रिएटिव कॉमन्स एट्रिब्यूशन-शेयरएलाइ "
+#~ "लाइसेंस \"/></ a>की शर्तों के तहत उपलब्ध है।"
+
+#, fuzzy
+#~ msgid "Enrigardu"
+#~ msgstr "जरा देखो तो"
+
+#, fuzzy
+#~ msgid "Similaj Eroj"
+#~ msgstr "एक जैसे वस्तु"
+
+#, fuzzy
+#~ msgid "Google serĉo."
+#~ msgstr "गूगल खोज।"
+
+#, fuzzy
+#~ msgid ""
+#~ "lang:\n"
+#~ "titolo: \"Hejma aŭtomatigo\"\n"
+#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
+#~ "malalta kosto.\"\n"
+#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
+#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
+#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
+#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
+#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
+#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
+#~ "rigardiEn: \"Rigardu\"\n"
+#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
+#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
+#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
+#~ "a>'\n"
+#~ "serĉoj: \"Google Search.\"\n"
+#~ "Funkciigita: \"Funkciigita de\"\n"
+#~ msgstr ""
+#~ "lang:\n"
+#~ "शीर्षक: \"होम ऑटोमेशन\"\n"
+#~ "विवरण: \"कम लागत पर अपने होम ऑटोमेशन को डिजाइन करने के लिए कुछ विचार।\"\n"
+#~ "चयन करें: \"अपनी भाषा\"\n"
+#~ "सभी का चयन करें: \"सभी संदेश\"\n"
+#~ "संबंधित ° : \"समान आइटम\"\n"
+#~ "विभिन्न भाषा: \"इस पृष्ठ को किसी अन्य भाषा में पढ़ें\"\n"
+#~ "अनुवाद अनुवाद: \"कृपया नोट: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप "
+#~ "कर सकते हैं, तो आपको इसे निम्नलिखित भाषाओं में से एक में पढ़ना चाहिए:\"\n"
+#~ "दृश्य: \"दृश्य\"\n"
+#~ "दृश्य: 'लाइसेंस <°) a rel =\"लाइसेंको\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"क्रिएटिव कॉमन्स लाइसेंस\"शैली =\"स्क्रीन: "
+#~ "ऑनलाइन; सीमा चौड़ाई: 0\"src =\"https: // i.creativecommons .org / l / by-"
+#~ "sa / 4.0 / 88x31.png\"शीर्षक =\"यह(tte) कार्य क्रिएटिव कॉमन्स एट्रिब्यूशन-"
+#~ "शेयरएलाइव लाइसेंस \"/></ a>'\n"
+#~ "खोज की शर्तों के तहत उपलब्ध है : \"Google खोज।\"\n"
+#~ "इसके द्वारा संचालित: \"पावर्ड (° ४ ९ °) (° ५० °)\n"

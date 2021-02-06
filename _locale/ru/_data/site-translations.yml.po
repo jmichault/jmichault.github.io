@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Hash Value - Key: Funkciigita
+#: >lang
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "Питаться от"
+
+#. type: Hash Value - Key: cxiujAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ĉiuj Afiŝoj"
+msgstr "Все сообщения"
+
+#. type: Hash Value - Key: elektuLingvon
+#: >lang
+#, fuzzy, no-wrap
+msgid "Elektu vian lingvon"
+msgstr "Выберите свой язык"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "Прочтите эту страницу на другом языке"
+
+#. type: Hash Value - Key: priskribo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "Некоторые идеи для разработки домашней автоматизации по более низкой цене."
+
+#. type: Hash Value - Key: rajtoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "Лицензия <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+
+#. type: Hash Value - Key: rigardiEn
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rigardi en"
+msgstr "Смотреть в"
+
+#. type: Hash Value - Key: rilatajAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rilataj Afiŝoj"
+msgstr "Похожие сообщения"
+
+#. type: Hash Value - Key: sercxi
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ŝercu per Google."
+msgstr "Шутка с гуглом."
+
+#. type: Hash Value - Key: titolo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "Домашняя автоматизация"
+
+#. type: Hash Value - Key: tradukoAverto
+#: >lang
+#, fuzzy, no-wrap
+msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
+
+#, fuzzy
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#~ msgstr "Разрешить <отн =\"лицензию\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Лицензия Creative Commons\"style =\"display: inline; border-width0\"src =\"https: // i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"title =\"Это произведение находится под лицензией Creative Commons Attribution-ShareAlike.\"/></ а>"
+
+#, fuzzy
+#~ msgid "Åercu per Google."
+#~ msgstr "Найдите Google."
+
+#, fuzzy
+#~ msgid "Ĉiuj afiŝoj"
+#~ msgstr "Все сообщения"
+
+#, fuzzy
+#~ msgid ""
+#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
+#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
+#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
+#~ msgstr ""
+#~ "лицензия <a rel =\"лицензия\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Creative Commons License\"style =\"display: "
+#~ "inline; ширина границы: 0\"src =\"https: //i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"title =\"Это(tte) работа доступна в соответствии с "
+#~ "условиями лицензии Creative Commons Attribution-ShareAlike \"/></ a>"
+
+#, fuzzy
+#~ msgid "Enrigardu"
+#~ msgstr "Взглянем"
+
+#, fuzzy
+#~ msgid "Similaj Eroj"
+#~ msgstr "Похожие товары"
+
+#, fuzzy
+#~ msgid "Google serĉo."
+#~ msgstr "Поиск Гугл."
+
+#, fuzzy
+#~ msgid ""
+#~ "lang:\n"
+#~ "titolo: \"Hejma aŭtomatigo\"\n"
+#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
+#~ "malalta kosto.\"\n"
+#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
+#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
+#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
+#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
+#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
+#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
+#~ "rigardiEn: \"Rigardu\"\n"
+#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
+#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
+#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
+#~ "a>'\n"
+#~ "serĉoj: \"Google Search.\"\n"
+#~ "Funkciigita: \"Funkciigita de\"\n"
+#~ msgstr ""
+#~ "lang:\n"
+#~ "title: \"Домашняя автоматизация\"\n"
+#~ "описание: \"Некоторые идеи для разработки вашей домашней автоматизации с "
+#~ "меньшими затратами.\"\n"
+#~ "selectLanguage: \"Выберите свой язык\"\n"
+#~ "allPosts: \"Все сообщения\"\n"
+#~ "relatedPosts : \"Подобные элементы\"\n"
+#~ "другой Язык: \"Прочтите эту страницу на другом языке\"\n"
+#~ "перевод Предупреждение: \"Пожалуйста примечание: эта страница была "
+#~ "переведена автоматически. Если вы можете, вы должны прочитать его на "
+#~ "одном из следующих языков:\"\n"
+#~ "viewIn: \"View\"\n"
+#~ "rights: 'license <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style ="
+#~ "\"экран: онлайн; ширина границы: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Это(tte) работа доступна в "
+#~ "соответствии с условиями лицензии Creative Commons Attribution-ShareAlike "
+#~ "\"/></ a>'\n"
+#~ "поиск : \"Поиск в Google.\"\n"
+#~ "Работает на: \"Работает на\"\n"

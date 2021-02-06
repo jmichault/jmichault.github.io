@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Hash Value - Key: Funkciigita
+#: >lang
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "搭載"
+
+#. type: Hash Value - Key: cxiujAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ĉiuj Afiŝoj"
+msgstr "すべての投稿"
+
+#. type: Hash Value - Key: elektuLingvon
+#: >lang
+#, fuzzy, no-wrap
+msgid "Elektu vian lingvon"
+msgstr "言語を選択してください"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "このページを別の言語で読む"
+
+#. type: Hash Value - Key: priskribo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "低コストでホームオートメーションを設計するためのいくつかのアイデア。"
+
+#. type: Hash Value - Key: rajtoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "ライセンス<arel = \"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+
+#. type: Hash Value - Key: rigardiEn
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rigardi en"
+msgstr "覗く"
+
+#. type: Hash Value - Key: rilatajAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rilataj Afiŝoj"
+msgstr "関連記事"
+
+#. type: Hash Value - Key: sercxi
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ŝercu per Google."
+msgstr "Googleと冗談を言う。"
+
+#. type: Hash Value - Key: titolo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "ホームオートメーション"
+
+#. type: Hash Value - Key: tradukoAverto
+#: >lang
+#, fuzzy, no-wrap
+msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "注意：このページは自動的に翻訳されています。可能であれば、次のいずれかの言語で読む必要があります。"
+
+#, fuzzy
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#~ msgstr "許可 <rel =\"ライセンス\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"クリエイティブコモンズライセンス\"スタイル=\"表示：インライン; border-width0\"src =\"https：// i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"タイトル=\"この作品はクリエイティブ・コモンズ表示-継承ライセンスの下でライセンスされています。\"/></ a>"
+
+#, fuzzy
+#~ msgid "Åercu per Google."
+#~ msgstr "Googleを検索します。"
+
+#, fuzzy
+#~ msgid "Ĉiuj afiŝoj"
+#~ msgstr "すべての投稿"
+
+#, fuzzy
+#~ msgid ""
+#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
+#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
+#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
+#~ msgstr ""
+#~ "ライセンス <a rel =\"ライセンス\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"クリエイティブコモンズライセンス\"スタイ"
+#~ "ル=\"表示：インライン;境界線の幅：0\"src =\"https：//i.creativecommons."
+#~ "org/l/by-sa/4.0/88x31.png\"タイトル=\"これ(tte) 作品はクリエイティブ・コモ"
+#~ "ンズ表示-継承ライセンス \"/></ a>の条件の下で利用可能です"
+
+#, fuzzy
+#~ msgid "Enrigardu"
+#~ msgstr "見てください"
+
+#, fuzzy
+#~ msgid "Similaj Eroj"
+#~ msgstr "類似アイテム"
+
+#, fuzzy
+#~ msgid "Google serĉo."
+#~ msgstr "Google検索。"
+
+#, fuzzy
+#~ msgid ""
+#~ "lang:\n"
+#~ "titolo: \"Hejma aŭtomatigo\"\n"
+#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
+#~ "malalta kosto.\"\n"
+#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
+#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
+#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
+#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
+#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
+#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
+#~ "rigardiEn: \"Rigardu\"\n"
+#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
+#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
+#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
+#~ "a>'\n"
+#~ "serĉoj: \"Google Search.\"\n"
+#~ "Funkciigita: \"Funkciigita de\"\n"
+#~ msgstr ""
+#~ "言語：\n"
+#~ "タイトル： \"ホームオートメーション\"\n"
+#~ "説明： \"低コストでホームオートメーションを設計するためのいくつかのアイデ"
+#~ "ア。\"\n"
+#~ "selectLanguage： \"言語を選択してください\"\n"
+#~ "all投稿： \"すべてのメッセージ\"\n"
+#~ "関連投稿： \"同様の項目\"\n"
+#~ "異なる言語： \"このページを別の言語で読む\"\n"
+#~ "翻訳警告： \"お願いします注：このページは自動的に翻訳されています。可能で"
+#~ "あれば、次のいずれかの言語で読む必要があります：\"\n"
+#~ "viewIn： \"表示\"\n"
+#~ "権利： 'ライセンス <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"クリエイティブコモンズライセンス\"スタイ"
+#~ "ル=\"画面：オンライン;境界線の幅：0\"src =\"https：// i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"タイトル=\"これ(tte) 作品はクリエイティ"
+#~ "ブ・コモンズ表示-継承ライセンス \"/></ a>'\n"
+#~ "検索の条件の下で利用可能です： \"Google検索。\"\n"
+#~ "電源： \"電源\"\n"

@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-01 18:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Hash Value - Key: Funkciigita
+#: >lang
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "Offerto da"
+
+#. type: Hash Value - Key: cxiujAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ĉiuj Afiŝoj"
+msgstr "Tutti i post"
+
+#. type: Hash Value - Key: elektuLingvon
+#: >lang
+#, fuzzy, no-wrap
+msgid "Elektu vian lingvon"
+msgstr "scegli la tua LINGUA"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "Leggi questa pagina in un'altra lingua"
+
+#. type: Hash Value - Key: priskribo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "Alcune idee per progettare la tua domotica a un costo inferiore."
+
+#. type: Hash Value - Key: rajtoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "Licenza <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+
+#. type: Hash Value - Key: rigardiEn
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rigardi en"
+msgstr "Guarda dentro"
+
+#. type: Hash Value - Key: rilatajAfisxoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Rilataj Afiŝoj"
+msgstr "Post correlati"
+
+#. type: Hash Value - Key: sercxi
+#: >lang
+#, fuzzy, no-wrap
+msgid "Ŝercu per Google."
+msgstr "Scherza con Google."
+
+#. type: Hash Value - Key: titolo
+#: >lang
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "Domotica"
+
+#. type: Hash Value - Key: tradukoAverto
+#: >lang
+#, fuzzy, no-wrap
+msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "Nota: questa pagina è stata tradotta automaticamente. Se puoi, dovresti leggerlo in una di queste lingue:"
+
+#, fuzzy
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#~ msgstr "Permesso <a rel =\"licenza\"href =\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style =\"display: inline; border-width0\"src =\"https: // i .creativecommons.org / l / by-sa / 4.0 / 88x31.png\"title =\"Quest'opera è distribuita con licenza Creative Commons Attribution-ShareAlike.\"/></ a>"
+
+#, fuzzy
+#~ msgid "Åercu per Google."
+#~ msgstr "Cerca Google."
+
+#, fuzzy
+#~ msgid "Ĉiuj afiŝoj"
+#~ msgstr "Tutti i post"
+
+#, fuzzy
+#~ msgid ""
+#~ "licenco <a rel =\"permesilo\"href =\"http://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Krea Komunaĵa Permesilo\"stilo =\"montriĝo: "
+#~ "enlinia; randlarĝo: 0\"src =\"https: / /i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"titolo =\"Ĉi tiu(tte) verko disponeblas laŭ la kondiĉoj "
+#~ "sub la permesilo Krea Komunaĵo Atribuite-Samkondiĉe \"/></ a>"
+#~ msgstr ""
+#~ "licenza <a rel =\"licenza\"href =\"http://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\"><img alt =\"Creative Commons License\"style =\"display: inline; "
+#~ "larghezza bordo: 0\"src =\"https: //i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"title =\"Questo(tte) l'opera è disponibile nei termini "
+#~ "della licenza Creative Commons Attribution-ShareAlike \"/></ a>"
+
+#, fuzzy
+#~ msgid "Enrigardu"
+#~ msgstr "Guarda"
+
+#, fuzzy
+#~ msgid "Similaj Eroj"
+#~ msgstr "Articoli simili"
+
+#, fuzzy
+#~ msgid "Google serĉo."
+#~ msgstr "Ricerca Google."
+
+#, fuzzy
+#~ msgid ""
+#~ "lang:\n"
+#~ "titolo: \"Hejma aŭtomatigo\"\n"
+#~ "priskribo: \"Iuj ideoj por projekti vian hejman aŭtomatigon je pli "
+#~ "malalta kosto.\"\n"
+#~ "elektuLingvon: \"Elektu vian lingvon\"\n"
+#~ "cxiujAfisxoj: \"Ĉiuj mesaĝoj\"\n"
+#~ "rilatajAfisxoj : \"Similaj eroj\"\n"
+#~ "malsama Lingvo: \"Legu ĉi tiun paĝon en alia lingvo\"\n"
+#~ "tradukoAverto: \"Bonvolu noti : ĉi tiu paĝo estis tradukita aŭtomate. Se "
+#~ "vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:\"\n"
+#~ "rigardiEn: \"Rigardu\"\n"
+#~ "rajtoj: 'permesilo <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"stilo ="
+#~ "\"ekrano: enlinia; randlarĝo: 0\"src =\"https: // i.creativecommons ."
+#~ "org / l / by-sa / 4.0 / 88x31.png\"title =\"Ĉi tiu(tte) verko disponeblas "
+#~ "laŭ la kondiĉoj de la Atribuo Krea Komunaĵo -ShareAlike License \"/></ "
+#~ "a>'\n"
+#~ "serĉoj: \"Google Search.\"\n"
+#~ "Funkciigita: \"Funkciigita de\"\n"
+#~ msgstr ""
+#~ "lingua:\n"
+#~ "titolo: \"Domotica\"\n"
+#~ "descrizione: \"Alcune idee per progettare la tua domotica a un costo "
+#~ "inferiore.\"\n"
+#~ "selectLanguage: \"Seleziona la tua lingua\"\n"
+#~ "allPost: \"Tutti i messaggi\"\n"
+#~ "relatedPost : \"Articoli simili\"\n"
+#~ "diversi Lingua: \"Leggi questa pagina in un'altra lingua\"\n"
+#~ "traduzione Avvertenza: \"Prego nota: questa pagina è stata tradotta "
+#~ "automaticamente. Se puoi, devi leggerlo in una delle seguenti lingue:\"\n"
+#~ "vistaIn: \"vista\"\n"
+#~ "diritti: 'licenza <a rel =\"licenco\"href =\"http://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\"><img alt =\"Creative Commons License\"style ="
+#~ "\"schermata: online; larghezza del bordo: 0\"src =\"https: // i."
+#~ "creativecommons .org / l / by-sa / 4.0 / 88x31.png\"title =\"Questo(tte) "
+#~ "l'opera è disponibile nei termini della licenza Creative Commons "
+#~ "Attribution-ShareAlike License \"/></ a>'\n"
+#~ "ricerche : \"Cerca con Google.\"\n"
+#~ "Alimentato da: \"Alimentato da\"\n"
