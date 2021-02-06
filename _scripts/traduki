@@ -13,34 +13,48 @@ then
 fi
 
 
+lang0=eo
 cd eo
 
 for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
 do
-  if [ ! -f ../_locale/${FIC}.pot ]
+  EXT="${FIC##*.}"
+  case "$EXT" in
+	yml)
+	  OPTIONS="-f yaml" 
+          ;;
+	*)
+	  OPTIONS="-f text --option markdown -o neverwrap" 
+          ;;
+  esac
+  if [ ! -f ../_locale/${lang0}/${FIC}.pot ]
   then
-    po4a-gettextize -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${FIC}.pot 
+    po4a-gettextize -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang0}/${FIC}.pot 
   else
-    if [ ../_locale/${FIC}.pot -ot ${FIC} ]
+    if [ ../_locale/${lang0}/${FIC}.pot -ot ${FIC} ]
     then
-      po4a-updatepo --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${FIC}.pot 
+      po4a-updatepo --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang0}/${FIC}.pot 
     fi
   fi
-  for lang in `grep "^..:$" ../_data/languages.yml|sed "s/:$//"|grep -v eo`
+  for lang in `grep "^..:$" ../_data/languages.yml|sed "s/:$//"|grep -v $lang0`
   do
     if [ ! -f ../_locale/${lang}/${FIC}.po -a -f ../${lang}/${FIC} ]
     then
       continue;
     fi
+    if [ ! -d `dirname ../_locale/${lang}/${FIC}.po` ]
+    then
+      mkdir -p `dirname ../_locale/${lang}/${FIC}.po`
+    fi
     if [ ! -f ../_locale/${lang}/${FIC}.po ]
     then
-      echo "`trad 'krei traduko'` ${FIC} `trad'al'` ${lang}"
-      cat ../_locale/${FIC}.pot|sed "s/^\"Language: \\\n\"/\"Language: "${lang}"\\\n\"/" > ../_locale/${lang}/${FIC}.po
+      echo "`trad 'krei traduko al'` ${lang} ';' ${FIC} '.' "
+      cat ../_locale/${lang0}/${FIC}.pot|sed "s/^\"Language: \\\n\"/\"Language: "${lang}"\\\n\"/" > ../_locale/${lang}/${FIC}.po
     fi
-    if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${FIC}.pot ]
+    if [ ../_locale/${lang}/${FIC}.po -ot ../_locale/${lang0}/${FIC}.pot ]
     then
       echo "ĝisdatigi traduko ${FIC} al ${lang}"
-      po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -f text -m ${FIC} --master-charset "UTF-8" --option markdown -o neverwrap --po ../_locale/${lang}/${FIC}.po
+      po4a-updatepo --msgmerge-opt --no-fuzzy-matching --wrap-po no -m ${FIC} --master-charset "UTF-8" $OPTIONS --po ../_locale/${lang}/${FIC}.po
     fi
     ../_scripts/lib/traduki_po.sh ../_locale/${lang}/${FIC}.po
     if diff ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po >/dev/null
@@ -50,12 +64,16 @@ do
       echo ĝisdatigi _locale/${lang}/${FIC}.po
       mv ../_locale/${lang}/${FIC}.po.nova ../_locale/${lang}/${FIC}.po
     fi
+    if [ ! -d `dirname ../${lang}/${FIC}` ]
+    then
+      mkdir -p `dirname ../${lang}/${FIC}`
+    fi
     if [ ../${lang}/${FIC} -ot ../_locale/${lang}/${FIC}.po ]
     then
       echo "tradukante ${FIC} al ${lang}"
       #grep -v "^#, fuzzy" ../_locale/${lang}/${FIC}.po >../_locale/temp$$.po
       cat ../_locale/${lang}/${FIC}.po|sed "s/^#, fuzzy/#/" >../_locale/temp$$.po
-      po4a-translate -f text --option markdown -o neverwrap -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
+      po4a-translate $OPTIONS -m ${FIC} --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../${lang}/${FIC} --localized-charset "UTF-8" -k 0
       if egrep -m 1 "^#.*, fuzzy" ../_locale/${lang}/${FIC}.po >/dev/null
       then
        true
@@ -65,6 +83,14 @@ do
       rm ../_locale/temp$$.po
     fi
   done
+done
+
+cd ..
+
+cat /dev/null >_data/translations.yml
+for lang in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
+do
+  cat $lang/_data/site-translations.yml|grep -v "^---$"|sed "s/^lang:\$/${lang}:/" >> _data/translations.yml
 done
 
 

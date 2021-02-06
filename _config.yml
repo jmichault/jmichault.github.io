@@ -7,7 +7,7 @@ laborlingvo: eo
 #ne_afisxoj: "true"
 # malkomentigu la sekvan linion por forigi la menuon "serĉu per google"
 #ne_googlesearch: "true"
-permesilo: "<a href=https://creativecommons.org/licenses/by-sa/3.0/deed.eo>CC BY-SA 3.0</a>"
+permesilo: 
 
 
 # Dependencies
@@ -16,7 +16,7 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
-exclude: [ _locale , _scripts , "*.backup", "*.bak" ]
+exclude: [ _locale , _scripts , "*.backup", "*.bak" , "??/_data", _traduko.jar]
 
 plugins:
   - jekyll-relative-links

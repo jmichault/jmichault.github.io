@@ -19,46 +19,58 @@ msgstr ""
 "X-Source-Language: eo\n"
 
 #: traduki:37
+#, fuzzy
 msgid "krei traduko"
-msgstr ""
+msgstr "একটি অনুবাদ তৈরি করুন"
 
 #: fuzzys:8
+#, fuzzy
 msgid ""
 "ĉi tiu skripto estas uzata por administri po-dosierojn en malklara stato."
-msgstr ""
+msgstr "এই স্ক্রিপ্টটি বিভ্রান্তিকর অবস্থায় পো ফাইলগুলি পরিচালনা করতে ব্যবহৃত হয়।"
 
 #: fuzzys:14
+#, fuzzy
 msgid "Kiu cellingvo ?"
-msgstr ""
+msgstr "কোন টার্গেট ল্যাঙ্গুয়েজ?"
 
 #: fuzzys:19 komenci:16
+#, fuzzy
 msgid "Pardonu, lingvo ne troviĝis"
-msgstr ""
+msgstr "দুঃখিত, ভাষা পাওয়া যায় নি"
 
 #: fuzzys:28
+#, fuzzy
 msgid "Kia ago ?"
-msgstr ""
+msgstr "কি পদক্ষেপ?"
 
 #: fuzzys:52
+#, fuzzy
 msgid "pardonu, ago ne rekonita :"
-msgstr ""
+msgstr "দুঃখিত, অচেনা ক্রিয়া:"
 
 #: fuzzys:57
+#, fuzzy
 msgid "Premu enigoklavon."
-msgstr ""
+msgstr "টিপুন."
 
 #: komenci:8
+#, fuzzy
 msgid "ĉi tiu skripto estas uzata por pravalorizi la retejon."
-msgstr ""
+msgstr "এই স্ক্রিপ্টটি সাইটটি আরম্ভ করার জন্য ব্যবহৃত হয়।"
 
 #: komenci:13
+#, fuzzy
 msgid "Laborlingvo (2 litero, defaŭlte="
-msgstr ""
+msgstr "কাজের ভাষা ("
 
 #: komenci:31
+#, fuzzy
 msgid "Titolo :"
-msgstr ""
+msgstr "শিরোনাম:"
 
 #: komenci:42
+#, fuzzy
 msgid "Priskribo :"
-msgstr ""
+msgstr "বর্ণনা:"
+

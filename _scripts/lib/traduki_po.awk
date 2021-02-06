@@ -10,12 +10,18 @@ BEGIN {
 #  MARK1="(zzz";
 #  MARK2=")";
 #  MARKEXPR= " *[（\\(] *[zZ]{2,3} *[0-9]+ *[）\\)] *";
-#  if ( (dst == "bn") || (dst == "hi") || (dst == "ja") || (dst == "pa") || (dst == "zh") )
-#  {
+  if ( (dst == "hi") )
+  {
+    MARK1="(°000";
+    MARK2="°)";
+    MARKEXPR=" *[（\\(][ \\.。°]*[0-9]*[ \\.。°]*[）\\)] *";
+  }
+  else
+  {
     MARK1="(°";
     MARK2="°)";
     MARKEXPR=" *[（\\(][ \\.。°0-9]*[°][ \\.。°0-9]*[）\\)] *";
-#  }
+  }
 }
 {
   if ( CONTMSG==1 && substr($1,1,1) != "\"")
@@ -97,15 +103,36 @@ BEGIN {
         print ("msgid " MSGID);
         printf("msgstr \"");
 	#  anstataŭigi markdown-etikedojn per markoj, kaj jekyll
-        ##print ( "MSGSTR="MSGSTR);	##
-        split(MSGSTR,MSGS,"{{|}}|{%|%}|^<a *id *=|</a>|^[ \t]*|[ \t]*\\\\\\\\.|[ \t]*\\\\.|[ \t]*!\\[[ \t]*|[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*",SEPS);
+	########## construction de l'expression régulière pour split
+	########## note : contrairement à l'intuition, ce sont les dernières expressions qui sont traitées en premier
+	### protection du code markdown
+	# markdown : tous les caractères spéciaux avec les espaces avant et après
+	regexp=      "[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*"; #
+	regexp=regexp"|^[ \t]*";        # markdown : espaces en début de ligne
+	regexp=regexp"|[ \t]*\\\\\\\\."; # markdown : espaces+\\x
+	regexp=regexp"|[ \t]*\\\\.";    # markdown : espaces+\x
+	regexp=regexp"|[ \t]*!\\[[ \t]*"; # markdown : espaces![espaces : début d'un lien
+	### protection du code jekyll
+	### on repére le début et la fin, on bouclera pour protéger tout le bloc
+	regexp=regexp"|{{ *| *}}|{% *| *%}"; 
+	### protection d'une partie du html
+	regexp=regexp"| */>";         # fin de balise html
+        regexp=regexp"| *<(img) +(title=|alt=)*"; # balises html à protéger
+        regexp=regexp"| +(title|alt)="; # mots clé html à protéger
+	regexp=regexp"| +(href|ref|style|src)=\\\\\"[^\"]*\\\\\""; # attributs html à protéger
+	regexp=regexp"| *</ *a *>";         # fin de balise html <a>
+	regexp=regexp"| *<a *[^>]*";      # balise <a ... multiligne : on protège la première ligne.
+	regexp=regexp"| *<a *[^>]*>";            # balise html <a ....>, attention : pb si \> à l'intérieur.
+
+        split(MSGSTR,MSGS,regexp,SEPS);
+
 	MSG0 = "";
 	MSGSLEN = length(MSGS);
         ##print ("MSGSLEN="MSGSLEN); ##
         ##for (x=0 ; x<=MSGSLEN ; x++)		##
 	##	print ("MSGS "x " : " MSGS[x] ". sep " x " : "  SEPS[x]".");	##
         if(MSGSLEN==1) MSG0 = MSGSTR; # cimon en «split» : unua signo perdita ?
-        else for (x=1 ; x<MSGSLEN ; x++)
+        else for (x=1 ; x<=MSGSLEN ; x++)
         {
 	  MSG0 = MSG0 MSGS[x] ;
 	  ##print "x = " x;	##
@@ -113,7 +140,7 @@ BEGIN {
 	  {
 	    MSG0 = MSG0 " " MARK1 x MARK2 " ";
 	    if( match(SEPS[ x ] ,"{%") == 1 )
-	    { # ne traduku «<a» HTML-etikedo
+	    { # ne traduku «{% ...%}» : jekyll
 	      x0 = x ;
 	      do
               {
@@ -123,7 +150,7 @@ BEGIN {
               while( x<=MSGSLEN && ! match(SEPS[x] ,"%}"));
 	    }
 	    else if( match(SEPS[ x ] ,"{{") == 1 )
-	    { # ne traduku «<a» HTML-etikedo
+	    { # ne traduku «{{ ... }}» : jekyll
 	      x0 = x ;
 	      do
               {
@@ -140,7 +167,7 @@ BEGIN {
                 x++;
                 SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
               }
-              while( x<=MSGSLEN && ! match(SEPS[x] ,"</a>"));
+              while( x<=MSGSLEN && ! match(SEPS[x] ,"</ *a>"));
 	    }
 	    # ne traduku hiperligon, kodon, kursivigita kun "_"
 	    else if( match(SEPS[ x ] ,"^ *`") == 1 )
@@ -187,7 +214,7 @@ BEGIN {
 	  MSGT = MSGT MSGS2[x];
 	  if (SEPS2[x] != "")
 	  {
-	    match(SEPS2[x],"[0-9]+");
+	    match(SEPS2[x],"[1-9][0-9]*");
 	    x2 = substr(SEPS2[x],RSTART,RLENGTH);
 	    ##print("x2=" x2);		##
 	    if (x2 == (MSGSLEN-1) && match(SEPS[x2]," *\\\\n" ))

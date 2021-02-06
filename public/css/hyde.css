@@ -1,16 +1,6 @@
 /*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
  *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
+ * forked from https://github.com/poole/hyde.
  */
 
 
@@ -59,6 +49,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   height: 100%; /* 100% Full-height */
+  width: 16rem;
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
@@ -73,7 +64,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
     text-align: left;
   }
 }
@@ -133,12 +124,13 @@ a.sidebar-nav-item:focus {
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
+ * with a 16%-wide `.sidebar`.
  */
 
 .content {
   padding-top:    3rem;
   padding-bottom: 2rem;
+  margin-left: 16rem;
 }
 
 /* Style the links inside the navigation bar */

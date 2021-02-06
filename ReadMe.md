@@ -22,3 +22,6 @@ Its most striking features:
 
 Consult the [documentation](https://jmichault.github.io/jekyll-plurlingva-dok/) for more information.
 
+Software licensed under GNU GPL version 3 or any later version.
+Documentation licensed under CC BY-SA 4.0.
+

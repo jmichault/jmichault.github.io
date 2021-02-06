@@ -31,33 +31,42 @@ msgid "Kiu cellingvo ?"
 msgstr "Quelle langue ?"
 
 #: fuzzys:19 komenci:16
+#, fuzzy
 msgid "Pardonu, lingvo ne troviĝis"
-msgstr ""
+msgstr "Désolé, la langue n'a pas été trouvée"
 
 #: fuzzys:28
+#, fuzzy
 msgid "Kia ago ?"
-msgstr ""
+msgstr "Quelle action?"
 
 #: fuzzys:52
+#, fuzzy
 msgid "pardonu, ago ne rekonita :"
-msgstr ""
+msgstr "désolé, action non reconnue:"
 
 #: fuzzys:57
+#, fuzzy
 msgid "Premu enigoklavon."
-msgstr ""
+msgstr "Appuyez sur Entrée."
 
 #: komenci:8
+#, fuzzy
 msgid "ĉi tiu skripto estas uzata por pravalorizi la retejon."
-msgstr ""
+msgstr "ce script est utilisé pour initialiser le site."
 
 #: komenci:13
+#, fuzzy
 msgid "Laborlingvo (2 litero, defaŭlte="
-msgstr ""
+msgstr "Langue de travail ("
 
 #: komenci:31
+#, fuzzy
 msgid "Titolo :"
-msgstr ""
+msgstr "Titre:"
 
 #: komenci:42
+#, fuzzy
 msgid "Priskribo :"
-msgstr ""
+msgstr "La description:"
+
