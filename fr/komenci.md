@@ -43,7 +43,7 @@ Ses inconvénients sont:
 
 * [obtenir le matériel](_posts/2020-08-31-aparataro.md)
 * [installer _raspbian_](_posts/2020-12-22-instali_raspbian.md)
-* programmer le firmware de la clé USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+* programmer la clé USB _CC2531_  avec le coordinateur zigbee : [ le site de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 * construire une antenne pour 433 Mhz.
 * installer _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
 * installer _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
