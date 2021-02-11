@@ -75,8 +75,7 @@ Seine Nachteile sind:
 * [installiere _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* Programmieren Sie die Firmware des USB-Sticks _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* Programmieren Sie den USB-Stick _CC2531_  mit dem ZigBee-Koordinator: [ die Position von _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * baue eine Antenne für 433 MHz.

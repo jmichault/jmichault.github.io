@@ -75,8 +75,7 @@ Sus desventajas son:
 * [instalar _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* programa el firmware de la llave USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* programar la llave USB _CC2531_  con el coordinador zigbee: [ la ubicación de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * construye una antena para 433 Mhz.

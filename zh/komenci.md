@@ -75,8 +75,7 @@ title: 首次亮相
 * [安装 _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* 编程USB密钥 _CC2531_ 的固件： [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* 使用Zigbee协调器对USB密钥 _CC2531_  进行编程： [ cc2531 _flash__](https://jmichault.github.io/flash_cc2531-dok/)的位置
 
 
 * 为433 Mhz制造天线。

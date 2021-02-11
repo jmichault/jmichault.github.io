@@ -59,7 +59,7 @@ Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomput
 
 * [instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
-* programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
+* programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 * konstruu antenon por 433 Mhz.
 

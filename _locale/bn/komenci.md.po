@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:26+0100\n"
+"POT-Creation-Date: 2021-02-11 23:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,11 +186,10 @@ msgstr "[ইনস্টল করুন _রাস্পবিয়ান_](_p
 
 #. type: Bullet: '* '
 #: komenci.md:63
-#, fuzzy, no-wrap
-msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
-msgstr ""
-"ইউএসবি কী _CC2531_ এর ফার্মওয়্যারটি প্রোগ্রাম করুন: [github.com](https://github.com/jmichault/flash_cc2531)\n"
-"\n"
+#, no-wrap
+#, fuzzy
+msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+msgstr "জিগবি সমন্বয়কের সাথে ইউএসবি কী _CC2531_  প্রোগ্রাম করুন: [  _flash_সিসি 2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:65
@@ -243,6 +242,12 @@ msgstr "সংযুক্ত প্লাগ _433Mhz_\n"
 #, fuzzy, no-wrap
 msgid "konekti ampolon _zigbee_\n"
 msgstr "সংযোগ বাল্ব _zigbee_\n"
+
+#, fuzzy
+#~ msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ msgstr ""
+#~ "ইউএসবি কী _CC2531_ এর ফার্মওয়্যারটি প্রোগ্রাম করুন: [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ "\n"
 
 #, fuzzy
 #~ msgid ""

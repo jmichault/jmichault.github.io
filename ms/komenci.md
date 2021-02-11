@@ -75,8 +75,7 @@ Kelemahannya adalah:
 * [pasang _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* atur perisian firmware kekunci USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* atur kunci USB _CC2531_  dengan koordinator zigbee: [ lokasi _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * bina antena untuk 433 Mhz.

@@ -75,8 +75,7 @@ title: デビューする
 * [インストール _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* USBキー _CC2531_ のファームウェアをプログラムします： [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* ジグビーコーディネーターでUSBキー _CC2531_  をプログラムします： [  _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)の位置
 
 
 * 433Mhzの​​アンテナを構築します。

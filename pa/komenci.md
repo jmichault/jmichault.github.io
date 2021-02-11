@@ -75,8 +75,7 @@ title: 'ਡੈਬਿ. ਕਰਨ ਲਈ'
 * [ਇੰਸਟੌਲ ਕਰੋ _ਰਸਪਬੀਅਨ_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* ਯੂਐਸਬੀ ਕੁੰਜੀ _CC2531_ ਦੇ ਫਰਮਵੇਅਰ ਦਾ ਪ੍ਰੋਗਰਾਮ: [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* ਜਿਗਬੀ ਕੋਆਰਡੀਨੇਟਰ ਦੇ ਨਾਲ USB ਕੁੰਜੀ _CC2531_  ਦਾ ਪ੍ਰੋਗਰਾਮ: (program 3 °) _flash_ਸੀਸੀ 2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * 433 ਮੈਗਾਹਰਟਜ਼ ਲਈ ਇੱਕ ਐਂਟੀਨਾ ਬਣਾਓ.

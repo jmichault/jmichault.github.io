@@ -75,8 +75,7 @@ title: Дебютировать
 * [установить _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* запрограммируйте прошивку USB-ключа _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* запрограммируйте USB-ключ _CC2531_  с координатором zigbee: [ местоположение _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * построить антенну на 433 МГц.

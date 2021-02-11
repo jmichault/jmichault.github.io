@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:26+0100\n"
+"POT-Creation-Date: 2021-02-11 23:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,11 +186,10 @@ msgstr "[स्थापित करें _रास्पियन_](_posts/2
 
 #. type: Bullet: '* '
 #: komenci.md:63
-#, fuzzy, no-wrap
-msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
-msgstr ""
-"USB कुंजी _CC2531_ के फर्मवेयर को प्रोग्राम करें: [github.com](https://github.com/jmichault/flash_cc2531)\n"
-"\n"
+#, no-wrap
+#, fuzzy
+msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+msgstr "USB कुंजी _CC2531_  को zigbee समन्वयक के साथ प्रोग्राम करें: [ का स्थान _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:65
@@ -243,6 +242,12 @@ msgstr "कनेक्ट प्लग _433Mhz_\n"
 #, fuzzy, no-wrap
 msgid "konekti ampolon _zigbee_\n"
 msgstr "कनेक्ट बल्ब _zigbee_\n"
+
+#, fuzzy
+#~ msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ msgstr ""
+#~ "USB कुंजी _CC2531_ के फर्मवेयर को प्रोग्राम करें: [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ "\n"
 
 #, fuzzy
 #~ msgid ""

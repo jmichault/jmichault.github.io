@@ -75,8 +75,7 @@ title: 'पदार्पण करना'
 * [स्थापित करें _रास्पियन_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* USB कुंजी _CC2531_ के फर्मवेयर को प्रोग्राम करें: [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* USB कुंजी _CC2531_  को zigbee समन्वयक के साथ प्रोग्राम करें: [ का स्थान _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * 433 मेगाहर्ट्ज के लिए एक एंटीना का निर्माण।

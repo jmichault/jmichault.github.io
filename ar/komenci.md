@@ -75,8 +75,7 @@ title: 'لاول مرة'
 * [تثبيت _راسبيان_](_posts/2020-12-22-instali_raspbian.md)
 
 
-* قم ببرمجة البرنامج الثابت لمفتاح USB _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)
-  
+* قم ببرمجة مفتاح USB _CC2531_  مع منسق zigbee: [ موقع _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 
 
 * بناء هوائي 433 ميجا هرتز.
