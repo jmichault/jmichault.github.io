@@ -14,7 +14,7 @@ if [ ! -d "$BASEDIR"/../../$lang0 ] ; then
 fi
 cd "$BASEDIR"/../../$lang0
 
-for FIC in `find . -type f ! -name "_*"|grep -v "/_drafts/"`
+for FIC in `find . -type f ! -name "_*"|egrep -v "/_drafts/|.backup$"`
 do
   EXT="${FIC##*.}"
   case "$EXT" in
