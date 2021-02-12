@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-11 23:41+0100\n"
+"POT-Creation-Date: 2021-02-12 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,9 +54,10 @@ msgstr "ভূমিকা"
 
 #. type: Plain text
 #: komenci.md:11
-#, fuzzy, no-wrap
-msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
-msgstr "অভিষেকের উদাহরণ হিসাবে, আপনি একটি ন্যানো কম্পিউটার _raspberry Pi3 B+_দিয়ে একটি হোম অটোমেশন সিস্টেম তৈরি করতে পারেন, এটি 433 মেগাহার্টজ সরঞ্জাম এবং ডিভাইস _zigbee_পরিচালনা করতে সক্ষম হতে সজ্জিত করুন। আমি সবকিছু পরিচালনা করার জন্য ফ্রি প্রোগ্রাম ডোমোটিক্স বেছে নিয়েছি।\n"
+#, no-wrap
+#, fuzzy
+msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj _zigbee_-ekipaĵojn. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+msgstr "অভিষেকের উদাহরণ হিসাবে, আপনি একটি ন্যানো কম্পিউটার _raspberry Pi3 B+_দিয়ে একটি হোম অটোমেশন সিস্টেম তৈরি করতে পারেন, এটি 433 মেগাহার্জ সরঞ্জাম এবং _zigbee_সরঞ্জাম পরিচালনা করতে সক্ষম করে সজ্জিত করুন। আমি সবকিছু পরিচালনা করার জন্য ফ্রি প্রোগ্রাম ডোমোটিক্স বেছে নিয়েছি।\n"
 
 #. type: Plain text
 #: komenci.md:13
@@ -186,8 +187,7 @@ msgstr "[ইনস্টল করুন _রাস্পবিয়ান_](_p
 
 #. type: Bullet: '* '
 #: komenci.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr "জিগবি সমন্বয়কের সাথে ইউএসবি কী _CC2531_  প্রোগ্রাম করুন: [  _flash_সিসি 2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
@@ -244,9 +244,16 @@ msgid "konekti ampolon _zigbee_\n"
 msgstr "সংযোগ বাল্ব _zigbee_\n"
 
 #, fuzzy
-#~ msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+#~ msgstr "অভিষেকের উদাহরণ হিসাবে, আপনি একটি ন্যানো কম্পিউটার _raspberry Pi3 B+_দিয়ে একটি হোম অটোমেশন সিস্টেম তৈরি করতে পারেন, এটি 433 মেগাহার্টজ সরঞ্জাম এবং ডিভাইস _zigbee_পরিচালনা করতে সক্ষম হতে সজ্জিত করুন। আমি সবকিছু পরিচালনা করার জন্য ফ্রি প্রোগ্রাম ডোমোটিক্স বেছে নিয়েছি।\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://"
+#~ "github.com/jmichault/flash_cc2531)\n"
 #~ msgstr ""
-#~ "ইউএসবি কী _CC2531_ এর ফার্মওয়্যারটি প্রোগ্রাম করুন: [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ "ইউএসবি কী _CC2531_ এর ফার্মওয়্যারটি প্রোগ্রাম করুন: [github.com](https://"
+#~ "github.com/jmichault/flash_cc2531)\n"
 #~ "\n"
 
 #, fuzzy

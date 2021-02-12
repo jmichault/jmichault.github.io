@@ -7,7 +7,7 @@ title: 'Per debuttare'
 ---
 
 # introduzione
-A titolo di esempio di debutto, è possibile realizzare un impianto domotico con nanocomputer _raspberry Pi3 B+_, dotandolo per poter gestire apparecchiature e dispositivi a 433 Mhz _zigbee_. Ho scelto il programma gratuito domoticz per gestire il tutto.
+A titolo di esempio di esordio, è possibile realizzare un impianto domotico con nanocomputer _raspberry Pi3 B+_, attrezzandolo per poter gestire apparecchiature a 433 Mhz e _zigbee_apparecchiature. Ho scelto il programma gratuito domoticz per gestire il tutto.
 
 **Il _raspberry Pi3 B+_ presenta i seguenti vantaggi:**
 

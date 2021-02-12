@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-02-12 19:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "ar"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -119,6 +119,9 @@ msgstr ""
 "| منافذ كهربائية | 433 ميجا هرتز |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 يورو | 5 مآخذ تحكم عن بعد بسعر معقول. |\n"
 "| لمبة | (° 15 درجة) | (17 درجة) (18 درجة) | _Ikea_ | _TRÅDFRI_ LED E27 806 لومن | 10 يورو | مصباح كهربائي قابل للتعديل بسعر معقول. |\n"
 "| | | | | **السعر الإجمالي** | **50.5 يورو** | | (° 29 درجة)\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
 
 #~ msgid "fonto"
 #~ msgstr "auto"

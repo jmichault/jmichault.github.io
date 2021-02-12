@@ -1,6 +1,6 @@
 ---
 lang: eo
-lang-niv: auto
+lang-niv: homa
 lang-ref: aparataro
 layout: post
 slug: Ekipaĵo

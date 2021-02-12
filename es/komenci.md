@@ -7,7 +7,7 @@ title: Debutar
 ---
 
 # Introducción
-Como ejemplo de debut, se puede crear un sistema domótico con un nanoordenador _raspberry Pi3 B+_, equipándolo para poder gestionar equipos y dispositivos de 433 Mhz _zigbee_. Elegí el programa gratuito domoticz para gestionarlo todo.
+Como ejemplo de debut, se puede crear un sistema domótico con un nanoordenador _raspberry Pi3 B+_, equipándolo para poder gestionar equipos de 433 Mhz y equipos _zigbee_. Elegí el programa gratuito domoticz para gestionarlo todo.
 
 **El _raspberry Pi3 B+_ tiene las siguientes ventajas:**
 

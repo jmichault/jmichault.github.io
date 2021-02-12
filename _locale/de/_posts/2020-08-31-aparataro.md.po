@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-02-12 19:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "de"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -125,6 +125,9 @@ msgstr ""
 "| Steckdosen | 433 MHz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 ferngesteuerte Steckdosen zu einem vernünftigen Preis. |\n"
 "| Glühbirne | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 Lumen | 10 € | verstellbare Glühbirne zu einem vernünftigen Preis. |\n"
 "| | | | | **Gesamtpreis** | **50,5 €** | |\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
 
 #~ msgid "fonto"
 #~ msgstr "auto"

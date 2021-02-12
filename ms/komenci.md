@@ -7,7 +7,7 @@ title: 'Untuk memulakan debutnya'
 ---
 
 # pengenalan
-Sebagai contoh debut, anda dapat membuat sistem automasi rumah dengan nanocomputer _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan peralatan dan peranti 433 Mhz _zigbee_. Saya memilih domoticz program percuma untuk menguruskan semuanya.
+Sebagai contoh debut, anda boleh membuat sistem automasi rumah dengan komputer nanoco _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan peralatan 433 Mhz dan _zigbee_peralatan. Saya memilih domoticz program percuma untuk menguruskan semuanya.
 
 **The _raspberry Pi3 B+_ mempunyai kelebihan berikut:**
 

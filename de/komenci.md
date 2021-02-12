@@ -7,7 +7,7 @@ title: 'Zum Debüt'
 ---
 
 # Einführung
-Als Beispiel für ein Debüt können Sie ein Hausautomationssystem mit einem Nanocomputer _raspberry Pi3 B+_erstellen, mit dem 433-MHz-Geräte und -Geräte _zigbee_verwaltet werden können. Ich habe das kostenlose Programm domoticz gewählt, um alles zu verwalten.
+Als Beispiel für ein Debüt können Sie ein Hausautomationssystem mit einem Nanocomputer _raspberry Pi3 B+_erstellen, mit dem 433-MHz-Geräte und _zigbee_Geräte verwaltet werden können. Ich habe das kostenlose Programm domoticz gewählt, um alles zu verwalten.
 
 **Das _raspberry Pi3 B+_ hat die folgenden Vorteile:**
 

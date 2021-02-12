@@ -7,7 +7,7 @@ title: 'Para estrear'
 ---
 
 # introdução
-Como exemplo de estreia, pode-se criar um sistema de automação residencial com nanocomputador _raspberry Pi3 B+_, equipando-o para administrar equipamentos e dispositivos de 433 Mhz _zigbee_. Escolhi o programa gratuito domoticz para gerenciar tudo.
+A título de exemplo de estreia, pode-se criar um sistema domótico com nanocomputador _raspberry Pi3 B+_, equipando-o para gerir equipamentos de 433 MHz e _zigbee_equipamentos. Escolhi o programa gratuito domoticz para gerenciar tudo.
 
 **O _raspberry Pi3 B+_ tem as seguintes vantagens:**
 

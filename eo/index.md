@@ -1,7 +1,7 @@
 ---
 lang: eo
-lang-niv: auto
+lang-niv: homa
 lang-ref: indekso
 layout: index
-title: 'lastaj artikoloj'
+title: 'lastaj afiŝoj'
 ---

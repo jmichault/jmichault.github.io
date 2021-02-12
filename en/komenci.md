@@ -7,7 +7,7 @@ title: 'To debut'
 ---
 
 # introduction
-As an example of a debut, you can create a home automation system with a nanocomputer _raspberry Pi3 B+_, equipping it to be able to manage 433 Mhz equipment and devices _zigbee_. I chose the free program domoticz to manage everything.
+As an example of a debut, you can create a home automation system with a nanocomputer _raspberry Pi3 B+_, equipping it to be able to manage 433 Mhz equipment and _zigbee_equipment. I chose the free program domoticz to manage everything.
 
 **The _raspberry Pi3 B+_ has the following advantages:**
 

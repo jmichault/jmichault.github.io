@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-11 23:41+0100\n"
+"POT-Creation-Date: 2021-02-12 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,9 +54,10 @@ msgstr "введение"
 
 #. type: Plain text
 #: komenci.md:11
-#, fuzzy, no-wrap
-msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
-msgstr "В качестве примера дебюта вы можете создать систему домашней автоматизации с нанокомпьютером _raspberry Pi3 B+_, оборудовав ее для управления оборудованием и устройствами 433 МГц _zigbee_. Я выбрал бесплатную программу domoticz, чтобы управлять всем.\n"
+#, no-wrap
+#, fuzzy
+msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj _zigbee_-ekipaĵojn. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+msgstr "В качестве примера дебюта вы можете создать систему домашней автоматизации с нанокомпьютером _raspberry Pi3 B+_, оборудовав его для управления оборудованием с частотой 433 МГц и оборудованием _zigbee_. Я выбрал бесплатную программу domoticz, чтобы управлять всем.\n"
 
 #. type: Plain text
 #: komenci.md:13
@@ -186,8 +187,7 @@ msgstr "[установить _raspbian_](_posts/2020-12-22-instali_raspbian.md)
 
 #. type: Bullet: '* '
 #: komenci.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr "запрограммируйте USB-ключ _CC2531_  с координатором zigbee: [ местоположение _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
@@ -244,9 +244,16 @@ msgid "konekti ampolon _zigbee_\n"
 msgstr "подключить лампочку _zigbee_\n"
 
 #, fuzzy
-#~ msgid "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+#~ msgstr "В качестве примера дебюта вы можете создать систему домашней автоматизации с нанокомпьютером _raspberry Pi3 B+_, оборудовав ее для управления оборудованием и устройствами 433 МГц _zigbee_. Я выбрал бесплатную программу domoticz, чтобы управлять всем.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "programu la firmvaron de la USB-ŝlosilo _CC2531_ : [github.com](https://"
+#~ "github.com/jmichault/flash_cc2531)\n"
 #~ msgstr ""
-#~ "запрограммируйте прошивку USB-ключа _CC2531_ : [github.com](https://github.com/jmichault/flash_cc2531)\n"
+#~ "запрограммируйте прошивку USB-ключа _CC2531_ : [github.com](https://"
+#~ "github.com/jmichault/flash_cc2531)\n"
 #~ "\n"
 
 #, fuzzy

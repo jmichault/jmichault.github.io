@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-11 23:41+0100\n"
+"POT-Creation-Date: 2021-02-12 18:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,43 +17,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./_posts/2021-02-11-programi_cc2531.md:1
+#: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
 msgid "fr"
 msgstr ""
 
 #. type: YAML Front Matter: lang-niv
-#: ./_posts/2021-02-11-programi_cc2531.md:1
+#: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
 msgid "fonto"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2021-02-11-programi_cc2531.md:1
+#: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
 msgid "programi_cc2531"
 msgstr ""
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2021-02-11-programi_cc2531.md:1
+#: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
 msgid "post"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ./_posts/2021-02-11-programi_cc2531.md:1
+#: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
 msgid "Programmer la clé USB _CC2531_"
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2021-02-11-programi_cc2531.md:9
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:9
+#, no-wrap
 msgid "installer le logiciel de programmation"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-02-11-programi_cc2531.md:11
+#: _posts/2021-02-11-programi_cc2531.md:11
 #, no-wrap
 msgid ""
 "git clone https://github.com/jmichault/flash_cc2531.git\n"
@@ -61,65 +61,58 @@ msgid ""
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2021-02-11-programi_cc2531.md:16
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:16
+#, no-wrap
 msgid "télécharger le programme zigbee"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:18
-#, markdown-text, no-wrap
-msgid ""
-"Chargez la dernière version du coordonnateur zigbee sur ce site : "
-"<https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/>, "
-"puis décompressez l'archive.\n"
+#: _posts/2021-02-11-programi_cc2531.md:18
+#, no-wrap
+msgid "Chargez la dernière version du coordonnateur zigbee sur ce site : <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/>, puis décompressez l'archive.\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:20
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:20
+#, no-wrap
 msgid "exemple pour la version CC2531_DEFAULT_20201127.zip :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-02-11-programi_cc2531.md:21
+#: _posts/2021-02-11-programi_cc2531.md:21
 #, no-wrap
 msgid ""
-"wget "
-"https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2531_DEFAULT_20201127.zip\n"
+"wget https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2531_DEFAULT_20201127.zip\n"
 "unzip CC2531_DEFAULT_20201127.zip\n"
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2021-02-11-programi_cc2531.md:26
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:26
+#, no-wrap
 msgid "connecter la clé"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:28
-#, markdown-text, no-wrap
-msgid ""
-"Connectez quatre lignes _Dupont_ femelle à femelle aux broches 35,36,38 et "
-"39 du _raspberry_. ( La broche 2 se trouve dans l'angle du raspberry, voir "
-"le site <https://pinout.xyz/> pour se repérer)  \n"
+#: _posts/2021-02-11-programi_cc2531.md:28
+#, no-wrap
+msgid "Connectez quatre lignes _Dupont_ femelle à femelle aux broches 35,36,38 et 39 du _raspberry_. ( La broche 2 se trouve dans l'angle du raspberry, voir le site <https://pinout.xyz/> pour se repérer)  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:29
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:29
+#, no-wrap
 msgid "Connectez ces lignes au gros connecteur du câble CC :  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:31
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:31
+#, no-wrap
 msgid "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:38
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:38
+#, no-wrap
 msgid ""
 "| GPIO                         |     CC              |\n"
 "| ---------------------------- | ------------------- | \n"
@@ -130,28 +123,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:41
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:41
+#, no-wrap
 msgid ""
-"Puis connectez la nappe de l'adaptateur vers la clé, et insérez la clé dans "
-"un des ports USB :\n"
+"Puis connectez la nappe de l'adaptateur vers la clé (regardez la photo pour le sens de branchement), et insérez la clé dans un des ports USB :\n"
 "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2021-02-11-programi_cc2531.md:43
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:43
+#, no-wrap
 msgid "faire la programmation"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:46
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:46
+#, no-wrap
 msgid "testez en exécutant ceci :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-02-11-programi_cc2531.md:46
+#: _posts/2021-02-11-programi_cc2531.md:46
 #, no-wrap
 msgid ""
 "cd flash_cc2531\n"
@@ -159,37 +151,37 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:51
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:51
+#, no-wrap
 msgid "Ça doit retourner:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: ./_posts/2021-02-11-programi_cc2531.md:51
+#: _posts/2021-02-11-programi_cc2531.md:51
 #, no-wrap
 msgid "  ID = b524.\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:56
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:56
+#, no-wrap
 msgid "Sauvegardez le contenu actuel de la clé :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-02-11-programi_cc2531.md:56
+#: _posts/2021-02-11-programi_cc2531.md:56
 #, no-wrap
 msgid "./cc_read save.hex\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:61
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:61
+#, no-wrap
 msgid "Programmez le fichier _CC2531ZNP-Prod.hex_ dans la clé _CC2531_:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-02-11-programi_cc2531.md:61
+#: _posts/2021-02-11-programi_cc2531.md:61
 #, no-wrap
 msgid ""
 "./cc_erase\n"
@@ -197,15 +189,13 @@ msgid ""
 msgstr ""
 
 #. type: Title #
-#: ./_posts/2021-02-11-programi_cc2531.md:66
-#, markdown-text, no-wrap
+#: _posts/2021-02-11-programi_cc2531.md:66
+#, no-wrap
 msgid "En cas de problème"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2021-02-11-programi_cc2531.md:67
-#, markdown-text, no-wrap
-msgid ""
-"Consultez [ le site de "
-"_flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+#: _posts/2021-02-11-programi_cc2531.md:67
+#, no-wrap
+msgid "Consultez [ le site de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr ""

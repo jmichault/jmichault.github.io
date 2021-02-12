@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# jean, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-02-11 23:41+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-02-12 18:58+0200\n"
+"Last-Translator: jean <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. type: YAML Front Matter: lang
 #: komenci.md:1
@@ -41,49 +42,53 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: komenci.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Pour débuter"
 msgstr "Por debuti"
 
 #. type: Title #
 #: komenci.md:9
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "introduction"
 msgstr "enkonduko"
 
 #. type: Plain text
 #: komenci.md:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Comme exemple de début, vous pouvez réaliser un système domotique fait maison avec un nano-ordinateur _raspberry Pi3 B+_, en l’équipant pour pouvoir gérer des équipements 433 Mhz et des équipements _zigbee_. J’ai choisi le logiciel libre domoticz pour gérer l’ensemble.\n"
-msgstr "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj ekipaĵojn _zigbee_. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+msgstr ""
+"Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per "
+"nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-"
+"ekipaĵojn kaj _zigbee_-ekipaĵojn. Mi elektis la liberan programon domoticz "
+"por administri ĉion.\n"
 
 #. type: Plain text
 #: komenci.md:13
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "**Le _raspberry Pi3 B+_ a pour avantages :**\n"
 msgstr "**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**\n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "son bas prix\n"
 msgstr "ĝia malalta prezo\n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "une puissance de calcul trés confortable pour la domotique.\n"
 msgstr "tre komforta komputila potenco por hejma aŭtomatigo.\n"
 
 #. type: Bullet: ' 3. '
 #: komenci.md:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "une consommation réduite.\n"
 msgstr "reduktita konsumo.\n"
 
 #. type: Bullet: ' 4. '
 #: komenci.md:19
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "pas besoin de ventilateur.\n"
 msgstr "neniu ventolilo bezonis.\n"
 
@@ -186,9 +191,10 @@ msgstr "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
 #. type: Bullet: '* '
 #: komenci.md:51
 #, no-wrap
-#, fuzzy
 msgid "programmer la clé USB _CC2531_  avec le coordinateur zigbee : [ le site de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
-msgstr "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+msgstr ""
+"programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de "
+"_flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
 #. type: Bullet: '* '
 #: komenci.md:51

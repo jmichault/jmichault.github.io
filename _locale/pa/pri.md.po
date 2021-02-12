@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:26+0100\n"
+"POT-Creation-Date: 2021-02-12 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "pa"
 #. type: YAML Front Matter: lang-niv
 #: pri.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -48,13 +48,23 @@ msgstr "ਲੇਖਕ ਬਾਰੇ"
 
 #. type: Plain text
 #: pri.md:10
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Pasia pri elektroniko ekde la aĝo de 10 jaroj kaj toksomaniulo al komputiloj ekde la aĝo de 18 jaroj.\n"
-"Mi okupiĝis pri malfermfonteco ekde la fino de la 20a jarcento.\n"
-msgstr ""
-"10 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਇਲੈਕਟ੍ਰਾਨਿਕਸ ਬਾਰੇ ਜਨੂੰਨ ਅਤੇ 18 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਕੰਪਿ computersਟਰਾਂ ਦੀ ਆਦੀ.\n"
-"ਮੈਂ 20 ਵੀਂ ਸਦੀ ਦੇ ਅੰਤ ਤੋਂ ਖੁੱਲੇ ਸਰੋਤ ਵਿੱਚ ਸ਼ਾਮਲ ਰਿਹਾ ਹਾਂ.\n"
+"Mi okupiĝis pri malfermitkoda ekde la fino de la 20a jarcento.\n"
+msgstr "10 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਇਲੈਕਟ੍ਰਾਨਿਕਸ ਬਾਰੇ ਜਨੂੰਨ ਅਤੇ 18 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਕੰਪਿ computersਟਰਾਂ ਦੀ ਆਦੀ.\nਮੈਂ 20 ਵੀਂ ਸਦੀ ਦੇ ਅੰਤ ਤੋਂ ਖੁੱਲੇ ਸਰੋਤ ਵਿੱਚ ਸ਼ਾਮਲ ਰਿਹਾ ਹਾਂ.\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "Pasia pri elektroniko ekde la aĝo de 10 jaroj kaj toksomaniulo al komputiloj ekde la aĝo de 18 jaroj.\n"
+#~ "Mi okupiĝis pri malfermfonteco ekde la fino de la 20a jarcento.\n"
+#~ msgstr ""
+#~ "10 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਇਲੈਕਟ੍ਰਾਨਿਕਸ ਬਾਰੇ ਜਨੂੰਨ ਅਤੇ 18 ਸਾਲ ਦੀ ਉਮਰ ਤੋਂ ਕੰਪਿ computersਟਰਾਂ ਦੀ ਆਦੀ.\n"
+#~ "ਮੈਂ 20 ਵੀਂ ਸਦੀ ਦੇ ਅੰਤ ਤੋਂ ਖੁੱਲੇ ਸਰੋਤ ਵਿੱਚ ਸ਼ਾਮਲ ਰਿਹਾ ਹਾਂ.\n"
 
 #~ msgid "fonto"
 #~ msgstr "auto"

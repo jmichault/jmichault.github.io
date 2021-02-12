@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-02-12 19:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "bn"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-08-31-aparataro.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -124,6 +124,9 @@ msgstr ""
 "| বৈদ্যুতিক আউটলেট | 433 মেগাহার্টজ |![](/public/KYG.jpg)| _KYG_ | 4315 | 33। | যুক্তিসঙ্গত দামে 5 রিমোট কন্ট্রোল সকেট। |\n"
 "| বাল্ব | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 লুমেনস | 10। | একটি যুক্তিসঙ্গত দামে নিয়মিত হালকা বাল্ব। |\n"
 "| | | | | **মোট দাম** | **50.5 €** | |\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
 
 #~ msgid "fonto"
 #~ msgstr "auto"
