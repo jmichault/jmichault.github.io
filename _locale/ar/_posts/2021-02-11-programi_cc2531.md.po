@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-12 19:02+0100\n"
+"POT-Creation-Date: 2021-02-13 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "ar"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,15 +42,13 @@ msgstr "post"
 
 #. type: YAML Front Matter: title
 #: _posts/2021-02-11-programi_cc2531.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Programi la USB-ŝlosilon _CC2531_"
 msgstr "برمجة مفتاح USB _CC2531_"
 
 #. type: Title #
 #: _posts/2021-02-11-programi_cc2531.md:9
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instali fulman programaron"
 msgstr "تثبيت برنامج البرق"
 
@@ -66,23 +64,21 @@ msgstr ""
 
 #. type: Title #
 #: _posts/2021-02-11-programi_cc2531.md:16
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "elŝutu la zigbee-programaron"
 msgstr "قم بتنزيل برنامج zigbee"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:18
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/>, tiam malzipigu la arkivon.\n"
 msgstr "قم بتنزيل أحدث إصدار من منسق zigbee على هذا الموقع: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / bin / افتراضي/>، ثم قم بفك ضغط الملف.\n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:20
 #, fuzzy, no-wrap
-msgid "ekzemplo por versio CC2531_DEFAULT_20201127.zip:\n"
-msgstr "مثال للإصدار CC2531_DEFAULT_20201127.zip:\n"
+msgid "ekzemplo por la versio _CC2531_DEFAULT_20201127.zip_ :\n"
+msgstr "مثال للإصدار _CC2531_افتراضي_20201127.zip_ :\n"
 
 #. type: Fenced code block (bash)
 #: _posts/2021-02-11-programi_cc2531.md:21
@@ -103,47 +99,42 @@ msgstr "قم بتوصيل المفتاح"
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:28
 #, fuzzy, no-wrap
-msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Stifto 2 estas en la angulo de la frambo, vidu la retejon <https://pinout.xyz/>por trovi vian vojon ĉirkaŭ)  \n"
-msgstr "قم بتوصيل أربعة خطوط _Dupont_ أنثى إلى أنثى بالدبابيس 35،36،38 و 39 من _raspberry_. ( الدبوس 2 في زاوية التوت ، راجع موقع الويب <https://pinout.xyz/>لتجد طريقك حول)  \n"
+msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Pinglo 2 estas en la angulo de _raspberry_, vidu la retejon <https://pinout.xyz/> por lokalizi)  \n"
+msgstr "قم بتوصيل أربعة خطوط _Dupont_ أنثى إلى أنثى بالدبابيس 35،36،38 و 39 من _raspberry_. ( الدبوس 2 في زاوية _raspberry_، انظر موقع الويب <https://pinout.xyz/>لتحديد)  \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:29
 #, fuzzy, no-wrap
-msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la DC-kablo:  \n"
-msgstr "قم بتوصيل هذه الخطوط بموصل كبل DC الكبير:  \n"
+msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la kablo _CC_ :  \n"
+msgstr "قم بتوصيل هذه الخطوط بموصل الكابل الكبير _CC_ :  \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:31
 #, fuzzy, no-wrap
-msgid "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
-msgstr "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgid "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
+msgstr "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:38
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"| GPIO | CC |\n"
-"| ---------------------------- | ------------------- | \n"
-"| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
-"| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
-"| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
-"| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
-msgstr ""
-"| GPIO | CC |\n"
-"| ---------------------------- | ------------------- | \n"
-"| دبوس 39 ( _GND_ )           | المغزل 1 ( _GND_ )  |\t\n"
-"| دبوس 36 (13 درجة) (14 درجة) (16 درجة) | دبوس 3 (17 درجة) (18 درجة) (20 درجة) | \n"
-"| دبوس 38 ( _wPi 28, BCM20_ ) | دبوس 4 (26 درجة) (27 درجة) (29 درجة) | (° 30 درجة) | دبوس 35 ( _wPi 24, BCM19_ ) | دبوس 7 ( _reset_ )| (° 39 درجة) \n"
+"| pinglo _GPIO_          | pinglo _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+msgstr "| دبوس _GPIO_          | دبوس _CC_  |\n| ---------------------- | ------------ | \n| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n| 36 (17 درجة) (18 درجة) (20 درجة) | 3 (21 درجة) (22 درجة) (24 درجة) | \n| 38 (26 درجة) (27 درجة) (29 درجة) | 4 (30 درجة) (31 درجة) (33 درجة) | \n| 35 ( _wPi 24, BCM19_ ) | 7 (39 درجة) (40 درجة) (42 درجة) | (° 43 درجة) \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:41
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj USB:\n"
-"![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
-msgstr ""
-"ثم قم بتوصيل كبل المحول بالمفتاح (انظر إلى صورة اتجاه الاتصال)، وأدخل المفتاح في أحد منافذ USB:\n"
-"![(° 5 درجات) (13 درجة)\n"
+"Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
+"![](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
+msgstr "ثم قم بتوصيل كابل المحول بالمفتاح (انظر إلى الصورة في اتجاه التوصيل)، وأدخل المفتاح في أحد المنافذ _USB_ :\n![°)](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
 
 #. type: Title #
 #: _posts/2021-02-11-programi_cc2531.md:43
@@ -194,7 +185,7 @@ msgstr "./cc_read save.hex\n"
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:61
 #, fuzzy, no-wrap
-msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la klavo _CC2531_:\n"
+msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la ŝlosilo _CC2531_:\n"
 msgstr "برمجة الملف _CC2531ZNP-Prod.hex_ في المفتاح _CC2531_:\n"
 
 #. type: Fenced code block (bash)
@@ -219,6 +210,122 @@ msgstr "في حالة وجود مشكلة"
 msgid "Konsultu [ la retejon de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr "انظر [ موقع _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "| spindelo _GPIO_          | spindelo _CC_  |\n"
+#~ "| ---------------------- | ------------ | \n"
+#~ "| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+#~ "| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+#~ "| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+#~ "| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+#~ msgstr ""
+#~ "| المغزل _GPIO_          | المغزل _CC_  |\n"
+#~ "| ---------------------- | ------------ | \n"
+#~ "| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+#~ "| 36 (17 درجة) (18 درجة) (20 درجة) | 3 (21 درجة) (22 درجة) (24 درجة) | \n"
+#~ "| 38 (26 درجة) (27 درجة) (29 درجة) | 4 (30 درجة) (31 درجة) (33 درجة) | \n"
+#~ "| 35 ( _wPi 24, BCM19_ ) | 7 (39 درجة) (40 درجة) (42 درجة) | (° 43 "
+#~ "درجة) \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
+#~ "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "ثم قم بتوصيل كابل المحول بالمفتاح (انظر إلى الصورة في اتجاه التوصيل)، وأدخل المفتاح في أحد المنافذ _USB_ :\n"
+#~ "![°)](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+
+#, fuzzy
+#~ msgid "Programu la klavon _USB_ _CC2531_"
+#~ msgstr "برمجة المفتاح _USB_ _CC2531_"
+
+#, fuzzy
+#~ msgid ""
+#~ "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de "
+#~ "_raspberry_. ( Stifto 2 estas en la angulo de _raspberry_, vidu la "
+#~ "retejon <https://pinout.xyz/>por trovi vian vojon)  \n"
+#~ msgstr ""
+#~ "قم بتوصيل أربعة خطوط _Dupont_ أنثى إلى أنثى بالدبابيس 35،36،38 و 39 من "
+#~ "_raspberry_. ( الدبوس 2 في زاوية _raspberry_، انظر موقع الويب <https://"
+#~ "pinout.xyz/>لتجد طريقك)  °)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| _GPIO_                       |     _CC_            |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
+#~ "| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
+#~ "| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
+#~ "| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
+#~ msgstr ""
+#~ "| _GPIO_                       |     _CC_            |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| دبوس 39 ( _GND_ )           | المغزل 1 ( _GND_ )  |\t\n"
+#~ "| دبوس 36 (17 درجة) (18 درجة) (20 درجة) | دبوس 3 (21 درجة) (22 درجة) (24 "
+#~ "درجة) | \n"
+#~ "| دبوس 38 (26 درجة) (27 درجة) (29 درجة) | دبوس 4 (30 درجة) (31 درجة) (33 "
+#~ "درجة) | \n"
+#~ "| دبوس 35 ( _wPi 24, BCM19_ ) | دبوس 7 (39 درجة) (40 درجة) (42 درجة) | (° "
+#~ "43 درجة) \n"
+
+#, fuzzy
+#~ msgid "ekzemplo por versio CC2531_DEFAULT_20201127.zip:\n"
+#~ msgstr "مثال للإصدار CC2531_DEFAULT_20201127.zip:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de "
+#~ "_raspberry_. ( Stifto 2 estas en la angulo de la frambo, vidu la retejon "
+#~ "<https://pinout.xyz/>por trovi vian vojon ĉirkaŭ)  \n"
+#~ msgstr ""
+#~ "قم بتوصيل أربعة خطوط _Dupont_ أنثى إلى أنثى بالدبابيس 35،36،38 و 39 من "
+#~ "_raspberry_. ( الدبوس 2 في زاوية التوت ، راجع موقع الويب <https://pinout."
+#~ "xyz/>لتجد طريقك حول)  \n"
+
+#, fuzzy
+#~ msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la DC-kablo:  \n"
+#~ msgstr "قم بتوصيل هذه الخطوط بموصل كبل DC الكبير:  \n"
+
+#, fuzzy
+#~ msgid "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| GPIO | CC |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
+#~ "| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
+#~ "| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
+#~ "| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
+#~ msgstr ""
+#~ "| GPIO | CC |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| دبوس 39 ( _GND_ )           | المغزل 1 ( _GND_ )  |\t\n"
+#~ "| دبوس 36 (13 درجة) (14 درجة) (16 درجة) | دبوس 3 (17 درجة) (18 درجة) (20 "
+#~ "درجة) | \n"
+#~ "| دبوس 38 ( _wPi 28, BCM20_ ) | دبوس 4 (26 درجة) (27 درجة) (29 درجة) | (° "
+#~ "30 درجة) | دبوس 35 ( _wPi 24, BCM19_ ) | دبوس 7 ( _reset_ )| (° 39 "
+#~ "درجة) \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la "
+#~ "direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj USB:\n"
+#~ "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "ثم قم بتوصيل كبل المحول بالمفتاح (انظر إلى صورة اتجاه الاتصال)، وأدخل "
+#~ "المفتاح في أحد منافذ USB:\n"
+#~ "![(° 5 درجات) (13 درجة)\n"
+
+#, fuzzy
+#~ msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la klavo _CC2531_:\n"
+#~ msgstr "برمجة الملف _CC2531ZNP-Prod.hex_ في المفتاح _CC2531_:\n"
+
 #, fuzzy
 #~ msgid "Programu la USB-ŝlosilon _CC2531_"
 #~ msgstr "برمجة مفتاح USB _CC2531_"
@@ -232,8 +339,14 @@ msgstr "انظر [ موقع _flash_cc2531_](https://jmichault.github.io/flash_cc
 #~ msgstr "قم بتنزيل تطبيق zigbee"
 
 #, fuzzy
-#~ msgid "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / bin / default/>, tiam malzipigu la arkivon.\n"
-#~ msgstr "قم بتنزيل أحدث إصدار من منسق zigbee على هذا الموقع: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / bin / افتراضي/>، ثم قم بفك ضغط الملف.\n"
+#~ msgid ""
+#~ "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: "
+#~ "<https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-"
+#~ "Stack_Home_1.2 / bin / default/>, tiam malzipigu la arkivon.\n"
+#~ msgstr ""
+#~ "قم بتنزيل أحدث إصدار من منسق zigbee على هذا الموقع: <https://github.com/"
+#~ "Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / bin / "
+#~ "افتراضي/>، ثم قم بفك ضغط الملف.\n"
 
 #, fuzzy
 #~ msgid ""

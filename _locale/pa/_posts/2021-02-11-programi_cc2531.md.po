@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-12 19:02+0100\n"
+"POT-Creation-Date: 2021-02-13 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "pa"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -42,15 +42,13 @@ msgstr "post"
 
 #. type: YAML Front Matter: title
 #: _posts/2021-02-11-programi_cc2531.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Programi la USB-ŝlosilon _CC2531_"
 msgstr "ਯੂ ਐਸ ਬੀ ਕੁੰਜੀ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ (Program 1 °)"
 
 #. type: Title #
 #: _posts/2021-02-11-programi_cc2531.md:9
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "instali fulman programaron"
 msgstr "ਬਿਜਲੀ ਦੇ ਸਾੱਫਟਵੇਅਰ ਨੂੰ ਸਥਾਪਿਤ ਕਰੋ"
 
@@ -66,23 +64,21 @@ msgstr ""
 
 #. type: Title #
 #: _posts/2021-02-11-programi_cc2531.md:16
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "elŝutu la zigbee-programaron"
 msgstr "Zigbee ਸਾਫਟਵੇਅਰ ਨੂੰ ਡਾ downloadਨਲੋਡ ਕਰੋ"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:18
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/>, tiam malzipigu la arkivon.\n"
 msgstr "ਇਸ ਸਾਈਟ ਤੇ ਜ਼ਿੱਗੀ ਕੋਆਰਡੀਨੇਟਰ ਦਾ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਡਾ Downloadਨਲੋਡ ਕਰੋ: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / ਬਿਨ / ਮੂਲ/>, ਫਿਰ ਫਾਈਲ ਨੂੰ ਅਣ-ਜ਼ਿਪ ਕਰੋ.\n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:20
 #, fuzzy, no-wrap
-msgid "ekzemplo por versio CC2531_DEFAULT_20201127.zip:\n"
-msgstr "ਵਰਜ਼ਨ ਸੀ ਸੀ 2531_DEFAULT_20201127.zip ਲਈ ਉਦਾਹਰਣ:\n"
+msgid "ekzemplo por la versio _CC2531_DEFAULT_20201127.zip_ :\n"
+msgstr "ਵਰਜ਼ਨ _CC2531_ਦੀ ਉਦਾਹਰਣ ਲਈ ਖਰਾਬੀ_20201127.zip_ :\n"
 
 #. type: Fenced code block (bash)
 #: _posts/2021-02-11-programi_cc2531.md:21
@@ -103,48 +99,42 @@ msgstr "ਕੁੰਜੀ ਨੂੰ ਜੁੜੋ"
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:28
 #, fuzzy, no-wrap
-msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Stifto 2 estas en la angulo de la frambo, vidu la retejon <https://pinout.xyz/>por trovi vian vojon ĉirkaŭ)  \n"
-msgstr "ਚਾਰ ਲਾਈਨਾਂ _Dupont_ femaleਰਤ ਨੂੰ femaleਰਤ ਨੂੰ ਪਿੰਨ ਨਾਲ 35,36,38 ਅਤੇ 39 ਦੇ _raspberry_ਨਾਲ ਜੋੜੋ. ( ਪਿੰਨ 2 ਰਸਬੇਰੀ ਦੇ ਕੋਨੇ ਵਿੱਚ ਹੈ, ਆਪਣੇ ਰਸਤੇ ਨੂੰ ਲੱਭਣ ਲਈ ਵੈਬਸਾਈਟ (the 6 °) https://pinout.xyz/>(° 8 see)ਦੇਖੋ\n"
+msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Pinglo 2 estas en la angulo de _raspberry_, vidu la retejon <https://pinout.xyz/> por lokalizi)  \n"
+msgstr "ਚਾਰ ਲਾਈਨਾਂ _Dupont_ femaleਰਤ ਨੂੰ femaleਰਤ ਨੂੰ ਪਿੰਨ ਨਾਲ 35,36,38 ਅਤੇ 39 ਦੇ _raspberry_ਨਾਲ ਜੋੜੋ. ( ਪਿੰਨ 2 _raspberry_ਦੇ ਕੋਨੇ ਵਿੱਚ ਹੈ, ਵੈਬਸਾਈਟ <https://pinout.xyz/>)  ਲੱਭਣ ਲਈ ਵੇਖੋ.\n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:29
 #, fuzzy, no-wrap
-msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la DC-kablo:  \n"
-msgstr "ਇਨ੍ਹਾਂ ਲਾਈਨਾਂ ਨੂੰ ਵੱਡੇ ਡੀ ਸੀ ਕੇਬਲ ਕੁਨੈਕਟਰ ਨਾਲ ਕਨੈਕਟ ਕਰੋ:  \n"
+msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la kablo _CC_ :  \n"
+msgstr "ਇਨ੍ਹਾਂ ਲਾਈਨਾਂ ਨੂੰ ਵੱਡੇ ਕੇਬਲ ਕੁਨੈਕਟਰ _CC_ ਨਾਲ ਕਨੈਕਟ ਕਰੋ:  \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:31
 #, fuzzy, no-wrap
-msgid "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
-msgstr "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgid "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
+msgstr "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:38
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"| GPIO | CC |\n"
-"| ---------------------------- | ------------------- | \n"
-"| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
-"| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
-"| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
-"| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
-msgstr ""
-"| ਜੀਪੀਆਈਓ | ਸੀਸੀ |\n"
-"| ---------------------------- | ------------------- | \n"
-"| ਪਿੰਨ 39 ( _GND_ )           | ਸਪਿੰਡਲ 1 ( _GND_ )  |\t\n"
-"| ਪਿੰਨ 36 ( _wPi 27, BCM16_ ) | ਪਿੰਨ 3 ( _DC_ )   | \n"
-"| ਪਿੰਨ 38 ( _wPi 28, BCM20_ ) | ਪਿੰਨ 4 ( _DD_ )   | \n"
-"| ਪਿੰਨ 35 ( _wPi 24, BCM19_ ) | ਪਿੰਨ 7 ( _reset_ )| \n"
+"| pinglo _GPIO_          | pinglo _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+msgstr "| ਪਿੰਨ _GPIO_          | ਪਿੰਨ _CC_  |\n| ---------------------- | ------------ | \n| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:41
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj USB:\n"
-"![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
-msgstr ""
-"ਫਿਰ ਅਡੈਪਟਰ ਕੇਬਲ ਨੂੰ ਕੁੰਜੀ ਨਾਲ ਜੋੜੋ (ਕਨੈਕਸ਼ਨ ਦਿਸ਼ਾ (at 2 °) ਦੀ ਤਸਵੀਰ ਵੇਖੋ, ਅਤੇ ਕੁੰਜੀ ਨੂੰ ਇੱਕ USB ਪੋਰਟ ਵਿੱਚ ਪਾਓ:\n"
-"![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+"Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
+"![](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
+msgstr "ਫਿਰ ਅਡੈਪਟਰ ਕੇਬਲ ਨੂੰ ਕੁੰਜੀ ਨਾਲ ਜੋੜੋ (ਤਸਵੀਰ ਨੂੰ ਕੁਨੈਕਸ਼ਨ)ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ ਵੇਖੋ, ਅਤੇ ਇੱਕ ਪੋਰਟ _USB_ ਵਿੱਚ ਕੁੰਜੀ ਪਾਓ:\n![°)](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
 
 #. type: Title #
 #: _posts/2021-02-11-programi_cc2531.md:43
@@ -195,7 +185,7 @@ msgstr "./cc_read save.hex\n"
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:61
 #, fuzzy, no-wrap
-msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la klavo _CC2531_:\n"
+msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la ŝlosilo _CC2531_:\n"
 msgstr "ਕੁੰਜੀ _CC2531_ਵਿੱਚ ਫਾਈਲ _CC2531ZNP-Prod.hex_ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ:\n"
 
 #. type: Fenced code block (bash)
@@ -220,6 +210,116 @@ msgstr "ਕਿਸੇ ਸਮੱਸਿਆ ਦੇ ਮਾਮਲੇ ਵਿੱਚ"
 msgid "Konsultu [ la retejon de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr " [  _flash_ਸੀਸੀ 2531_](https://jmichault.github.io/flash_cc2531-dok/)ਦੀ ਵੈੱਬਸਾਈਟ ਵੇਖੋ\n"
 
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "| spindelo _GPIO_          | spindelo _CC_  |\n"
+#~ "| ---------------------- | ------------ | \n"
+#~ "| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+#~ "| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+#~ "| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+#~ "| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+#~ msgstr ""
+#~ "| ਸਪਿੰਡਲ _GPIO_          | ਸਪਿੰਡਲ _CC_  |\n"
+#~ "| ---------------------- | ------------ | \n"
+#~ "| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+#~ "| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+#~ "| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+#~ "| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
+#~ "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "ਫਿਰ ਅਡੈਪਟਰ ਕੇਬਲ ਨੂੰ ਕੁੰਜੀ ਨਾਲ ਜੋੜੋ (ਤਸਵੀਰ ਨੂੰ ਕੁਨੈਕਸ਼ਨ)ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ ਵੇਖੋ, ਅਤੇ ਇੱਕ ਪੋਰਟ _USB_ ਵਿੱਚ ਕੁੰਜੀ ਪਾਓ:\n"
+#~ "![°)](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+
+#, fuzzy
+#~ msgid "Programu la klavon _USB_ _CC2531_"
+#~ msgstr "ਪ੍ਰੋਗਰਾਮ ਕੁੰਜੀ _USB_ _CC2531_"
+
+#, fuzzy
+#~ msgid ""
+#~ "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de "
+#~ "_raspberry_. ( Stifto 2 estas en la angulo de _raspberry_, vidu la "
+#~ "retejon <https://pinout.xyz/>por trovi vian vojon)  \n"
+#~ msgstr ""
+#~ "ਚਾਰ ਲਾਈਨਾਂ _Dupont_ femaleਰਤ ਨੂੰ femaleਰਤ ਨੂੰ ਪਿੰਨ ਨਾਲ 35,36,38 ਅਤੇ 39 ਦੇ "
+#~ "_raspberry_ਨਾਲ ਜੋੜੋ. ( ਪਿੰਨ 2 _raspberry_ਦੇ ਕੋਨੇ ਵਿੱਚ ਹੈ, ਆਪਣਾ ਰਸਤਾ ਲੱਭਣ ਲਈ ਵੈਬਸਾਈਟ "
+#~ "<https://pinout.xyz/>ਵੇਖੋ)  ) °)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| _GPIO_                       |     _CC_            |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
+#~ "| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
+#~ "| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
+#~ "| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
+#~ msgstr ""
+#~ "| _GPIO_                       |     _CC_            |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| ਪਿੰਨ 39 ( _GND_ )           | ਸਪਿੰਡਲ 1 ( _GND_ )  |\t\n"
+#~ "| ਪਿੰਨ 36 ( _wPi 27, BCM16_ ) | ਪਿੰਨ 3 ( _DC_ )   | \n"
+#~ "| ਪਿੰਨ 38 ( _wPi 28, BCM20_ ) | ਪਿੰਨ 4 ( _DD_ )   | \n"
+#~ "| ਪਿੰਨ 35 ( _wPi 24, BCM19_ ) | ਪਿੰਨ 7 ( _reset_ )| \n"
+
+#, fuzzy
+#~ msgid "ekzemplo por versio CC2531_DEFAULT_20201127.zip:\n"
+#~ msgstr "ਵਰਜ਼ਨ ਸੀ ਸੀ 2531_DEFAULT_20201127.zip ਲਈ ਉਦਾਹਰਣ:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de "
+#~ "_raspberry_. ( Stifto 2 estas en la angulo de la frambo, vidu la retejon "
+#~ "<https://pinout.xyz/>por trovi vian vojon ĉirkaŭ)  \n"
+#~ msgstr ""
+#~ "ਚਾਰ ਲਾਈਨਾਂ _Dupont_ femaleਰਤ ਨੂੰ femaleਰਤ ਨੂੰ ਪਿੰਨ ਨਾਲ 35,36,38 ਅਤੇ 39 ਦੇ "
+#~ "_raspberry_ਨਾਲ ਜੋੜੋ. ( ਪਿੰਨ 2 ਰਸਬੇਰੀ ਦੇ ਕੋਨੇ ਵਿੱਚ ਹੈ, ਆਪਣੇ ਰਸਤੇ ਨੂੰ ਲੱਭਣ ਲਈ ਵੈਬਸਾਈਟ (the "
+#~ "6 °) https://pinout.xyz/>(° 8 see)ਦੇਖੋ\n"
+
+#, fuzzy
+#~ msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la DC-kablo:  \n"
+#~ msgstr "ਇਨ੍ਹਾਂ ਲਾਈਨਾਂ ਨੂੰ ਵੱਡੇ ਡੀ ਸੀ ਕੇਬਲ ਕੁਨੈਕਟਰ ਨਾਲ ਕਨੈਕਟ ਕਰੋ:  \n"
+
+#, fuzzy
+#~ msgid "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "| GPIO | CC |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
+#~ "| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
+#~ "| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
+#~ "| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
+#~ msgstr ""
+#~ "| ਜੀਪੀਆਈਓ | ਸੀਸੀ |\n"
+#~ "| ---------------------------- | ------------------- | \n"
+#~ "| ਪਿੰਨ 39 ( _GND_ )           | ਸਪਿੰਡਲ 1 ( _GND_ )  |\t\n"
+#~ "| ਪਿੰਨ 36 ( _wPi 27, BCM16_ ) | ਪਿੰਨ 3 ( _DC_ )   | \n"
+#~ "| ਪਿੰਨ 38 ( _wPi 28, BCM20_ ) | ਪਿੰਨ 4 ( _DD_ )   | \n"
+#~ "| ਪਿੰਨ 35 ( _wPi 24, BCM19_ ) | ਪਿੰਨ 7 ( _reset_ )| \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la "
+#~ "direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj USB:\n"
+#~ "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "ਫਿਰ ਅਡੈਪਟਰ ਕੇਬਲ ਨੂੰ ਕੁੰਜੀ ਨਾਲ ਜੋੜੋ (ਕਨੈਕਸ਼ਨ ਦਿਸ਼ਾ (at 2 °) ਦੀ ਤਸਵੀਰ ਵੇਖੋ, ਅਤੇ ਕੁੰਜੀ ਨੂੰ ਇੱਕ "
+#~ "USB ਪੋਰਟ ਵਿੱਚ ਪਾਓ:\n"
+#~ "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+
+#, fuzzy
+#~ msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la klavo _CC2531_:\n"
+#~ msgstr "ਕੁੰਜੀ _CC2531_ਵਿੱਚ ਫਾਈਲ _CC2531ZNP-Prod.hex_ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ:\n"
+
 #, fuzzy
 #~ msgid "Programu la USB-ŝlosilon _CC2531_"
 #~ msgstr "ਯੂ ਐਸ ਬੀ ਕੁੰਜੀ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰੋ (Program 1 °)"
@@ -233,8 +333,14 @@ msgstr " [  _flash_ਸੀਸੀ 2531_](https://jmichault.github.io/flash_cc2531-
 #~ msgstr "ਜਿਗਬੀ ਐਪ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰੋ"
 
 #, fuzzy
-#~ msgid "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / bin / default/>, tiam malzipigu la arkivon.\n"
-#~ msgstr "ਇਸ ਸਾਈਟ ਤੇ ਜ਼ਿੱਗੀ ਕੋਆਰਡੀਨੇਟਰ ਦਾ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਡਾ Downloadਨਲੋਡ ਕਰੋ: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / ਬਿਨ / ਮੂਲ/>, ਫਿਰ ਫਾਈਲ ਨੂੰ ਅਣ-ਜ਼ਿਪ ਕਰੋ.\n"
+#~ msgid ""
+#~ "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: "
+#~ "<https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-"
+#~ "Stack_Home_1.2 / bin / default/>, tiam malzipigu la arkivon.\n"
+#~ msgstr ""
+#~ "ਇਸ ਸਾਈਟ ਤੇ ਜ਼ਿੱਗੀ ਕੋਆਰਡੀਨੇਟਰ ਦਾ ਨਵੀਨਤਮ ਸੰਸਕਰਣ ਡਾ Downloadਨਲੋਡ ਕਰੋ: <https://"
+#~ "github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-"
+#~ "Stack_Home_1.2 / ਬਿਨ / ਮੂਲ/>, ਫਿਰ ਫਾਈਲ ਨੂੰ ਅਣ-ਜ਼ਿਪ ਕਰੋ.\n"
 
 #, fuzzy
 #~ msgid ""

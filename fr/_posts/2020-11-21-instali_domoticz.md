@@ -16,11 +16,11 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Appuyez sur Entrée lorsque la présentation s'affiche (\<OK> est le seul choix).  
-Choix des services: laissez http et https cochés, allez sur OK, appuyez sur Entrée.  
-_«HTTP Port number:»_ laissez 8080, allez sur OK, appuyez sur Entrée.  
-_«HTTPS Port number:»_ mettez 8443, allez à OK, Entrée.  
-_«Installation Folder:»_ mettre _/home/domoticz/domoticz_, allez à OK, Entrée.  
+Appuyez sur Entrée lorsque la présentation s'affiche ( _\<OK>_ est le seul choix).  
+Choix des services: laissez _http_ et _https_ cochés, allez sur _OK_, appuyez sur Entrée.  
+_«HTTP Port number:»_ laissez 8080, allez sur _OK_, appuyez sur Entrée.  
+_«HTTPS Port number:»_ mettez 8443, allez à _OK_, Entrée.  
+_«Installation Folder:»_ mettre _/home/domoticz/domoticz_, allez à _OK_, Entrée.  
 _«Installation Complete!»_  , Entrée.
 
 
@@ -51,7 +51,7 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz est installé et accessible :
+_domoticz_ est installé et accessible :
 * du pi: <http://localhost:8080> ou <https://localhost:8443>
 * du réseau: <http://adresse_IP_du_pi:8080> ou <https://adresse_IP_du_pi:8443>
 
@@ -59,7 +59,7 @@ un peu de configuration:
 aller à _«Setup --> Settings»_  
 changer de langue, définir l'emplacement  
 définir la sécurité: nom d'utilisateur et mot de passe  
-définir la "Réseaux locaux", exemple: _«127.0.0.\*;192.168.0.*»_  
+définir les "Réseaux locaux", exemple: _«127.0.0.\*;192.168.0.*»_  
 Activer "Sauvegarde automatique"  
 Matériel/Périphériques: désactiver "Accepter de nouveaux appareils"  
 Cliquez sur "Appliquer les paramètres".  

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-12 18:27+0100\n"
+"POT-Creation-Date: 2021-02-13 13:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
-msgid "Programmer la clé USB _CC2531_"
+msgid "Programmer la clé _USB_ _CC2531_"
 msgstr ""
 
 #. type: Title #
@@ -75,7 +75,7 @@ msgstr ""
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:20
 #, no-wrap
-msgid "exemple pour la version CC2531_DEFAULT_20201127.zip :\n"
+msgid "exemple pour la version _CC2531_DEFAULT_20201127.zip_ :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -95,13 +95,13 @@ msgstr ""
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:28
 #, no-wrap
-msgid "Connectez quatre lignes _Dupont_ femelle à femelle aux broches 35,36,38 et 39 du _raspberry_. ( La broche 2 se trouve dans l'angle du raspberry, voir le site <https://pinout.xyz/> pour se repérer)  \n"
+msgid "Connectez quatre lignes _Dupont_ femelle à femelle aux broches 35,36,38 et 39 du _raspberry_. ( La broche 2 se trouve dans l'angle du _raspberry_, voir le site <https://pinout.xyz/> pour se repérer)  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:29
 #, no-wrap
-msgid "Connectez ces lignes au gros connecteur du câble CC :  \n"
+msgid "Connectez ces lignes au gros connecteur du câble _CC_ :  \n"
 msgstr ""
 
 #. type: Plain text
@@ -114,19 +114,19 @@ msgstr ""
 #: _posts/2021-02-11-programi_cc2531.md:38
 #, no-wrap
 msgid ""
-"| GPIO                         |     CC              |\n"
-"| ---------------------------- | ------------------- | \n"
-"|broche 39 ( _GND_ )           | broche 1 ( _GND_ )  |\t\n"
-"|broche 36 ( _wPi 27, BCM16_ ) | broche 3 ( _DC_ )   | \n"
-"|broche 38 ( _wPi 28, BCM20_ ) | broche 4 ( _DD_ )   | \n"
-"|broche 35 ( _wPi 24, BCM19_ ) | broche 7 ( _reset_ )| \n"
+"| broche _GPIO_          | broche _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:41
 #, no-wrap
 msgid ""
-"Puis connectez la nappe de l'adaptateur vers la clé (regardez la photo pour le sens de branchement), et insérez la clé dans un des ports USB :\n"
+"Puis connectez la nappe de l'adaptateur vers la clé (regardez la photo pour le sens de branchement), et insérez la clé dans un des ports _USB_ :\n"
 "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
 msgstr ""
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-31 16:14+0100\n"
+"POT-Creation-Date: 2021-02-13 12:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,51 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./_posts/2020-11-21-instali_domoticz.md:1
+#: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
 msgid "fr"
 msgstr ""
 
 #. type: YAML Front Matter: lang-niv
-#: ./_posts/2020-11-21-instali_domoticz.md:1
+#: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
 msgid "homa"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2020-11-21-instali_domoticz.md:1
+#: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
 msgid "instali-domoticz"
 msgstr ""
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2020-11-21-instali_domoticz.md:1
+#: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
 msgid "post"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ./_posts/2020-11-21-instali_domoticz.md:1
+#: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
 msgid "Installer domoticz."
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:11
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:11
+#, no-wrap
 msgid "Voici un exemple d'installation domoticz sous raspbian.\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:13
-#, markdown-text, no-wrap
-msgid ""
-"Nous commençons par créer un utilisateur dédié, puis nous installons "
-"domoticz:\n"
+#: _posts/2020-11-21-instali_domoticz.md:13
+#, no-wrap
+msgid "Nous commençons par créer un utilisateur dédié, puis nous installons domoticz:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2020-11-21-instali_domoticz.md:13
+#: _posts/2020-11-21-instali_domoticz.md:13
 #, no-wrap
 msgid ""
 "sudo bash\n"
@@ -71,55 +69,49 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:19
-#, markdown-text, no-wrap
-msgid ""
-"Appuyez sur Entrée lorsque la présentation s'affiche (\\<OK> est le seul "
-"choix).  \n"
+#: _posts/2020-11-21-instali_domoticz.md:19
+#, no-wrap
+msgid "Appuyez sur Entrée lorsque la présentation s'affiche ( _\\<OK>_ est le seul choix).  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:20
-#, markdown-text, no-wrap
-msgid ""
-"Choix des services: laissez http et https cochés, allez sur OK, appuyez sur "
-"Entrée.  \n"
+#: _posts/2020-11-21-instali_domoticz.md:20
+#, no-wrap
+msgid "Choix des services: laissez _http_ et _https_ cochés, allez sur _OK_, appuyez sur Entrée.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:21
-#, markdown-text, no-wrap
-msgid "_«HTTP Port number:»_ laissez 8080, allez sur OK, appuyez sur Entrée.  \n"
+#: _posts/2020-11-21-instali_domoticz.md:21
+#, no-wrap
+msgid "_«HTTP Port number:»_ laissez 8080, allez sur _OK_, appuyez sur Entrée.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:22
-#, markdown-text, no-wrap
-msgid "_«HTTPS Port number:»_ mettez 8443, allez à OK, Entrée.  \n"
+#: _posts/2020-11-21-instali_domoticz.md:22
+#, no-wrap
+msgid "_«HTTPS Port number:»_ mettez 8443, allez à _OK_, Entrée.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:23
-#, markdown-text, no-wrap
-msgid ""
-"_«Installation Folder:»_ mettre _/home/domoticz/domoticz_, allez à OK, "
-"Entrée.  \n"
+#: _posts/2020-11-21-instali_domoticz.md:23
+#, no-wrap
+msgid "_«Installation Folder:»_ mettre _/home/domoticz/domoticz_, allez à _OK_, Entrée.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:25
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:25
+#, no-wrap
 msgid "_«Installation Complete!»_  , Entrée.\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:28
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:28
+#, no-wrap
 msgid "Maintenant, nous créons le service _«systemd»_ qui lancera domoticz:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: ./_posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:28
 #, no-wrap
 msgid ""
 "service domoticz stop\n"
@@ -128,8 +120,7 @@ msgid ""
 "Description=domoticz\n"
 "\n"
 "[Service]\n"
-"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 "
-"-pidfile /var/run/domoticz/domoticz.pid\n"
+"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
 "User=domoticz\n"
 "RuntimeDirectory=domoticz\n"
 "LogsDirectory=domoticz\n"
@@ -139,9 +130,7 @@ msgid ""
 "[Install]\n"
 "WantedBy=multi-user.target\n"
 "\" >/etc/systemd/system/domoticz.service\n"
-"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh "
-"*,/bin/systemctl stop domoticz.service,/bin/systemctl start "
-"domoticz.service\n"
+"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
 "\" >/etc/sudoers.d/010_domoticz\n"
 "chmod 440 /etc/sudoers.d/010_domoticz\n"
 "systemctl daemon-reload\n"
@@ -151,78 +140,77 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:57
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:57
+#, no-wrap
 msgid ""
-"domoticz est installé et accessible :\n"
+"_domoticz_ est installé et accessible :\n"
 "* du pi: <http://localhost:8080> ou <https://localhost:8443>\n"
-"* du réseau: <http://adresse_IP_du_pi:8080> ou "
-"<https://adresse_IP_du_pi:8443>\n"
+"* du réseau: <http://adresse_IP_du_pi:8080> ou <https://adresse_IP_du_pi:8443>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:58
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:58
+#, no-wrap
 msgid "un peu de configuration:  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:59
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:59
+#, no-wrap
 msgid "aller à _«Setup --> Settings»_  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:60
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:60
+#, no-wrap
 msgid "changer de langue, définir l'emplacement  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:61
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:61
+#, no-wrap
 msgid "définir la sécurité: nom d'utilisateur et mot de passe  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:62
-#, markdown-text, no-wrap
-msgid "définir la \"Réseaux locaux\", exemple: _«127.0.0.\\*;192.168.0.*»_  \n"
+#: _posts/2020-11-21-instali_domoticz.md:62
+#, no-wrap
+msgid "définir les \"Réseaux locaux\", exemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:63
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:63
+#, no-wrap
 msgid "Activer \"Sauvegarde automatique\"  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:64
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:64
+#, no-wrap
 msgid "Matériel/Périphériques: désactiver \"Accepter de nouveaux appareils\"  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:65
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:65
+#, no-wrap
 msgid "Cliquez sur \"Appliquer les paramètres\".  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:67
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:67
+#, no-wrap
 msgid "Nous devons maintenant ajouter le matériel.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:69
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:69
+#, no-wrap
 msgid "voir <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./_posts/2020-11-21-instali_domoticz.md:71
-#, markdown-text, no-wrap
+#: _posts/2020-11-21-instali_domoticz.md:71
+#, no-wrap
 msgid ""
 "Pour plus de détails,\n"
 "voir <https://www.domoticz.com/wiki/Raspberry_Pi>\n"

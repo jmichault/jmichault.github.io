@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-02-13 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "bn"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -75,47 +75,49 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
 #, fuzzy, no-wrap
-msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
-msgstr "উপস্থাপনা প্রদর্শিত হলে এন্টার টিপুন (\\<ঠিক আছে> একমাত্র পছন্দ)।  \n"
-
-#. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:20
-#, fuzzy, no-wrap
-msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
-msgstr "পরিষেবাদির পছন্দ: HTTP এবং https চেক করুন, ঠিক আছে যান, এন্টার টিপুন।  \n"
+msgid "Premu Enter kiam la prezento montriĝas ( _\\<OK>_ estas la sola elekto).  \n"
+msgstr ""
+"উপস্থাপনা প্রদর্শিত হলে এন্টার টিপুন ( _\\<OK>_ estas la sola elekto).  \n"
+"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:21
 #, fuzzy, no-wrap
-msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
-msgstr "_«HTTP Port number:»_ 8080 প্রস্থান করুন, ওকে যান, এন্টার টিপুন।  \n"
+msgid "Elekto de servoj: lasu _http_ kaj _https_ markajn, iru al _OK_, premu Enter.  \n"
+msgstr "পরিষেবার বাছাই: ছুটি _http_ এবং _https_ চেক করা হয়েছে, _OK_এ যান, এন্টার টিপুন।  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
 #, fuzzy, no-wrap
-msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
-msgstr "_«HTTPS Port number:»_ 8443 প্রবেশ করুন, ওকে যান, প্রবেশ করুন।  \n"
+msgid "_«HTTP Port number:»_ forlasu 8080, iru al _OK_, premu Enter.  \n"
+msgstr "_«HTTP Port number:»_ 8080 ছেড়ে যান, _OK_এ যান, এন্টার টিপুন।  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
 #, fuzzy, no-wrap
-msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
-msgstr "_«Installation Folder:»_ সেট _/home/domoticz/domoticz_, ওকে যান, এন্টার দিন।  \n"
+msgid "_«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  \n"
+msgstr "_«HTTPS Port number:»_ 8443 প্রবেশ করান, _OK_এ যান, প্রবেশ করুন।  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:25
+#: _posts/2020-11-21-instali_domoticz.md:24
+#, fuzzy, no-wrap
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al _OK_, Enigu.  \n"
+msgstr "_«Installation Folder:»_ সেট _/home/domoticz/domoticz_, এ যান _OK_, প্রবেশ করুন।  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:26
 #, fuzzy, no-wrap
 msgid "_«Installation Complete!»_  , Eniru.\n"
 msgstr "_«Installation Complete!»_  , প্রবেশ করান।\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, fuzzy, no-wrap
 msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 msgstr "এখন আমরা পরিষেবাটি _«systemd»_ তৈরি করি যা ডোমোটিক্স চালু করবে:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, no-wrap
 msgid ""
 "service domoticz stop\n"
@@ -167,79 +169,79 @@ msgstr ""
 "systemctl start domoticz\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:57
+#: _posts/2020-11-21-instali_domoticz.md:58
 #, fuzzy, no-wrap
 msgid ""
-"domoticz estas instalita kaj alirebla:\n"
-"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
-"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
+"_domoticz_ estas instalita kaj alirebla:\n"
+"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+"* de la reto: <http://adreso_IP_de_pi:8080> aŭ <https://adreso_IP_de_pi:8443>\n"
 msgstr ""
-"ডোমোটিকস ইনস্টল করা এবং অ্যাক্সেসযোগ্য:\n"
-"* পাই থেকে: <http: // লোকালহস্ত: 8080> বা <https: // লোকালহোস্ট: 8443 ( Of 6 °)\n"
-"* নেটওয়ার্কের: <http: // ঠিকানা (° 10 p) আইপি_du_পাই: 8443>\n"
+"_domoticz_ ইনস্টল করা এবং অ্যাক্সেসযোগ্য: (পাইপ থেকে\n"
+"* : <http: // লোকালহস্ত: 8080> বা <https: / / লোকালহোস্ট: নেটওয়ার্কের 8443>\n"
+"* :_pi:8080> aŭ <https://adreso_আইপি_de_এর http: // ঠিকানা_IP_পাই: 8443>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:58
+#: _posts/2020-11-21-instali_domoticz.md:59
 #, fuzzy, no-wrap
 msgid "iom da agordo:  \n"
 msgstr "কিছু কনফিগারেশন:  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:59
+#: _posts/2020-11-21-instali_domoticz.md:60
 #, fuzzy, no-wrap
 msgid "iru al _«Setup --> Settings»_  \n"
 msgstr "যাও _«Setup --> Settings»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:60
+#: _posts/2020-11-21-instali_domoticz.md:61
 #, fuzzy, no-wrap
 msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "ভাষা পরিবর্তন করুন, অবস্থান নির্ধারণ করুন  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:61
+#: _posts/2020-11-21-instali_domoticz.md:62
 #, fuzzy, no-wrap
 msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "সুরক্ষা সংজ্ঞায়িত করুন: ব্যবহারকারীর নাম এবং পাসওয়ার্ড  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:62
+#: _posts/2020-11-21-instali_domoticz.md:63
 #, fuzzy, no-wrap
 msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr " \"স্থানীয় অঞ্চল নেটওয়ার্কগুলি\"সংজ্ঞা দিন, উদাহরণস্বরূপ: _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:63
+#: _posts/2020-11-21-instali_domoticz.md:64
 #, fuzzy, no-wrap
 msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
 msgstr "সক্রিয় করুন \"অটো সেভ\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:64
+#: _posts/2020-11-21-instali_domoticz.md:65
 #, fuzzy, no-wrap
-msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+msgid "Aparataro/Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 msgstr "হার্ডওয়্যার / সাইড ডিভাইস: অক্ষম করুন \"নতুন ডিভাইস গ্রহণ করুন\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:65
+#: _posts/2020-11-21-instali_domoticz.md:66
 #, fuzzy, no-wrap
 msgid "Alklaku \"Apliki parametrojn\".  \n"
 msgstr " \"ক্লিক করুন প্যারামিটার প্রয়োগ করুন\"।  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:67
+#: _posts/2020-11-21-instali_domoticz.md:68
 #, fuzzy, no-wrap
 msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "এখন আমাদের হার্ডওয়্যার যুক্ত করতে হবে।  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:69
+#: _posts/2020-11-21-instali_domoticz.md:70
 #, fuzzy, no-wrap
 msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr "দেখা <https://www.domoticz.com/wiki/Getting_started>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:73
+#: _posts/2020-11-21-instali_domoticz.md:74
 #, fuzzy, no-wrap
 msgid ""
 "Por pli da detaloj,\n"
@@ -247,6 +249,82 @@ msgid ""
 msgstr ""
 "আরো বিস্তারিত জানার জন্য,\n"
 "দেখা <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "Premu Enter kiam la prezento montriĝas ( _\\<OK>_ est le seul choix).  \n"
+#~ msgstr ""
+#~ "উপস্থাপনা প্রদর্শিত হলে এন্টার টিপুন ( _\\<OK>_ est le seul choix).  \n"
+#~ "  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Elekto de servoj: lasu _http_ kaj _https_ kontrolitajn, iru al _OK_, "
+#~ "premu Enter.  \n"
+#~ msgstr ""
+#~ "পরিষেবার পছন্দ: ছুটি _http_ এবং _https_ চেক করা হয়েছে, ( _OK_এ যান, এন্টার "
+#~ "টিপুন।  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "_domoticz_ estas instalita kaj alirebla:\n"
+#~ "* de la pi: <http: // localhost: 8080> aŭ <https: / / localhost: 8443>\n"
+#~ "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://"
+#~ "adresse_IP_du_pi: 8443>\n"
+#~ msgstr ""
+#~ "_domoticz_ ইনস্টল করা এবং অ্যাক্সেসযোগ্য: (পাইপ থেকে\n"
+#~ "* : <http: // লোকালহস্ত: 8080> বা <https: / / লোকালহোস্ট: নেটওয়ার্কের 8443>\n"
+#~ "* :_pi:8080> ou <https://adresse_আইপি_du_এর http: // ঠিকানা_IP_পাই: "
+#~ "8443>\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+#~ msgstr "হার্ডওয়্যার / সাইড ডিভাইস: অক্ষম করুন \"নতুন ডিভাইস গ্রহণ করুন\"  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola "
+#~ "elekto).  \n"
+#~ msgstr "উপস্থাপনা প্রদর্শিত হলে এন্টার টিপুন (\\<ঠিক আছে> একমাত্র পছন্দ)।  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu "
+#~ "Enter.  \n"
+#~ msgstr ""
+#~ "পরিষেবাদির পছন্দ: HTTP এবং https চেক করুন, ঠিক আছে যান, এন্টার টিপুন।  \n"
+
+#, fuzzy
+#~ msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
+#~ msgstr "_«HTTP Port number:»_ 8080 প্রস্থান করুন, ওকে যান, এন্টার টিপুন।  \n"
+
+#, fuzzy
+#~ msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
+#~ msgstr "_«HTTPS Port number:»_ 8443 প্রবেশ করুন, ওকে যান, প্রবেশ করুন।  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, "
+#~ "Enigu.  \n"
+#~ msgstr ""
+#~ "_«Installation Folder:»_ সেট _/home/domoticz/domoticz_, ওকে যান, এন্টার "
+#~ "দিন।  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "domoticz estas instalita kaj alirebla:\n"
+#~ "* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+#~ "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://"
+#~ "adresse_IP_du_pi: 8443>\n"
+#~ msgstr ""
+#~ "ডোমোটিকস ইনস্টল করা এবং অ্যাক্সেসযোগ্য:\n"
+#~ "* পাই থেকে: <http: // লোকালহস্ত: 8080> বা <https: // লোকালহোস্ট: 8443 ( Of "
+#~ "6 °)\n"
+#~ "* নেটওয়ার্কের: <http: // ঠিকানা (° 10 p) আইপি_du_পাই: 8443>\n"
 
 #~ msgid "fonto"
 #~ msgstr "auto"

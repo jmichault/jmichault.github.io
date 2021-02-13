@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-02-13 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "ar"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -75,47 +75,49 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
 #, fuzzy, no-wrap
-msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
-msgstr "اضغط على Enter عند عرض العرض التقديمي (\\<OK> هو الخيار الوحيد).  \n"
-
-#. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:20
-#, fuzzy, no-wrap
-msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
-msgstr "اختيار الخدمات: اترك http و https محددًا ، وانتقل إلى موافق ، واضغط على Enter.  \n"
+msgid "Premu Enter kiam la prezento montriĝas ( _\\<OK>_ estas la sola elekto).  \n"
+msgstr ""
+"اضغط على Enter عند عرض العرض التقديمي ( _\\<OK>_ estas la sola elekto).  \n"
+"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:21
 #, fuzzy, no-wrap
-msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
-msgstr "_«HTTP Port number:»_ خروج 8080 ، انتقل إلى \"موافق\" ، واضغط على Enter.  \n"
+msgid "Elekto de servoj: lasu _http_ kaj _https_ markajn, iru al _OK_, premu Enter.  \n"
+msgstr "اختيار الخدمات: اترك _http_ و _https_ محددًا ، انتقل إلى _OK_، اضغط على Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
 #, fuzzy, no-wrap
-msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
-msgstr "_«HTTPS Port number:»_ أدخل 8443 ، انتقل إلى موافق ، أدخل.  \n"
+msgid "_«HTTP Port number:»_ forlasu 8080, iru al _OK_, premu Enter.  \n"
+msgstr "_«HTTP Port number:»_ اترك 8080 ، انتقل إلى _OK_، اضغط على Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
 #, fuzzy, no-wrap
-msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
-msgstr "_«Installation Folder:»_ اضبط _/home/domoticz/domoticz_، انتقل إلى OK ، Enter.  \n"
+msgid "_«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  \n"
+msgstr "_«HTTPS Port number:»_ أدخل 8443 ، انتقل إلى _OK_، أدخل.  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:25
+#: _posts/2020-11-21-instali_domoticz.md:24
+#, fuzzy, no-wrap
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al _OK_, Enigu.  \n"
+msgstr "_«Installation Folder:»_ اضبط _/home/domoticz/domoticz_، انتقل إلى _OK_، أدخل.  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:26
 #, fuzzy, no-wrap
 msgid "_«Installation Complete!»_  , Eniru.\n"
 msgstr "_«Installation Complete!»_  ، أدخل.\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, fuzzy, no-wrap
 msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 msgstr "الآن نقوم بإنشاء الخدمة _«systemd»_ ، والتي ستطلق domoticz:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, no-wrap
 msgid ""
 "service domoticz stop\n"
@@ -167,79 +169,79 @@ msgstr ""
 "systemctl start domoticz\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:57
+#: _posts/2020-11-21-instali_domoticz.md:58
 #, fuzzy, no-wrap
 msgid ""
-"domoticz estas instalita kaj alirebla:\n"
-"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
-"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
+"_domoticz_ estas instalita kaj alirebla:\n"
+"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+"* de la reto: <http://adreso_IP_de_pi:8080> aŭ <https://adreso_IP_de_pi:8443>\n"
 msgstr ""
-"domoticz مثبت ويمكن الوصول إليه:\n"
-"* من pi: <http: // localhost: 8080> أو <https: // localhost: 8443>\n"
-"* للشبكة: <http: // address_IP_من_pi:8080> ou <https://adresse_IP_du_pi: 844318 درجة) (19 درجة)\n"
+"_domoticz_ مثبت ويمكن الوصول إليه:\n"
+"* من pi: <http: // localhost: 8080> أو <https: / / المضيف المحلي: 8443>\n"
+"* من الشبكة: <http: // address_IP_لـ_pi:8080> aŭ <https://adreso_IP_de_بي: 8443 (درجة 20 درجة) (21 درجة)\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:58
+#: _posts/2020-11-21-instali_domoticz.md:59
 #, fuzzy, no-wrap
 msgid "iom da agordo:  \n"
 msgstr "بعض التكوين:  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:59
+#: _posts/2020-11-21-instali_domoticz.md:60
 #, fuzzy, no-wrap
 msgid "iru al _«Setup --> Settings»_  \n"
 msgstr "اذهب إلى _«Setup --> Settings»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:60
+#: _posts/2020-11-21-instali_domoticz.md:61
 #, fuzzy, no-wrap
 msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "تغيير اللغة وتحديد الموقع  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:61
+#: _posts/2020-11-21-instali_domoticz.md:62
 #, fuzzy, no-wrap
 msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "تعريف الأمان: اسم المستخدم وكلمة المرور  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:62
+#: _posts/2020-11-21-instali_domoticz.md:63
 #, fuzzy, no-wrap
 msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr "حدد \"شبكات المنطقة المحلية\"، على سبيل المثال: _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:63
+#: _posts/2020-11-21-instali_domoticz.md:64
 #, fuzzy, no-wrap
 msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
 msgstr "تنشيط \"حفظ تلقائي\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:64
+#: _posts/2020-11-21-instali_domoticz.md:65
 #, fuzzy, no-wrap
-msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+msgid "Aparataro/Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 msgstr "الأجهزة / الأجهزة الجانبية: تعطيل \"قبول الأجهزة الجديدة\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:65
+#: _posts/2020-11-21-instali_domoticz.md:66
 #, fuzzy, no-wrap
 msgid "Alklaku \"Apliki parametrojn\".  \n"
 msgstr "انقر فوق \"تطبيق المعلمات\".  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:67
+#: _posts/2020-11-21-instali_domoticz.md:68
 #, fuzzy, no-wrap
 msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "الآن نحن بحاجة إلى إضافة الأجهزة.  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:69
+#: _posts/2020-11-21-instali_domoticz.md:70
 #, fuzzy, no-wrap
 msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr "نرى <https://www.domoticz.com/wiki/Getting_started>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:73
+#: _posts/2020-11-21-instali_domoticz.md:74
 #, fuzzy, no-wrap
 msgid ""
 "Por pli da detaloj,\n"
@@ -247,6 +249,86 @@ msgid ""
 msgstr ""
 "لمزيد من التفاصيل،\n"
 "نرى <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "Premu Enter kiam la prezento montriĝas ( _\\<OK>_ est le seul choix).  \n"
+#~ msgstr ""
+#~ "اضغط على Enter عند عرض العرض التقديمي ( _\\<OK>_ est le seul choix).  \n"
+#~ "  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Elekto de servoj: lasu _http_ kaj _https_ kontrolitajn, iru al _OK_, "
+#~ "premu Enter.  \n"
+#~ msgstr ""
+#~ "اختيار الخدمات: اترك _http_ و _https_ محددًا ، انتقل إلى _OK_، اضغط "
+#~ "Enter.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "_domoticz_ estas instalita kaj alirebla:\n"
+#~ "* de la pi: <http: // localhost: 8080> aŭ <https: / / localhost: 8443>\n"
+#~ "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://"
+#~ "adresse_IP_du_pi: 8443>\n"
+#~ msgstr ""
+#~ "_domoticz_ مثبت ويمكن الوصول إليه:\n"
+#~ "* من pi: <http: // localhost: 8080> أو <https: / / المضيف المحلي: 8443>\n"
+#~ "* من الشبكة: <http: // address_IP_لـ_pi:8080> ou <https://"
+#~ "adresse_IP_du_بي: 8443 (درجة 20 درجة) (21 درجة)\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+#~ msgstr "الأجهزة / الأجهزة الجانبية: تعطيل \"قبول الأجهزة الجديدة\"  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola "
+#~ "elekto).  \n"
+#~ msgstr ""
+#~ "اضغط على Enter عند عرض العرض التقديمي (\\<OK> هو الخيار الوحيد).  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu "
+#~ "Enter.  \n"
+#~ msgstr ""
+#~ "اختيار الخدمات: اترك http و https محددًا ، وانتقل إلى موافق ، واضغط على "
+#~ "Enter.  \n"
+
+#, fuzzy
+#~ msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
+#~ msgstr ""
+#~ "_«HTTP Port number:»_ خروج 8080 ، انتقل إلى \"موافق\" ، واضغط على "
+#~ "Enter.  \n"
+
+#, fuzzy
+#~ msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
+#~ msgstr "_«HTTPS Port number:»_ أدخل 8443 ، انتقل إلى موافق ، أدخل.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, "
+#~ "Enigu.  \n"
+#~ msgstr ""
+#~ "_«Installation Folder:»_ اضبط _/home/domoticz/domoticz_، انتقل إلى OK ، "
+#~ "Enter.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "domoticz estas instalita kaj alirebla:\n"
+#~ "* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+#~ "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://"
+#~ "adresse_IP_du_pi: 8443>\n"
+#~ msgstr ""
+#~ "domoticz مثبت ويمكن الوصول إليه:\n"
+#~ "* من pi: <http: // localhost: 8080> أو <https: // localhost: 8443>\n"
+#~ "* للشبكة: <http: // address_IP_من_pi:8080> ou <https://adresse_IP_du_pi: "
+#~ "844318 درجة) (19 درجة)\n"
 
 #~ msgid "fonto"
 #~ msgstr "auto"

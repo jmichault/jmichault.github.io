@@ -16,11 +16,13 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-ਜਦੋਂ ਪ੍ਰਸਤੁਤੀ ਪ੍ਰਦਰਸ਼ਿਤ ਹੁੰਦੀ ਹੈ ਤਾਂ ਐਂਟਰ ਦਬਾਓ (\<ਠੀਕ ਹੈ> ਸਿਰਫ ਇਕੋ ਵਿਕਲਪ)ਹੁੰਦਾ ਹੈ.  
-ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੱਡੋ HTTP ਅਤੇ https ਚੈੱਕ ਕੀਤੇ, ਠੀਕ ਤੇ ਜਾਓ, ਐਂਟਰ ਦਬਾਓ.  
-_«HTTP Port number:»_ 8080 ਬੰਦ ਕਰੋ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਦਬਾਓ.  
-_«HTTPS Port number:»_ 8443 ਦਿਓ, ਠੀਕ ਹੈ ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  
-_«Installation Folder:»_ ਸੈੱਟ _/home/domoticz/domoticz_, ਠੀਕ ਹੈ, ਐਂਟਰ ਤੇ ਜਾਓ.  
+ਜਦੋਂ ਪ੍ਰਸਤੁਤੀ ਪ੍ਰਦਰਸ਼ਿਤ ਹੁੰਦੀ ਹੈ ਤਾਂ ਐਂਟਰ ਦਬਾਓ ( _\<OK>_ estas la sola elekto).  
+  
+  
+ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੁੱਟੀ _http_ ਅਤੇ _https_ ਚੈੱਕ ਕੀਤੀ ਗਈ, ਤੇ ਜਾਓ (° 5 to), ਐਂਟਰ ਦਬਾਓ.  
+_«HTTP Port number:»_ 8080 ਛੱਡੋ, _OK_ਤੇ ਜਾਓ, ਐਂਟਰ ਦਬਾਓ.  
+_«HTTPS Port number:»_ 8443 ਦਰਜ ਕਰੋ, ( _OK_'ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  
+_«Installation Folder:»_ ਸੈੱਟ _/home/domoticz/domoticz_, ਤੇ ਜਾਓ _OK_, ਐਂਟਰ ਕਰੋ.  
 _«Installation Complete!»_  , ਦਰਜ ਕਰੋ.
 
 
@@ -51,9 +53,9 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਹੈ ਅਤੇ ਪਹੁੰਚਯੋਗ ਹੈ:
-* pi ਤੋਂ: <http: // ਲੋਕਲਹੋਸਟ: 8080> ਜਾਂ <https: // ਲੋਕਲਹੋਸਟ: 8443 Network 6 °)
-* ਨੈਟਵਰਕ ਦਾ: <http: // ਐਡਰੈੱਸ_IP_ਆਈਪੀ_du_ਪੀਆਈ: 8443>
+_domoticz_ ਸਥਾਪਤ ਹੈ ਅਤੇ ਪਹੁੰਚਯੋਗ ਹੈ:
+* pi ਤੋਂ: <http: // ਲੋਕਲਹੋਸਟ: 8080> ਜਾਂ <https: / / ਲੋਕਲਹੋਸਟ: ਨੈਟਵਰਕ ਦਾ 8443>
+* :_pi:8080> aŭ <https://adreso_IP_pi:8080> aŭ <https://adreso_IP_de_ਦਾ http: // ਐਡਰੈੱਸ_IP_ਪਾਈ: 8443>
 
 ਕੁਝ ਕੌਨਫਿਗਰੇਸ਼ਨ:  
 ਵੱਲ ਜਾ _«Setup --> Settings»_  

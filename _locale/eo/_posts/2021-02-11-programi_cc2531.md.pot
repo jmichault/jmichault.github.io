@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-12 19:02+0100\n"
+"POT-Creation-Date: 2021-02-13 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
@@ -75,7 +75,7 @@ msgstr ""
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:20
 #, no-wrap
-msgid "ekzemplo por versio CC2531_DEFAULT_20201127.zip:\n"
+msgid "ekzemplo por la versio _CC2531_DEFAULT_20201127.zip_ :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -95,39 +95,39 @@ msgstr ""
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:28
 #, no-wrap
-msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Stifto 2 estas en la angulo de la frambo, vidu la retejon <https://pinout.xyz/>por trovi vian vojon ĉirkaŭ)  \n"
+msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Pinglo 2 estas en la angulo de _raspberry_, vidu la retejon <https://pinout.xyz/> por lokalizi)  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:29
 #, no-wrap
-msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la DC-kablo:  \n"
+msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la kablo _CC_ :  \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:31
 #, no-wrap
-msgid "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgid "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:38
 #, no-wrap
 msgid ""
-"| GPIO | CC |\n"
-"| ---------------------------- | ------------------- | \n"
-"| pinglo 39 ( _GND_ )           | spindelo 1 ( _GND_ )  |\t\n"
-"| pinglo 36 ( _wPi 27, BCM16_ ) | pinglo 3 ( _DC_ )   | \n"
-"| pinglo 38 ( _wPi 28, BCM20_ ) | pinglo 4 ( _DD_ )   | \n"
-"| pinglo 35 ( _wPi 24, BCM19_ ) | pinglo 7 ( _reset_ )| \n"
+"| pinglo _GPIO_          | pinglo _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
 msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:41
 #, no-wrap
 msgid ""
-"Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj USB:\n"
-"![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
+"Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
+"![](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
 msgstr ""
 
 #. type: Title #
@@ -177,7 +177,7 @@ msgstr ""
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:61
 #, no-wrap
-msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la klavo _CC2531_:\n"
+msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la ŝlosilo _CC2531_:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)

@@ -16,11 +16,13 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Tekan Enter semasa persembahan ditunjukkan (\<OK> adalah satu-satunya pilihan).  
-Pilihan perkhidmatan: biarkan http dan https dicentang, pergi ke OK, tekan Enter.  
-_«HTTP Port number:»_ jalan keluar 8080, pergi ke OK, tekan Enter.  
-_«HTTPS Port number:»_ masukkan 8443, pergi ke OK, Enter.  
-_«Installation Folder:»_ set _/home/domoticz/domoticz_, pergi ke OK, Enter.  
+Tekan Enter semasa persembahan ditunjukkan ( _\<OK>_ estas la sola elekto).  
+  
+  
+Pemilihan perkhidmatan: biarkan _http_ dan _https_ diperiksa, pergi ke _OK_, tekan Enter.  
+_«HTTP Port number:»_ tinggalkan 8080, pergi ke _OK_, tekan Enter.  
+_«HTTPS Port number:»_ masukkan 8443, pergi ke _OK_, Enter.  
+_«Installation Folder:»_ set _/home/domoticz/domoticz_, pergi ke _OK_, Enter.  
 _«Installation Complete!»_  , Masukkan.
 
 
@@ -51,9 +53,9 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz dipasang dan boleh diakses:
-* dari pi: <http: // localhost: 8080> atau <https: // localhost: 8443>
-* rangkaian: <http: // alamat_IP_dari_pi:8080> ou <https://adresse_IP_du_pi: 8443>
+_domoticz_ dipasang dan dapat diakses:
+* dari pi: <http: // localhost: 8080> atau <https: / / localhost: 8443>
+* rangkaian: <http: // alamat_IP_dari_pi:8080> aŭ <https://adreso_IP_de_pi: 8443>
 
 beberapa konfigurasi:  
 pergi ke _«Setup --> Settings»_  

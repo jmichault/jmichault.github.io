@@ -16,11 +16,13 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Presione Enter cuando se muestre la presentación (\<OK> es la única opción).  
-Elección de servicios: deje http y https marcados, vaya a OK, presione Enter.  
-_«HTTP Port number:»_ salga de 8080, vaya a OK, presione Enter.  
-_«HTTPS Port number:»_ ingrese 8443, vaya a OK, Enter.  
-_«Installation Folder:»_ ajuste _/home/domoticz/domoticz_, vaya a OK, Enter.  
+Presione Enter cuando se muestre la presentación ( _\<OK>_ estas la sola elekto).  
+  
+  
+Selección de servicios: deje _http_ y _https_ marcados, vaya a _OK_, presione Enter.  
+_«HTTP Port number:»_ deje 8080, vaya a _OK_, presione Enter.  
+_«HTTPS Port number:»_ ingrese 8443, vaya a _OK_, ingrese.  
+_«Installation Folder:»_ ajuste _/home/domoticz/domoticz_, vaya a _OK_, Enter.  
 _«Installation Complete!»_  , Entrar.
 
 
@@ -51,9 +53,9 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz está instalado y accesible:
-* desde pi: <http: // localhost: 8080> o <https: // localhost: 8443>
-* de la red: <http: // dirección_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>
+_domoticz_ está instalado y accesible:
+* desde el pi: <http: // localhost: 8080> o <https: / / localhost: 8443>
+* de la red: <http: // dirección_IP_de_pi:8080> aŭ <https://adreso_IP_de_pi: 8443>
 
 alguna configuración:  
 ir _«Setup --> Settings»_  

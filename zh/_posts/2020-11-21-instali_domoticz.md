@@ -16,11 +16,13 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-显示演示文稿时按Enter (\<OK> 是唯一选择)。  
-服务选择：选中http和https，转到OK，然后按Enter。  
-_«HTTP Port number:»_ 退出8080，转到OK，然后按Enter。  
-_«HTTPS Port number:»_ 输入8443，转到OK，输入。  
-_«Installation Folder:»_ 设置 _/home/domoticz/domoticz_，转到OK，输入。  
+显示演示文稿时按Enter ( _\<OK>_ estas la sola elekto).  
+  
+  
+服务选择：选中 _http_ 和 _https_ ，转到 _OK_，按Enter。  
+_«HTTP Port number:»_ 离开8080，转到 _OK_，按Enter。  
+_«HTTPS Port number:»_ 输入8443，转到 _OK_，输入。  
+_«Installation Folder:»_ 设置 _/home/domoticz/domoticz_，转到 _OK_，输入。  
 _«Installation Complete!»_  ，输入。
 
 
@@ -51,9 +53,9 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz已安装并可以从以下位置访问：
-* from pi： <http：//本地主机：8080> 或 <https：//本地主机：8443（网络的°6°）
-* ： <http：//地址_pi:8080> ou <https://adresse_的_IP_IP_du_pi：8443>
+_domoticz_ 已安装并可从以下位置访问：
+* 从pi： <http：//本地主机：8080> 或 <https：/ /本地主机：8443>
+* 网络： <http：//地址_IP_的_pi:8080> aŭ <https://adreso_IP_de_pi：8443>
 
 一些配置：  
 去 _«Setup --> Settings»_  

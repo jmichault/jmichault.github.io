@@ -16,11 +16,13 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-プレゼンテーションが表示されたらEnterキーを押します (\<OK> が唯一の選択肢)です。  
-サービスの選択：httpとhttpsをオンのままにし、[OK]に移動して、Enterキーを押します。  
-_«HTTP Port number:»_ 8080を終了し、[OK]に移動して、Enterキーを押します。  
-_«HTTPS Port number:»_ 8443と入力し、[OK]に移動して、[Enter]をクリックします。  
-_«Installation Folder:»_ 設定 _/home/domoticz/domoticz_、[OK]に移動し、Enterキーを押します。  
+プレゼンテーションが表示されたらEnterキーを押します ( _\<OK>_ estas la sola elekto).  
+  
+  
+サービスの選択： _http_ と _https_ をチェックしたままにし、 _OK_に移動して、Enterキーを押します。  
+_«HTTP Port number:»_ 8080を離れ、 _OK_に移動し、Enterキーを押します。  
+_«HTTPS Port number:»_ 8443と入力し、 _OK_に移動して入力します。  
+_«Installation Folder:»_ セット _/home/domoticz/domoticz_、 _OK_に移動、入力します。  
 _«Installation Complete!»_  、 入る。
 
 
@@ -51,9 +53,9 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticzがインストールされ、アクセス可能：
-* from pi： <http：// localhost：8080> または <https：// localhost：8443（ネットワークの°6°）
-* ： <http：//_pi:8080> ou <https://adresse_IP_du_のアドレス_IP_pi：8443>
+_domoticz_ がインストールされ、アクセス可能：
+* パイから： <http：//ローカルホスト：8080> または <https：/ / localhost：8443>
+* のネットワーク： <http：//アドレス_IP_の_pi:8080> aŭ <https://adreso_IP_de_pi：8443>
 
 いくつかの構成：  
 に行く _«Setup --> Settings»_  

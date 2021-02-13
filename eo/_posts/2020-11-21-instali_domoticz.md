@@ -1,6 +1,6 @@
 ---
 lang: eo
-lang-niv: auto
+lang-niv: homa
 lang-ref: instali-domoticz
 layout: post
 slug: 'Instalu domoticz.'
@@ -16,11 +16,12 @@ adduser domoticz
 cd /home/domoticz
 curl -sSL install.domoticz.com | bash
 ```
-Premu Enter kiam la prezento montriĝas (\<Bone> estas la sola elekto).  
-Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  
-_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  
-_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  
-_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  
+Premu Enter kiam la prezento montriĝas ( _\<OK>_ estas la sola elekto).  
+  
+Elekto de servoj: lasu _http_ kaj _https_ markajn, iru al _OK_, premu Enter.  
+_«HTTP Port number:»_ forlasu 8080, iru al _OK_, premu Enter.  
+_«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  
+_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al _OK_, Enigu.  
 _«Installation Complete!»_  , Eniru.
 
 
@@ -51,9 +52,9 @@ systemctl enable domoticz
 systemctl start domoticz
 ```
 
-domoticz estas instalita kaj alirebla:
-* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>
-* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>
+_domoticz_ estas instalita kaj alirebla:
+* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>
+* de la reto: <http://adreso_IP_de_pi:8080> aŭ <https://adreso_IP_de_pi:8443>
 
 iom da agordo:  
 iru al _«Setup --> Settings»_  
@@ -61,7 +62,7 @@ iru al _«Setup --> Settings»_
 difini sekurecon: uzantnomo kaj pasvorto  
 difini la "Lokajn retojn", ekzemple: _«127.0.0.\*;192.168.0.*»_  
 Aktivigi "Aŭtomatan konservadon"  
-Aparataro / Flankaparatoj: malaktivigi "Akcepti novajn aparatojn"  
+Aparataro/Flankaparatoj: malaktivigi "Akcepti novajn aparatojn"  
 Alklaku "Apliki parametrojn".  
 
 Nun ni bezonas aldoni la aparataron.  

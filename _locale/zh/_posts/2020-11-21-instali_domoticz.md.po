@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-02-13 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "zh"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-11-21-instali_domoticz.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -75,47 +75,49 @@ msgstr ""
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:19
 #, fuzzy, no-wrap
-msgid "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola elekto).  \n"
-msgstr "显示演示文稿时按Enter (\\<OK> 是唯一选择)。  \n"
-
-#. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:20
-#, fuzzy, no-wrap
-msgid "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu Enter.  \n"
-msgstr "服务选择：选中http和https，转到OK，然后按Enter。  \n"
+msgid "Premu Enter kiam la prezento montriĝas ( _\\<OK>_ estas la sola elekto).  \n"
+msgstr ""
+"显示演示文稿时按Enter ( _\\<OK>_ estas la sola elekto).  \n"
+"  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:21
 #, fuzzy, no-wrap
-msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
-msgstr "_«HTTP Port number:»_ 退出8080，转到OK，然后按Enter。  \n"
+msgid "Elekto de servoj: lasu _http_ kaj _https_ markajn, iru al _OK_, premu Enter.  \n"
+msgstr "服务选择：选中 _http_ 和 _https_ ，转到 _OK_，按Enter。  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:22
 #, fuzzy, no-wrap
-msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
-msgstr "_«HTTPS Port number:»_ 输入8443，转到OK，输入。  \n"
+msgid "_«HTTP Port number:»_ forlasu 8080, iru al _OK_, premu Enter.  \n"
+msgstr "_«HTTP Port number:»_ 离开8080，转到 _OK_，按Enter。  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:23
 #, fuzzy, no-wrap
-msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, Enigu.  \n"
-msgstr "_«Installation Folder:»_ 设置 _/home/domoticz/domoticz_，转到OK，输入。  \n"
+msgid "_«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  \n"
+msgstr "_«HTTPS Port number:»_ 输入8443，转到 _OK_，输入。  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:25
+#: _posts/2020-11-21-instali_domoticz.md:24
+#, fuzzy, no-wrap
+msgid "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al _OK_, Enigu.  \n"
+msgstr "_«Installation Folder:»_ 设置 _/home/domoticz/domoticz_，转到 _OK_，输入。  \n"
+
+#. type: Plain text
+#: _posts/2020-11-21-instali_domoticz.md:26
 #, fuzzy, no-wrap
 msgid "_«Installation Complete!»_  , Eniru.\n"
 msgstr "_«Installation Complete!»_  ，输入。\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, fuzzy, no-wrap
 msgid "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 msgstr "现在我们创建服务 _«systemd»_ ，它将启动domoticz：\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, no-wrap
 msgid ""
 "service domoticz stop\n"
@@ -167,79 +169,79 @@ msgstr ""
 "systemctl start domoticz\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:57
+#: _posts/2020-11-21-instali_domoticz.md:58
 #, fuzzy, no-wrap
 msgid ""
-"domoticz estas instalita kaj alirebla:\n"
-"* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
-"* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://adresse_IP_du_pi: 8443>\n"
+"_domoticz_ estas instalita kaj alirebla:\n"
+"* de la pi: <http://localhost:8080> aŭ <https://localhost:8443>\n"
+"* de la reto: <http://adreso_IP_de_pi:8080> aŭ <https://adreso_IP_de_pi:8443>\n"
 msgstr ""
-"domoticz已安装并可以从以下位置访问：\n"
-"* from pi： <http：//本地主机：8080> 或 <https：//本地主机：8443（网络的°6°）\n"
-"* ： <http：//地址_pi:8080> ou <https://adresse_的_IP_IP_du_pi：8443>\n"
+"_domoticz_ 已安装并可从以下位置访问：\n"
+"* 从pi： <http：//本地主机：8080> 或 <https：/ /本地主机：8443>\n"
+"* 网络： <http：//地址_IP_的_pi:8080> aŭ <https://adreso_IP_de_pi：8443>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:58
+#: _posts/2020-11-21-instali_domoticz.md:59
 #, fuzzy, no-wrap
 msgid "iom da agordo:  \n"
 msgstr "一些配置：  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:59
+#: _posts/2020-11-21-instali_domoticz.md:60
 #, fuzzy, no-wrap
 msgid "iru al _«Setup --> Settings»_  \n"
 msgstr "去 _«Setup --> Settings»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:60
+#: _posts/2020-11-21-instali_domoticz.md:61
 #, fuzzy, no-wrap
 msgid "ŝanĝi lingvon, difini lokon  \n"
 msgstr "更改语言，定义位置  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:61
+#: _posts/2020-11-21-instali_domoticz.md:62
 #, fuzzy, no-wrap
 msgid "difini sekurecon: uzantnomo kaj pasvorto  \n"
 msgstr "定义安全性：用户名和密码  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:62
+#: _posts/2020-11-21-instali_domoticz.md:63
 #, fuzzy, no-wrap
 msgid "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr "定义 \"局域网\"，例如： _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:63
+#: _posts/2020-11-21-instali_domoticz.md:64
 #, fuzzy, no-wrap
 msgid "Aktivigi \"Aŭtomatan konservadon\"  \n"
 msgstr "激活 \"自动保存\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:64
+#: _posts/2020-11-21-instali_domoticz.md:65
 #, fuzzy, no-wrap
-msgid "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+msgid "Aparataro/Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 msgstr "硬件/侧面设备：禁用 \"接受新设备\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:65
+#: _posts/2020-11-21-instali_domoticz.md:66
 #, fuzzy, no-wrap
 msgid "Alklaku \"Apliki parametrojn\".  \n"
 msgstr "单击 \"应用参数\"。  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:67
+#: _posts/2020-11-21-instali_domoticz.md:68
 #, fuzzy, no-wrap
 msgid "Nun ni bezonas aldoni la aparataron.  \n"
 msgstr "现在我们需要添加硬件。  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:69
+#: _posts/2020-11-21-instali_domoticz.md:70
 #, fuzzy, no-wrap
 msgid "vidu <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr "看到 <https://www.domoticz.com/wiki/Getting_started>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:73
+#: _posts/2020-11-21-instali_domoticz.md:74
 #, fuzzy, no-wrap
 msgid ""
 "Por pli da detaloj,\n"
@@ -247,6 +249,79 @@ msgid ""
 msgstr ""
 "更多细节，\n"
 "看到 <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy
+#~ msgid ""
+#~ "Premu Enter kiam la prezento montriĝas ( _\\<OK>_ est le seul choix).  \n"
+#~ msgstr ""
+#~ "显示演示文稿时按Enter ( _\\<OK>_ est le seul choix).  \n"
+#~ "  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Elekto de servoj: lasu _http_ kaj _https_ kontrolitajn, iru al _OK_, "
+#~ "premu Enter.  \n"
+#~ msgstr "服务选择：选中 _http_ 和 _https_ ，转到 _OK_，按Enter。  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "_domoticz_ estas instalita kaj alirebla:\n"
+#~ "* de la pi: <http: // localhost: 8080> aŭ <https: / / localhost: 8443>\n"
+#~ "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://"
+#~ "adresse_IP_du_pi: 8443>\n"
+#~ msgstr ""
+#~ "_domoticz_ 已安装并可从以下位置访问：\n"
+#~ "* 从pi： <http：//本地主机：8080> 或 <https：/ /本地主机：8443>\n"
+#~ "* 网络： <http：//地址_IP_的_pi:8080> ou <https://adresse_IP_du_pi："
+#~ "8443>\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Aparataro / Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
+#~ msgstr "硬件/侧面设备：禁用 \"接受新设备\"  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Premu Enter kiam la prezento montriĝas (\\<Bone> estas la sola "
+#~ "elekto).  \n"
+#~ msgstr "显示演示文稿时按Enter (\\<OK> 是唯一选择)。  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Elekto de servoj: lasu http kaj https kontrolitajn, iru al OK, premu "
+#~ "Enter.  \n"
+#~ msgstr "服务选择：选中http和https，转到OK，然后按Enter。  \n"
+
+#, fuzzy
+#~ msgid "_«HTTP Port number:»_ forlasu 8080, iru al OK, premu Enter.  \n"
+#~ msgstr "_«HTTP Port number:»_ 退出8080，转到OK，然后按Enter。  \n"
+
+#, fuzzy
+#~ msgid "_«HTTPS Port number:»_ metu 8443, iru al OK, Enigu.  \n"
+#~ msgstr "_«HTTPS Port number:»_ 输入8443，转到OK，输入。  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al OK, "
+#~ "Enigu.  \n"
+#~ msgstr ""
+#~ "_«Installation Folder:»_ 设置 _/home/domoticz/domoticz_，转到OK，输"
+#~ "入。  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "domoticz estas instalita kaj alirebla:\n"
+#~ "* de pi: <http: // localhost: 8080> aŭ <https: // localhost: 8443>\n"
+#~ "* de la reto: <http: // adreso_IP_de_pi:8080> ou <https://"
+#~ "adresse_IP_du_pi: 8443>\n"
+#~ msgstr ""
+#~ "domoticz已安装并可以从以下位置访问：\n"
+#~ "* from pi： <http：//本地主机：8080> 或 <https：//本地主机：8443（网络"
+#~ "的°6°）\n"
+#~ "* ： <http：//地址_pi:8080> ou <https://adresse_的_IP_IP_du_pi：8443>\n"
 
 #~ msgid "fonto"
 #~ msgstr "auto"
