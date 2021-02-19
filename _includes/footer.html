@@ -14,6 +14,9 @@
         <li><a title="{{ site.data.translations[page.lang]['viewIn'] }}" class="{{post.lang}}" href="{{ site.baseurl }}{{ post.url }}">{{ site.data.languages[post.lang].icon }} {{ site.data.languages[post.lang].label }}</a></li>
         {% endfor %}
         </ul>
+        {% if page.komentoj_id %}
+          {% include komentoj.html element=".post-content" github_account="jmichault/jekyll-plurlingva-dok" require_cookie_consent="false" %}
+        {% endif %}
     </div>
     {% endif %}
 {% endif %}

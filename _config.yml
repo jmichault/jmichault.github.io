@@ -7,7 +7,10 @@ laborlingvo: eo
 #ne_afisxoj: "true"
 # malkomentigu la sekvan linion por forigi la menuon "serĉu per google"
 #ne_googlesearch: "true"
-permesilo: 
+# github uzanto por komentoj
+gh_uzanto: ""
+# Google Analytics tag
+# ga_tag: "X-XXXXXX000X"
 
 
 # Dependencies
