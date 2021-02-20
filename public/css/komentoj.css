@@ -26,7 +26,7 @@
           color: #60686f; }
 .komento .komento-main .header .time {
         color: #6c757d; }
-        .komento .komento-main .header .time:hover {
+.komento .komento-main .header .time:hover {
           color: #6c757d; }
 .komento .komento-main .body {
       padding: 1rem;
@@ -109,7 +109,7 @@ border-color: #f8f9fa;
   text-align: center;
 color: #212529;
 }
-.komentobtntxt a:hover{
+.komentobtntxt a:hover, .komentobtntxt a:focus{
   background-color: #d8d9da;
 }
 
