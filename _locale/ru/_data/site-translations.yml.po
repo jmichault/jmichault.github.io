@@ -34,6 +34,27 @@ msgstr "Все сообщения"
 msgid "Elektu vian lingvon"
 msgstr "Выберите свой язык"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "прокомментировал:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "Добавить комментарий (на github)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "Комментарии:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -84,15 +105,3 @@ msgstr "Домашняя автоматизация"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "Описание."
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "Искать в Google."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "Заглавие."

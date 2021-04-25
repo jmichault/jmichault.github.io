@@ -34,6 +34,27 @@ msgstr "Tutti i post"
 msgid "Elektu vian lingvon"
 msgstr "scegli la tua LINGUA"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "ha commentato:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "Aggiungi un commento (su github)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "Commenti:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -84,15 +105,3 @@ msgstr "Domotica"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Nota: questa pagina è stata tradotta automaticamente. Se puoi, dovresti leggerlo in una di queste lingue:"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "Descrizione."
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "Cerca su Google."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "Titolo."

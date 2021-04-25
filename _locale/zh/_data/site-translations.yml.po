@@ -34,6 +34,27 @@ msgstr "所有帖子"
 msgid "Elektu vian lingvon"
 msgstr "选择你的语言"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "评论："
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "在github)上添加评论 ("
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "评论："
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap

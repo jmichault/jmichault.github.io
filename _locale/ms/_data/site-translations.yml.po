@@ -34,6 +34,27 @@ msgstr "Semua Catatan"
 msgid "Elektu vian lingvon"
 msgstr "pilih Bahasa anda"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "mengulas:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "Tambahkan komen (pada github)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "Komen:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -84,15 +105,3 @@ msgstr "Automasi rumah"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Harap maklum: halaman ini telah diterjemahkan secara automatik. Sekiranya boleh, anda mesti membacanya dalam salah satu bahasa berikut:"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "Penerangan."
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "Cari di Google."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "Tajuk."

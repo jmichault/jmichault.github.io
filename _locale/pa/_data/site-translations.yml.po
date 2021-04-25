@@ -34,6 +34,27 @@ msgstr "ਸਾਰੇ ਪੋਸਟ"
 msgid "Elektu vian lingvon"
 msgstr "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "ਟਿੱਪਣੀ ਕੀਤੀ:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "ਗੀਥਬ)'ਤੇ ਟਿੱਪਣੀ (ਸ਼ਾਮਲ ਕਰੋ"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "ਟਿੱਪਣੀਆਂ:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -84,15 +105,3 @@ msgstr "ਘਰ ਸਵੈਚਾਲਨ"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਨੋਟ ਕਰੋ: ਇਹ ਪੰਨਾ ਆਪਣੇ ਆਪ ਅਨੁਵਾਦ ਹੋ ਗਿਆ ਹੈ. ਜੇ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ:"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "ਵੇਰਵਾ."
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "ਗੂਗਲ ਖੋਜੋ."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "ਸਿਰਲੇਖ"

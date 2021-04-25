@@ -16,7 +16,7 @@ fi
 lang0=eo
 cd eo
 
-for FIC in `find . -type f ! -name "_*"|egrep -v "/_drafts/|.backup$"`
+for FIC in `find . -type f ! -name "_*"|egrep -v "/_drafts/|.backup$|.swp$"`
 do
   EXT="${FIC##*.}"
   case "$EXT" in

@@ -34,6 +34,27 @@ msgstr "Todas as publicações"
 msgid "Elektu vian lingvon"
 msgstr "Escolha seu idioma"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "comentou:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "Adicione um comentário (no gitub)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "Comentários:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -84,15 +105,3 @@ msgstr "Automação residencial"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Atenção: esta página foi traduzida automaticamente. Se puder, você deve lê-lo em um destes idiomas:"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "Descrição."
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "Pesquisar no Google."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "Título."

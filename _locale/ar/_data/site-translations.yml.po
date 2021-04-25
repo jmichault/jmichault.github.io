@@ -34,6 +34,27 @@ msgstr "جميع المشاركات"
 msgid "Elektu vian lingvon"
 msgstr "اختر لغتك"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "علق:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "أضف تعليق (على جيثب)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "تعليقات:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -84,15 +105,3 @@ msgstr "أتمتة المنزل"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "وصف."
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "ابحث في جوجل."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "عنوان."
