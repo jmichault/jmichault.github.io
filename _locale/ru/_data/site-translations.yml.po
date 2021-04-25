@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:19+0100\n"
+"POT-Creation-Date: 2021-04-25 22:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,20 +38,19 @@ msgstr "Выберите свой язык"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "прокомментировал:"
+msgid "komentis"
+msgstr "прокомментировал"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "Добавить комментарий (на github)"
+msgid "Aldoni komenton (sur GitHub)"
+msgstr "Добавьте комментарий (на github)"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "Комментарии:"
 
@@ -63,8 +62,7 @@ msgstr "Прочтите эту страницу на другом языке"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
 msgstr "Некоторые идеи для разработки домашней автоматизации по более низкой цене."
 
@@ -88,15 +86,13 @@ msgstr "Похожие сообщения"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ŝercu per Google."
 msgstr "Шутка с гуглом."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Hejma aŭtomatigo"
 msgstr "Домашняя автоматизация"
 
@@ -105,3 +101,11 @@ msgstr "Домашняя автоматизация"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
+
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "прокомментировал:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "Добавить комментарий (на github)"

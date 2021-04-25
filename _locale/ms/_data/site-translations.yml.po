@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:19+0100\n"
+"POT-Creation-Date: 2021-04-25 22:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,20 +38,19 @@ msgstr "pilih Bahasa anda"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "mengulas:"
+msgid "komentis"
+msgstr "mengulas"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "Tambahkan komen (pada github)"
+msgid "Aldoni komenton (sur GitHub)"
+msgstr "Tambah komen (pada github)"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "Komen:"
 
@@ -63,8 +62,7 @@ msgstr "Baca halaman ini dalam bahasa lain"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
 msgstr "Beberapa idea untuk merancang automasi rumah anda dengan kos yang lebih rendah."
 
@@ -88,15 +86,13 @@ msgstr "Catatan Berkaitan"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ŝercu per Google."
 msgstr "Bercanda dengan Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Hejma aŭtomatigo"
 msgstr "Automasi rumah"
 
@@ -105,3 +101,11 @@ msgstr "Automasi rumah"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Harap maklum: halaman ini telah diterjemahkan secara automatik. Sekiranya boleh, anda mesti membacanya dalam salah satu bahasa berikut:"
+
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "mengulas:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "Tambahkan komen (pada github)"

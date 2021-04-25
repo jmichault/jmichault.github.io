@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-01 18:24+0100\n"
+"POT-Creation-Date: 2021-04-25 22:17+0200\n"
 "PO-Revision-Date: 2021-02-12 18:59+0200\n"
 "Last-Translator: jean <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,27 @@ msgstr "Ĉiuj Afiŝoj"
 msgid "Choisissez votre langue"
 msgstr "Elektu vian lingvon"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "a commenté le "
+msgstr "komentis"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Ajouter un commentaire (sur github)"
+msgstr "Aldoni komenton (sur GitHub)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Commentaires :"
+msgstr "Komentoj:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, no-wrap
@@ -50,11 +71,7 @@ msgstr "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
 #: >lang
 #, no-wrap
 msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\" /></a>"
-msgstr ""
-"Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-"by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline"
-";border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\""
-" title=\"CC-BY-SA 4.0\"/></a>"
+msgstr "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -86,5 +103,16 @@ msgstr "Hejma aŭtomatigo"
 msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
 msgstr "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 
-#~ msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Partage dans les Mêmes Conditions \" /></a>"
-#~ msgstr "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#~ msgid ""
+#~ "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"Ce(tte) œuvre est mise à disposition selon les termes de la "
+#~ "Licence Creative Commons Attribution - Partage dans les Mêmes Conditions "
+#~ "\" /></a>"
+#~ msgstr ""
+#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:"
+#~ "inline;border-width0\"src=\"https://i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo "
+#~ "Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
