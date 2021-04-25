@@ -102,3 +102,7 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
+必要ない場合は、
+の除去：
+パージAPT Wolfram-Motor WolframScript LibreOffice*
+APT純粋なすべて

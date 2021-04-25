@@ -96,3 +96,7 @@ Pour que le _raspberry_ reste à l'heure, installez ntp :
 sudo apt install ntp
 ```
 
+Si vous n'en avez pas besoin, suppression de :
+apt purge wolfram-engine wolframscript libreoffice*
+apt autoremove
+apt clean all

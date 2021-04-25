@@ -102,3 +102,5 @@ Untuk memastikan _raspberry_ tepat pada masanya, pasang ntp:
 sudo apt install ntp
 ```
 
+Jika anda tidak memerlukannya, Pembuangan:
+4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4) Apt Pure All

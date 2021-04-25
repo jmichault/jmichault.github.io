@@ -102,3 +102,6 @@ Para mantener el _raspberry_ a tiempo, instale ntp:
 sudo apt install ntp
 ```
 
+Si no lo necesita, eliminación de:
+Purge apt wolfram-motor wolframscript libreoffice*
+Apt Pure all

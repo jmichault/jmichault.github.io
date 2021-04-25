@@ -102,3 +102,6 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
+আপনি এটি প্রয়োজন না থাকে, তাহলে অপসারণের:
+শুদ্ধ Apt, উল্ফর্যাম-মোটর Wolframscript LibreOffice এর*
+Apt বিশুদ্ধ সব

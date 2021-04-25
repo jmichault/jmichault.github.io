@@ -102,3 +102,5 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
+Если вам это не нужно, удаление:
+очистки APT Wolfram-мотор Wolframscript LibreOffice*(° 3 ° 3 ° 3 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° Pt Pure Все

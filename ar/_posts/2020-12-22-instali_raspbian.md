@@ -101,3 +101,6 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
+إذا لم تكن بحاجة إليها، إزالة:
+apt wolfram-motor wolframscript libreoffice*
+APT Pure All

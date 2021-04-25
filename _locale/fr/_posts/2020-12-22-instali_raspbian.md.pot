@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-26 14:25+0100\n"
+"POT-Creation-Date: 2021-04-25 20:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,4 +261,14 @@ msgstr ""
 #: _posts/2020-12-22-instali_raspbian.md:95
 #, no-wrap
 msgid "sudo apt install ntp\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:102
+#, no-wrap
+msgid ""
+"Si vous n'en avez pas besoin, suppression de :\n"
+"apt purge wolfram-engine wolframscript libreoffice*\n"
+"apt autoremove\n"
+"apt clean all\n"
 msgstr ""

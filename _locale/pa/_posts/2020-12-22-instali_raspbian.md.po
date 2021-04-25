@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 15:20+0100\n"
+"POT-Creation-Date: 2021-04-25 20:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "pa"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-12-22-instali_raspbian.md:1
 #, no-wrap
-msgid "homa"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -293,3 +293,18 @@ msgstr " _raspberry_ ਨੂੰ ਸਮੇਂ ਸਿਰ ਰੱਖਣ ਲਈ, ਐ�
 #, no-wrap
 msgid "sudo apt install ntp\n"
 msgstr "sudo apt install ntp\n"
+
+#. type: Plain text
+#: _posts/2020-12-22-instali_raspbian.md:105
+#, no-wrap
+#, fuzzy
+msgid ""
+"Se vi ne bezonas ĝin, forigo de:\n"
+"Purga APT Wolfram-motoro Wolframscript LibreOffice*\n"
+"APT autémove\n"
+"APT Pura All\n"
+msgstr "ਜੇ ਤੁਹਾਨੂੰ ਇਸ ਦੀ ਜ਼ਰੂਰਤ ਨਹੀਂ ਹੈ, ਨੂੰ ਹਟਾਉਣਾ:\nਸ਼ੁੱਧ ਵੁਲਫਰਾਮ-3 ° 3 ° 2 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 1 ° 1 ° 1 ° 4) 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 °) ਸਭ ਨੂੰ ਪੂਰਾ\n"
+
+#, no-wrap
+#~ msgid "homa"
+#~ msgstr "auto"

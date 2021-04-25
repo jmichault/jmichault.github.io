@@ -1,4 +1,5 @@
 ---
+komentoj_id: 1
 lang: eo
 lang-niv: homa
 lang-ref: 000-komenci

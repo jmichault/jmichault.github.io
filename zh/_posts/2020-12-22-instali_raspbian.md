@@ -102,3 +102,6 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
+如果不需要它，除去：
+吹扫公寓钨-电机Wolframscript的LibreOffice*
+Apt纯

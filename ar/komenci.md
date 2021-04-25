@@ -1,4 +1,5 @@
 ---
+komentoj_id: 1.
 lang: ar
 lang-niv: auto
 lang-ref: 000-komenci

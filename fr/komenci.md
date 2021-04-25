@@ -4,6 +4,7 @@ lang-niv: homa
 lang-ref: 000-komenci
 layout: page
 title: 'Pour débuter'
+komentoj_id: 1
 ---
 
 # introduction

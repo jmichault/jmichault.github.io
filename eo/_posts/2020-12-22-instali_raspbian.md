@@ -1,6 +1,6 @@
 ---
 lang: eo
-lang-niv: homa
+lang-niv: auto
 lang-ref: instali_raspbian
 layout: post
 slug: 'instali raspbian'
@@ -99,3 +99,7 @@ Por teni la _raspberry_ ĝustatempe, instalu ntp:
 sudo apt install ntp
 ```
 
+Se vi ne bezonas ĝin, forigo de:
+Purga APT Wolfram-motoro Wolframscript LibreOffice*
+APT autémove
+APT Pura All
