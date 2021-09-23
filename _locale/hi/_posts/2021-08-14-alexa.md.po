@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "eo"
+msgstr "hi"
+
+#. type: YAML Front Matter: lang-niv
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "auto"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "alexa"
+msgstr "alexa"
+
+#. type: YAML Front Matter: layout
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: slug
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+#, fuzzy
+msgid "_Alexa_"
+msgstr "_Alexa_"
+
+#. type: YAML Front Matter: title
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+#, fuzzy
+msgid "_Amazon Alexa_"
+msgstr "_Amazon Alexa_"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:11
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Eblas konekti _Alexa_ kaj _Domoticz_.\n"
+msgstr "(° 0001 डिग्री) और (° 0003 डिग्री) से कनेक्ट करना संभव है।\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:14
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"Por ĉi tio, instalu _habridge_, vidu artikolon:\n"
+"[ligilo _Domoticz-Alexa_ : _ha-bridge_](2021-08-14-habridge.md)\n"
+msgstr "इसके लिए, (° 0001 डिग्री) स्थापित करें, आलेख देखें:\n(डिग्री 0004 डिग्री) लिंक (डिग्री ° 0005 डिग्री): _ha-bridge_](2021-08-14-habridge.md (° 000 9 ° )\n"
+
+#. type: Title ##
+#: ./_posts/2021-08-14-alexa.md:16
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
+msgstr "एलेक्सा और घर का बना कनेक्शन बदलें:"
+
+#. type: Bullet: '- '
+#: ./_posts/2021-08-14-alexa.md:18
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
+msgstr "इंटरफ़ेस से कनेक्ट करें: http: // पता (° 0001 डिग्री) पीआई: 8082 (डिग्री 0003 डिग्री)\n"
+
+#. type: Bullet: '- '
+#: ./_posts/2021-08-14-alexa.md:20
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Ponto-Kontrolo-Tab:\n"
+msgstr "ब्रिज कंट्रोल-टैब:\n"
+
+#. type: Bullet: '  - '
+#: ./_posts/2021-08-14-alexa.md:22
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_Use Rooms for Alexa_ : Vera\n"
+msgstr "_Use Rooms for Alexa_ : TRUE\n"
+
+#. type: Bullet: '  - '
+#: ./_posts/2021-08-14-alexa.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_domoticz_ ...:\n"
+msgstr "_domoticz_ ...:\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:26
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_name=_ Kion ni volas.\n"
+msgstr "_name=_ हम क्या चाहते हैं।\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:28
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_IP_ = AdresoPI\n"
+msgstr "_IP_ = पता\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:30
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_port_ = 8080\n"
+msgstr "_port_ = 8080\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:32
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Alklaku _Add_.\n"
+msgstr "क्लिक करें _Add_।\n"
+
+#. type: Bullet: '  - '
+#: ./_posts/2021-08-14-alexa.md:34
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+msgstr "(° 0001 डिग्री): सही (° 0003 डिग्री) वेरा (डिग्री 0004 डिग्री)।\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:37
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Kutime la resto estas agordita konvene.\n"
+msgstr "आमतौर पर बाकी को ठीक से कॉन्फ़िगर किया जाता है।\n"
+
+#. type: Title ##
+#: ./_posts/2021-08-14-alexa.md:38
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Elektu aparatojn"
+msgstr "डिवाइस चुनें"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:40
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Iru al la langeto _«Domoticz Devices»_.\n"
+msgstr "टैब (° ° 0001 डिग्री) पर जाएं।\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:43
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la "
+"aparatojn:\n"
+"\"konektita domo\" -> aparatoj -> detektas.\n"
+msgstr "अब आप इंटरफ़ेसपर जा सकते हैं, और डिवाइस जोड़ें:\n(° ° 0004 डिग्री) कनेक्टेड हाउस (° ° 0005 डिग्री) - (° 0006 डिग्री) डिवाइस -> का पता लगाएं।\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:46
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"Noto: Por aldoni kontrolan frazon:\n"
+"iru al la poŝtelefona apliko _alexa_, kaj kreu rutinon.\n"
+msgstr "नोट: नियंत्रण वाक्यांश जोड़ने के लिए: (° ° 0001 डिग्री) मोबाइल एप्लिकेशन (डिग्री ° 0002 डिग्री) पर जाएं, और एक दिनचर्या बनाएं।\n"
+

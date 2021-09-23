@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "eo"
+msgstr "pt"
+
+#. type: YAML Front Matter: lang-niv
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "auto"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "alexa"
+msgstr "alexa"
+
+#. type: YAML Front Matter: layout
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "post"
+msgstr "post"
+
+#. type: YAML Front Matter: slug
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+#, fuzzy
+msgid "_Alexa_"
+msgstr "_Alexa_"
+
+#. type: YAML Front Matter: title
+#: ./_posts/2021-08-14-alexa.md:1
+#, no-wrap
+#, fuzzy
+msgid "_Amazon Alexa_"
+msgstr "_Amazon Alexa_"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:11
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Eblas konekti _Alexa_ kaj _Domoticz_.\n"
+msgstr "É possível conectar _Alexa_ e _Domoticz_.\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:14
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"Por ĉi tio, instalu _habridge_, vidu artikolon:\n"
+"[ligilo _Domoticz-Alexa_ : _ha-bridge_](2021-08-14-habridge.md)\n"
+msgstr "Para este, instalar _habridge_, ver artigo:\n[: -14-habridge.md)\n"
+
+#. type: Title ##
+#: ./_posts/2021-08-14-alexa.md:16
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
+msgstr "Altere a conexão com Alexa e o Caseiro:"
+
+#. type: Bullet: '- '
+#: ./_posts/2021-08-14-alexa.md:18
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
+msgstr "Conecte-se à interface: http: // endereço_du_PI: 8082 (° 3 ° 3\n"
+
+#. type: Bullet: '- '
+#: ./_posts/2021-08-14-alexa.md:20
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Ponto-Kontrolo-Tab:\n"
+msgstr "Guia de controle de ponte:\n"
+
+#. type: Bullet: '  - '
+#: ./_posts/2021-08-14-alexa.md:22
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_Use Rooms for Alexa_ : Vera\n"
+msgstr "_Use Rooms for Alexa_ : True\n"
+
+#. type: Bullet: '  - '
+#: ./_posts/2021-08-14-alexa.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_domoticz_ ...:\n"
+msgstr "_domoticz_ ...: (° 3 ° 3\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:26
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_name=_ Kion ni volas.\n"
+msgstr "_name=_ O que queremos.\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:28
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_IP_ = AdresoPI\n"
+msgstr "_IP_ = AddressPI\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:30
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_port_ = 8080\n"
+msgstr "_port_ = 8080\n"
+
+#. type: Bullet: '    - '
+#: ./_posts/2021-08-14-alexa.md:32
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Alklaku _Add_.\n"
+msgstr "Clique em _Add_.\n"
+
+#. type: Bullet: '  - '
+#: ./_posts/2021-08-14-alexa.md:34
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+msgstr "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:37
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Kutime la resto estas agordita konvene.\n"
+msgstr "Normalmente, o restante é configurado corretamente.\n"
+
+#. type: Title ##
+#: ./_posts/2021-08-14-alexa.md:38
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Elektu aparatojn"
+msgstr "Escolha dispositivos"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:40
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Iru al la langeto _«Domoticz Devices»_.\n"
+msgstr "Vá para a aba _«Domoticz Devices»_.\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:43
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la "
+"aparatojn:\n"
+"\"konektita domo\" -> aparatoj -> detektas.\n"
+msgstr "Agora você pode ir para a interface _https://alexa.amazon.fr/_ e adicionar os dispositivos:\n\"Casa conectada\"-> ° 7 ° 7) Detecta.\n"
+
+#. type: Plain text
+#: ./_posts/2021-08-14-alexa.md:46
+#, markdown-text, no-wrap
+#, fuzzy
+msgid ""
+"Noto: Por aldoni kontrolan frazon:\n"
+"iru al la poŝtelefona apliko _alexa_, kaj kreu rutinon.\n"
+msgstr "Nota: Para adicionar uma sentença de controle:\nvá para o aplicativo móvel _alexa_e crie uma rotina.\n"
+

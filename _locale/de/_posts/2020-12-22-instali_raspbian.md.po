@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-25 20:18+0200\n"
+"POT-Creation-Date: 2021-09-23 22:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "de"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-12-22-instali_raspbian.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -60,9 +60,10 @@ msgstr "Wir werden das System _raspbian_ auf die Micro-SD-Karte schreiben und da
 
 #. type: Title #
 #: _posts/2020-12-22-instali_raspbian.md:13
-#, fuzzy, no-wrap
-msgid "prepari la mikro-SD-karton."
-msgstr "Bereiten Sie die Micro-SD-Karte vor."
+#, no-wrap
+#, fuzzy
+msgid "Prepari la mikro-SD-karton."
+msgstr "Die Micro-SD-Karte vorbereiten."
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:16
@@ -296,15 +297,21 @@ msgstr "sudo apt install ntp\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:105
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Se vi ne bezonas ĝin, forigo de:\n"
 "Purga APT Wolfram-motoro Wolframscript LibreOffice*\n"
 "APT autémove\n"
 "APT Pura All\n"
-msgstr "Wenn Sie es nicht brauchen, Entfernung von:\nPURGE APT Wolfram-Motor Wolframscript libreOffice*\napt rein\n"
+msgstr ""
+"Wenn Sie es nicht brauchen, Entfernung von:\n"
+"PURGE APT Wolfram-Motor Wolframscript libreOffice*\n"
+"apt rein\n"
 
 #, no-wrap
-#~ msgid "homa"
+#~ msgid "auto"
 #~ msgstr "auto"
+
+#, fuzzy, no-wrap
+#~ msgid "prepari la mikro-SD-karton."
+#~ msgstr "Bereiten Sie die Micro-SD-Karte vor."

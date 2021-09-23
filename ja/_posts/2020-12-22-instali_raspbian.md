@@ -10,7 +10,7 @@ title: ' _Raspberry_に _raspbian_ をインストールします'
 システム _raspbian_ をmicro-SDカードに書き込んでから、いくつかの基本的なシステム設定を行います。 
 
 
-# micro-SDカードを準備します。
+# マイクロSDカードを準備する。
 
 この例では、 _raspberry pi 3_ DebianLinuxコンピューター用にコマンドラインからmicro-SDカードを準備することを選択しました。
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-25 20:18+0200\n"
+"POT-Creation-Date: 2021-09-23 22:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "hi"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-12-22-instali_raspbian.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -60,9 +60,10 @@ msgstr "हम माइक्रो-एसडी कार्ड में स�
 
 #. type: Title #
 #: _posts/2020-12-22-instali_raspbian.md:13
-#, fuzzy, no-wrap
-msgid "prepari la mikro-SD-karton."
-msgstr "माइक्रो-एसडी कार्ड तैयार करें।"
+#, no-wrap
+#, fuzzy
+msgid "Prepari la mikro-SD-karton."
+msgstr "माइक्रो-एसडी कार्ड तैयार करने के लिए।"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:16
@@ -296,8 +297,7 @@ msgstr "sudo apt install ntp\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:105
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Se vi ne bezonas ĝin, forigo de:\n"
 "Purga APT Wolfram-motoro Wolframscript LibreOffice*\n"
@@ -306,5 +306,9 @@ msgid ""
 msgstr "यदि आपको इसकी आवश्यकता नहीं है, तो हटाने: (° 0001 डिग्री) शुद्ध एप्ट वोल्फ्राम-इंजन वोल्फ्र्रैमस्क्रिप्ट लिबर ऑफिस (डिग्री 0002 डिग्री) (डिग्री 0003 डिग्री) एपीटी ऑटोमोव (डिग्री ° 0004 डिग्री) उपयुक्त सभी (000 000 डिग्री)\n"
 
 #, no-wrap
-#~ msgid "homa"
+#~ msgid "auto"
 #~ msgstr "auto"
+
+#, fuzzy, no-wrap
+#~ msgid "prepari la mikro-SD-karton."
+#~ msgstr "माइक्रो-एसडी कार्ड तैयार करें।"

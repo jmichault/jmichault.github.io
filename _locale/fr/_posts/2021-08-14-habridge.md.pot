@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-23 22:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+msgid "fr"
+msgstr ""
+
+#. type: YAML Front Matter: lang-niv
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+msgid "fonto"
+msgstr ""
+
+#. type: YAML Front Matter: lang-ref
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+msgid "habridge"
+msgstr ""
+
+#. type: YAML Front Matter: layout
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+msgid "post"
+msgstr ""
+
+#. type: YAML Front Matter: slug
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+msgid "_ha-bridge_"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+msgid "Lien _Domoticz-Alexa_ : _ha-bridge_"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:11
+#, no-wrap
+msgid " _ha-bridge_ est un logiciel qui simule sur votre ordinateur un pont _zigbee Philips Hue_.\n"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-08-14-habridge.md:13
+#, no-wrap
+msgid "installation de _ha-bridge_"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:15
+#, no-wrap
+msgid "On va installer avec l'utilisateur _domoticz_ précédemment créé.\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:19
+#, no-wrap
+msgid ""
+"pré-requis : \n"
+"* l'utilisateur _domoticz_ doit exister.\n"
+"* _java_ >=8 doit être installé.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _posts/2021-08-14-habridge.md:20
+#, no-wrap
+msgid ""
+"sudo su - domoticz\n"
+"mkdir ha-bridge\n"
+"cd ha-bridge\n"
+"wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
+"exit\n"
+msgstr ""
+
+#. type: Title ##
+#: _posts/2021-08-14-habridge.md:29
+#, no-wrap
+msgid "création du service :"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:31
+#, no-wrap
+msgid "Par défaut _ha-bridge_ écoute sur le port 80, déjà utilisé par _apache_, on va le faire écouter sur le port 8082 pour réduire les risques de conflit.\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _posts/2021-08-14-habridge.md:32
+#, no-wrap
+msgid ""
+"sudo bash\n"
+"cat > /etc/systemd/system/ha-bridge.service <<!\n"
+"\n"
+"[Unit]\n"
+"Description=HA Bridge\n"
+"Wants=network.target\n"
+"After=network.target\n"
+"\n"
+"[Service]\n"
+"Type=simple\n"
+"\n"
+"WorkingDirectory=/home/domoticz/ha-bridge\n"
+"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config /home/domoticz/ha-bridge/ha-bridge.jar\n"
+"User=domoticz\n"
+"RuntimeDirectory=domoticz\n"
+"LogsDirectory=domoticz\n"
+"Restart=on-abort\n"
+"PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target\n"
+"!\n"
+"\n"
+"sudo systemctl daemon-reload\n"
+"sudo systemctl start ha-bridge.service\n"
+"sudo systemctl enable ha-bridge.service\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:62
+#, no-wrap
+msgid "ha-bridge est maintenant accessible sur : http://adresse_du_pi:8082/\n"
+msgstr ""
+
+#. type: Title #
+#: _posts/2021-08-14-habridge.md:63
+#, no-wrap
+msgid "facultatif mais conseillé : configurez un utilisateur."
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:67
+#, no-wrap
+msgid ""
+"se connecter sur l'interface : http://adresse_du_pi:8082\n"
+"onglet bridge control :\n"
+"Cliquez sur _«Update Security Settings»_\n"
+msgstr ""
+
+#. type: Title #
+#: _posts/2021-08-14-habridge.md:68
+#, no-wrap
+msgid "configurer _apache_ pour relayer le port 80 vers le port 8082"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:71
+#, no-wrap
+msgid ""
+"_Google Home_ et _Alexa_ exigent que le pont réponde sur le port 80.\n"
+"On va utiliser les fonctions de proxy d' _apache_ pour rediriger les urls concernant ha-bridge vers le port 8082.\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:73
+#, no-wrap
+msgid "On active les modules nécessaires et on lance l'éditeur _nano_ pour modifier la configuration du site par défaut :\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _posts/2021-08-14-habridge.md:74
+#, no-wrap
+msgid ""
+"sudo a2enmod proxy proxy_http headers\n"
+"sudo nano /etc/apache2/sites-enabled/000-default.conf\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:80
+#, no-wrap
+msgid "Dans l'éditeur, il faut maintenant ajouter les lignes ci-dessous aprés la ligne '<VirtualHost *:80>' :\n"
+msgstr ""
+
+#. type: Fenced code block
+#: _posts/2021-08-14-habridge.md:80
+#, no-wrap
+msgid ""
+"        ProxyPass         /api  http://localhost:8082/api nocanon\n"
+"        ProxyPassReverse  /api  http://localhost:8082/api\n"
+"        ProxyRequests     Off\n"
+"        AllowEncodedSlashes NoDecode\n"
+"\n"
+"        # Local reverse proxy authorization override\n"
+"        # Most unix distribution deny proxy by default (ie /etc/apache2/mods-enabled/proxy.conf in Ubuntu)\n"
+"        <Proxy http://localhost:8082/api*>\n"
+"                  Order deny,allow\n"
+"                  Allow from all\n"
+"        </Proxy>\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:94
+#, no-wrap
+msgid "sauver le fichier avec _Ctrl-X_\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:96
+#, no-wrap
+msgid "On active _apache_, et on le relance :\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: _posts/2021-08-14-habridge.md:96
+#, no-wrap
+msgid ""
+"sudo systemctl enable apache2\n"
+"sudo systemctl stop apache2\n"
+"sudo systemctl start apache2\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:104
+#, no-wrap
+msgid ""
+"Vous pouvez maintenant configurer le lien _Alexa-Domoticz_ : voir l'article\n"
+"[Amazon Alexa](2021-08-14-alexa.md)\n"
+msgstr ""
+
+#. type: Title #
+#: _posts/2021-08-14-habridge.md:105
+#, no-wrap
+msgid "Note :"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:108
+#, no-wrap
+msgid ""
+"Après migration du _pi_ vers _bullseye_, _apache_ ne démarrait pas au démarrage.\n"
+"Erreurs :\n"
+msgstr ""
+
+#. type: Fenced code block
+#: _posts/2021-08-14-habridge.md:108
+#, no-wrap
+msgid ""
+"Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
+"Sep 23 17:45:24 localhost apachectl[500]: no listening sockets available, shutting down\n"
+"Sep 23 17:45:24 localhost apachectl[500]: AH00015: Unable to open logs\n"
+"Sep 23 17:45:24 localhost apachectl[449]: Action 'start' failed.\n"
+"Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more information.\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:118
+#, no-wrap
+msgid ""
+"un lancement manuel avec `sudo systemctl start apache2` marchait sans problème.\n"
+"Pour contourner le problème, j'ai rajouté dans /lib/systemd/system/apache2.service dans la section _«[Service]»_ les lignes :\n"
+msgstr ""
+
+#. type: Fenced code block
+#: _posts/2021-08-14-habridge.md:118
+#, no-wrap
+msgid ""
+"Restart=on-failure\n"
+"RestartSec=10\n"
+msgstr ""
+
+#. type: Plain text
+#: _posts/2021-08-14-habridge.md:124
+#, no-wrap
+msgid "Maintenant le premier démarrage d' _apache_ échoue, mais une deuxième tentative réussit automatiquement 10 secondes plus tard.\n"
+msgstr ""

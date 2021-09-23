@@ -10,7 +10,7 @@ title: '在 _Raspberry_上安装 _raspbian_ '
 我们将系统 _raspbian_ 写入micro-SD卡，然后进行一些基本的系统设置。 
 
 
-# 准备Micro SD卡。
+# 准备微型SD卡。
 
 在此示例中，我选择从命令行为 _raspberry pi 3_ Debian Linux计算机准备微型SD卡。
 

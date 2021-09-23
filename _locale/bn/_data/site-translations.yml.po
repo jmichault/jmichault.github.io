@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-25 22:17+0200\n"
+"POT-Creation-Date: 2021-09-23 22:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,13 +38,12 @@ msgstr "আপনার ভাষা নির্বাচন করুন"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis"
+msgid "komentis "
 msgstr "মন্তব্য"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aldoni komenton (sur GitHub)"
 msgstr "GitHub)একটি মন্তব্য (যোগ করুন"
 
@@ -101,6 +100,10 @@ msgstr "অধিবাস স্বয়ংক্রিয়তা"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
+
+#, fuzzy
+#~ msgid "komentis"
+#~ msgstr "মন্তব্য"
 
 #, fuzzy
 #~ msgid "komentis:"

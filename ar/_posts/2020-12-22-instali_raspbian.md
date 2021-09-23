@@ -10,7 +10,7 @@ title: 'تثبيت _raspbian_ على _Raspberry_'
 سنكتب النظام _raspbian_ إلى بطاقة micro-SD ، ثم سنقوم ببعض إعدادات النظام الأساسية. 
 
 
-# تحضير بطاقة micro-SD.
+# لإعداد بطاقة Micro-SD.
 
 في هذا المثال ، اخترت تجهيز بطاقة micro-SD لجهاز كمبيوتر _raspberry pi 3_ Debian Linux ، ومن سطر الأوامر.
 

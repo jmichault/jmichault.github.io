@@ -10,7 +10,7 @@ title: 'install _raspbian_ on the _Raspberry_'
 We will write the system _raspbian_ to the micro-SD card, then we will do some basic system settings. 
 
 
-# prepare the micro-SD card.
+# To prepare the micro-SD card.
 
 In this example, I chose to prepare the micro-SD card for my _raspberry pi 3_ Debian Linux computer, and from the command line.
 

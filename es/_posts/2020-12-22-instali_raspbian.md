@@ -10,7 +10,7 @@ title: 'instalar _raspbian_ en el _Raspberry_'
 Escribiremos el sistema _raspbian_ en la tarjeta micro-SD, luego haremos algunas configuraciones básicas del sistema. 
 
 
-# preparar la tarjeta micro-SD.
+# Para preparar la tarjeta Micro-SD.
 
 En este ejemplo, elegí preparar la tarjeta micro-SD para mi computadora Debian Linux _raspberry pi 3_ y desde la línea de comandos.
 

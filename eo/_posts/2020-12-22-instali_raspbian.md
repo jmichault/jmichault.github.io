@@ -1,6 +1,6 @@
 ---
 lang: eo
-lang-niv: auto
+lang-niv: homa
 lang-ref: instali_raspbian
 layout: post
 slug: 'instali raspbian'
@@ -10,7 +10,7 @@ title: 'instalu _raspbian_ sur la _Raspberry_'
 Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. 
 
 
-# prepari la mikro-SD-karton.
+# Prepari la mikro-SD-karton.
 
 En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.
 

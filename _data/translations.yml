@@ -47,7 +47,7 @@ en:
   Funkciigita: 'Powered by'
   cxiujAfisxoj: 'All Posts'
   elektuLingvon: 'Choose your language'
-  komentis: commented
+  komentis: 'komentis '
   komentoButono: 'Add a comment (on GitHub)'
   komentoj: 'Comments:'
   malsamaLingvo: 'Read this page in another language'
@@ -62,7 +62,7 @@ eo:
   Funkciigita: 'Funkciigita de'
   cxiujAfisxoj: 'Ĉiuj Afiŝoj'
   elektuLingvon: 'Elektu vian lingvon'
-  komentis: komentis
+  komentis: 'komentis '
   komentoButono: 'Aldoni komenton (sur GitHub)'
   komentoj: 'Komentoj:'
   malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'

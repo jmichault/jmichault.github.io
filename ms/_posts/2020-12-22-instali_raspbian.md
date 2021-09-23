@@ -10,7 +10,7 @@ title: 'pasang _raspbian_ pada _Raspberry_'
 Kami akan menulis sistem _raspbian_ ke kad micro-SD, kemudian kami akan melakukan beberapa tetapan sistem asas. 
 
 
-# sediakan kad mikro-SD.
+# Untuk menyediakan kad mikro-sd.
 
 Dalam contoh ini, saya memilih untuk menyediakan kad mikro-SD untuk komputer saya _raspberry pi 3_ Debian Linux, dan dari baris arahan.
 
