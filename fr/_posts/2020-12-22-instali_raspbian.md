@@ -5,6 +5,7 @@ lang-ref: instali_raspbian
 slug: installer raspbian
 title: installer _raspbian_ sur le _Raspberry_
 lang: fr
+komentoj_id: 4
 ---
 
 Nous allons écrire le système _raspbian_ sur la carte micro-SD, puis faire quelques configurations de base du système. 

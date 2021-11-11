@@ -5,6 +5,7 @@ lang-ref: aparataro
 layout: post
 slug: Matériel
 title: 'Matériel pour débuter.'
+komentoj_id: 2
 ---
    
 # Les matériels pour le système domotique

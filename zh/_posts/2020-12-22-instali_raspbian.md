@@ -1,4 +1,5 @@
 ---
+komentoj_id: 4.
 lang: zh
 lang-niv: auto
 lang-ref: instali_raspbian

@@ -82,7 +82,7 @@ msgstr "Alexaと自家製への接続を変更します。"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "インターフェイスに接続します.http：// address_du_Pi：8082（°3°3\n"
+msgstr "インターフェイスに接続します.http：// address _du_ PI：8082 \n"
 
 #. type: Bullet: '- '
 #: ./_posts/2021-08-14-alexa.md:20
@@ -103,7 +103,7 @@ msgstr "_Use Rooms for Alexa_ ：真\n"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "_domoticz_ ...:\n"
-msgstr "_domoticz_ ...（°3°3\n"
+msgstr "_domoticz_  ...：\n"
 
 #. type: Bullet: '    - '
 #: ./_posts/2021-08-14-alexa.md:26

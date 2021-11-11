@@ -63,7 +63,7 @@ Kelemahannya adalah:
  1. ia menggunakan julat frekuensi antarabangsa dan memungkinkan untuk menguruskan sebilangan besar modul.
 
 
- 1. ia telah dipilih oleh jenama utama seperti sistem _Philips_ ( _HUE_), sistem Ikea ( _TRÅDFRI_), Legrand, Xiaomi, dan banyak lagi yang lain .... °)
+ 1. Ia dipilih dengan jenama besar seperti  _Philips_  ( sistem  _HUE_), IKEA  ( Sistem  _TRÅDFRI_), Legrand, Xiaomi, dan banyak lagi ... 
 
 
 

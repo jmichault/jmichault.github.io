@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"POT-Creation-Date: 2021-11-11 12:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,9 +168,10 @@ msgstr "国際的な周波数範囲を使用し、多数のモジュールの管
 
 #. type: Bullet: ' 1. '
 #: komenci.md:54
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
-msgstr " _Philips_ (システム _HUE_)、Ikea (システム _TRÅDFRI_)、Legrand、Xiaomi、その他多くの主要ブランドによって選出されています...。 °）\n"
+msgstr "それは _Philips_  (システム _HUE_)、IKEA  (システム _TRÅDFRI_)、レグランド、Xiaomi、そして他の多くのものなどの大きなブランドで選択されました... \n"
 
 #. type: Title #
 #: komenci.md:57

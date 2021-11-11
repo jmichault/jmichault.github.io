@@ -1,4 +1,5 @@
 ---
+komentoj_id: 3.
 lang: ja
 lang-niv: auto
 lang-ref: instali-domoticz
@@ -12,8 +13,8 @@ title: domoticzをインストールします。
 専用ユーザーを作成することから始め、次にdomoticzをインストールします：
 ```bash
 sudo bash
-adduser domoticz
-cd /home/domoticz
+adduser domotiko
+cd /home/domotiko
 curl -sSL install.domoticz.com | bash
 ```
 プレゼンテーションが表示されたらEnterキーを押します ( _\<OK>_ estas la sola elekto).  
@@ -22,8 +23,8 @@ curl -sSL install.domoticz.com | bash
 サービスの選択： _http_ と _https_ をチェックしたままにし、 _OK_に移動して、Enterキーを押します。  
 _«HTTP Port number:»_ 8080を離れ、 _OK_に移動し、Enterキーを押します。  
 _«HTTPS Port number:»_ 8443と入力し、 _OK_に移動して入力します。  
-_«Installation Folder:»_ セット _/home/domoticz/domoticz_、 _OK_に移動、入力します。  
-_«Installation Complete!»_  、 入る。
+_«Installation Folder:»_   put   _/home/domotiko/domoticz_  Go   _OK_、入力。    
+ _«Installation Complete!»_  が入ってくる。 
 
 
 次に、domoticzを起動するサービス _«systemd»_ を作成します：
@@ -34,21 +35,21 @@ echo "[Unit]
 Description=domoticz
 
 [Service]
-ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid
-User=domoticz
-RuntimeDirectory=domoticz
-LogsDirectory=domoticz
+ExecStart=/home/domotiko/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domotiko/domoticz.pid
+User=domotiko
+RuntimeDirectory=domotiko
+LogsDirectory=domotiko
 Restart=on-abort
-PIDFile=/var/run/domoticz/domoticz.pid
+PIDFile=/var/run/domotiko/domoticz.pid
 
 [Install]
 WantedBy=multi-user.target
 " >/etc/systemd/system/domoticz.service
-echo "domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service
+echo "domotiko ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service
 " >/etc/sudoers.d/010_domoticz
 chmod 440 /etc/sudoers.d/010_domoticz
 systemctl daemon-reload
-chown -R domoticz.domoticz domoticz
+chown -R domotiko.domotiko domoticz
 systemctl enable domoticz
 systemctl start domoticz
 ```

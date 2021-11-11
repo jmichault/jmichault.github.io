@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"POT-Creation-Date: 2021-11-11 12:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+msgid "4"
+msgstr ""
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-12-22-instali_raspbian.md:1
@@ -25,7 +31,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-12-22-instali_raspbian.md:1
 #, no-wrap
-msgid "homa"
+msgid "auto"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
@@ -53,37 +59,37 @@ msgid "instalu _raspbian_ sur la _Raspberry_"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:11
+#: _posts/2020-12-22-instali_raspbian.md:12
 #, no-wrap
 msgid "Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. \n"
 msgstr ""
 
 #. type: Title #
-#: _posts/2020-12-22-instali_raspbian.md:13
+#: _posts/2020-12-22-instali_raspbian.md:14
 #, no-wrap
 msgid "Prepari la mikro-SD-karton."
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:16
+#: _posts/2020-12-22-instali_raspbian.md:17
 #, no-wrap
 msgid "En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:18
+#: _posts/2020-12-22-instali_raspbian.md:19
 #, no-wrap
 msgid "Se ĉi tio ne respondas al viaj deziroj, vi facile trovos aliajn metodojn en la interreto, ekzemple en la retejo <https://howtoraspberrypi.com/>.\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: _posts/2020-12-22-instali_raspbian.md:20
+#: _posts/2020-12-22-instali_raspbian.md:21
 #, no-wrap
 msgid "**akiru la plej novan version de _raspbian_ de la oficiala retejo:**\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:27
+#: _posts/2020-12-22-instali_raspbian.md:28
 #, no-wrap
 msgid ""
 "    ```bash\n"
@@ -94,13 +100,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: ' 2. '
-#: _posts/2020-12-22-instali_raspbian.md:29
+#: _posts/2020-12-22-instali_raspbian.md:30
 #, no-wrap
 msgid "**identigu la ĉeestantajn diskojn:**\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:36
+#: _posts/2020-12-22-instali_raspbian.md:37
 #, no-wrap
 msgid ""
 "    ```bash\n"
@@ -111,13 +117,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:38
+#: _posts/2020-12-22-instali_raspbian.md:39
 #, no-wrap
 msgid "    tiam identigu la vojon de la karto:\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:42
+#: _posts/2020-12-22-instali_raspbian.md:43
 #, no-wrap
 msgid ""
 "    ```bash\n"
@@ -127,25 +133,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:44
+#: _posts/2020-12-22-instali_raspbian.md:45
 #, no-wrap
 msgid "    **AVERTO** : kontrolu, ke ĉi tiu aparato ne ĉeestis antaŭe \\(vidu, kio montriĝis en paŝo 2\\) **!!!**\n"
 msgstr ""
 
 #. type: Bullet: ' 4. '
-#: _posts/2020-12-22-instali_raspbian.md:46
+#: _posts/2020-12-22-instali_raspbian.md:47
 #, no-wrap
 msgid "**skribu bildon al karto**\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:49
+#: _posts/2020-12-22-instali_raspbian.md:50
 #, no-wrap
 msgid "    Rulu la suban komandon, anstataŭigante _vojo\\_raspbian_ per la nomo notita en paŝo 1, kaj _vojo\\_karto_ kun la nomo notita en paŝo 3.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:54
+#: _posts/2020-12-22-instali_raspbian.md:55
 #, no-wrap
 msgid ""
 "    ```bash\n"
@@ -155,7 +161,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:59
+#: _posts/2020-12-22-instali_raspbian.md:60
 #, no-wrap
 msgid ""
 "    ```bash\n"
@@ -165,55 +171,55 @@ msgid ""
 msgstr ""
 
 #. type: Title #
-#: _posts/2020-12-22-instali_raspbian.md:61
+#: _posts/2020-12-22-instali_raspbian.md:62
 #, no-wrap
 msgid "unua komenco de _raspberry_"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:62
+#: _posts/2020-12-22-instali_raspbian.md:63
 #, no-wrap
 msgid "Konekti klavaron, muson kaj ekranon, enmeti mikro-SD-karton en _raspberry_.  \n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:64
+#: _posts/2020-12-22-instali_raspbian.md:65
 #, no-wrap
 msgid "Konekti la potencon al la _raspberry_.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:66
+#: _posts/2020-12-22-instali_raspbian.md:67
 #, no-wrap
 msgid "La _raspberry_ ekfunkciigas, kaj la agorda utileco startas. Lasu vin gvidi por agordi la landon, la pasvorton, la vifian reton.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:67
+#: _posts/2020-12-22-instali_raspbian.md:68
 #, no-wrap
 msgid "Mi konsilas al vi doni fiksan IP-adreson al via _raspberry_. Vi povas fari tion aŭ ĉe via DHCP-servilo, se vi havas, aŭ en la agordo de _raspberry_.  \n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:69
+#: _posts/2020-12-22-instali_raspbian.md:70
 #, no-wrap
 msgid "Por fari ĝin je la nivelo de _raspberry_, simple modifu la dosieron _/etc/dhcpcp.conf_, ekzemple per _nano_ :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: _posts/2020-12-22-instali_raspbian.md:70
+#: _posts/2020-12-22-instali_raspbian.md:71
 #, no-wrap
 msgid "sudo nano /etc/dhcpcd.conf\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:75
+#: _posts/2020-12-22-instali_raspbian.md:76
 #, no-wrap
 msgid "Poste vi devas modifi aŭ aldoni la agordon de la interfaco, kiu interesas vin (eth0 por la kabligita reto, wlan0 por la vifia-reto). Ekzemple, por atribui la IP-adreson 192.168.0.101 al reto kies enkursigilo estas 192.168.0.1:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: _posts/2020-12-22-instali_raspbian.md:76
+#: _posts/2020-12-22-instali_raspbian.md:77
 #, no-wrap
 msgid ""
 "interface eth0\n"
@@ -222,13 +228,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:82
+#: _posts/2020-12-22-instali_raspbian.md:83
 #, no-wrap
 msgid "Vi ankaŭ povas specifi la nomajn servilojn (DNS). \n"
 msgstr ""
 
 #. type: Fenced code block
-#: _posts/2020-12-22-instali_raspbian.md:83
+#: _posts/2020-12-22-instali_raspbian.md:84
 #, no-wrap
 msgid ""
 "interface eth0\n"
@@ -238,13 +244,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:90
+#: _posts/2020-12-22-instali_raspbian.md:91
 #, no-wrap
 msgid "se vi volas aliri la komandlinion malproksime, aktivigu ssh:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: _posts/2020-12-22-instali_raspbian.md:91
+#: _posts/2020-12-22-instali_raspbian.md:92
 #, no-wrap
 msgid ""
 "sudo systemctl start ssh\n"
@@ -252,19 +258,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:97
+#: _posts/2020-12-22-instali_raspbian.md:98
 #, no-wrap
 msgid "Por teni la _raspberry_ ĝustatempe, instalu ntp:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: _posts/2020-12-22-instali_raspbian.md:98
+#: _posts/2020-12-22-instali_raspbian.md:99
 #, no-wrap
 msgid "sudo apt install ntp\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:105
+#: _posts/2020-12-22-instali_raspbian.md:106
 #, no-wrap
 msgid ""
 "Se vi ne bezonas ĝin, forigo de:\n"

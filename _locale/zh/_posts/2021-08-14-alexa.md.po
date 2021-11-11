@@ -82,7 +82,7 @@ msgstr "更改与Alexa和自制的连接："
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "连接到接口：http：//地址_du_pi：8082（°3°3\n"
+msgstr "连接到接口：http：//地址_du_ pi：8082 \n"
 
 #. type: Bullet: '- '
 #: ./_posts/2021-08-14-alexa.md:20
@@ -103,7 +103,7 @@ msgstr "_Use Rooms for Alexa_ ：真\n"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "_domoticz_ ...:\n"
-msgstr "_domoticz_ ...：（°3°3\n"
+msgstr "_domoticz_  ...：\n"
 
 #. type: Bullet: '    - '
 #: ./_posts/2021-08-14-alexa.md:26

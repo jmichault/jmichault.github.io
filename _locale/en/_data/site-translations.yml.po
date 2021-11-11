@@ -39,7 +39,7 @@ msgstr "Choose your language"
 #, no-wrap
 #, fuzzy
 msgid "komentis "
-msgstr ""
+msgstr "commented"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang

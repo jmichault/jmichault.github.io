@@ -1,6 +1,7 @@
 ---
+komentoj_id: 4
 lang: eo
-lang-niv: homa
+lang-niv: auto
 lang-ref: instali_raspbian
 layout: post
 slug: 'instali raspbian'

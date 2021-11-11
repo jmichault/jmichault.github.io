@@ -6,15 +6,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-01-31 16:14+0100\n"
+"POT-Creation-Date: 2021-11-11 12:42+0100\n"
 "PO-Revision-Date: 2021-02-12 18:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.2.1\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2020-08-31-aparataro.md:1
+#, fuzzy
+msgid "2"
+msgstr "2"
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-08-31-aparataro.md:1
@@ -53,19 +59,19 @@ msgid "Matériel pour débuter."
 msgstr "Materialo por komenci."
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:10
+#: _posts/2020-08-31-aparataro.md:11
 #, no-wrap
 msgid "Les matériels pour le système domotique"
 msgstr "Materialoj por la hejma aŭtomatiga sistemo"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:13
+#: _posts/2020-08-31-aparataro.md:14
 #, no-wrap
 msgid "Voici le matériel que j'ai utilisé pour construire mon système domotique, permettant de contrôler des équipements 433 Mhz et des équipements zigbee.\n"
 msgstr "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:27
+#: _posts/2020-08-31-aparataro.md:28
 #, no-wrap
 msgid ""
 "|type|image|marque|modèle|prix indicatif|Pourquoi|\n"
@@ -97,19 +103,19 @@ msgstr ""
 "| | | | **totala prezo** | **75 €** | \n"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:30
+#: _posts/2020-08-31-aparataro.md:31
 #, no-wrap
 msgid "Les dispositifs à piloter."
 msgstr "La regotaj aparatoj."
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:33
+#: _posts/2020-08-31-aparataro.md:34
 #, no-wrap
 msgid "De nombreux appareils peuvent être contrôlés. Pour commencer, ces trois éléments me semblent particulièrement intéressants :\n"
 msgstr "Multaj aparatoj povas esti kontrolataj. Unue, ĉi tiuj tri elementoj ŝajnas al mi aparte interesaj:\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:40
+#: _posts/2020-08-31-aparataro.md:41
 #, no-wrap
 msgid ""
 "|type|technologie|image|marque|modèle|prix indicatif|Pourquoi|\n"

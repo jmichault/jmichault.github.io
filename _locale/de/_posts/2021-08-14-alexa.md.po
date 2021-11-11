@@ -103,7 +103,7 @@ msgstr "_Use Rooms for Alexa_ : True\n"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "_domoticz_ ...:\n"
-msgstr "_domoticz_ ...: (° 3 ° 3\n"
+msgstr "_domoticz_  ...: \n"
 
 #. type: Bullet: '    - '
 #: ./_posts/2021-08-14-alexa.md:26

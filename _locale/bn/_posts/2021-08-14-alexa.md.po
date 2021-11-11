@@ -82,7 +82,7 @@ msgstr "অ্যালেক্সা এবং সাদাসিধে সং
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "ইন্টারফেসে সংযুক্ত করুন: http: // ঠিকানা_du_PI: 8082 (° 3 ° 3\n"
+msgstr "ইন্টারফেসে সংযুক্ত করুন: http: // ঠিকানা _du_ PI: 8082 \n"
 
 #. type: Bullet: '- '
 #: ./_posts/2021-08-14-alexa.md:20
@@ -103,7 +103,7 @@ msgstr "_Use Rooms for Alexa_ : সত্য\n"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "_domoticz_ ...:\n"
-msgstr "_domoticz_ ...: (° 3 ° 3\n"
+msgstr "_domoticz_  ...: \n"
 
 #. type: Bullet: '    - '
 #: ./_posts/2021-08-14-alexa.md:26
@@ -169,7 +169,7 @@ msgid ""
 "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la "
 "aparatojn:\n"
 "\"konektita domo\" -> aparatoj -> detektas.\n"
-msgstr "এখন আপনি ইন্টারফেসে যেতে পারেন _https://alexa.amazon.fr/_ \nসংযুক্ত হাউস\"ডিভাইস -> ডিভাইস -> ডিভাইস - ° 7 ° 7) সনাক্ত করে।\n"
+msgstr "এখন আপনি ইন্টারফেসে যান  _https://alexa.amazon.fr/_  এবং ডিভাইসগুলি যুক্ত করতে পারেন: \n \" সংযুক্ত হাউস \" - >  ডিভাইস - >  সনাক্ত করে। .\n"
 
 #. type: Plain text
 #: ./_posts/2021-08-14-alexa.md:46

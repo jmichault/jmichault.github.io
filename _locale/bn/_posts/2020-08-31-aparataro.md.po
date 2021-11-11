@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-13 15:02+0100\n"
+"POT-Creation-Date: 2021-11-11 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+#, fuzzy
+msgid "2"
+msgstr "2."
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-08-31-aparataro.md:1
@@ -53,20 +60,21 @@ msgid "Materialo por komenci."
 msgstr "শুরু করার জন্য উপাদান।"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:10
+#: _posts/2020-08-31-aparataro.md:11
 #, fuzzy, no-wrap
 msgid "Materialoj por la hejma aŭtomatiga sistemo"
 msgstr "হোম অটোমেশন সিস্টেমের জন্য উপকরণ"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:13
+#: _posts/2020-08-31-aparataro.md:14
 #, fuzzy, no-wrap
 msgid "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
 msgstr "433 মেগাহার্টজ সরঞ্জাম এবং জিগবি সরঞ্জামগুলি নিয়ন্ত্রণ করার অনুমতি দিয়ে আমি আমার হোম অটোমেশন সিস্টেমটি তৈরি করতে ব্যবহৃত সামগ্রীটি এখানে।\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:27
-#, fuzzy, no-wrap
+#: _posts/2020-08-31-aparataro.md:28
+#, no-wrap
+#, fuzzy
 msgid ""
 "| tipo | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
@@ -81,34 +89,22 @@ msgid ""
 "| ŝirmado | | | Folio de aluminia folio enmetita en paperfolion falditan en duonon | 0 € | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_. |\n"
 "| USB-bastono _Zigbee_ kaj kablo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | ŝlosilo _zigbee_ kaj elŝuta kablo por CC |\n"
 "| | | | **totala prezo** | **75 €** | \n"
-msgstr ""
-"| প্রকার | ছবি | চিহ্ন | মডেল | সূচক মূল্য | কেন |\n"
-"| --- | --- | --- | --- | --- | --- | \n"
-"| কম্পিউটার |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35। | কোনও পাখা, সস্তা, জিপিও, ওয়াইফাই, ল্যান আরজে 45 নেই\n"
-"| কম্পিউটার কেস |![](/public/loĝejo.jpg) | _Aukru_ | | 7। | _raspberry-pi3_ এর জন্য যে কোনও কম্পিউটার কেস উপযুক্ত। আপনার পছন্দেরটিকে বেছে নিন।\n"
-"| বর্তমান উত্স |![](/public/elektroprovizo.jpg) | _Konky_ | | 10। | যখন আমার বিশেষ \" _raspberry-pi3_\"খুব দুর্বল প্রমাণিত হয়েছিল, আমি সফলভাবে এটির সাথে এটি প্রতিস্থাপন করেছি। অন্যান্য অনেক মডেল উপযুক্ত।\n"
-"| ইউএসবি কেবল | | | ইউএসবি থেকে মাইক্রো ইউএসবি | 2 € | _raspberry-pi3_ বিদ্যুৎ সরবরাহের সাথে সংযুক্ত করতে\n"
-"| মাইক্রো এসডি কার্ড |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11। | পাইটির একটি মানের কার্ড দরকার, এটি একটি সুপরিচিত ব্র্যান্ডের কার্ড ব্যবহার করার জন্য অত্যন্ত সুপারিশযুক্ত। |\n"
-"| দ্বৈত তারের |![](/public/dupont.jpg) | _SODIAL_ | মহিলা মহিলা ডুপ্লেক্স তারগুলি। 068187 | 2 € | 433 মেগাহার্টজ ডিভাইস এবং ফ্ল্যাশ জিগবি ইউএসবি কী সংযোগ করতে\n"
-"| ট্রান্সমিটার + রিসিভার |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 € | 433mhz সুপারহিটেরোডিন ট্রান্সমিটার + রিসিভার |\n"
-"| কেবল | | || 0 € | একটি অ্যান্টেনা তৈরি করতে তার একটি টুকরো। উদাহরণস্বরূপ, একটি পুরানো 3 মিটার নেটওয়ার্ক কেবল\n"
-"| রক্ষা | | | অর্ধেক ভাঁজ করা কাগজের একটি শীটে অ্যালুমিনিয়াম ফয়েল একটি শীট .োকানো | 0 € | _raspberry-pi3_দ্বারা উত্পন্ন হস্তক্ষেপ থেকে 433 মেগাহার্টজ রিসিভারকে রক্ষা করতে। |\n"
-"| ইউএসবি স্টিক _Zigbee_ এবং তার |![](/public/cc2531+kablo.jpg) | | সিসি 2531 | 6। | কী _zigbee_ এবং সিসির জন্য তারের ডাউনলোড করুন (° 57।) | | | | **মোট দাম** | **75 €** | \n"
+msgstr "| টাইপ করুন | ভাবমূর্তি ছাপ মডেল পরিচায়ক মূল্য কেন | \n থেকে | --- | --- | --- | --- | --- | --- |  \n | কম্পিউটার ![ ](/public/pi.jpg)  |  _raspberry_  | PI3B + + | € 35 | কোন পাখা, সস্তা রয়েছে জিপিও, ওয়াইফাই, ল্যান RJ45 | \n | কম্পিউটার ধারক | ![ ](/public/loĝejo.jpg)  |  _Aukru_  | | € 7 |  _raspberry-pi3_  জন্য কিছু কম্পিউটার ধারক উপযুক্ত। এক আপনি পছন্দ নির্বাচন করুন। \n | বর্তমান উৎস ![ ](/public/elektroprovizo.jpg)  |  _Konky_  | | € 10 | আমার বিশেষ  \"  _raspberry-pi3_ \" প্রমাণিত হলে খুবই দুর্বল হবে, আমি সফলভাবে এই এক সঙ্গে এটি প্রতিস্থাপন করা হয়। অন্য অনেক মডেল মাপসই করা হবে। \n | USB তারের | | মাইক্রো USB থেকে ইউএসবি € 2  _raspberry-pi3_  যুক্ত হতে শক্তি সরবরাহে \n | মাইক্রো এসডি কার্ড ![ ](/public/SD.jpg)  |  _sandisk_  | SDSQUAR-032G-GN6MA | € 11 | পি একটি মান কার্ড, এটা অত্যন্ত সুপরিচিত ব্র্যান্ড কার্ড ব্যবহার করতে সুপারিশ করা হচ্ছে প্রয়োজন। | \n | Ducent তারের ![ ](/public/dupont.jpg)  |  _SODIAL_  | মহিলা-পুরুষ ডাম্পিং তারের। 068187 | € 2 433 MHz -এ ডিভাইস এবং বাজ ZigBee USB কী যুক্ত হতে \n | ট্রান্সমিটার + + রিসিভার ![ ](/public/dissendilo-ricevilo-433Mhz.jpg)  | | WL101-341 + + WL102-341 | € 2 433Mhz-superheterodine ট্রান্সমিটার + + রিসিভার \n | কেবল | || € 0 | তারের একটি অংশ একটি এন্টেনা তৈরি করুন। উদাহরণস্বরূপ, একটি পুরানো 3-মিটার ওয়েব গাড়ি। \n | শিল্ড | | অ্যালুমিনিয়াম পাতার পাতার একটি লিফলেট ঢোকানো অর্ধেক গুটান € 0 |  _raspberry-pi3_ দ্বারা উত্পন্ন হস্তক্ষেপ বিরুদ্ধে 433 MHz -এ রিসিভার রক্ষা করার জন্য। | \n | USB স্টিক  _Zigbee_  এবং কেবল ![ ](/public/cc2531+kablo.jpg)  | | CC2531 | € 6 | কী  _zigbee_  এবং ডাউনলোড সিসি জন্য তারের \n | | | |  ** মোট মূল্য **  |  ** € 75 **  |  \n"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:30
+#: _posts/2020-08-31-aparataro.md:31
 #, fuzzy, no-wrap
 msgid "La regotaj aparatoj."
 msgstr "নিয়ন্ত্রণ ডিভাইস।"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:33
+#: _posts/2020-08-31-aparataro.md:34
 #, fuzzy, no-wrap
 msgid "Multaj aparatoj povas esti kontrolataj. Unue, ĉi tiuj tri elementoj ŝajnas al mi aparte interesaj:\n"
 msgstr "অনেকগুলি ডিভাইস নিয়ন্ত্রণ করা যায়। প্রথমত, এই তিনটি উপাদান আমার কাছে বিশেষ আকর্ষণীয় বলে মনে হচ্ছে:\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:40
+#: _posts/2020-08-31-aparataro.md:41
 #, fuzzy, no-wrap
 msgid ""
 "| tipo | teknologio | bildo | marko | modelo | indika prezo | Kial |\n"

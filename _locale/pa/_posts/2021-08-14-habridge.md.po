@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:34+0200\n"
+"POT-Creation-Date: 2021-11-11 12:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,114 +17,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./_posts/2021-08-14-habridge.md:1
+#: _posts/2021-08-14-habridge.md:1
 #, no-wrap
 msgid "eo"
 msgstr "pa"
 
 #. type: YAML Front Matter: lang-niv
-#: ./_posts/2021-08-14-habridge.md:1
+#: _posts/2021-08-14-habridge.md:1
 #, no-wrap
 msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2021-08-14-habridge.md:1
+#: _posts/2021-08-14-habridge.md:1
 #, no-wrap
 msgid "habridge"
 msgstr "habridge"
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2021-08-14-habridge.md:1
+#: _posts/2021-08-14-habridge.md:1
 #, no-wrap
 msgid "post"
 msgstr "post"
 
 #. type: YAML Front Matter: slug
-#: ./_posts/2021-08-14-habridge.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:1
+#, fuzzy, no-wrap
 msgid "_ha-bridge_"
 msgstr "_ha-bridge_"
 
 #. type: YAML Front Matter: title
-#: ./_posts/2021-08-14-habridge.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:1
+#, fuzzy, no-wrap
 msgid "Ligilo _Domoticz-Alexa_ : _ha-bridge_"
 msgstr "ਲਿੰਕ _Domoticz-Alexa_ : _ha-bridge_"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:11
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-" _ha-bridge_ estas programaro, kiu simulas ponton _zigbee Philips Hue_ en "
-"via  komputilo.\n"
+#: _posts/2021-08-14-habridge.md:11
+#, fuzzy, no-wrap
+msgid " _ha-bridge_ estas programaro, kiu simulas ponton _zigbee Philips Hue_ en via  komputilo.\n"
 msgstr " _ha-bridge_ ਇੱਕ ਸਾੱਫਟਵੇਅਰ ਹੈ ਜੋ ਤੁਹਾਡੇ ਕੰਪਿ on ਟਰ ਤੇ ਇੱਕ ਬ੍ਰਿਜ _zigbee Philips Hue_ ) ਦੀ ਨਕਲ ਕਰਦਾ ਹੈ.\n"
 
 #. type: Title ##
-#: ./_posts/2021-08-14-habridge.md:13
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:13
+#, fuzzy, no-wrap
 msgid "instalado de _ha-bridge_"
 msgstr " _ha-bridge_ਦੀ ਸਥਾਪਨਾ"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:15
-#, markdown-text, no-wrap
+#: _posts/2021-08-14-habridge.md:15
+#, no-wrap
 #, fuzzy
-msgid "Ni instalos kun la antaŭe kreita uzanto _domoticz_ .\n"
-msgstr "ਅਸੀਂ ਪਿਛਲੇ ਬਣਾਏ ਗਏ ਉਪਭੋਗਤਾ _domoticz_ ਨਾਲ ਸਥਾਪਿਤ ਕਰਾਂਗੇ.\n"
+msgid "Ni instalos kun la uzanto  _domotiko_  antaŭe kreita. \n"
+msgstr "ਅਸੀਂ ਉਪਭੋਗਤਾ   _domotiko_   ਤੋਂ ਪਹਿਲਾਂ ਬਣਾਏ ਹੋਏ ਬਣਾਵਾਂਗੇ.  \n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:19
-#, markdown-text, no-wrap
+#: _posts/2021-08-14-habridge.md:19
+#, no-wrap
 #, fuzzy
 msgid ""
-"antaŭkondiĉoj:\n"
-"* la uzanto _domoticz_ devas ekzisti.\n"
-"* _java_ >= 8 devas esti instalita.\n"
-msgstr "ਜ਼ਰੂਰੀ ਸ਼ਰਤਾਂ:\n\nਉਪਭੋਗਤਾ _domoticz_ ਜ਼ਰੂਰ ਮੌਜੂਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ.\n"
+"Antaŭkondiĉoj: \n"
+" *  La uzanto  _domotiko_  devas ekzisti. \n"
+" *  _java_  > = 8 devas esti instalita. \n"
+msgstr "ਜ਼ਰੂਰੀ ਸ਼ਰਤਾਂ:  \n  *   ਉਪਭੋਗਤਾ> ਮੌਜੂਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ.  \n  *   _java_   >  = 8 ਲਾਜ਼ਮੀ ਤੌਰ 'ਤੇ ਸਥਾਪਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ.  \n"
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-08-14-habridge.md:20
+#: _posts/2021-08-14-habridge.md:20
 #, no-wrap
 msgid ""
-"sudo su - domoticz\n"
+"sudo su - domotiko\n"
 "mkdir ha-bridge\n"
 "cd ha-bridge\n"
-"wget "
-"https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar "
-"-O ha-bridge.jar\n"
+"wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
 "exit\n"
 msgstr ""
-"sudo su - domoticz\n"
+"sudo su - domotiko\n"
 "mkdir ha-bridge\n"
 "cd ha-bridge\n"
-"wget "
-"https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar "
-"-O ha-bridge.jar\n"
+"wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
 "exit\n"
 
 #. type: Title ##
-#: ./_posts/2021-08-14-habridge.md:29
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:29
+#, fuzzy, no-wrap
 msgid "kreante la servon:"
 msgstr "ਸੇਵਾ ਬਣਾਉਣਾ:"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:31
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"Defaŭlte _ha-bridge_ aŭskultas ĉe la haveno 80, jam uzata de _apache_, ni "
-"igos ĝin aŭskulti ĉe la haveno 8082 por redukti la riskon de konflikto.\n"
+#: _posts/2021-08-14-habridge.md:31
+#, fuzzy, no-wrap
+msgid "Defaŭlte _ha-bridge_ aŭskultas ĉe la haveno 80, jam uzata de _apache_, ni igos ĝin aŭskulti ĉe la haveno 8082 por redukti la riskon de konflikto.\n"
 msgstr "ਡਿਫਾਲਟ _ha-bridge_ ਪੋਰਟ 80 'ਤੇ ਸੁਣੋ, ਪਹਿਲਾਂ ਹੀ _apache_ਦੁਆਰਾ, ਟਕਰਾਅ ਦੇ ਜੋਖਮ ਨੂੰ ਘਟਾਉਣ ਲਈ 8082 ਪੋਰਟ ਨੂੰ ਸੁਣੋਗੇ.\n"
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-08-14-habridge.md:32
+#: _posts/2021-08-14-habridge.md:32
 #, no-wrap
 msgid ""
 "sudo bash\n"
@@ -138,15 +124,13 @@ msgid ""
 "[Service]\n"
 "Type=simple\n"
 "\n"
-"WorkingDirectory=/home/domoticz/ha-bridge\n"
-"ExecStart=/usr/bin/java -jar -Dserver.port=8082 "
-"-Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config "
-"/home/domoticz/ha-bridge/ha-bridge.jar\n"
-"User=domoticz\n"
-"RuntimeDirectory=domoticz\n"
-"LogsDirectory=domoticz\n"
+"WorkingDirectory=/home/domotiko/ha-bridge\n"
+"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domotiko/ha-bridge/data/habridge.config /home/domotiko/ha-bridge/ha-bridge.jar\n"
+"User=domotiko\n"
+"RuntimeDirectory=domotiko\n"
+"LogsDirectory=domotiko\n"
 "Restart=on-abort\n"
-"PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+"PIDFile=/var/run/domotiko/ha-bridge.pid\n"
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target\n"
@@ -167,15 +151,13 @@ msgstr ""
 "[Service]\n"
 "Type=simple\n"
 "\n"
-"WorkingDirectory=/home/domoticz/ha-bridge\n"
-"ExecStart=/usr/bin/java -jar -Dserver.port=8082 "
-"-Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config "
-"/home/domoticz/ha-bridge/ha-bridge.jar\n"
-"User=domoticz\n"
-"RuntimeDirectory=domoticz\n"
-"LogsDirectory=domoticz\n"
+"WorkingDirectory=/home/domotiko/ha-bridge\n"
+"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domotiko/ha-bridge/data/habridge.config /home/domotiko/ha-bridge/ha-bridge.jar\n"
+"User=domotiko\n"
+"RuntimeDirectory=domotiko\n"
+"LogsDirectory=domotiko\n"
 "Restart=on-abort\n"
-"PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+"PIDFile=/var/run/domotiko/ha-bridge.pid\n"
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target\n"
@@ -186,58 +168,51 @@ msgstr ""
 "sudo systemctl enable ha-bridge.service\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:62
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:62
+#, fuzzy, no-wrap
 msgid "Ha-ponto nun estas alirebla pri: http: // adreson_du_PI: 8082 /\n"
 msgstr "ਹਾ-ਬਰਿੱਜ ਹੁਣ ਪਹੁੰਚਯੋਗ ਹੈ: http: // ਪਤਾ_du_pi: 8082 /\n"
 
 #. type: Title #
-#: ./_posts/2021-08-14-habridge.md:63
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:63
+#, fuzzy, no-wrap
 msgid "Laŭvola sed rekomendita: Agordu uzanton."
 msgstr "ਅਖ਼ਤਿਆਰੀ ਪਰ ਸਿਫਾਰਸ਼: ਉਪਭੋਗਤਾ ਸੈਟ ਅਪ ਕਰੋ."
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:67
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:67
+#, fuzzy, no-wrap
 msgid ""
 "Konekti al la interfaco: http: // adreson_du_PI: 8082\n"
 "Ponto Kontrolo-langeto:\n"
 "Alklaku _«Update Security Settings»_\n"
-msgstr "ਇੰਟਰਫੇਸ ਨਾਲ ਜੁੜੋ: http: // ਸਿਰਨਾਵਾਂ_du_ਪੀਆਈ: 8082\nਤੇ ਕਲਿਕ ਕਰੋ _«Update Security Settings»_\n"
+msgstr ""
+"ਇੰਟਰਫੇਸ ਨਾਲ ਜੁੜੋ: http: // ਸਿਰਨਾਵਾਂ_du_ਪੀਆਈ: 8082\n"
+"ਤੇ ਕਲਿਕ ਕਰੋ _«Update Security Settings»_\n"
 
 #. type: Title #
-#: ./_posts/2021-08-14-habridge.md:68
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:68
+#, fuzzy, no-wrap
 msgid "Agordu _apache_ por relaja haveno 80 al la 8082-haveno"
 msgstr "ਰੀਲੇਅ ਪੋਰਟ 80 ਲਈ 8082 ਪੋਰਟ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰੋ _apache_ "
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:71
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:71
+#, fuzzy, no-wrap
 msgid ""
-"_Google Home_ kaj _Alexa_ postulas, ke la ponto renkontos la 80-a havenon "
-"80.\n"
-"ni uzos la prokurajn funkciojn de _apache_ por redirekti la URL-ojn pri "
-"Ha-Ponto al la Port 8082 .\n"
+"_Google Home_ kaj _Alexa_ postulas, ke la ponto renkontos la 80-a havenon 80.\n"
+"ni uzos la prokurajn funkciojn de _apache_ por redirekti la URL-ojn pri Ha-Ponto al la Port 8082 .\n"
 msgstr "_Google Home_ ਪੋਰਟ 8082 ਨੂੰ.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:73
-#, markdown-text, no-wrap
+#: _posts/2021-08-14-habridge.md:73
+#, no-wrap
 #, fuzzy
-msgid ""
-"La necesaj moduloj estas aktivigitaj kaj lanĉis la redaktilon _nano_ por "
-"ŝanĝi la defaŭltan retejan agordon:\n"
-msgstr "ਜ਼ਰੂਰੀ ਮੋਡੀ ules ਲ ਸਰਗਰਮ ਹਨ ਅਤੇ ਡਿਫਾਲਟ ਵੈਬਸਾਈਟ ਕੌਂਫਿਗਰੇਸ਼ਨ ਨੂੰ ਬਦਲਣ ਲਈ ਸੰਪਾਦਕ _nano_ ਦੀ ਸ਼ੁਰੂਆਤ ਕੀਤੀ ਗਈ ਹੈ: (3 ° 3\n"
+msgid "La necesaj moduloj estas aktivigitaj kaj lanĉis la redaktilon _nano_ por ŝanĝi la defaŭltan retejan agordon:\n"
+msgstr "ਜ਼ਰੂਰੀ ਮੈਡੀਕਲ ਸਰਗਰਮ ਕੀਤੇ ਗਏ ਹਨ ਅਤੇ ਐਡੀਟਰ ਨੂੰ ਬਦਲਿਆ ਗਿਆ ਹੈ  _nano_  ਮੂਲ ਵੈੱਬ ਸਾਈਟ ਸੈਟਿੰਗਜ਼ ਬਦਲਣ ਲਈ: \n"
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-08-14-habridge.md:74
+#: _posts/2021-08-14-habridge.md:74
 #, no-wrap
 msgid ""
 "sudo a2enmod proxy proxy_http headers\n"
@@ -247,16 +222,14 @@ msgstr ""
 "sudo nano /etc/apache2/sites-enabled/000-default.conf\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:80
-#, markdown-text, no-wrap
+#: _posts/2021-08-14-habridge.md:80
+#, no-wrap
 #, fuzzy
-msgid ""
-"En la redaktilo, nun necesas aldoni la liniojn sube post la linio "
-"'<VirtuadHost *: 80>':\n"
-msgstr "ਸੰਪਾਦਕ ਵਿੱਚ, ਹੁਣ ਲਾਈਨ \"<ਤੋਂ ਬਾਅਦ ਦੀਆਂ ਲਾਈਨਾਂ ਨੂੰ ਜੋੜਨਾ ਜ਼ਰੂਰੀ ਹੈ\">: 8 ° 4 ° 4 °)\n"
+msgid "En la redaktilo, nun necesas aldoni la liniojn sube post la linio '<VirtuadHost *: 80>':\n"
+msgstr "ਸੰਪਾਦਕ ਵਿੱਚ, ਹੁਣ ਤੁਹਾਨੂੰ ਲਾਈਨ '< ਗੁਣਾਂਕ  *: 80 >' ਲਾਈਨ ਦੇ ਹੇਠਾਂ ਲਾਈਨਾਂ ਜੋੜਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ: \n"
 
 #. type: Fenced code block
-#: ./_posts/2021-08-14-habridge.md:80
+#: _posts/2021-08-14-habridge.md:80
 #, no-wrap
 msgid ""
 "        ProxyPass         /api  http://localhost:8082/api nocanon\n"
@@ -265,8 +238,7 @@ msgid ""
 "        AllowEncodedSlashes NoDecode\n"
 "\n"
 "        # Local reverse proxy authorization override\n"
-"        # Most unix distribution deny proxy by default (ie "
-"/etc/apache2/mods-enabled/proxy.conf in Ubuntu)\n"
+"        # Most unix distribution deny proxy by default (ie /etc/apache2/mods-enabled/proxy.conf in Ubuntu)\n"
 "        <Proxy http://localhost:8082/api*>\n"
 "                  Order deny,allow\n"
 "                  Allow from all\n"
@@ -278,29 +250,26 @@ msgstr ""
 "        AllowEncodedSlashes NoDecode\n"
 "\n"
 "        # Local reverse proxy authorization override\n"
-"        # Most unix distribution deny proxy by default (ie "
-"/etc/apache2/mods-enabled/proxy.conf in Ubuntu)\n"
+"        # Most unix distribution deny proxy by default (ie /etc/apache2/mods-enabled/proxy.conf in Ubuntu)\n"
 "        <Proxy http://localhost:8082/api*>\n"
 "                  Order deny,allow\n"
 "                  Allow from all\n"
 "        </Proxy>\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:94
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:94
+#, fuzzy, no-wrap
 msgid "Konservu la dosieron per _Ctrl-X_\n"
 msgstr "ਫਾਈਲ ਨੂੰ _Ctrl-X_ਨਾਲ ਸੇਵ ਕਰੋ\n"
 
 #. type: Bullet: '(1) '
-#: ./_posts/2021-08-14-habridge.md:96
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:96
+#, fuzzy, no-wrap
 msgid "estas aktivigita, kaj stimulita:\n"
 msgstr "ਕਿਰਿਆਸ਼ੀਲ ਹੈ, ਅਤੇ ਉਤੇਜਿਤ ਕੀਤਾ ਗਿਆ ਹੈ:\n"
 
 #. type: Fenced code block (bash)
-#: ./_posts/2021-08-14-habridge.md:96
+#: _posts/2021-08-14-habridge.md:96
 #, no-wrap
 msgid ""
 "sudo systemctl enable apache2\n"
@@ -312,59 +281,51 @@ msgstr ""
 "sudo systemctl start apache2\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:104
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:104
+#, fuzzy, no-wrap
 msgid ""
 "Vi nun povas agordi la ligon _Alexa-Domoticz_ : vidu artikolon\n"
 "[Amazona Alexa](2021-08-14-alexa.md)\n"
-msgstr "ਤੁਸੀਂ ਹੁਣ ਲਿੰਕ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰ ਸਕਦੇ ਹੋ _Alexa-Domoticz_ : ਲੇਖ ਵੇਖੋ\n[ਐਲੀਕਲ](2021-08-14-alexa.md)\n"
+msgstr ""
+"ਤੁਸੀਂ ਹੁਣ ਲਿੰਕ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰ ਸਕਦੇ ਹੋ _Alexa-Domoticz_ : ਲੇਖ ਵੇਖੋ\n"
+"[ਐਲੀਕਲ](2021-08-14-alexa.md)\n"
 
 #. type: Title #
-#: ./_posts/2021-08-14-habridge.md:105
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:105
+#, fuzzy, no-wrap
 msgid "Noto:"
 msgstr "ਨੋਟ:"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:107
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:107
+#, fuzzy, no-wrap
 msgid "Post migrado de _pi_ al _bullseye_, _apache_ ne komenciĝis ĉe lanĉo.\n"
 msgstr " _pi_ ਦੇ ਪਰਵਾਸ ਤੋਂ ਬਾਅਦ _bullseye_ਤੋਂ _bullseye_ਲਾਂਚ ਸ਼ੁਰੂ ਹੋਣ 'ਤੇ ਸ਼ੁਰੂ ਨਹੀ ਕੀਤਾ ਗਿਆ.\n"
 
 #. type: Fenced code block
-#: ./_posts/2021-08-14-habridge.md:107
+#: _posts/2021-08-14-habridge.md:107
 #, no-wrap
 msgid ""
-"Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested "
-"address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
-"Sep 23 17:45:24 localhost apachectl[500]: no listening sockets available, "
-"shutting down\n"
+"Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
+"Sep 23 17:45:24 localhost apachectl[500]: no listening sockets available, shutting down\n"
 "Sep 23 17:45:24 localhost apachectl[500]: AH00015: Unable to open logs\n"
 "Sep 23 17:45:24 localhost apachectl[449]: Action 'start' failed.\n"
-"Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more "
-"information.\n"
+"Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more information.\n"
 msgstr ""
-"Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested "
-"address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
-"Sep 23 17:45:24 localhost apachectl[500]: no listening sockets available, "
-"shutting down\n"
+"Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
+"Sep 23 17:45:24 localhost apachectl[500]: no listening sockets available, shutting down\n"
 "Sep 23 17:45:24 localhost apachectl[500]: AH00015: Unable to open logs\n"
 "Sep 23 17:45:24 localhost apachectl[449]: Action 'start' failed.\n"
-"Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more "
-"information.\n"
+"Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more information.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:116
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:116
+#, fuzzy, no-wrap
 msgid "Manlibro kun `sudo systemctl start apache2` marŝis sen problemo.\n"
 msgstr " `sudo systemctl start apache2` ਨਾਲ ਮੈਨੂਅਲ `sudo systemctl start apache2` ਬਿਨਾਂ ਕਿਸੇ ਸਮੱਸਿਆ ਦੇ ਚਲਿਆ ਗਿਆ.\n"
 
 #. type: Fenced code block
-#: ./_posts/2021-08-14-habridge.md:116
+#: _posts/2021-08-14-habridge.md:116
 #, no-wrap
 msgid ""
 "Restart=on-failure\n"
@@ -374,11 +335,91 @@ msgstr ""
 "RestartSec=10\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-habridge.md:122
-#, markdown-text, no-wrap
-#, fuzzy
-msgid ""
-"Nun la unua komenco de _apache_ malsukcesas, sed dua provo aŭtomate sukcesas "
-"10 sekundojn poste.\n"
+#: _posts/2021-08-14-habridge.md:122
+#, fuzzy, no-wrap
+msgid "Nun la unua komenco de _apache_ malsukcesas, sed dua provo aŭtomate sukcesas 10 sekundojn poste.\n"
 msgstr "ਹੁਣ _apache_ ਫੇਲ੍ਹ ਹੋਣ ਦਾ ਪਹਿਲਾ ਅਰੰਭ ਹੁੰਦਾ ਹੈ, ਪਰ ਦੂਜੀ ਕੋਸ਼ਿਸ਼ ਆਪਣੇ ਆਪ 10 ਸਕਿੰਟ ਬਾਅਦ ਹੁੰਦਾ ਹੈ.\n"
 
+#, fuzzy
+#~ msgid "Ni instalos kun la antaŭe kreita uzanto _domoticz_ .\n"
+#~ msgstr "ਅਸੀਂ ਪਿਛਲੇ ਬਣਾਏ ਗਏ ਉਪਭੋਗਤਾ _domoticz_ ਨਾਲ ਸਥਾਪਿਤ ਕਰਾਂਗੇ.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "antaŭkondiĉoj:\n"
+#~ "* la uzanto _domoticz_ devas ekzisti.\n"
+#~ "* _java_ >= 8 devas esti instalita.\n"
+#~ msgstr ""
+#~ "ਜ਼ਰੂਰੀ ਸ਼ਰਤਾਂ:\n"
+#~ "\n"
+#~ "ਉਪਭੋਗਤਾ _domoticz_ ਜ਼ਰੂਰ ਮੌਜੂਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ.\n"
+
+#, no-wrap
+#~ msgid ""
+#~ "sudo su - domoticz\n"
+#~ "mkdir ha-bridge\n"
+#~ "cd ha-bridge\n"
+#~ "wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
+#~ "exit\n"
+#~ msgstr ""
+#~ "sudo su - domoticz\n"
+#~ "mkdir ha-bridge\n"
+#~ "cd ha-bridge\n"
+#~ "wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
+#~ "exit\n"
+
+#, no-wrap
+#~ msgid ""
+#~ "sudo bash\n"
+#~ "cat > /etc/systemd/system/ha-bridge.service <<!\n"
+#~ "\n"
+#~ "[Unit]\n"
+#~ "Description=HA Bridge\n"
+#~ "Wants=network.target\n"
+#~ "After=network.target\n"
+#~ "\n"
+#~ "[Service]\n"
+#~ "Type=simple\n"
+#~ "\n"
+#~ "WorkingDirectory=/home/domoticz/ha-bridge\n"
+#~ "ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config /home/domoticz/ha-bridge/ha-bridge.jar\n"
+#~ "User=domoticz\n"
+#~ "RuntimeDirectory=domoticz\n"
+#~ "LogsDirectory=domoticz\n"
+#~ "Restart=on-abort\n"
+#~ "PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+#~ "\n"
+#~ "[Install]\n"
+#~ "WantedBy=multi-user.target\n"
+#~ "!\n"
+#~ "\n"
+#~ "sudo systemctl daemon-reload\n"
+#~ "sudo systemctl start ha-bridge.service\n"
+#~ "sudo systemctl enable ha-bridge.service\n"
+#~ msgstr ""
+#~ "sudo bash\n"
+#~ "cat > /etc/systemd/system/ha-bridge.service <<!\n"
+#~ "\n"
+#~ "[Unit]\n"
+#~ "Description=HA Bridge\n"
+#~ "Wants=network.target\n"
+#~ "After=network.target\n"
+#~ "\n"
+#~ "[Service]\n"
+#~ "Type=simple\n"
+#~ "\n"
+#~ "WorkingDirectory=/home/domoticz/ha-bridge\n"
+#~ "ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config /home/domoticz/ha-bridge/ha-bridge.jar\n"
+#~ "User=domoticz\n"
+#~ "RuntimeDirectory=domoticz\n"
+#~ "LogsDirectory=domoticz\n"
+#~ "Restart=on-abort\n"
+#~ "PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+#~ "\n"
+#~ "[Install]\n"
+#~ "WantedBy=multi-user.target\n"
+#~ "!\n"
+#~ "\n"
+#~ "sudo systemctl daemon-reload\n"
+#~ "sudo systemctl start ha-bridge.service\n"
+#~ "sudo systemctl enable ha-bridge.service\n"

@@ -5,6 +5,7 @@ lang-ref: instali-domoticz
 layout: post
 slug: 'Installer domoticz.'
 title: 'Installer domoticz.'
+komentoj_id: 3
 ---
 
 Voici un exemple d'installation domoticz sous raspbian.
@@ -12,15 +13,15 @@ Voici un exemple d'installation domoticz sous raspbian.
 Nous commençons par créer un utilisateur dédié, puis nous installons domoticz:
 ```bash
 sudo bash
-adduser domoticz
-cd /home/domoticz
+adduser domotiko
+cd /home/domotiko
 curl -sSL install.domoticz.com | bash
 ```
 Appuyez sur Entrée lorsque la présentation s'affiche ( _\<OK>_ est le seul choix).  
 Choix des services: laissez _http_ et _https_ cochés, allez sur _OK_, appuyez sur Entrée.  
 _«HTTP Port number:»_ laissez 8080, allez sur _OK_, appuyez sur Entrée.  
 _«HTTPS Port number:»_ mettez 8443, allez à _OK_, Entrée.  
-_«Installation Folder:»_ mettre _/home/domoticz/domoticz_, allez à _OK_, Entrée.  
+_«Installation Folder:»_ mettre _/home/domotiko/domoticz_, allez à _OK_, Entrée.  
 _«Installation Complete!»_  , Entrée.
 
 
@@ -32,21 +33,21 @@ echo "[Unit]
 Description=domoticz
 
 [Service]
-ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid
-User=domoticz
-RuntimeDirectory=domoticz
-LogsDirectory=domoticz
+ExecStart=/home/domotiko/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domotiko/domoticz.pid
+User=domotiko
+RuntimeDirectory=domotiko
+LogsDirectory=domotiko
 Restart=on-abort
-PIDFile=/var/run/domoticz/domoticz.pid
+PIDFile=/var/run/domotiko/domoticz.pid
 
 [Install]
 WantedBy=multi-user.target
 " >/etc/systemd/system/domoticz.service
-echo "domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service
+echo "domotiko ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service
 " >/etc/sudoers.d/010_domoticz
 chmod 440 /etc/sudoers.d/010_domoticz
 systemctl daemon-reload
-chown -R domoticz.domoticz domoticz
+chown -R domotiko.domotiko domoticz
 systemctl enable domoticz
 systemctl start domoticz
 ```

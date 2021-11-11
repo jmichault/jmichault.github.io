@@ -1,4 +1,5 @@
 ---
+komentoj_id: 2.
 lang: ja
 lang-niv: auto
 lang-ref: aparataro

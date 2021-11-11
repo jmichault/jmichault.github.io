@@ -1,4 +1,5 @@
 ---
+komentoj_id: 4.
 lang: pt
 lang-niv: auto
 lang-ref: instali_raspbian
@@ -102,6 +103,7 @@ Para manter o _raspberry_ dentro do prazo, instale o ntp:
 sudo apt install ntp
 ```
 
-Se você não precisar, remoção de:
-Purge APT Wolfram-motor WolframScript LibreOffice*
-Apt pure tudo (° 5 ° 5 ° 5 ° 5 °
+Se você não precisar, remoção de: 
+ purga apt wolfram motor wolframscript LibreOffice * 
+ APT AUTÉMOVE 
+ apt puro tudo 

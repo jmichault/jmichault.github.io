@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-09-23 22:19+0200\n"
+"POT-Creation-Date: 2021-11-11 12:42+0100\n"
 "PO-Revision-Date: 2021-09-23 22:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -66,33 +66,33 @@ msgstr "instalado de _ha-bridge_"
 
 #. type: Plain text
 #: _posts/2021-08-14-habridge.md:15
-#, no-wrap
-msgid "On va installer avec l'utilisateur _domoticz_ précédemment créé.\n"
-msgstr "Ni instalos kun la antaŭe kreita uzanto _domoticz_ .\n"
+#, fuzzy
+msgid "On va installer avec l'utilisateur _domotiko_ précédemment créé.\n"
+msgstr "Ni instalos kun la uzanto  _domotiko_  antaŭe kreita. \n"
 
 #. type: Plain text
 #: _posts/2021-08-14-habridge.md:19
-#, no-wrap
+#, fuzzy
 msgid ""
 "pré-requis : \n"
-"* l'utilisateur _domoticz_ doit exister.\n"
+"* l'utilisateur _domotiko_ doit exister.\n"
 "* _java_ >=8 doit être installé.\n"
 msgstr ""
-"antaŭkondiĉoj:\n"
-"* la uzanto _domoticz_ devas ekzisti.\n"
-"* _java_ >= 8 devas esti instalita.\n"
+"Antaŭkondiĉoj: \n"
+" *  La uzanto  _domotiko_  devas ekzisti. \n"
+" *  _java_  > = 8 devas esti instalita. \n"
 
 #. type: Fenced code block (bash)
 #: _posts/2021-08-14-habridge.md:20
 #, no-wrap
 msgid ""
-"sudo su - domoticz\n"
+"sudo su - domotiko\n"
 "mkdir ha-bridge\n"
 "cd ha-bridge\n"
 "wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
 "exit\n"
 msgstr ""
-"sudo su - domoticz\n"
+"sudo su - domotiko\n"
 "mkdir ha-bridge\n"
 "cd ha-bridge\n"
 "wget https://github.com/bwssytems/ha-bridge/releases/download/v5.4.1RC1/ha-bridge-5.4.1RC1.jar -O ha-bridge.jar\n"
@@ -125,13 +125,13 @@ msgid ""
 "[Service]\n"
 "Type=simple\n"
 "\n"
-"WorkingDirectory=/home/domoticz/ha-bridge\n"
-"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config /home/domoticz/ha-bridge/ha-bridge.jar\n"
-"User=domoticz\n"
-"RuntimeDirectory=domoticz\n"
-"LogsDirectory=domoticz\n"
+"WorkingDirectory=/home/domotiko/ha-bridge\n"
+"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domotiko/ha-bridge/data/habridge.config /home/domotiko/ha-bridge/ha-bridge.jar\n"
+"User=domotiko\n"
+"RuntimeDirectory=domotiko\n"
+"LogsDirectory=domotiko\n"
 "Restart=on-abort\n"
-"PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+"PIDFile=/var/run/domotiko/ha-bridge.pid\n"
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target\n"
@@ -152,13 +152,13 @@ msgstr ""
 "[Service]\n"
 "Type=simple\n"
 "\n"
-"WorkingDirectory=/home/domoticz/ha-bridge\n"
-"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domoticz/ha-bridge/data/habridge.config /home/domoticz/ha-bridge/ha-bridge.jar\n"
-"User=domoticz\n"
-"RuntimeDirectory=domoticz\n"
-"LogsDirectory=domoticz\n"
+"WorkingDirectory=/home/domotiko/ha-bridge\n"
+"ExecStart=/usr/bin/java -jar -Dserver.port=8082 -Dconfig.file=/home/domotiko/ha-bridge/data/habridge.config /home/domotiko/ha-bridge/ha-bridge.jar\n"
+"User=domotiko\n"
+"RuntimeDirectory=domotiko\n"
+"LogsDirectory=domotiko\n"
 "Restart=on-abort\n"
-"PIDFile=/var/run/domoticz/ha-bridge.pid\n"
+"PIDFile=/var/run/domotiko/ha-bridge.pid\n"
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target\n"
@@ -345,25 +345,3 @@ msgstr ""
 #, no-wrap
 msgid "Maintenant le premier démarrage d' _apache_ échoue, mais une deuxième tentative réussit automatiquement 10 secondes plus tard.\n"
 msgstr "Nun la unua komenco de _apache_ malsukcesas, sed dua provo aŭtomate sukcesas 10 sekundojn poste.\n"
-
-#, fuzzy, no-wrap
-#~ msgid "ha-bridge"
-#~ msgstr "ha-ponto"
-
-#, fuzzy
-#~ msgid "Maintenant le premier démarrage d' _apache_ échoue, mais une deuxième tentative faite automatiquement 10 secondes plus tard réussit.\n"
-#~ msgstr "Nun la unua komenco de _apache_ malsukcesas, sed dua provo aŭtomate 10 sekundojn poste sukcesas.\n"
-
-#, fuzzy
-#~ msgid "Maintenant le premier démarrage d'_apache_ échoue, mais une deuxième tentative faite automatiquement 10 secondes plus tard réussit.\n"
-#~ msgstr "Nun la unua komenco de_apache_ malsukcesas, sed dua provo aŭtomate 10 sekundojn poste sukcesas.\n"
-
-#, fuzzy, no-wrap
-#~ msgid "Maintenant le premier démarrage d'apache échoue, mais une deuxième tentative faite automatiquement 10 secondes après réussit.\n"
-#~ msgstr "Nun la unua komenco de Apache malsukcesas, sed dua provo aŭtomate faris 10 sekundojn post sukceso.\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "Après migration du pi vers bullseye, apache ne démarrait pas au boot.\n"
-#~ "Erreurs :\n"
-#~ msgstr "Post IP-migrado al Bullseye, Apache ne komenciĝis ĉe la boto.\n"

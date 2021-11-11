@@ -1,4 +1,5 @@
 ---
+komentoj_id: 2
 lang: zh
 lang-niv: auto
 lang-ref: aparataro

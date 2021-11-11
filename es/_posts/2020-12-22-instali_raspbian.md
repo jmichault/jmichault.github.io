@@ -1,4 +1,5 @@
 ---
+komentoj_id: 4
 lang: es
 lang-niv: auto
 lang-ref: instali_raspbian

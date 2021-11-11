@@ -45,21 +45,21 @@ msgstr "post"
 #, no-wrap
 #, fuzzy
 msgid "_Alexa_"
-msgstr ""
+msgstr "_Alexa_"
 
 #. type: YAML Front Matter: title
 #: ./_posts/2021-08-14-alexa.md:1
 #, no-wrap
 #, fuzzy
 msgid "_Amazon Alexa_"
-msgstr ""
+msgstr "_Amazon Alexa_"
 
 #. type: Plain text
 #: ./_posts/2021-08-14-alexa.md:11
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "Eblas konekti _Alexa_ kaj _Domoticz_.\n"
-msgstr "\n"
+msgstr "It is possible to connect  _Alexa_  and  _Domoticz_. \n"
 
 #. type: Plain text
 #: ./_posts/2021-08-14-alexa.md:14
@@ -68,7 +68,7 @@ msgstr "\n"
 msgid ""
 "Por ĉi tio, instalu _habridge_, vidu artikolon:\n"
 "[ligilo _Domoticz-Alexa_ : _ha-bridge_](2021-08-14-habridge.md)\n"
-msgstr "\n"
+msgstr "For this, install  _habridge_, see article: \n [ link  _Domoticz-Alexa_ :  _ha-bridge_]( 2021-08-14-habridge.md ) \n"
 
 #. type: Title ##
 #: ./_posts/2021-08-14-alexa.md:16
@@ -82,7 +82,7 @@ msgstr "Change the connection to Alexa and the homemade:"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "Connect to the interface: http: // Address_du_pi: 8082 (° 3 ° 3\n"
+msgstr "Connect to the interface: http: // Address _du_ pi: 8082 \n"
 
 #. type: Bullet: '- '
 #: ./_posts/2021-08-14-alexa.md:20
@@ -103,7 +103,7 @@ msgstr "Bridge Control Tab:_Use Rooms for Alexa_ \n"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "_domoticz_ ...:\n"
-msgstr "_domoticz_ ...: (° 3 ° 3\n"
+msgstr "_domoticz_  ...: \n"
 
 #. type: Bullet: '    - '
 #: ./_posts/2021-08-14-alexa.md:26

@@ -7,16 +7,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-02-13 12:50+0100\n"
+"POT-Creation-Date: 2021-11-11 12:42+0100\n"
 "PO-Revision-Date: 2021-02-13 13:09+0100\n"
 "Last-Translator: jean <>\n"
+"Language-Team: \n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
-"Language-Team: \n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2020-11-21-instali_domoticz.md:1
+#, fuzzy
+msgid "3"
+msgstr "3"
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-11-21-instali_domoticz.md:1
@@ -49,33 +55,33 @@ msgid "Installer domoticz."
 msgstr "Instalu domoticz."
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:11
+#: _posts/2020-11-21-instali_domoticz.md:12
 #, no-wrap
 msgid "Voici un exemple d'installation domoticz sous raspbian.\n"
 msgstr "Jen ekzemplo de domoticz-instalado sub raspbian.\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:13
+#: _posts/2020-11-21-instali_domoticz.md:14
 #, no-wrap
 msgid "Nous commençons par créer un utilisateur dédié, puis nous installons domoticz:\n"
 msgstr "Ni komencas kreante dediĉitan uzanton, poste ni instalas domoticz:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-11-21-instali_domoticz.md:13
+#: _posts/2020-11-21-instali_domoticz.md:14
 #, no-wrap
 msgid ""
 "sudo bash\n"
-"adduser domoticz\n"
-"cd /home/domoticz\n"
+"adduser domotiko\n"
+"cd /home/domotiko\n"
 "curl -sSL install.domoticz.com | bash\n"
 msgstr ""
 "sudo bash\n"
-"adduser domoticz\n"
-"cd /home/domoticz\n"
+"adduser domotiko\n"
+"cd /home/domotiko\n"
 "curl -sSL install.domoticz.com | bash\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:19
+#: _posts/2020-11-21-instali_domoticz.md:20
 #, no-wrap
 msgid "Appuyez sur Entrée lorsque la présentation s'affiche ( _\\<OK>_ est le seul choix).  \n"
 msgstr ""
@@ -83,43 +89,47 @@ msgstr ""
 "  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:20
+#: _posts/2020-11-21-instali_domoticz.md:21
 #, no-wrap
 msgid "Choix des services: laissez _http_ et _https_ cochés, allez sur _OK_, appuyez sur Entrée.  \n"
 msgstr "Elekto de servoj: lasu _http_ kaj _https_ markajn, iru al _OK_, premu Enter.  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:21
+#: _posts/2020-11-21-instali_domoticz.md:22
 #, no-wrap
 msgid "_«HTTP Port number:»_ laissez 8080, allez sur _OK_, appuyez sur Entrée.  \n"
 msgstr "_«HTTP Port number:»_ forlasu 8080, iru al _OK_, premu Enter.  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:22
+#: _posts/2020-11-21-instali_domoticz.md:23
 #, no-wrap
 msgid "_«HTTPS Port number:»_ mettez 8443, allez à _OK_, Entrée.  \n"
 msgstr "_«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:23
-#, no-wrap
-msgid "_«Installation Folder:»_ mettre _/home/domoticz/domoticz_, allez à _OK_, Entrée.  \n"
-msgstr "_«Installation Folder:»_ metu _/home/domoticz/domoticz_, iru al _OK_, Enigu.  \n"
+#: _posts/2020-11-21-instali_domoticz.md:24
+#, fuzzy
+msgid ""
+"_«Installation Folder:»_ mettre _/home/domotiko/domoticz_, allez à _OK_, "
+"Entrée.  \n"
+msgstr ""
+"_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, "
+"enigo.   \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:25
+#: _posts/2020-11-21-instali_domoticz.md:26
 #, no-wrap
 msgid "_«Installation Complete!»_  , Entrée.\n"
 msgstr "_«Installation Complete!»_  , Eniru.\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, no-wrap
 msgid "Maintenant, nous créons le service _«systemd»_ qui lancera domoticz:\n"
 msgstr "Nun ni kreas la servon _«systemd»_ , kiu lanĉos domoticz:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-11-21-instali_domoticz.md:28
+#: _posts/2020-11-21-instali_domoticz.md:29
 #, no-wrap
 msgid ""
 "service domoticz stop\n"
@@ -128,21 +138,21 @@ msgid ""
 "Description=domoticz\n"
 "\n"
 "[Service]\n"
-"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
-"User=domoticz\n"
-"RuntimeDirectory=domoticz\n"
-"LogsDirectory=domoticz\n"
+"ExecStart=/home/domotiko/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domotiko/domoticz.pid\n"
+"User=domotiko\n"
+"RuntimeDirectory=domotiko\n"
+"LogsDirectory=domotiko\n"
 "Restart=on-abort\n"
-"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"PIDFile=/var/run/domotiko/domoticz.pid\n"
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target\n"
 "\" >/etc/systemd/system/domoticz.service\n"
-"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
+"echo \"domotiko ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
 "\" >/etc/sudoers.d/010_domoticz\n"
 "chmod 440 /etc/sudoers.d/010_domoticz\n"
 "systemctl daemon-reload\n"
-"chown -R domoticz.domoticz domoticz\n"
+"chown -R domotiko.domotiko domoticz\n"
 "systemctl enable domoticz\n"
 "systemctl start domoticz\n"
 msgstr ""
@@ -152,26 +162,26 @@ msgstr ""
 "Description=domoticz\n"
 "\n"
 "[Service]\n"
-"ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid\n"
-"User=domoticz\n"
-"RuntimeDirectory=domoticz\n"
-"LogsDirectory=domoticz\n"
+"ExecStart=/home/domotiko/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domotiko/domoticz.pid\n"
+"User=domotiko\n"
+"RuntimeDirectory=domotiko\n"
+"LogsDirectory=domotiko\n"
 "Restart=on-abort\n"
-"PIDFile=/var/run/domoticz/domoticz.pid\n"
+"PIDFile=/var/run/domotiko/domoticz.pid\n"
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target\n"
 "\" >/etc/systemd/system/domoticz.service\n"
-"echo \"domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
+"echo \"domotiko ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service\n"
 "\" >/etc/sudoers.d/010_domoticz\n"
 "chmod 440 /etc/sudoers.d/010_domoticz\n"
 "systemctl daemon-reload\n"
-"chown -R domoticz.domoticz domoticz\n"
+"chown -R domotiko.domotiko domoticz\n"
 "systemctl enable domoticz\n"
 "systemctl start domoticz\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:57
+#: _posts/2020-11-21-instali_domoticz.md:58
 #, no-wrap
 msgid ""
 "_domoticz_ est installé et accessible :\n"
@@ -183,61 +193,61 @@ msgstr ""
 "* de la reto: <http://adreso_IP_de_pi:8080> aŭ <https://adreso_IP_de_pi:8443>\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:58
+#: _posts/2020-11-21-instali_domoticz.md:59
 #, no-wrap
 msgid "un peu de configuration:  \n"
 msgstr "iom da agordo:  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:59
+#: _posts/2020-11-21-instali_domoticz.md:60
 #, no-wrap
 msgid "aller à _«Setup --> Settings»_  \n"
 msgstr "iru al _«Setup --> Settings»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:60
+#: _posts/2020-11-21-instali_domoticz.md:61
 #, no-wrap
 msgid "changer de langue, définir l'emplacement  \n"
 msgstr "ŝanĝi lingvon, difini lokon  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:61
+#: _posts/2020-11-21-instali_domoticz.md:62
 #, no-wrap
 msgid "définir la sécurité: nom d'utilisateur et mot de passe  \n"
 msgstr "difini sekurecon: uzantnomo kaj pasvorto  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:62
+#: _posts/2020-11-21-instali_domoticz.md:63
 #, no-wrap
 msgid "définir les \"Réseaux locaux\", exemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 msgstr "difini la \"Lokajn retojn\", ekzemple: _«127.0.0.\\*;192.168.0.*»_  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:63
+#: _posts/2020-11-21-instali_domoticz.md:64
 #, no-wrap
 msgid "Activer \"Sauvegarde automatique\"  \n"
 msgstr "Aktivigi \"Aŭtomatan konservadon\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:64
+#: _posts/2020-11-21-instali_domoticz.md:65
 #, no-wrap
 msgid "Matériel/Périphériques: désactiver \"Accepter de nouveaux appareils\"  \n"
 msgstr "Aparataro/Flankaparatoj: malaktivigi \"Akcepti novajn aparatojn\"  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:65
+#: _posts/2020-11-21-instali_domoticz.md:66
 #, no-wrap
 msgid "Cliquez sur \"Appliquer les paramètres\".  \n"
 msgstr "Alklaku \"Apliki parametrojn\".  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:67
+#: _posts/2020-11-21-instali_domoticz.md:68
 #, no-wrap
 msgid "Nous devons maintenant ajouter le matériel.  \n"
 msgstr "Nun ni bezonas aldoni la aparataron.  \n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:69
+#: _posts/2020-11-21-instali_domoticz.md:70
 #, no-wrap
 msgid "voir <https://www.domoticz.com/wiki/Getting_started>\n"
 msgstr ""
@@ -245,7 +255,7 @@ msgstr ""
 "\n"
 
 #. type: Plain text
-#: _posts/2020-11-21-instali_domoticz.md:71
+#: _posts/2020-11-21-instali_domoticz.md:72
 #, no-wrap
 msgid ""
 "Pour plus de détails,\n"
@@ -254,5 +264,3 @@ msgstr ""
 "Por pli da detaloj,\n"
 "vidu <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
 "\n"
-
-

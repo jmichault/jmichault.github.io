@@ -63,7 +63,7 @@ Its disadvantages are:
  1. it uses an international frequency range and makes it possible to manage a large number of modules.
 
 
- 1. it has been elected by major brands such as _Philips_ (system _HUE_), Ikea (system _TRÅDFRI_), Legrand, Xiaomi, and many others .... °)
+ 1. It was chosen with large brands such as  _Philips_  ( System  _HUE_), IKEA  ( System  _TRÅDFRI_), Legrand, Xiaomi, and many others ... 
 
 
 

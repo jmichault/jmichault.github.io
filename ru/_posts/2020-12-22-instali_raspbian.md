@@ -1,4 +1,5 @@
 ---
+komentoj_id: 4.
 lang: ru
 lang-niv: auto
 lang-ref: instali_raspbian
@@ -102,5 +103,7 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
-Если вам это не нужно, удаление:
-очистки APT Wolfram-мотор Wolframscript LibreOffice*(° 3 ° 3 ° 3 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° Pt Pure Все
+Если вам это не нужно, удаление: 
+ Purge APT Wolfram Motor Wolframscript LibreOffice * 
+ APT Autémove 
+ APT Pure All All 

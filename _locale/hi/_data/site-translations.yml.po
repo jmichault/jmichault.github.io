@@ -44,8 +44,9 @@ msgstr "टिप्पणी की"
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, fuzzy, no-wrap
+#, fuzzy
 msgid "Aldoni komenton (sur GitHub)"
-msgstr "GitHub पर एक टिप्पणी (0001 डिग्री) जोड़ें (° ° 0002 डिग्री)"
+msgstr "एक टिप्पणी जोड़ें  ( github ) पर"
 
 #. type: Hash Value - Key: komentoj
 #: >lang

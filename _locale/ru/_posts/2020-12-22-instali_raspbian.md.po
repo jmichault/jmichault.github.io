@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"POT-Creation-Date: 2021-11-11 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2020-12-22-instali_raspbian.md:1
+#, no-wrap
+#, fuzzy
+msgid "4"
+msgstr "4."
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-12-22-instali_raspbian.md:1
@@ -25,7 +32,7 @@ msgstr "ru"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2020-12-22-instali_raspbian.md:1
 #, no-wrap
-msgid "homa"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -53,38 +60,37 @@ msgid "instalu _raspbian_ sur la _Raspberry_"
 msgstr "установить _raspbian_ на _Raspberry_"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:11
+#: _posts/2020-12-22-instali_raspbian.md:12
 #, fuzzy, no-wrap
 msgid "Ni skribos la sistemon _raspbian_ al la mikro-SDa karto, tiam ni faros iujn bazajn sistemajn agordojn. \n"
 msgstr "Мы запишем систему _raspbian_ на карту micro-SD, а затем произведем некоторые базовые настройки системы. \n"
 
 #. type: Title #
-#: _posts/2020-12-22-instali_raspbian.md:13
-#, no-wrap
-#, fuzzy
+#: _posts/2020-12-22-instali_raspbian.md:14
+#, fuzzy, no-wrap
 msgid "Prepari la mikro-SD-karton."
 msgstr "Чтобы подготовить карту Micro-SD."
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:16
+#: _posts/2020-12-22-instali_raspbian.md:17
 #, fuzzy, no-wrap
 msgid "En ĉi tiu ekzemplo, mi elektis prepari la mikro-SD-karton por mia _raspberry pi 3_ de Debian Linux-komputilo, kaj de la komandlinio.\n"
 msgstr "В этом примере я решил подготовить карту micro-SD для моего компьютера Debian Linux _raspberry pi 3_ и из командной строки.\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:18
+#: _posts/2020-12-22-instali_raspbian.md:19
 #, fuzzy, no-wrap
 msgid "Se ĉi tio ne respondas al viaj deziroj, vi facile trovos aliajn metodojn en la interreto, ekzemple en la retejo <https://howtoraspberrypi.com/>.\n"
 msgstr "Если это не соответствует вашим пожеланиям, вы легко найдете другие методы в Интернете, например, в Интернете <https://howtoraspberrypi.com/>.\n"
 
 #. type: Bullet: ' 1. '
-#: _posts/2020-12-22-instali_raspbian.md:20
+#: _posts/2020-12-22-instali_raspbian.md:21
 #, fuzzy, no-wrap
 msgid "**akiru la plej novan version de _raspbian_ de la oficiala retejo:**\n"
 msgstr "**загрузите последнюю версию _raspbian_ с официального сайта:**\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:27
+#: _posts/2020-12-22-instali_raspbian.md:28
 #, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
@@ -100,13 +106,13 @@ msgstr ""
 "Обратите внимание на имя файла, извлеченного из zip-файла.\n"
 
 #. type: Bullet: ' 2. '
-#: _posts/2020-12-22-instali_raspbian.md:29
+#: _posts/2020-12-22-instali_raspbian.md:30
 #, fuzzy, no-wrap
 msgid "**identigu la ĉeestantajn diskojn:**\n"
 msgstr "**определить существующие диски:**\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:36
+#: _posts/2020-12-22-instali_raspbian.md:37
 #, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
@@ -122,13 +128,13 @@ msgstr ""
 "3. **вставьте карту в компьютер**\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:38
+#: _posts/2020-12-22-instali_raspbian.md:39
 #, fuzzy, no-wrap
 msgid "    tiam identigu la vojon de la karto:\n"
 msgstr "    затем определите путь карты:\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:42
+#: _posts/2020-12-22-instali_raspbian.md:43
 #, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
@@ -142,25 +148,25 @@ msgstr ""
 "обычно это последняя строка.  \n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:44
+#: _posts/2020-12-22-instali_raspbian.md:45
 #, fuzzy, no-wrap
 msgid "    **AVERTO** : kontrolu, ke ĉi tiu aparato ne ĉeestis antaŭe \\(vidu, kio montriĝis en paŝo 2\\) **!!!**\n"
 msgstr "    **ВНИМАНИЕ** : убедитесь, что этого устройства не было раньше \\(, посмотрите, что было показано на шаге 2\\) **!!!**\n"
 
 #. type: Bullet: ' 4. '
-#: _posts/2020-12-22-instali_raspbian.md:46
+#: _posts/2020-12-22-instali_raspbian.md:47
 #, fuzzy, no-wrap
 msgid "**skribu bildon al karto**\n"
 msgstr "**записать изображение на карту**\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:49
+#: _posts/2020-12-22-instali_raspbian.md:50
 #, fuzzy, no-wrap
 msgid "    Rulu la suban komandon, anstataŭigante _vojo\\_raspbian_ per la nomo notita en paŝo 1, kaj _vojo\\_karto_ kun la nomo notita en paŝo 3.\n"
 msgstr "    Выполните команду ниже, заменив _vojo\\_raspbian_ именем, указанным на шаге 1, и _vojo\\_karto_ именем, указанным на шаге 3.\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:54
+#: _posts/2020-12-22-instali_raspbian.md:55
 #, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
@@ -174,7 +180,7 @@ msgstr ""
 "    (продолжительность: ~40 минут)\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:59
+#: _posts/2020-12-22-instali_raspbian.md:60
 #, fuzzy, no-wrap
 msgid ""
 "    ```bash\n"
@@ -188,55 +194,55 @@ msgstr ""
 "    ``` \n"
 
 #. type: Title #
-#: _posts/2020-12-22-instali_raspbian.md:61
+#: _posts/2020-12-22-instali_raspbian.md:62
 #, fuzzy, no-wrap
 msgid "unua komenco de _raspberry_"
 msgstr "первое начало _raspberry_"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:62
+#: _posts/2020-12-22-instali_raspbian.md:63
 #, fuzzy, no-wrap
 msgid "Konekti klavaron, muson kaj ekranon, enmeti mikro-SD-karton en _raspberry_.  \n"
 msgstr "Подключите клавиатуру, мышь и дисплей, вставьте карту micro-SD в _raspberry_.  \n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:64
+#: _posts/2020-12-22-instali_raspbian.md:65
 #, fuzzy, no-wrap
 msgid "Konekti la potencon al la _raspberry_.\n"
 msgstr "Подключите питание к _raspberry_.\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:66
+#: _posts/2020-12-22-instali_raspbian.md:67
 #, fuzzy, no-wrap
 msgid "La _raspberry_ ekfunkciigas, kaj la agorda utileco startas. Lasu vin gvidi por agordi la landon, la pasvorton, la vifian reton.\n"
 msgstr " _raspberry_ запускается, и запускается утилита настройки. Позвольте себе настроить страну, пароль и сеть Wi-Fi.\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:67
+#: _posts/2020-12-22-instali_raspbian.md:68
 #, fuzzy, no-wrap
 msgid "Mi konsilas al vi doni fiksan IP-adreson al via _raspberry_. Vi povas fari tion aŭ ĉe via DHCP-servilo, se vi havas, aŭ en la agordo de _raspberry_.  \n"
 msgstr "Советую давать фиксированный IP-адрес своему _raspberry_. Вы можете сделать это либо на своем DHCP-сервере, если он у вас есть, либо в конфигурации _raspberry_.  \n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:69
+#: _posts/2020-12-22-instali_raspbian.md:70
 #, fuzzy, no-wrap
 msgid "Por fari ĝin je la nivelo de _raspberry_, simple modifu la dosieron _/etc/dhcpcp.conf_, ekzemple per _nano_ :\n"
 msgstr "Чтобы сделать это на уровне _raspberry_, просто измените файл _/etc/dhcpcp.conf_, например, с помощью _nano_ :\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-12-22-instali_raspbian.md:70
+#: _posts/2020-12-22-instali_raspbian.md:71
 #, no-wrap
 msgid "sudo nano /etc/dhcpcd.conf\n"
 msgstr "sudo nano /etc/dhcpcd.conf\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:75
+#: _posts/2020-12-22-instali_raspbian.md:76
 #, fuzzy, no-wrap
 msgid "Poste vi devas modifi aŭ aldoni la agordon de la interfaco, kiu interesas vin (eth0 por la kabligita reto, wlan0 por la vifia-reto). Ekzemple, por atribui la IP-adreson 192.168.0.101 al reto kies enkursigilo estas 192.168.0.1:\n"
 msgstr "Затем вам нужно изменить или добавить интересующую вас конфигурацию интерфейса (eth0 для проводной сети, wlan0 для сети wifia). Например, чтобы назначить IP-адрес 192.168.0.101 сети с маршрутизатором 192.168.0.1:\n"
 
 #. type: Fenced code block
-#: _posts/2020-12-22-instali_raspbian.md:76
+#: _posts/2020-12-22-instali_raspbian.md:77
 #, no-wrap
 msgid ""
 "interface eth0\n"
@@ -248,13 +254,13 @@ msgstr ""
 "static routers=192.168.0.1\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:82
+#: _posts/2020-12-22-instali_raspbian.md:83
 #, fuzzy, no-wrap
 msgid "Vi ankaŭ povas specifi la nomajn servilojn (DNS). \n"
 msgstr "Вы также можете указать серверы имен (DNS). \n"
 
 #. type: Fenced code block
-#: _posts/2020-12-22-instali_raspbian.md:83
+#: _posts/2020-12-22-instali_raspbian.md:84
 #, no-wrap
 msgid ""
 "interface eth0\n"
@@ -268,13 +274,13 @@ msgstr ""
 "static domain_name_servers=192.168.0.1 8.8.8.8\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:90
+#: _posts/2020-12-22-instali_raspbian.md:91
 #, fuzzy, no-wrap
 msgid "se vi volas aliri la komandlinion malproksime, aktivigu ssh:\n"
 msgstr "если вы хотите получить доступ к командной строке удаленно, включите ssh:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-12-22-instali_raspbian.md:91
+#: _posts/2020-12-22-instali_raspbian.md:92
 #, no-wrap
 msgid ""
 "sudo systemctl start ssh\n"
@@ -284,31 +290,30 @@ msgstr ""
 "sudo systemctl enable ssh\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:97
+#: _posts/2020-12-22-instali_raspbian.md:98
 #, fuzzy, no-wrap
 msgid "Por teni la _raspberry_ ĝustatempe, instalu ntp:\n"
 msgstr "Чтобы _raspberry_ оставался вовремя, установите ntp:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2020-12-22-instali_raspbian.md:98
+#: _posts/2020-12-22-instali_raspbian.md:99
 #, no-wrap
 msgid "sudo apt install ntp\n"
 msgstr "sudo apt install ntp\n"
 
 #. type: Plain text
-#: _posts/2020-12-22-instali_raspbian.md:105
-#, fuzzy, no-wrap
+#: _posts/2020-12-22-instali_raspbian.md:106
+#, no-wrap
+#, fuzzy
 msgid ""
 "Se vi ne bezonas ĝin, forigo de:\n"
 "Purga APT Wolfram-motoro Wolframscript LibreOffice*\n"
 "APT autémove\n"
 "APT Pura All\n"
-msgstr ""
-"Если вам это не нужно, удаление:\n"
-"очистки APT Wolfram-мотор Wolframscript LibreOffice*(° 3 ° 3 ° 3 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° Pt Pure Все\n"
+msgstr "Если вам это не нужно, удаление: \n Purge APT Wolfram Motor Wolframscript LibreOffice * \n APT Autémove \n APT Pure All All \n"
 
 #, no-wrap
-#~ msgid "auto"
+#~ msgid "homa"
 #~ msgstr "auto"
 
 #, fuzzy, no-wrap

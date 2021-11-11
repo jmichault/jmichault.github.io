@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-13 15:02+0100\n"
+"POT-Creation-Date: 2021-11-11 12:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2021-02-11-programi_cc2531.md:1
+#, no-wrap
+#, fuzzy
+msgid "5"
+msgstr "5"
 
 #. type: YAML Front Matter: lang
 #: _posts/2021-02-11-programi_cc2531.md:1
@@ -25,7 +32,7 @@ msgstr "en"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
-msgid "homa"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -47,13 +54,13 @@ msgid "Programi la USB-ŝlosilon _CC2531_"
 msgstr "Program the USB key _CC2531_"
 
 #. type: Title #
-#: _posts/2021-02-11-programi_cc2531.md:9
+#: _posts/2021-02-11-programi_cc2531.md:10
 #, fuzzy, no-wrap
 msgid "instali fulman programaron"
 msgstr "install lightning software"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-02-11-programi_cc2531.md:11
+#: _posts/2021-02-11-programi_cc2531.md:12
 #, no-wrap
 msgid ""
 "git clone https://github.com/jmichault/flash_cc2531.git\n"
@@ -63,25 +70,25 @@ msgstr ""
 "cd flash_cc2531\n"
 
 #. type: Title #
-#: _posts/2021-02-11-programi_cc2531.md:16
+#: _posts/2021-02-11-programi_cc2531.md:17
 #, fuzzy, no-wrap
 msgid "elŝutu la zigbee-programaron"
 msgstr "download the zigbee software"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:18
+#: _posts/2021-02-11-programi_cc2531.md:19
 #, fuzzy, no-wrap
 msgid "Elŝutu la plej novan version de la zigbee-kunordiganto en ĉi tiu retejo: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/>, tiam malzipigu la arkivon.\n"
 msgstr "Download the latest version of the zigbee coordinator on this site: <https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2 / bin / default/>, then unzip the file.\n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:20
+#: _posts/2021-02-11-programi_cc2531.md:21
 #, fuzzy, no-wrap
 msgid "ekzemplo por la versio _CC2531_DEFAULT_20201127.zip_ :\n"
 msgstr "example for version _CC2531_DEFAULT_20201127.zip_ :\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-02-11-programi_cc2531.md:21
+#: _posts/2021-02-11-programi_cc2531.md:22
 #, no-wrap
 msgid ""
 "wget https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/CC2531_DEFAULT_20201127.zip\n"
@@ -91,33 +98,32 @@ msgstr ""
 "unzip CC2531_DEFAULT_20201127.zip\n"
 
 #. type: Title #
-#: _posts/2021-02-11-programi_cc2531.md:26
+#: _posts/2021-02-11-programi_cc2531.md:27
 #, fuzzy, no-wrap
 msgid "konekti la ŝlosilon"
 msgstr "connect the key"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:28
+#: _posts/2021-02-11-programi_cc2531.md:29
 #, fuzzy, no-wrap
 msgid "Konekti kvar liniojn _Dupont_ inajn al inaj al pingloj 35,36,38 kaj 39 de _raspberry_. ( Pinglo 2 estas en la angulo de _raspberry_, vidu la retejon <https://pinout.xyz/> por lokalizi)  \n"
 msgstr "Connect four lines _Dupont_ female to female to pins 35,36,38 and 39 of _raspberry_. ( Pin 2 is in the corner of _raspberry_, see the website <https://pinout.xyz/>to locate)  \n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:29
+#: _posts/2021-02-11-programi_cc2531.md:30
 #, fuzzy, no-wrap
 msgid "Konektu ĉi tiujn liniojn al la granda konektilo de la kablo _CC_ :  \n"
 msgstr "Connect these lines to the large cable connector _CC_ :  \n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:31
+#: _posts/2021-02-11-programi_cc2531.md:32
 #, fuzzy, no-wrap
 msgid "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
 msgstr "![](/public/raspberry-cc.png \"dispozicio _raspberry_ kaj _CC_\") \n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:38
-#, no-wrap
-#, fuzzy
+#: _posts/2021-02-11-programi_cc2531.md:39
+#, fuzzy, no-wrap
 msgid ""
 "| pinglo _GPIO_          | pinglo _CC_  |\n"
 "| ---------------------- | ------------ | \n"
@@ -125,31 +131,37 @@ msgid ""
 "| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
 "| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
 "| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
-msgstr "| pin _GPIO_          | pin _CC_  |\n| ---------------------- | ------------ | \n| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+msgstr ""
+"| pin _GPIO_          | pin _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:41
+#: _posts/2021-02-11-programi_cc2531.md:42
 #, no-wrap
 #, fuzzy
 msgid ""
 "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
 "![](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
-msgstr "Then connect the adapter cable to the key (look at the picture in the direction of connection), and insert the key into one of the ports _USB_ :\n![°)](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
+msgstr "Then connect the adaptive cable to the key  ( Look at the photo of the ) connection address, and enter the key in one of the ports  _USB_ : \n ![ ](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\")  \n"
 
 #. type: Title #
-#: _posts/2021-02-11-programi_cc2531.md:43
+#: _posts/2021-02-11-programi_cc2531.md:44
 #, fuzzy, no-wrap
 msgid "faru la programadon"
 msgstr "do the programming"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:46
+#: _posts/2021-02-11-programi_cc2531.md:47
 #, fuzzy, no-wrap
 msgid "provu per ĉi tio:\n"
 msgstr "try this:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-02-11-programi_cc2531.md:46
+#: _posts/2021-02-11-programi_cc2531.md:47
 #, no-wrap
 msgid ""
 "cd flash_cc2531\n"
@@ -159,37 +171,37 @@ msgstr ""
 "./cc_chipid\n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:51
+#: _posts/2021-02-11-programi_cc2531.md:52
 #, fuzzy, no-wrap
 msgid "Ĝi devas reveni:\n"
 msgstr "It must return:\n"
 
 #. type: Fenced code block
-#: _posts/2021-02-11-programi_cc2531.md:51
+#: _posts/2021-02-11-programi_cc2531.md:52
 #, no-wrap
 msgid "  ID = b524.\n"
 msgstr "  ID = b524.\n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:56
+#: _posts/2021-02-11-programi_cc2531.md:57
 #, fuzzy, no-wrap
 msgid "Konservu la nunan enhavon de la ŝlosilo:\n"
 msgstr "Keep the current contents of the key:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-02-11-programi_cc2531.md:56
+#: _posts/2021-02-11-programi_cc2531.md:57
 #, no-wrap
 msgid "./cc_read save.hex\n"
 msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:61
+#: _posts/2021-02-11-programi_cc2531.md:62
 #, fuzzy, no-wrap
 msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la ŝlosilo _CC2531_:\n"
 msgstr "Program the file _CC2531ZNP-Prod.hex_ in the key _CC2531_:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-02-11-programi_cc2531.md:61
+#: _posts/2021-02-11-programi_cc2531.md:62
 #, no-wrap
 msgid ""
 "./cc_erase\n"
@@ -199,18 +211,19 @@ msgstr ""
 "./cc_write CC2531ZNP-Prod.hex\n"
 
 #. type: Title #
-#: _posts/2021-02-11-programi_cc2531.md:66
+#: _posts/2021-02-11-programi_cc2531.md:67
 #, fuzzy, no-wrap
 msgid "En kazo de problemo"
 msgstr "In case of a problem"
 
 #. type: Plain text
-#: _posts/2021-02-11-programi_cc2531.md:67
+#: _posts/2021-02-11-programi_cc2531.md:68
 #, fuzzy, no-wrap
 msgid "Konsultu [ la retejon de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr "See [ the website of _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 
-#~ msgid "auto"
+#, no-wrap
+#~ msgid "homa"
 #~ msgstr "auto"
 
 #, fuzzy
@@ -231,10 +244,13 @@ msgstr "See [ the website of _flash_cc2531_](https://jmichault.github.io/flash_c
 
 #, fuzzy
 #~ msgid ""
-#~ "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
+#~ "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la "
+#~ "direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
 #~ "![](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
 #~ msgstr ""
-#~ "Then connect the adapter cable to the key (look at the picture in the direction of connection), and insert the key into one of the ports _USB_ :\n"
+#~ "Then connect the adapter cable to the key (look at the picture in the "
+#~ "direction of connection), and insert the key into one of the ports "
+#~ "_USB_ :\n"
 #~ "![°)](/public/Raspberry-CC2531.jpg \" _raspberry_ et _CC_\") \n"
 
 #, fuzzy

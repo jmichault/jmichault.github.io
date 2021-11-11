@@ -1,4 +1,5 @@
 ---
+komentoj_id: 2
 lang: eo
 lang-niv: homa
 lang-ref: aparataro

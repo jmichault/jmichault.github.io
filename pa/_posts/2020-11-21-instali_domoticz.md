@@ -1,4 +1,5 @@
 ---
+komentoj_id: 3
 lang: pa
 lang-niv: auto
 lang-ref: instali-domoticz
@@ -12,18 +13,18 @@ title: 'ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਿਤ ਕਰੋ.'
 ਅਸੀਂ ਇੱਕ ਸਮਰਪਿਤ ਉਪਭੋਗਤਾ ਬਣਾ ਕੇ ਅਰੰਭ ਕਰਦੇ ਹਾਂ, ਫਿਰ ਅਸੀਂ ਡੋਮੋਟਿਕਜ਼ ਸਥਾਪਤ ਕਰਦੇ ਹਾਂ:
 ```bash
 sudo bash
-adduser domoticz
-cd /home/domoticz
+adduser domotiko
+cd /home/domotiko
 curl -sSL install.domoticz.com | bash
 ```
 ਜਦੋਂ ਪ੍ਰਸਤੁਤੀ ਪ੍ਰਦਰਸ਼ਿਤ ਹੁੰਦੀ ਹੈ ਤਾਂ ਐਂਟਰ ਦਬਾਓ ( _\<OK>_ estas la sola elekto).  
   
   
-ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੁੱਟੀ _http_ ਅਤੇ _https_ ਚੈੱਕ ਕੀਤੀ ਗਈ, ਤੇ ਜਾਓ (° 5 to), ਐਂਟਰ ਦਬਾਓ.  
+ਸੇਵਾਵਾਂ ਦੀ ਚੋਣ: ਛੱਡੋ  _http_  ਅਤੇ  _https_  ਮਾਰਕ ਕਰੋ, j5 h5>, ਐਂਟਰ ਦਬਾਓ.   
 _«HTTP Port number:»_ 8080 ਛੱਡੋ, _OK_ਤੇ ਜਾਓ, ਐਂਟਰ ਦਬਾਓ.  
 _«HTTPS Port number:»_ 8443 ਦਰਜ ਕਰੋ, ( _OK_'ਤੇ ਜਾਓ, ਐਂਟਰ ਕਰੋ.  
-_«Installation Folder:»_ ਸੈੱਟ _/home/domoticz/domoticz_, ਤੇ ਜਾਓ _OK_, ਐਂਟਰ ਕਰੋ.  
-_«Installation Complete!»_  , ਦਰਜ ਕਰੋ.
+_«Installation Folder:»_   ਰੱਖੋ   _/home/domotiko/domoticz_  ਜਾਓ   _OK_, ਇਨਪੁਟ.    
+ _«Installation Complete!»_  , ਅੰਦਰ ਆਓ. 
 
 
 ਹੁਣ ਅਸੀਂ ਸੇਵਾ _«systemd»_ ਬਣਾਉਂਦੇ ਹਾਂ, ਜੋ ਡੋਮੋਟਿਕਜ਼ ਲਾਂਚ ਕਰੇਗੀ:
@@ -34,21 +35,21 @@ echo "[Unit]
 Description=domoticz
 
 [Service]
-ExecStart=/home/domoticz/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domoticz/domoticz.pid
-User=domoticz
-RuntimeDirectory=domoticz
-LogsDirectory=domoticz
+ExecStart=/home/domotiko/domoticz/domoticz -daemon -www 8080 -sslwww 8443 -pidfile /var/run/domotiko/domoticz.pid
+User=domotiko
+RuntimeDirectory=domotiko
+LogsDirectory=domotiko
 Restart=on-abort
-PIDFile=/var/run/domoticz/domoticz.pid
+PIDFile=/var/run/domotiko/domoticz.pid
 
 [Install]
 WantedBy=multi-user.target
 " >/etc/systemd/system/domoticz.service
-echo "domoticz ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service
+echo "domotiko ALL=(root) NOPASSWD: /usr/sbin/service domoticz.sh *,/bin/systemctl stop domoticz.service,/bin/systemctl start domoticz.service
 " >/etc/sudoers.d/010_domoticz
 chmod 440 /etc/sudoers.d/010_domoticz
 systemctl daemon-reload
-chown -R domoticz.domoticz domoticz
+chown -R domotiko.domotiko domoticz
 systemctl enable domoticz
 systemctl start domoticz
 ```

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-13 15:02+0100\n"
+"POT-Creation-Date: 2021-11-11 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2020-08-31-aparataro.md:1
+#, no-wrap
+#, fuzzy
+msgid "2"
+msgstr "2."
 
 #. type: YAML Front Matter: lang
 #: _posts/2020-08-31-aparataro.md:1
@@ -53,20 +60,21 @@ msgid "Materialo por komenci."
 msgstr "مادة للبدء بها."
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:10
+#: _posts/2020-08-31-aparataro.md:11
 #, fuzzy, no-wrap
 msgid "Materialoj por la hejma aŭtomatiga sistemo"
 msgstr "مواد لنظام التشغيل الآلي للمنزل"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:13
+#: _posts/2020-08-31-aparataro.md:14
 #, fuzzy, no-wrap
 msgid "Jen la materialo, kiun mi uzis por konstrui mian hejman aŭtomatan sistemon, permesante regi 433 Mhz-ekipaĵojn kaj zigbee-ekipaĵojn.\n"
 msgstr "هذه هي المادة التي استخدمتها لبناء نظام أتمتة منزلي ، مما يسمح بالتحكم في 433 ميجا هرتز ومعدات زيجبي.\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:27
-#, fuzzy, no-wrap
+#: _posts/2020-08-31-aparataro.md:28
+#, no-wrap
+#, fuzzy
 msgid ""
 "| tipo | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
@@ -81,30 +89,24 @@ msgid ""
 "| ŝirmado | | | Folio de aluminia folio enmetita en paperfolion falditan en duonon | 0 € | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_. |\n"
 "| USB-bastono _Zigbee_ kaj kablo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | ŝlosilo _zigbee_ kaj elŝuta kablo por CC |\n"
 "| | | | **totala prezo** | **75 €** | \n"
-msgstr ""
-"| اكتب | الصورة | علامة | النموذج | السعر التأشيري | لماذا |\n"
-"| --- | --- | --- | --- | --- | --- | \n"
-"| كمبيوتر |![](/public/pi.jpg) | _raspberry_ | pi3b + | 35 يورو | لا مروحة ، رخيصة ، لديها gpio ، wifi ، LAN RJ45 |\n"
-"| حالة الكمبيوتر |![](/public/loĝejo.jpg) | _Aukru_ | | 7 يورو | أي حافظة كمبيوتر لـ _raspberry-pi3_ مناسبة. اختر الشخص الذي تفضله.\n"
-"| المصدر الحالي | (17 درجة) (18 درجة) | _Konky_ | | 10 يورو | عندما تبين أن \" _raspberry-pi3_\"ضعيف للغاية ، نجحت في استبدالها بهذا. العديد من النماذج الأخرى مناسبة.\n"
-"| كابل USB | | | USB إلى micro USB | 2 يورو | لتوصيل _raspberry-pi3_ بمصدر الطاقة |\n"
-"| بطاقة Micro SD |![](/public/SD.jpg) | _sandisk_ | SDSQUAR-032G-GN6MA | 11 يورو | يحتاج pi إلى بطاقة عالية الجودة ، يوصى بشدة باستخدام بطاقة من علامة تجارية معروفة. | (° 35 درجة) | الكابلات المزدوجة |![](/public/dupont.jpg) | (° 39 درجة) | كابلات دوبلكس أنثى - أنثى. 068187 | 2 يورو | لتوصيل أجهزة 433 ميجا هرتز وفلاش zigbee مفتاح USB | (° 41 درجة) | مرسل + مستقبل |![](/public/dissendilo-ricevilo-433Mhz.jpg) | | wl101-341 + wl102-341 | 2 يورو | 433 ميجا هرتز + جهاز استقبال | (° 45 درجة) | كابل | | || 0 يورو | قطعة من الكابل لإنشاء هوائي. على سبيل المثال ، كابل شبكة قديم بطول 3 أمتار. (° 46 درجة) | التدريع | | | ورقة من رقائق الألومنيوم يتم إدخالها في ورقة مطوية من المنتصف | 0 يورو | لحماية جهاز الاستقبال 433 ميجا هرتز من التداخل الناتج عن _raspberry-pi3_. | (° 49 درجة) | عصا USB (° 50 درجة) وكابل |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 يورو | key _zigbee_ وكابل التنزيل لـ CC | (° 57 درجة) | | | | **السعر الإجمالي** | **75 €** | (° 62 درجة) \n"
+msgstr "| النوع |. صورة علامة نموذج سعر مؤشري لماذا | \n | --- | --- | --- | --- | --- | --- |  \n | الحاسوب ![ ](/public/pi.jpg)  |  _raspberry_  | PI3B + |. 35 يورو | لا مروحة، رخيصة، لديها GPO، WIFI، LAN RJ45 | \n | حاوية الكمبيوتر | ![ ](/public/loĝejo.jpg)  |  _Aukru_  | | 7 يورو | بعض حاوية الكمبيوتر ل  _raspberry-pi3_  مناسب. اختر الشخص الذي تفضله. \n | المصدر الحالي ![ ](/public/elektroprovizo.jpg)  |  _Konky_  | | 10 يورو | عندما أثبتتي الخاصة  \"  _raspberry-pi3_ \" أنها ضعيفة للغاية، فقد استبدالها بنجاح بهذا. العديد من النماذج الأخرى تناسب. \n | كابل USB | | USB إلى Micro USB 2 يورو لتوصيل  _raspberry-pi3_  إلى مزود الطاقة \n | بطاقة مايكرو التنمية المستدامة ![ ](/public/SD.jpg)  |  _sandisk_  | SDSQUAR-032G-GN6MA | 11 يورو | يحتاج PI إلى بطاقة عالية الجودة، يوصى بشدة باستخدام بطاقة علامة تجارية معروفة. | \n | كابلات دائعة ![ ](/public/dupont.jpg)  |  _SODIAL_  | الإناث الإناث الكابلات. 068187 |. 2 يورو لتوصيل أجهزة MHz 433 و Lightning Zigbee USB Key \n | الارسال + استقبال ![ ](/public/dissendilo-ricevilo-433Mhz.jpg)  | | WL101-341 + WL102-341 | 2 يورو 433 ميجا هرتز-superheterodine الارسال + استقبال \n | كابل | || 0 يورو | قطعة من الكابل لإنشاء هوائي. على سبيل المثال، عربة ويب قديمة 3 أمتار. \n | درع | | ورقة من ورقة الألومنيوم إدراجها في نشرة مطوية في النصف 0 يورو | لحماية جهاز استقبال MHz 433 ضد التداخل الذي تم إنشاؤه بواسطة  _raspberry-pi3_. | \n | USB عصا  _Zigbee_  وكابل ![ ](/public/cc2531+kablo.jpg)  | | CC2531 | 6 يورو | مفتاح  _zigbee_  وتنزيل كابل ل CC \n | | | |  ** السعر الإجمالي **  |  ** 75 يورو **  |  \n"
 
 #. type: Title #
-#: _posts/2020-08-31-aparataro.md:30
+#: _posts/2020-08-31-aparataro.md:31
 #, fuzzy, no-wrap
 msgid "La regotaj aparatoj."
 msgstr "أجهزة التحكم."
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:33
+#: _posts/2020-08-31-aparataro.md:34
 #, fuzzy, no-wrap
 msgid "Multaj aparatoj povas esti kontrolataj. Unue, ĉi tiuj tri elementoj ŝajnas al mi aparte interesaj:\n"
 msgstr "يمكن التحكم في العديد من الأجهزة. أولاً ، تبدو هذه العناصر الثلاثة مثيرة للاهتمام بشكل خاص بالنسبة لي:\n"
 
 #. type: Plain text
-#: _posts/2020-08-31-aparataro.md:40
-#, fuzzy, no-wrap
+#: _posts/2020-08-31-aparataro.md:41
+#, no-wrap
+#, fuzzy
 msgid ""
 "| tipo | teknologio | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
@@ -112,13 +114,7 @@ msgid ""
 "| elektraj ellasejoj | 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 teleregataj ingoj je racia prezo. |\n"
 "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumenoj | 10 € | alĝustigebla ampolo je racia prezo. |\n"
 "| | | | | **totala prezo** | **50,5 €** | |\n"
-msgstr ""
-"| اكتب | التكنولوجيا | الصورة | علامة | النموذج | السعر التأشيري | لماذا |\n"
-"| --- | --- | --- | --- | --- | --- | --- |\n"
-"| مقياس حرارة | 433 ميجا هرتز | ![](/public/fanju.jpeg)| _Fanju_ | de fj3378 | 7.50 يورو | ترمومتر مع شاشة بسعر معقول. |\n"
-"| منافذ كهربائية | 433 ميجا هرتز |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 يورو | 5 مآخذ تحكم عن بعد بسعر معقول. |\n"
-"| لمبة | (° 15 درجة) | (17 درجة) (18 درجة) | _Ikea_ | _TRÅDFRI_ LED E27 806 لومن | 10 يورو | مصباح كهربائي قابل للتعديل بسعر معقول. |\n"
-"| | | | | **السعر الإجمالي** | **50.5 يورو** | | (° 29 درجة)\n"
+msgstr "| النوع |. التكنولوجيا |. الصورة | مارك | نموذج |. السعر الإرشادي |. لماذا | \n | --- | --- | --- | --- | --- | --- | --- | \n | ميزان الحرارة |. 433 ميجا هرتز |  ![ ](/public/fanju.jpeg) |  _Fanju_  | من FJ3378 |. 7.50 € | ميزان الحرارة مع شاشة بسعر معقول. | \n | منافذ كهربائية | 433 ميجا هرتز | ![ ](/public/KYG.jpg) |  _KYG_  | 4315 | 33 € | 5 أماكن للتحكم عن بعد بسعر معقول. | \n | لمبة |.  _zigbee_  | ![ ](/public/tradfri.jpg) |  _Ikea_  |  _TRÅDFRI_  LED E27 806 Lumenoj | 10 € | لمبة ضوء قابل للتعديل بسعر معقول. | \n | | | | |  ** السعر الإجمالي **  |  ** 50.5 € **  | | \n"
 
 #~ msgid "auto"
 #~ msgstr "auto"

@@ -82,7 +82,7 @@ msgstr "Tukar sambungan ke Alexa dan buatan sendiri:"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "Sambung ke antara muka: http: // alamat_du_pi: 8082 (° 3 ° 3\n"
+msgstr "Sambung ke antara muka: http: // alamat _du_ pi: 8082 \n"
 
 #. type: Bullet: '- '
 #: ./_posts/2021-08-14-alexa.md:20
@@ -103,7 +103,7 @@ msgstr "_Use Rooms for Alexa_ : Benar\n"
 #, markdown-text, no-wrap
 #, fuzzy
 msgid "_domoticz_ ...:\n"
-msgstr "_domoticz_ ...: (° 3 ° 3\n"
+msgstr "_domoticz_  ...: \n"
 
 #. type: Bullet: '    - '
 #: ./_posts/2021-08-14-alexa.md:26

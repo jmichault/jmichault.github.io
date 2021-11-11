@@ -1,4 +1,5 @@
 ---
+komentoj_id: 4
 lang: hi
 lang-niv: auto
 lang-ref: instali_raspbian
@@ -102,4 +103,7 @@ sudo systemctl enable ssh
 sudo apt install ntp
 ```
 
-यदि आपको इसकी आवश्यकता नहीं है, तो हटाने: (° 0001 डिग्री) शुद्ध एप्ट वोल्फ्राम-इंजन वोल्फ्र्रैमस्क्रिप्ट लिबर ऑफिस (डिग्री 0002 डिग्री) (डिग्री 0003 डिग्री) एपीटी ऑटोमोव (डिग्री ° 0004 डिग्री) उपयुक्त सभी (000 000 डिग्री)
+यदि आपको इसकी आवश्यकता नहीं है, तो निष्कासन: 
+ purge apt wolfram मोटर wolframscript libreoffice * 
+ apt autémove 
+ apt शुद्ध सभी 

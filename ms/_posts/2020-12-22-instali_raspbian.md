@@ -1,4 +1,5 @@
 ---
+komentoj_id: 4.
 lang: ms
 lang-niv: auto
 lang-ref: instali_raspbian
@@ -102,5 +103,7 @@ Untuk memastikan _raspberry_ tepat pada masanya, pasang ntp:
 sudo apt install ntp
 ```
 
-Jika anda tidak memerlukannya, Pembuangan:
-4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4 ° 4) Apt Pure All
+Jika anda tidak memerlukannya, penyingkiran: 
+ Purge apt wolfram motor wolframscript libreoffice * 
+ apt autémove 
+ apt tulen semua 
