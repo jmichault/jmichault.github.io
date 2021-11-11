@@ -102,11 +102,12 @@ BEGIN {
 	### caractères spéciaux : \`*_~{}[]()#+-.!|<>
 	# markdown : 
 	regexp=      "[ \t]*[_\\*`<>\\[\\]\\(\\)~]+[ \t]*"; # markdown : tous les caractères spéciaux (sauf {}#\) avec les espaces avant et après
+	regexp=regexp"|[ \t]*_(\\\\_|[^_>])*_[ \t]*";     # markdown : italiques avec _ : _blabla_, le caractère avant _ ne doit pas  être \
 	regexp=regexp"|^[ \t]*";        # markdown : espaces en début de ligne
 	regexp=regexp"|[ \t]*\\\\\\\\."; # markdown : espaces+\\x
-	regexp=regexp"|[ \t]*\\\\.";    # markdown : espaces+\x
 	regexp=regexp"|[ \t]*!\\[[ \t]*"; # markdown : espaces![espaces : début d'un lien, on bouclera jusqu'à la fin du lien
-	regexp=regexp"|[ \t]*<http[^>]*>[ \t]*";     # markdown : lien simple html
+	regexp=regexp"|[ \t]*\\\\.";    # markdown : espaces+\x
+	regexp=regexp"|[ \t]*<http[^>]*>[ \t]*";     # markdown : lien simple html : <http....>
 	### protection du code jekyll
 	### on repére le début et la fin, on bouclera pour protéger tout le bloc
 	regexp=regexp"|{{ *| *}}|{% *| *%}"; 
@@ -164,7 +165,7 @@ BEGIN {
               }
               while( x<=MSGSLEN && ! match(SEPS[x] ,"</ *a>"));
 	    }
-	    # ne traduku hiperligon, kodon, kursivigita kun "_"
+	    # ne traduku hiperligon, kodon
 	    else if( match(SEPS[ x ] ,"^ *`") == 1 )
 	    { # kodo : ne traduku.
 	      x0 = x ;
@@ -174,15 +175,6 @@ BEGIN {
                 SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
               }
               while( x<=MSGSLEN && ! match(SEPS[x] ,"`"));
-	    }
-	    else if( match(SEPS[ x ] ,"^ *_$") == 1 )
-	    { # kursivigita kun "_" : ne traduku
-	      x0 = x ;
-	      do
-              {
-                x++;
-                SEPS[x0] = SEPS[x0] MSGS[x] SEPS[x];
-              } while( (x <= MSGSLEN) && ( substr(MSGS[x],length(MSGS[x])) =="\\" || match(SEPS[x] ,"^_[ \t]*")==0) );
 	    }
 	    else  if( match(SEPS[ x ] ," *\\]\\( *") )
 	    { # hiperligo : traduku teksto,ne traduku ligo.

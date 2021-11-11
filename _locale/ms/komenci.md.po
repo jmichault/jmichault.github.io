@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 19:08+0100\n"
+"POT-Creation-Date: 2021-11-11 22:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "ms"
 #. type: YAML Front Matter: lang-niv
 #: komenci.md:1
 #, no-wrap
-msgid "homa"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -48,129 +48,149 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: komenci.md:1
-#, fuzzy, no-wrap
-msgid "Por debuti"
-msgstr "Untuk memulakan debutnya"
+#, no-wrap
+#, fuzzy
+msgid "Komenci"
+msgstr "Untuk mula"
 
 #. type: Title #
 #: komenci.md:10
-#, no-wrap
-msgid "enkonduko"
-msgstr "pengenalan"
+#, fuzzy, no-wrap
+msgid "Enkonduko"
+msgstr "Pengenalan"
 
 #. type: Plain text
 #: komenci.md:12
-#, fuzzy, no-wrap
-msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj _zigbee_-ekipaĵojn. Mi elektis la liberan programon domoticz por administri ĉion.\n"
-msgstr "Sebagai contoh debut, anda boleh membuat sistem automasi rumah dengan komputer nanoco _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan peralatan 433 Mhz dan _zigbee_peralatan. Saya memilih domoticz program percuma untuk menguruskan semuanya.\n"
+#, no-wrap
+#, fuzzy
+msgid "Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la senpagan programon Domoticz por pritrakti la aron. \n"
+msgstr "Sebagai contoh permulaan, anda boleh membuat sistem domain rumah dengan komputer nano   _raspberry Pi3 B+_, melengkapkannya untuk menguruskan 433 MHz peralatan dan peralatan   _zigbee_. Saya telah memilih program percuma Hosticz untuk mengendalikan set.  \n"
 
 #. type: Plain text
 #: komenci.md:14
-#, fuzzy, no-wrap
-msgid "**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**\n"
-msgstr "**The _raspberry Pi3 B+_ mempunyai kelebihan berikut:**\n"
+#, no-wrap
+#, fuzzy
+msgid "** La  _raspberry Pi3 B+_  havas por avantaĝoj: ** \n"
+msgstr "**    _raspberry Pi3 B+_   mempunyai faedah:  **  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:16
-#, fuzzy, no-wrap
-msgid "ĝia malalta prezo\n"
-msgstr "harganya rendah\n"
+#, no-wrap
+#, fuzzy
+msgid "Lia malalta prezo \n"
+msgstr "Harga yang rendah  \n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:18
-#, fuzzy, no-wrap
-msgid "tre komforta komputila potenco por hejma aŭtomatigo.\n"
-msgstr "kuasa komputer yang sangat selesa untuk automasi rumah.\n"
+#, no-wrap
+#, fuzzy
+msgid "Tre komforta komputila potenco por hejma aŭtomatigo. \n"
+msgstr "Kuasa komputer yang sangat selesa untuk automasi rumah.  \n"
 
 #. type: Bullet: ' 3. '
 #: komenci.md:20
-#, fuzzy, no-wrap
-msgid "reduktita konsumo.\n"
-msgstr "pengurangan penggunaan.\n"
+#, no-wrap
+#, fuzzy
+msgid "Konsumo reduktita. \n"
+msgstr "Mengurangkan penggunaan.  \n"
 
 #. type: Bullet: ' 4. '
 #: komenci.md:22
-#, fuzzy, no-wrap
-msgid "neniu ventolilo bezonis.\n"
-msgstr "tidak perlu kipas.\n"
+#, no-wrap
+#, fuzzy
+msgid "Neniu bezono de ventumilo. \n"
+msgstr "Tidak perlu peminat.  \n"
 
 #. type: Bullet: ' 5. '
 #: komenci.md:24
-#, fuzzy, no-wrap
-msgid "konektebleco provizita: ethernet-haveno, 4 USB-havenoj, Wifi, Bluetooth, GPIO-havenoj.\n"
-msgstr "penyambungan yang disediakan: port ethernet, 4 port USB, Wifi, Bluetooth, port GPIO.\n"
+#, no-wrap
+#, fuzzy
+msgid "Konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. \n"
+msgstr "Hubungan yang disediakan: Pelabuhan Ethernet, 4 port USB, WiFi, Bluetooth, pelabuhan GPI.  \n"
 
 #. type: Plain text
 #: komenci.md:28
-#, fuzzy, no-wrap
-msgid "**La intereso de 433 Mhz estas:**\n"
-msgstr "**Minat 433 Mhz adalah:**\n"
+#, no-wrap
+#, fuzzy
+msgid "** La intereso de la 433 MHz estas: ** \n"
+msgstr "**  Kepentingan 433 MHz adalah:  **  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:30
-#, fuzzy, no-wrap
-msgid "ĝi estas rajtigita tutmonde de jardekoj.\n"
-msgstr "ia telah dilesenkan di seluruh dunia selama beberapa dekad.\n"
+#, no-wrap
+#, fuzzy
+msgid "Oni permesis al ni tutmonde dum jardekoj. \n"
+msgstr "Kami telah membenarkan kami di seluruh dunia selama beberapa dekad.  \n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:32
-#, fuzzy, no-wrap
-msgid "tial ekzistas tre malmultekosta materialo.\n"
-msgstr "oleh itu terdapat bahan yang sangat murah.\n"
+#, no-wrap
+#, fuzzy
+msgid "Rezulte, estas tre malmultekosta materialo. \n"
+msgstr "Akibatnya, terdapat bahan yang sangat murah.  \n"
 
 #. type: Plain text
 #: komenci.md:36
-#, fuzzy, no-wrap
-msgid "Ĝiaj malavantaĝoj estas:\n"
-msgstr "Kelemahannya adalah:\n"
+#, no-wrap
+#, fuzzy
+msgid "Liaj malavantaĝoj estas: \n"
+msgstr "Kelemahannya adalah:  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:38
-#, fuzzy, no-wrap
-msgid "ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas.\n"
-msgstr "tidak ada protokol yang ditentukan, setiap pengeluar melakukan apa yang dia mahukan.\n"
+#, no-wrap
+#, fuzzy
+msgid "Ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas. \n"
+msgstr "Tidak ada protokol yang ditakrifkan, setiap pengeluar melakukan apa yang dia mahu.  \n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:40
-#, fuzzy, no-wrap
-msgid "la uzata protokolo malofte estas dudirekta.\n"
-msgstr "protokol yang digunakan jarang dua arah.\n"
+#, no-wrap
+#, fuzzy
+msgid "La protokolo uzata estas malofte bidirekta. \n"
+msgstr "Protokol yang digunakan jarang bidirect.  \n"
 
 #. type: Plain text
 #: komenci.md:44
-#, fuzzy, no-wrap
-msgid "**La intereso de zigbee estas:**\n"
-msgstr "**Minat zigbee adalah:**\n"
+#, no-wrap
+#, fuzzy
+msgid "** La intereso de ZigBee estas: ** \n"
+msgstr "**  Kepentingan Zigbee ialah:  **  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:46
-#, fuzzy, no-wrap
-msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
-msgstr "dirancang untuk memungkinkan untuk membina modul yang murah, sehingga harga turun secara beransur-ansur.\n"
+#, no-wrap
+#, fuzzy
+msgid "I estis desegnita por ebligi la konstruadon de malmultekostaj moduloj, kiel rezulto la prezoj iom post iom falas. \n"
+msgstr "Ia direka untuk membolehkan pembinaan modul murah, akibatnya harga secara beransur-ansur jatuh.  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:48
-#, fuzzy, no-wrap
-msgid "ĝi uzas malferman, sekuran kaj dudirektan protokolon.\n"
-msgstr "ia menggunakan protokol terbuka, selamat dan dua hala.\n"
+#, no-wrap
+#, fuzzy
+msgid "Ĝi uzas malfermitan, sekura kaj bidireccional protokolo. \n"
+msgstr "Ia menggunakan protokol terbuka, selamat dan bidirectional.  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:50
-#, fuzzy, no-wrap
-msgid "ĉiu modulo povas esti uzata kiel relajso por pliigi la sensodistancon.\n"
-msgstr "setiap modul boleh digunakan sebagai geganti untuk meningkatkan jarak penginderaan.\n"
+#, no-wrap
+#, fuzzy
+msgid "Ĉiu modulo povas servi kiel relajso por pliigi la amplekson. \n"
+msgstr "Setiap modul boleh berfungsi sebagai relay untuk meningkatkan skop.  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:52
-#, fuzzy, no-wrap
-msgid "ĝi uzas internacian frekvencan gamon kaj ebligas administri grandan nombron da moduloj.\n"
-msgstr "ia menggunakan julat frekuensi antarabangsa dan memungkinkan untuk menguruskan sebilangan besar modul.\n"
+#, no-wrap
+#, fuzzy
+msgid "I uzas gamon de internacia frekvenco kaj por administri grandan nombron da moduloj. \n"
+msgstr "Ia menggunakan pelbagai frekuensi antarabangsa dan menguruskan sejumlah besar modul.  \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:54
-#, fuzzy, no-wrap
-msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
-msgstr "Ia dipilih dengan jenama besar seperti  _Philips_  ( sistem  _HUE_), IKEA  ( Sistem  _TRÅDFRI_), Legrand, Xiaomi, dan banyak lagi ... \n"
+#, no-wrap
+#, fuzzy
+msgid "I estis elektita de gravaj markoj kiel  _Philips_  ( System  _HUE_ ), IKEA  ( System  _TRÅDFRI_ ), Legrand, Xiaomi, kaj multaj pli ... \n"
+msgstr "Ia dipilih oleh jenama penting seperti   _Philips_   (    _HUE_  ), IKEA   (  Sistem   _TRÅDFRI_  ), Legrand, Xiaomi, dan banyak lagi ...  \n"
 
 #. type: Title #
 #: komenci.md:57
@@ -180,73 +200,216 @@ msgstr "Langkah-langkah:"
 
 #. type: Bullet: '* '
 #: komenci.md:60
-#, fuzzy, no-wrap
-msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
-msgstr "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
+#, no-wrap
+#, fuzzy
+msgid "[ Akiru la materialon ](_posts/2020-08-31-aparataro.md) \n"
+msgstr "[  Dapatkan bahan  ](_posts/2020-08-31-aparataro.md)  \n"
 
 #. type: Bullet: '* '
 #: komenci.md:62
-#, fuzzy, no-wrap
-msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
-msgstr "[pasang _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
+#, no-wrap
+#, fuzzy
+msgid "[ Instalu  _raspbian_ ](_posts/2020-12-22-instali_raspbian.md) \n"
+msgstr "[  Pasang   _raspbian_  ](_posts/2020-12-22-instali_raspbian.md)  \n"
 
-#. type: Bullet: '* '
+#. type: Plain text
 #: komenci.md:64
-#, fuzzy, no-wrap
-msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
-msgstr "atur kunci USB _CC2531_  dengan koordinator zigbee: [ lokasi _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+#, no-wrap
+#, fuzzy
+msgid "* Programo La  _CC2531_   USB-ŝlosilo kun ZigBee-kunordiganto:  [   _flash\\_cc2531_ ](https://jmichault.github.io/flash_cc2531-dok/) \n"
+msgstr "*  Program   _CC2531_    Key USB dengan Penyelaras ZigBee:   [    _flash\\_cc2531_  ](https://jmichault.github.io/flash_cc2531-dok/)  \n"
 
 #. type: Bullet: '* '
 #: komenci.md:66
-#, fuzzy, no-wrap
-msgid "konstruu antenon por 433 Mhz.\n"
-msgstr "bina antena untuk 433 Mhz.\n"
+#, no-wrap
+#, fuzzy
+msgid "Konstrui antenon por 433 MHz. \n"
+msgstr "Bina antena untuk 433 MHz.  \n"
 
 #. type: Bullet: '* '
 #: komenci.md:68
-#, fuzzy, no-wrap
-msgid "instali _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
-msgstr ""
-"pasang _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
-"\n"
+#, no-wrap
+#, fuzzy
+msgid "Instalu  _domoticz_ :  [  _domoticz.com_ ](https://www.domoticz.com/wiki/Raspberry_Pi) \n"
+msgstr "Pasang   _domoticz_    [   _domoticz.com_  ](https://www.domoticz.com/wiki/Raspberry_Pi)  \n"
 
 #. type: Bullet: '* '
 #: komenci.md:70
-#, fuzzy, no-wrap
-msgid "instali _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
-msgstr "pasang _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+#, no-wrap
+#, fuzzy
+msgid "Instalu  _zigbee_ :  [  _zigbee2mqtt.io_ ](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html) \n"
+msgstr "Pasang   _zigbee_    [   _zigbee2mqtt.io_  ](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)  \n"
 
 #. type: Bullet: '* '
 #: komenci.md:72
-#, fuzzy, no-wrap
-msgid "instali _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
-msgstr ""
-"pasang _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
-"\n"
+#, no-wrap
+#, fuzzy
+msgid "Instalu  _rf\\_gpio_ :  [  _github.com_ ](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md) \n"
+msgstr "Pasang   _rf\\_gpio_    [   _github.com_  ](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)  \n"
 
 #. type: Bullet: '* '
-#: komenci.md:73
-#, fuzzy, no-wrap
-msgid "Konekti viajn unuajn elementojn:  \n"
-msgstr "Sambungkan item pertama anda:  \n"
+#: komenci.md:74
+#, no-wrap
+#, fuzzy
+msgid "Konekti viajn unuajn erojn:   \n"
+msgstr "Sambungkan item pertama anda:    \n"
 
 #. type: Bullet: '  * '
 #: komenci.md:76
-#, fuzzy, no-wrap
-msgid "konekti termometron _433Mhz_\n"
-msgstr "sambungkan termometer _433Mhz_\n"
+#, no-wrap
+#, fuzzy
+msgid "Konekti termometron  _433Mhz_ \n"
+msgstr "Sambungkan termometer   _433Mhz_  \n"
 
 #. type: Bullet: '  * '
 #: komenci.md:78
-#, fuzzy, no-wrap
-msgid "konekti ŝtopilon _433Mhz_\n"
-msgstr "sambungkan palam _433Mhz_\n"
+#, no-wrap
+#, fuzzy
+msgid "Konekti a  _433Mhz_  socket\n"
+msgstr "Sambungkan soket   _433Mhz_   \n"
 
 #. type: Bullet: '  * '
 #: komenci.md:80
+#, no-wrap
+#, fuzzy
+msgid "Konekti bulbon  _zigbee_ \n"
+msgstr "Sambungkan mentol   _zigbee_  \n"
+
+#, no-wrap
+#~ msgid "homa"
+#~ msgstr "auto"
+
 #, fuzzy, no-wrap
-msgid "konekti ampolon _zigbee_\n"
-msgstr "sambungkan mentol _zigbee_\n"
+#~ msgid "Por debuti"
+#~ msgstr "Untuk memulakan debutnya"
+
+#, no-wrap
+#~ msgid "enkonduko"
+#~ msgstr "pengenalan"
+
+#, fuzzy, no-wrap
+#~ msgid "Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj _zigbee_-ekipaĵojn. Mi elektis la liberan programon domoticz por administri ĉion.\n"
+#~ msgstr "Sebagai contoh debut, anda boleh membuat sistem automasi rumah dengan komputer nanoco _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan peralatan 433 Mhz dan _zigbee_peralatan. Saya memilih domoticz program percuma untuk menguruskan semuanya.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**\n"
+#~ msgstr "**The _raspberry Pi3 B+_ mempunyai kelebihan berikut:**\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝia malalta prezo\n"
+#~ msgstr "harganya rendah\n"
+
+#, fuzzy, no-wrap
+#~ msgid "tre komforta komputila potenco por hejma aŭtomatigo.\n"
+#~ msgstr "kuasa komputer yang sangat selesa untuk automasi rumah.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "reduktita konsumo.\n"
+#~ msgstr "pengurangan penggunaan.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "neniu ventolilo bezonis.\n"
+#~ msgstr "tidak perlu kipas.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "konektebleco provizita: ethernet-haveno, 4 USB-havenoj, Wifi, Bluetooth, GPIO-havenoj.\n"
+#~ msgstr "penyambungan yang disediakan: port ethernet, 4 port USB, Wifi, Bluetooth, port GPIO.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "**La intereso de 433 Mhz estas:**\n"
+#~ msgstr "**Minat 433 Mhz adalah:**\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝi estas rajtigita tutmonde de jardekoj.\n"
+#~ msgstr "ia telah dilesenkan di seluruh dunia selama beberapa dekad.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "tial ekzistas tre malmultekosta materialo.\n"
+#~ msgstr "oleh itu terdapat bahan yang sangat murah.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Ĝiaj malavantaĝoj estas:\n"
+#~ msgstr "Kelemahannya adalah:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas.\n"
+#~ msgstr "tidak ada protokol yang ditentukan, setiap pengeluar melakukan apa yang dia mahukan.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "la uzata protokolo malofte estas dudirekta.\n"
+#~ msgstr "protokol yang digunakan jarang dua arah.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "**La intereso de zigbee estas:**\n"
+#~ msgstr "**Minat zigbee adalah:**\n"
+
+#, fuzzy, no-wrap
+#~ msgid "estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.\n"
+#~ msgstr "dirancang untuk memungkinkan untuk membina modul yang murah, sehingga harga turun secara beransur-ansur.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝi uzas malferman, sekuran kaj dudirektan protokolon.\n"
+#~ msgstr "ia menggunakan protokol terbuka, selamat dan dua hala.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĉiu modulo povas esti uzata kiel relajso por pliigi la sensodistancon.\n"
+#~ msgstr "setiap modul boleh digunakan sebagai geganti untuk meningkatkan jarak penginderaan.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝi uzas internacian frekvencan gamon kaj ebligas administri grandan nombron da moduloj.\n"
+#~ msgstr "ia menggunakan julat frekuensi antarabangsa dan memungkinkan untuk menguruskan sebilangan besar modul.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
+#~ msgstr "Ia dipilih dengan jenama besar seperti  _Philips_  ( sistem  _HUE_), IKEA  ( Sistem  _TRÅDFRI_), Legrand, Xiaomi, dan banyak lagi ... \n"
+
+#, fuzzy, no-wrap
+#~ msgid "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
+#~ msgstr "[akiru aparataron](_posts/2020-08-31-aparataro.md)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "[instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
+#~ msgstr "[pasang _raspbian_](_posts/2020-12-22-instali_raspbian.md)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+#~ msgstr "atur kunci USB _CC2531_  dengan koordinator zigbee: [ lokasi _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "konstruu antenon por 433 Mhz.\n"
+#~ msgstr "bina antena untuk 433 Mhz.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "instali _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+#~ msgstr ""
+#~ "pasang _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+#~ "\n"
+
+#, fuzzy, no-wrap
+#~ msgid "instali _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+#~ msgstr "pasang _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "instali _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+#~ msgstr ""
+#~ "pasang _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+#~ "\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti viajn unuajn elementojn:  \n"
+#~ msgstr "Sambungkan item pertama anda:  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "konekti termometron _433Mhz_\n"
+#~ msgstr "sambungkan termometer _433Mhz_\n"
+
+#, fuzzy, no-wrap
+#~ msgid "konekti ŝtopilon _433Mhz_\n"
+#~ msgstr "sambungkan palam _433Mhz_\n"
+
+#, fuzzy, no-wrap
+#~ msgid "konekti ampolon _zigbee_\n"
+#~ msgstr "sambungkan mentol _zigbee_\n"
 
 #, fuzzy
 #~ msgid ""
@@ -315,10 +478,6 @@ msgstr "sambungkan mentol _zigbee_\n"
 #, fuzzy
 #~ msgid "konekti ampolon\n"
 #~ msgstr "sambungkan mentol lampu\n"
-
-#, fuzzy
-#~ msgid "Enkonduko"
-#~ msgstr "Pengenalan"
 
 #, fuzzy
 #~ msgid ""

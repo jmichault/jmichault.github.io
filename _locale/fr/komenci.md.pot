@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-25 20:18+0200\n"
+"POT-Creation-Date: 2021-11-11 22:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,7 +193,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: komenci.md:52
 #, no-wrap
-msgid "programmer la clé USB _CC2531_  avec le coordinateur zigbee : [ le site de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
+msgid "programmer la clé USB _CC2531_  avec le coordinateur zigbee : [ le site de _flash\\_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -205,19 +205,19 @@ msgstr ""
 #. type: Bullet: '* '
 #: komenci.md:52
 #, no-wrap
-msgid "installer _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
+msgid "installer _domoticz_ : [ _domoticz.com_](https://www.domoticz.com/wiki/Raspberry_Pi)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: komenci.md:52
 #, no-wrap
-msgid "installer _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
+msgid "installer _zigbee_ : [ _zigbee2mqtt.io_](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)\n"
 msgstr ""
 
 #. type: Bullet: '* '
 #: komenci.md:52
 #, no-wrap
-msgid "installez _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
+msgid "installez _rf\\_gpio_ : [ _github.com_](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)\n"
 msgstr ""
 
 #. type: Bullet: '* '

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 19:07+0100\n"
+"POT-Creation-Date: 2021-11-11 22:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,17 +46,132 @@ msgstr "page"
 msgid "Miaj aliaj projektoj"
 msgstr "Projek saya yang lain"
 
-#. type: Plain text
-#: projektoj.md:13
+#. type: Title ##
+#: projektoj.md:9
 #, no-wrap
 #, fuzzy
-msgid ""
-"<https://jmichault.github.io/flash_cc2531-dok> \n"
-" <https://jmichault.github.io/ipcam-100-dok> \n"
-" <https://jmichault.github.io/jekyll-plurlingva-dok> \n"
-" <https://jmichault.github.io/motioneye.eo-dok> \n"
-" <https://jmichault.github.io/rf_gpio-dok> \n"
-msgstr "<https://jmichault.github.io/flash_cc2531-dok>  \n  <https://jmichault.github.io/ipcam-100-dok>  \n  <https://jmichault.github.io/jekyll-plurlingva-dok>  \n  <https://jmichault.github.io/motioneye.eo-dok>  \n  <https://jmichault.github.io/rf_gpio-dok>  \n"
+msgid "_flash\\_cc2531_"
+msgstr "_flash\\_cc2531_"
+
+#. type: Plain text
+#: projektoj.md:11
+#, fuzzy, no-wrap
+msgid "<https://jmichault.github.io/flash_cc2531-dok> \n"
+msgstr "<https://jmichault.github.io/flash_cc2531-dok>  \n"
+
+#. type: Title ##
+#: projektoj.md:12
+#, no-wrap
+#, fuzzy
+msgid "_ipcam-100_ "
+msgstr "_ipcam-100_ "
+
+#. type: Plain text
+#: projektoj.md:14
+#, no-wrap
+#, fuzzy
+msgid "<https://jmichault.github.io/ipcam-100-dok> \n"
+msgstr "<https://jmichault.github.io/ipcam-100-dok>  \n"
+
+#. type: Title ##
+#: projektoj.md:15
+#, no-wrap
+#, fuzzy
+msgid "_jekyll-plurlingva_ "
+msgstr "_jekyll-plurlingva_  "
+
+#. type: Plain text
+#: projektoj.md:17
+#, no-wrap
+#, fuzzy
+msgid "<https://jmichault.github.io/jekyll-plurlingva-dok> \n"
+msgstr "<https://jmichault.github.io/jekyll-plurlingva-dok>  \n"
+
+#. type: Title ##
+#: projektoj.md:18
+#, no-wrap
+#, fuzzy
+msgid "_motioneye.eo_ "
+msgstr "_motioneye.eo_  "
+
+#. type: Plain text
+#: projektoj.md:20
+#, no-wrap
+#, fuzzy
+msgid "<https://jmichault.github.io/motioneye.eo-dok> \n"
+msgstr "<https://jmichault.github.io/motioneye.eo-dok>  \n"
+
+#. type: Title ##
+#: projektoj.md:21
+#, no-wrap
+#, fuzzy
+msgid "_rf\\_gpio_ "
+msgstr "_rf\\_gpio_  "
+
+#. type: Plain text
+#: projektoj.md:22
+#, no-wrap
+#, fuzzy
+msgid "<https://jmichault.github.io/rf_gpio-dok> \n"
+msgstr "<https://jmichault.github.io/rf_gpio-dok>  \n"
+
+#, fuzzy
+#~ msgid "_flash\\_cc2531_."
+#~ msgstr "_flash\\_cc2531_."
+
+#, fuzzy, no-wrap
+#~ msgid "_ipcam-100_."
+#~ msgstr "_ipcam-100_."
+
+#, fuzzy, no-wrap
+#~ msgid "IPCAM-100\n"
+#~ msgstr "Ipcam-100 \n"
+
+#, fuzzy, no-wrap
+#~ msgid "_jekyll-plurlingva_."
+#~ msgstr "Ipcam-100 _jekyll-plurlingva_"
+
+#, fuzzy, no-wrap
+#~ msgid "Jekyll-Plurlingva\n"
+#~ msgstr "Jekyll-multilingual \n"
+
+#, fuzzy, no-wrap
+#~ msgid "_motioneye.eo_."
+#~ msgstr "Jekyll-multilingual _motioneye.eo_"
+
+#, fuzzy, no-wrap
+#~ msgid "Motioneye.eo\n"
+#~ msgstr "Motioneye.eo \n"
+
+#, fuzzy
+#~ msgid "_rf\\_gpio_."
+#~ msgstr "_rf\\_gpio_."
+
+#, fuzzy, no-wrap
+#~ msgid "Rf <https://jmichault.github.io/rf_gpio-dok>\n"
+#~ msgstr "Rf  <https://jmichault.github.io/rf_gpio-dok> \n"
+
+#, fuzzy
+#~ msgid "_flash_ CC2531 _."
+#~ msgstr "_flash_  cc2531  _."
+
+#, fuzzy
+#~ msgid "_rf_ GPIO _."
+#~ msgstr "_rf_  gpo  _."
+
+#, fuzzy
+#~ msgid ""
+#~ "<https://jmichault.github.io/flash_cc2531-dok> \n"
+#~ " <https://jmichault.github.io/ipcam-100-dok> \n"
+#~ " <https://jmichault.github.io/jekyll-plurlingva-dok> \n"
+#~ " <https://jmichault.github.io/motioneye.eo-dok> \n"
+#~ " <https://jmichault.github.io/rf_gpio-dok> \n"
+#~ msgstr ""
+#~ "<https://jmichault.github.io/flash_cc2531-dok>  \n"
+#~ "  <https://jmichault.github.io/ipcam-100-dok>  \n"
+#~ "  <https://jmichault.github.io/jekyll-plurlingva-dok>  \n"
+#~ "  <https://jmichault.github.io/motioneye.eo-dok>  \n"
+#~ "  <https://jmichault.github.io/rf_gpio-dok>  \n"
 
 #, fuzzy
 #~ msgid ""

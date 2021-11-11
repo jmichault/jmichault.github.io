@@ -4,105 +4,102 @@ lang: ja
 lang-niv: auto
 lang-ref: 000-komenci
 layout: page
-title: デビューする
+title: 始めること
 ---
 
 # 前書き
-デビューの例として、ナノコンピューター _raspberry Pi3 B+_を備えたホームオートメーションシステムを作成し、433 Mhz機器と _zigbee_機器を管理できるように装備することができます。私はすべてを管理するために無料のプログラムdomoticzを選びました。
+スタート例として、433 MHz機器と機器  _zigbee_を管理するために、ナノコンピュータ  _raspberry Pi3 B+_を使用してホームドメインシステムを作ることができます。私はセットを処理するために無料のプログラムHosticzを選択しました。  
 
-** _raspberry Pi3 B+_ には次の利点があります：**
+**    _raspberry Pi3 B+_  は利点のために持っています： **  
 
- 1. その低価格
-
-
- 2. ホームオートメーションのための非常に快適なコンピュータパワー。
+ 1. その低価格 
 
 
- 3. 消費量の削減。
+ 2. ホームオートメーションのための非常に快適なコンピュータ電力。  
 
 
- 4. ファンは必要ありません。
+ 3. 消費量の削減 
 
 
- 5. 提供される接続：イーサネットポート、4つのUSBポート、Wifi、Bluetooth、GPIOポート。
+ 4. ファンは必要ありません。  
+
+
+ 5. 接続可能性：イーサネットポート、4 USBポート、WiFi、Bluetooth、GPIポート。  
 
 
 
 
-**433 Mhzの関心は次のとおりです：**
+**  433 MHzの関心は次のとおりです。 **  
 
- 1. それは何十年もの間世界中で認可されてきました。
+ 1. 私達は私達が何十年もの間世界的に許可されています。  
 
 
- 2. したがって、非常に安価な材料があります。
+ 2. その結果、非常に安価な材料があります。  
 
 
 
  
-その欠点は次のとおりです。
+彼の欠点は次のとおりです。 
 
- 1. 定義されたプロトコルはありません、各メーカーは彼が望むことをします。
-
-
- 2. 使用されるプロトコルが双方向になることはめったにありません。
+ 1. 定義されたプロトコルはありません、各製造業者は彼が望むものをします。  
 
 
+ 2. 使用されているプロトコルはめったにないことです。  
 
 
-**zigbeeの関心は次のとおりです：**
-
- 1. 安価なモジュールを構築できるように設計されているため、価格は徐々に下がります。
 
 
- 1. オープンで安全な双方向プロトコルを使用します。
+**  ZigBeeの関心は次のとおりです。 **  
+
+ 1. 結果として、安価なモジュールの構築を可能にするように設計されていました。  
 
 
- 1. 各モジュールは、検出距離を伸ばすためのリレーとして使用できます。
+ 1. オープンで安全で双方向のプロトコルを使用します。  
 
 
- 1. 国際的な周波数範囲を使用し、多数のモジュールの管理を可能にします。
+ 1. 各モジュールは、スコープを増やすための中継として機能することができます。  
 
 
- 1. それは _Philips_  (システム _HUE_)、IKEA  (システム _TRÅDFRI_)、レグランド、Xiaomi、そして他の多くのものなどの大きなブランドで選択されました... 
+ 1. それはさまざまな国際周波数を使い、多数のモジュールを管理します。  
+
+
+ 1. それは  _Philips_   (    _HUE_  )、IKEA   (  System   _TRÅDFRI_ 、Legrand、Xiaomi、そしてもっと多くのものなどの重要なブランドによって選択されました...  
 
 
 
 
 # 手順：
 
-* [アキルアパラタロン](_posts/2020-08-31-aparataro.md)
+* [ 素材を入手する ](_posts/2020-08-31-aparataro.md)  
 
 
-* [インストール _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+* [    _raspbian_  ](_posts/2020-12-22-instali_raspbian.md)  
 
 
-* ジグビーコーディネーターでUSBキー _CC2531_  をプログラムします： [  _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)の位置
+*  ZigBee Coordinatorを搭載した  _CC2531_    USBキー：  [    _flash\_cc2531_  ](https://jmichault.github.io/flash_cc2531-dok/)  
+
+* 433 MHz用のアンテナを構築します。  
 
 
-* 433Mhzの​​アンテナを構築します。
+*   _domoticz_    [   _domoticz.com_  ](https://www.domoticz.com/wiki/Raspberry_Pi)  
 
 
-* インストール _domoticz_ ：( zzz3）domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
-  
+*   _zigbee_    [   _zigbee2mqtt.io_  ](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)  
 
 
-* インストール _zigbee_ ：( zzz3）zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+*   _rf\_gpio_    [   _github.com_  ](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)  
 
 
-* インストール _rf_gpio_ ：( zzz4）github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-  
+* 最初の項目を接続してください：   
 
 
-* 最初のアイテムを接続します：  
+  * 温度計  _433Mhz_  を接続してください
 
 
-  * 温度計を接続する _433Mhz_
+  *   _433Mhz_  ソケットを接続します
 
 
-  * プラグを接続します _433Mhz_
-
-
-  * バルブを接続する _zigbee_
+  * 電球  _zigbee_  を接続します
 
 
 

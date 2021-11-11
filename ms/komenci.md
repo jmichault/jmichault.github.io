@@ -4,105 +4,102 @@ lang: ms
 lang-niv: auto
 lang-ref: 000-komenci
 layout: page
-title: 'Untuk memulakan debutnya'
+title: 'Untuk mula'
 ---
 
-# pengenalan
-Sebagai contoh debut, anda boleh membuat sistem automasi rumah dengan komputer nanoco _raspberry Pi3 B+_, melengkapkannya untuk dapat menguruskan peralatan 433 Mhz dan _zigbee_peralatan. Saya memilih domoticz program percuma untuk menguruskan semuanya.
+# Pengenalan
+Sebagai contoh permulaan, anda boleh membuat sistem domain rumah dengan komputer nano   _raspberry Pi3 B+_, melengkapkannya untuk menguruskan 433 MHz peralatan dan peralatan   _zigbee_. Saya telah memilih program percuma Hosticz untuk mengendalikan set.  
 
-**The _raspberry Pi3 B+_ mempunyai kelebihan berikut:**
+**    _raspberry Pi3 B+_   mempunyai faedah:  **  
 
- 1. harganya rendah
-
-
- 2. kuasa komputer yang sangat selesa untuk automasi rumah.
+ 1. Harga yang rendah  
 
 
- 3. pengurangan penggunaan.
+ 2. Kuasa komputer yang sangat selesa untuk automasi rumah.  
 
 
- 4. tidak perlu kipas.
+ 3. Mengurangkan penggunaan.  
 
 
- 5. penyambungan yang disediakan: port ethernet, 4 port USB, Wifi, Bluetooth, port GPIO.
+ 4. Tidak perlu peminat.  
+
+
+ 5. Hubungan yang disediakan: Pelabuhan Ethernet, 4 port USB, WiFi, Bluetooth, pelabuhan GPI.  
 
 
 
 
-**Minat 433 Mhz adalah:**
+**  Kepentingan 433 MHz adalah:  **  
 
- 1. ia telah dilesenkan di seluruh dunia selama beberapa dekad.
+ 1. Kami telah membenarkan kami di seluruh dunia selama beberapa dekad.  
 
 
- 2. oleh itu terdapat bahan yang sangat murah.
+ 2. Akibatnya, terdapat bahan yang sangat murah.  
 
 
 
  
-Kelemahannya adalah:
+Kelemahannya adalah:  
 
- 1. tidak ada protokol yang ditentukan, setiap pengeluar melakukan apa yang dia mahukan.
-
-
- 2. protokol yang digunakan jarang dua arah.
+ 1. Tidak ada protokol yang ditakrifkan, setiap pengeluar melakukan apa yang dia mahu.  
 
 
+ 2. Protokol yang digunakan jarang bidirect.  
 
 
-**Minat zigbee adalah:**
-
- 1. dirancang untuk memungkinkan untuk membina modul yang murah, sehingga harga turun secara beransur-ansur.
 
 
- 1. ia menggunakan protokol terbuka, selamat dan dua hala.
+**  Kepentingan Zigbee ialah:  **  
+
+ 1. Ia direka untuk membolehkan pembinaan modul murah, akibatnya harga secara beransur-ansur jatuh.  
 
 
- 1. setiap modul boleh digunakan sebagai geganti untuk meningkatkan jarak penginderaan.
+ 1. Ia menggunakan protokol terbuka, selamat dan bidirectional.  
 
 
- 1. ia menggunakan julat frekuensi antarabangsa dan memungkinkan untuk menguruskan sebilangan besar modul.
+ 1. Setiap modul boleh berfungsi sebagai relay untuk meningkatkan skop.  
 
 
- 1. Ia dipilih dengan jenama besar seperti  _Philips_  ( sistem  _HUE_), IKEA  ( Sistem  _TRÅDFRI_), Legrand, Xiaomi, dan banyak lagi ... 
+ 1. Ia menggunakan pelbagai frekuensi antarabangsa dan menguruskan sejumlah besar modul.  
+
+
+ 1. Ia dipilih oleh jenama penting seperti   _Philips_   (    _HUE_  ), IKEA   (  Sistem   _TRÅDFRI_  ), Legrand, Xiaomi, dan banyak lagi ...  
 
 
 
 
 # Langkah-langkah:
 
-* [akiru aparataron](_posts/2020-08-31-aparataro.md)
+* [  Dapatkan bahan  ](_posts/2020-08-31-aparataro.md)  
 
 
-* [pasang _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+* [  Pasang   _raspbian_  ](_posts/2020-12-22-instali_raspbian.md)  
 
 
-* atur kunci USB _CC2531_  dengan koordinator zigbee: [ lokasi _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
+*  Program   _CC2531_    Key USB dengan Penyelaras ZigBee:   [    _flash\_cc2531_  ](https://jmichault.github.io/flash_cc2531-dok/)  
+
+* Bina antena untuk 433 MHz.  
 
 
-* bina antena untuk 433 Mhz.
+* Pasang   _domoticz_    [   _domoticz.com_  ](https://www.domoticz.com/wiki/Raspberry_Pi)  
 
 
-* pasang _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
-  
+* Pasang   _zigbee_    [   _zigbee2mqtt.io_  ](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)  
 
 
-* pasang _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+* Pasang   _rf\_gpio_    [   _github.com_  ](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)  
 
 
-* pasang _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-  
+* Sambungkan item pertama anda:    
 
 
-* Sambungkan item pertama anda:  
+  * Sambungkan termometer   _433Mhz_  
 
 
-  * sambungkan termometer _433Mhz_
+  * Sambungkan soket   _433Mhz_   
 
 
-  * sambungkan palam _433Mhz_
-
-
-  * sambungkan mentol _zigbee_
+  * Sambungkan mentol   _zigbee_  
 
 
 

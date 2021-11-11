@@ -1,81 +1,81 @@
 ---
 komentoj_id: 1
 lang: eo
-lang-niv: homa
+lang-niv: auto
 lang-ref: 000-komenci
 layout: page
-title: 'Por debuti'
+title: Komenci
 ---
 
-# enkonduko
-Kiel ekzemplo de debuto, vi povas krei hejman aŭtomatan sistemon per nanokomputilo _raspberry Pi3 B+_, ekipante ĝin por povi administri 433 Mhz-ekipaĵojn kaj _zigbee_-ekipaĵojn. Mi elektis la liberan programon domoticz por administri ĉion.
+# Enkonduko
+Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la senpagan programon Domoticz por pritrakti la aron. 
 
-**La _raspberry Pi3 B+_ havas la jenajn avantaĝojn:**
+** La  _raspberry Pi3 B+_  havas por avantaĝoj: ** 
 
- 1. ĝia malalta prezo
+ 1. Lia malalta prezo 
 
- 2. tre komforta komputila potenco por hejma aŭtomatigo.
+ 2. Tre komforta komputila potenco por hejma aŭtomatigo. 
 
- 3. reduktita konsumo.
+ 3. Konsumo reduktita. 
 
- 4. neniu ventolilo bezonis.
+ 4. Neniu bezono de ventumilo. 
 
- 5. konektebleco provizita: ethernet-haveno, 4 USB-havenoj, Wifi, Bluetooth, GPIO-havenoj.
+ 5. Konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. 
 
 
 
-**La intereso de 433 Mhz estas:**
+** La intereso de la 433 MHz estas: ** 
 
- 1. ĝi estas rajtigita tutmonde de jardekoj.
+ 1. Oni permesis al ni tutmonde dum jardekoj. 
 
- 2. tial ekzistas tre malmultekosta materialo.
+ 2. Rezulte, estas tre malmultekosta materialo. 
 
 
  
-Ĝiaj malavantaĝoj estas:
+Liaj malavantaĝoj estas: 
 
- 1. ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas.
+ 1. Ne estas difinita protokolo, ĉiu fabrikanto faras tion, kion li volas. 
 
- 2. la uzata protokolo malofte estas dudirekta.
+ 2. La protokolo uzata estas malofte bidirekta. 
 
 
 
-**La intereso de zigbee estas:**
+** La intereso de ZigBee estas: ** 
 
- 1. estis dizajnite por fari ebla konstrui malmultekostajn modulojn, tiel ke prezoj iom post iom falas.
+ 1. I estis desegnita por ebligi la konstruadon de malmultekostaj moduloj, kiel rezulto la prezoj iom post iom falas. 
 
- 1. ĝi uzas malferman, sekuran kaj dudirektan protokolon.
+ 1. Ĝi uzas malfermitan, sekura kaj bidireccional protokolo. 
 
- 1. ĉiu modulo povas esti uzata kiel relajso por pliigi la sensodistancon.
+ 1. Ĉiu modulo povas servi kiel relajso por pliigi la amplekson. 
 
- 1. ĝi uzas internacian frekvencan gamon kaj ebligas administri grandan nombron da moduloj.
+ 1. I uzas gamon de internacia frekvenco kaj por administri grandan nombron da moduloj. 
 
- 1. ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...
+ 1. I estis elektita de gravaj markoj kiel  _Philips_  ( System  _HUE_ ), IKEA  ( System  _TRÅDFRI_ ), Legrand, Xiaomi, kaj multaj pli ... 
 
 
 
 # Paŝoj:
 
-* [akiru aparataron](_posts/2020-08-31-aparataro.md)
+* [ Akiru la materialon ](_posts/2020-08-31-aparataro.md) 
 
-* [instali _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+* [ Instalu  _raspbian_ ](_posts/2020-12-22-instali_raspbian.md) 
 
-* programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
+* Programo La  _CC2531_   USB-ŝlosilo kun ZigBee-kunordiganto:  [   _flash\_cc2531_ ](https://jmichault.github.io/flash_cc2531-dok/) 
 
-* konstruu antenon por 433 Mhz.
+* Konstrui antenon por 433 MHz. 
 
-* instali _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
+* Instalu  _domoticz_ :  [  _domoticz.com_ ](https://www.domoticz.com/wiki/Raspberry_Pi) 
 
-* instali _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+* Instalu  _zigbee_ :  [  _zigbee2mqtt.io_ ](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html) 
 
-* instali _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+* Instalu  _rf\_gpio_ :  [  _github.com_ ](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md) 
 
-* Konekti viajn unuajn elementojn:  
+* Konekti viajn unuajn erojn:   
 
-  * konekti termometron _433Mhz_
+  * Konekti termometron  _433Mhz_ 
 
-  * konekti ŝtopilon _433Mhz_
+  * Konekti a  _433Mhz_  socket
 
-  * konekti ampolon _zigbee_
+  * Konekti bulbon  _zigbee_ 
 
 

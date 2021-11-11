@@ -4,105 +4,102 @@ lang: es
 lang-niv: auto
 lang-ref: 000-komenci
 layout: page
-title: Debutar
+title: 'Para comenzar'
 ---
 
 # Introducción
-Como ejemplo de debut, se puede crear un sistema domótico con un nanoordenador _raspberry Pi3 B+_, equipándolo para poder gestionar equipos de 433 Mhz y equipos _zigbee_. Elegí el programa gratuito domoticz para gestionarlo todo.
+Como ejemplo de inicio, puede hacer un sistema de dominio de casa con una computadora nano   _raspberry Pi3 B+_, equipándola para administrar equipo y equipo de 433 MHz   _zigbee_. He elegido el programa gratuito Hosticz para manejar el conjunto.  
 
-**El _raspberry Pi3 B+_ tiene las siguientes ventajas:**
+**  El   _raspberry Pi3 B+_   tiene beneficios:  **  
 
- 1. su bajo precio
-
-
- 2. Computadora eléctrica muy cómoda para domótica.
+ 1. Su bajo precio  
 
 
- 3. consumo reducido.
+ 2. Muy cómodo poder de computadora para la automatización del hogar.  
 
 
- 4. no se necesita ventilador.
+ 3. Consumo reducido.  
 
 
- 5. conectividad proporcionada: puerto ethernet, 4 puertos USB, Wifi, Bluetooth, puertos GPIO.
+ 4. No hay necesidad de un fan.  
+
+
+ 5. Conexión proporcionada: Puerto Ethernet, 4 puertos USB, WiFi, Bluetooth, puertos GPI.  
 
 
 
 
-**El interés de 433 Mhz es:**
+**  El interés de los 433 MHz es:  **  
 
- 1. tiene licencia en todo el mundo durante décadas.
+ 1. Nos hemos permitido a todo el mundo durante décadas.  
 
 
- 2. por eso hay material muy barato.
+ 2. Como resultado, hay material muy barato.  
 
 
 
  
-Sus desventajas son:
+Sus desventajas son:  
 
- 1. no hay un protocolo definido, cada fabricante hace lo que quiere.
-
-
- 2. el protocolo utilizado rara vez es bidireccional.
+ 1. No hay un protocolo definido, cada fabricante hace lo que quiere.  
 
 
+ 2. El protocolo utilizado rara vez es bidirecto.  
 
 
-**El interés de zigbee es:**
-
- 1. fue diseñado para posibilitar la construcción de módulos económicos, de modo que los precios bajen gradualmente.
 
 
- 1. utiliza un protocolo abierto, seguro y bidireccional.
+El interés de **  Zigbee es:  **  
+
+ 1. Fue diseñado para permitir la construcción de módulos baratos, como resultado, los precios caen gradualmente.  
 
 
- 1. cada módulo se puede utilizar como relé para aumentar la distancia de detección.
+ 1. Utiliza un protocolo abierto, seguro y bidireccional.  
 
 
- 1. utiliza un rango de frecuencia internacional y permite gestionar un gran número de módulos.
+ 1. Cada módulo puede servir como relé para aumentar el alcance.  
 
 
- 1. Fue elegido con grandes marcas como el sistema  _Philips_  (  _HUE_), IKEA  ( Sistema  _TRÅDFRI_), Legrand, Xiaomi y muchos otros ... 
+ 1. Utiliza una gama de frecuencias internacionales y para administrar un gran número de módulos.  
+
+
+ 1. Fue elegido por marcas importantes como el sistema   _Philips_   ( , IKEA   (  Sistema   _TRÅDFRI_  ), Legrand, Xiaomi y muchos más ...  
 
 
 
 
 # Pasos:
 
-* [akiru aparataron](_posts/2020-08-31-aparataro.md)
+* [  Obtenga el material  ](_posts/2020-08-31-aparataro.md)  
 
 
-* [instalar _raspbian_](_posts/2020-12-22-instali_raspbian.md)
+* [  Instalar   _raspbian_  ](_posts/2020-12-22-instali_raspbian.md)  
 
 
-* programar la llave USB _CC2531_  con el coordinador zigbee: [ la ubicación de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
+*  Programe la tecla USB   _CC2531_    con el coordinador de Zigbee:   [    _flash\_cc2531_  ](https://jmichault.github.io/flash_cc2531-dok/)  
+
+* Construir una antena para 433 MHz.  
 
 
-* construye una antena para 433 Mhz.
+* Instale   _domoticz_    [   _domoticz.com_  ](https://www.domoticz.com/wiki/Raspberry_Pi)  
 
 
-* instalar _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
-  
+* Instale   _zigbee_    [   _zigbee2mqtt.io_  ](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)  
 
 
-* instalar _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+* Instale   _rf\_gpio_    [   _github.com_  ](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)  
 
 
-* instalar _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
-  
+* Conecte sus primeros elementos:    
 
 
-* Conecte sus primeros elementos:  
+  * Conecte un termómetro   _433Mhz_  
 
 
-  * conectar termómetro _433Mhz_
+  * Conecte un socket   _433Mhz_   
 
 
-  * conectar el enchufe _433Mhz_
-
-
-  * conectar bombilla _zigbee_
+  * Conectar Bulb   _zigbee_  
 
 
 

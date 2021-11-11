@@ -44,11 +44,11 @@ Ses inconvénients sont:
 
 * [obtenir le matériel](_posts/2020-08-31-aparataro.md)
 * [installer _raspbian_](_posts/2020-12-22-instali_raspbian.md)
-* programmer la clé USB _CC2531_  avec le coordinateur zigbee : [ le site de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
+* programmer la clé USB _CC2531_  avec le coordinateur zigbee : [ le site de _flash\_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)
 * construire une antenne pour 433 Mhz.
-* installer _domoticz_ : [domoticz.com](https://www.domoticz.com/wiki/Raspberry_Pi)
-* installer _zigbee_ : [zigbee2mqtt.io](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
-* installez _rf_gpio_ : [github.com](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
+* installer _domoticz_ : [ _domoticz.com_](https://www.domoticz.com/wiki/Raspberry_Pi)
+* installer _zigbee_ : [ _zigbee2mqtt.io_](https://www.zigbee2mqtt.io/getting_started/running_zigbee2mqtt.html)
+* installez _rf\_gpio_ : [ _github.com_](https://github.com/jmichault/rf_gpio/blob/master/LeguMin.md)
 * Connectez vos premiers éléments:  
   * connecter un thermomètre _433Mhz_
   * connecter une prise _433Mhz_
