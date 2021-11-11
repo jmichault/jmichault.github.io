@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:45+0100\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,7 @@ msgstr ""
 
 #. type: YAML Front Matter: komentoj_id
 #: _posts/2020-12-22-instali_raspbian.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "4"
 msgstr "4."
 
@@ -303,14 +302,17 @@ msgstr "sudo apt install ntp\n"
 
 #. type: Plain text
 #: _posts/2020-12-22-instali_raspbian.md:106
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Se vi ne bezonas ĝin, forigo de:\n"
 "Purga APT Wolfram-motoro Wolframscript LibreOffice*\n"
 "APT autémove\n"
 "APT Pura All\n"
-msgstr "Если вам это не нужно, удаление: \n Purge APT Wolfram Motor Wolframscript LibreOffice * \n APT Autémove \n APT Pure All All \n"
+msgstr ""
+"Если вам это не нужно, удаление: \n"
+" Purge APT Wolfram Motor Wolframscript LibreOffice * \n"
+" APT Autémove \n"
+" APT Pure All All \n"
 
 #, no-wrap
 #~ msgid "homa"

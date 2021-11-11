@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,167 +16,156 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2021-08-14-alexa.md:1
+#, fuzzy, no-wrap
+msgid "6"
+msgstr "6"
+
 #. type: YAML Front Matter: lang
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "eo"
 msgstr "pa"
 
 #. type: YAML Front Matter: lang-niv
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "alexa"
 msgstr "alexa"
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "post"
 msgstr "post"
 
 #. type: YAML Front Matter: slug
-#: ./_posts/2021-08-14-alexa.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:1
+#, fuzzy, no-wrap
 msgid "_Alexa_"
 msgstr "_Alexa_"
 
 #. type: YAML Front Matter: title
-#: ./_posts/2021-08-14-alexa.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:1
+#, fuzzy, no-wrap
 msgid "_Amazon Alexa_"
 msgstr "_Amazon Alexa_"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:11
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:12
+#, fuzzy, no-wrap
 msgid "Eblas konekti _Alexa_ kaj _Domoticz_.\n"
 msgstr " _Alexa_ ਅਤੇ _Domoticz_ਨਾਲ ਜੁੜਨਾ ਸੰਭਵ ਹੈ.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:14
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:15
+#, fuzzy, no-wrap
 msgid ""
 "Por ĉi tio, instalu _habridge_, vidu artikolon:\n"
 "[ligilo _Domoticz-Alexa_ : _ha-bridge_](2021-08-14-habridge.md)\n"
 msgstr "ਇਸਦੇ ਲਈ, ਲੇਖ ਦੇਖੋ  _habridge_ ਦੇਖੋ  _Domoticz-Alexa_  ਲਿੰਕ  _Domoticz-Alexa_ :  _ha-bridge_]( 2021-08-14- H9> )\n"
 
 #. type: Title ##
-#: ./_posts/2021-08-14-alexa.md:16
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:17
+#, fuzzy, no-wrap
 msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
 msgstr "ਅਲਕਲਸਾ ਅਤੇ ਘਰੇਲੂ ਬਣੇ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਬਦਲੋ:"
 
 #. type: Bullet: '- '
-#: ./_posts/2021-08-14-alexa.md:18
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:19
+#, fuzzy, no-wrap
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
 msgstr "ਇੰਟਰਫੇਸ ਨਾਲ ਜੁੜੋ: http: // ਸਿਰਨਾਵਾਂ_du_pi: 8082\n"
 
 #. type: Bullet: '- '
-#: ./_posts/2021-08-14-alexa.md:20
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:21
+#, fuzzy, no-wrap
 msgid "Ponto-Kontrolo-Tab:\n"
 msgstr "ਬਰਿੱਜ ਨਿਯੰਤਰਣ ਟੈਬ:\n"
 
 #. type: Bullet: '  - '
-#: ./_posts/2021-08-14-alexa.md:22
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:23
+#, fuzzy, no-wrap
 msgid "_Use Rooms for Alexa_ : Vera\n"
 msgstr "_Use Rooms for Alexa_ : ਸੱਚ\n"
 
 #. type: Bullet: '  - '
-#: ./_posts/2021-08-14-alexa.md:24
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:25
+#, fuzzy, no-wrap
 msgid "_domoticz_ ...:\n"
 msgstr "_domoticz_ ...::\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:26
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:27
+#, fuzzy, no-wrap
 msgid "_name=_ Kion ni volas.\n"
 msgstr "_name=_ ਜੋ ਅਸੀਂ ਚਾਹੁੰਦੇ ਹਾਂ.\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:28
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:29
+#, fuzzy, no-wrap
 msgid "_IP_ = AdresoPI\n"
 msgstr "_IP_ = ਐਡਰੈਸਪੀ\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:30
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:31
+#, fuzzy, no-wrap
 msgid "_port_ = 8080\n"
 msgstr "_port_ = 8080\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:32
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:33
+#, fuzzy, no-wrap
 msgid "Alklaku _Add_.\n"
 msgstr " _Add_ਤੇ ਕਲਿਕ ਕਰੋ.\n"
 
 #. type: Bullet: '  - '
-#: ./_posts/2021-08-14-alexa.md:34
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:35
+#, fuzzy, no-wrap
 msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
 msgstr "_Unique ID to use 9 Octets_ : ਸੱਚ (_ਪਰਰਾ_).\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:37
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:38
+#, fuzzy, no-wrap
 msgid "Kutime la resto estas agordita konvene.\n"
 msgstr "ਆਮ ਤੌਰ 'ਤੇ ਬਾਕੀ ਨੂੰ ਸਹੀ ਤਰ੍ਹਾਂ ਕੌਂਫਿਗਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ.\n"
 
 #. type: Title ##
-#: ./_posts/2021-08-14-alexa.md:38
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:39
+#, fuzzy, no-wrap
 msgid "Elektu aparatojn"
 msgstr "ਜੰਤਰ ਚੁਣੋ"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:40
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:41
+#, fuzzy, no-wrap
 msgid "Iru al la langeto _«Domoticz Devices»_.\n"
 msgstr "ਟੈਬ ਤੇ ਜਾਓ _«Domoticz Devices»_.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:43
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:44
+#, fuzzy, no-wrap
 msgid ""
-"Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la "
-"aparatojn:\n"
+"Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
 "\"konektita domo\" -> aparatoj -> detektas.\n"
-msgstr "ਹੁਣ ਤੁਸੀਂ ਇੰਟਰਫੇਸ ਤੇ ਜਾ ਸਕਦੇ ਹੋ  _https://alexa.amazon.fr/_ , ਅਤੇ ਡਿਵਾਈਸਾਂ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹੋ: \n >  - - - >  ਡਿਵਾਈਸਿਸ - >  ਖੋਜ. \n"
+msgstr ""
+"ਹੁਣ ਤੁਸੀਂ ਇੰਟਰਫੇਸ ਤੇ ਜਾ ਸਕਦੇ ਹੋ  _https://alexa.amazon.fr/_ , ਅਤੇ ਡਿਵਾਈਸਾਂ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹੋ: \n"
+" >  - - - >  ਡਿਵਾਈਸਿਸ - >  ਖੋਜ. \n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:46
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:47
+#, fuzzy, no-wrap
 msgid ""
 "Noto: Por aldoni kontrolan frazon:\n"
 "iru al la poŝtelefona apliko _alexa_, kaj kreu rutinon.\n"
-msgstr "ਨੋਟ: ਨਿਯੰਤਰਣ ਦੀ ਸਜ਼ਾ ਸ਼ਾਮਲ ਕਰਨ ਲਈ:\nਮੋਬਾਈਲ ਐਪਲੀਕੇਸ਼ਨ _alexa_ਤੇ ਜਾਓ, ਅਤੇ ਇੱਕ ਰੁਟੀਨ ਬਣਾਓ.\n"
-
+msgstr ""
+"ਨੋਟ: ਨਿਯੰਤਰਣ ਦੀ ਸਜ਼ਾ ਸ਼ਾਮਲ ਕਰਨ ਲਈ:\n"
+"ਮੋਬਾਈਲ ਐਪਲੀਕੇਸ਼ਨ _alexa_ਤੇ ਜਾਓ, ਅਤੇ ਇੱਕ ਰੁਟੀਨ ਬਣਾਓ.\n"

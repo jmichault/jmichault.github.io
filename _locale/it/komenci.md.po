@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:44+0100\n"
+"POT-Creation-Date: 2021-11-11 13:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,8 +168,7 @@ msgstr "utilizza una gamma di frequenze internazionale e permette di gestire un 
 
 #. type: Bullet: ' 1. '
 #: komenci.md:54
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr "È stato scelto con grandi marchi come  _Philips_  ( System  _HUE_), IKEA  ( Sistema  _TRÅDFRI_), LeGrand, Xiaomi e molti altri ... \n"
 

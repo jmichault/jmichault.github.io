@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:49+0100\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+#, fuzzy
+msgid "7"
+msgstr "7"
 
 #. type: YAML Front Matter: lang
 #: _posts/2021-08-14-habridge.md:1
@@ -48,43 +55,42 @@ msgstr "_ha-bridge_"
 
 #. type: YAML Front Matter: title
 #: _posts/2021-08-14-habridge.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ligilo _Domoticz-Alexa_ : _ha-bridge_"
 msgstr "लिंक  _Domoticz-Alexa_ :  _ha-bridge_"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:11
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:12
+#, fuzzy, no-wrap
 msgid " _ha-bridge_ estas programaro, kiu simulas ponton _zigbee Philips Hue_ en via  komputilo.\n"
 msgstr " _ha-bridge_  एक ऐसा सॉफ़्टवेयर है जो आपके कंप्यूटर पर एक पुल  _zigbee Philips Hue_  अनुकरण करता है। \n"
 
 #. type: Title ##
-#: _posts/2021-08-14-habridge.md:13
+#: _posts/2021-08-14-habridge.md:14
 #, fuzzy, no-wrap
 msgid "instalado de _ha-bridge_"
 msgstr " _ha-bridge_की स्थापना"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:15
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:16
+#, fuzzy, no-wrap
 msgid "Ni instalos kun la uzanto  _domotiko_  antaŭe kreita. \n"
 msgstr "हम पहले बनाए गए उपयोगकर्ता   _domotiko_   के साथ स्थापित करेंगे।  \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:19
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:20
+#, fuzzy, no-wrap
 msgid ""
 "Antaŭkondiĉoj: \n"
 " *  La uzanto  _domotiko_  devas ekzisti. \n"
 " *  _java_  > = 8 devas esti instalita. \n"
-msgstr "पूर्वापेक्षाएँ:  \n  *   उपयोगकर्ता   _domotiko_   मौजूद होना चाहिए।  \n  *   _java_   >  = 8 स्थापित होना चाहिए।  \n"
+msgstr ""
+"पूर्वापेक्षाएँ:  \n"
+"  *   उपयोगकर्ता   _domotiko_   मौजूद होना चाहिए।  \n"
+"  *   _java_   >  = 8 स्थापित होना चाहिए।  \n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:20
+#: _posts/2021-08-14-habridge.md:21
 #, no-wrap
 msgid ""
 "sudo su - domotiko\n"
@@ -100,20 +106,19 @@ msgstr ""
 "exit\n"
 
 #. type: Title ##
-#: _posts/2021-08-14-habridge.md:29
+#: _posts/2021-08-14-habridge.md:30
 #, fuzzy, no-wrap
 msgid "kreante la servon:"
 msgstr "सेवा बनाना:"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:31
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:32
+#, fuzzy, no-wrap
 msgid "Defaŭlte _ha-bridge_ aŭskultas ĉe la haveno 80, jam uzata de _apache_, ni igos ĝin aŭskulti ĉe la haveno 8082 por redukti la riskon de konflikto.\n"
 msgstr "डिफ़ॉल्ट रूप से  _ha-bridge_  बंदरगाह 80 पर सुना गया है, पहले से ही  _apache_ द्वारा उपयोग किया जाता है, हम इसे संघर्ष के जोखिम को कम करने के लिए बंदरगाह 8082 को सुनेंगे। \n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:32
+#: _posts/2021-08-14-habridge.md:33
 #, no-wrap
 msgid ""
 "sudo bash\n"
@@ -171,52 +176,51 @@ msgstr ""
 "sudo systemctl enable ha-bridge.service\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:62
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:63
+#, fuzzy, no-wrap
 msgid "Ha-ponto nun estas alirebla pri: http: // adreson_du_PI: 8082 /\n"
 msgstr "हा-ब्रिज अब पहुंच योग्य है: http: // पता _du_ PI: 8082 / \n"
 
 #. type: Title #
-#: _posts/2021-08-14-habridge.md:63
+#: _posts/2021-08-14-habridge.md:64
 #, fuzzy, no-wrap
 msgid "Laŭvola sed rekomendita: Agordu uzanton."
 msgstr "वैकल्पिक लेकिन अनुशंसित: एक उपयोगकर्ता सेट अप करें।"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:67
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:68
+#, fuzzy, no-wrap
 msgid ""
 "Konekti al la interfaco: http: // adreson_du_PI: 8082\n"
 "Ponto Kontrolo-langeto:\n"
 "Alklaku _«Update Security Settings»_\n"
-msgstr "इंटरफ़ेस से कनेक्ट करें: http: // पता _du_ PI: 8082 \n ब्रिज कंट्रोल टैब: \n  _«Update Security Settings»_  क्लिक करें\n"
+msgstr ""
+"इंटरफ़ेस से कनेक्ट करें: http: // पता _du_ PI: 8082 \n"
+" ब्रिज कंट्रोल टैब: \n"
+"  _«Update Security Settings»_  क्लिक करें\n"
 
 #. type: Title #
-#: _posts/2021-08-14-habridge.md:68
+#: _posts/2021-08-14-habridge.md:69
 #, fuzzy, no-wrap
 msgid "Agordu _apache_ por relaja haveno 80 al la 8082-haveno"
 msgstr "8082 पोर्ट के लिए रिले पोर्ट 80 के लिए अनुकूलित करें (0001 डिग्री)"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:71
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:72
+#, fuzzy, no-wrap
 msgid ""
 "_Google Home_ kaj _Alexa_ postulas, ke la ponto renkontos la 80-a havenon 80.\n"
 "ni uzos la prokurajn funkciojn de _apache_ por redirekti la URL-ojn pri Ha-Ponto al la Port 8082 .\n"
 msgstr "_Google Home_  और  _Alexa_  यह आवश्यक है कि पुल 80 वें पोर्ट 80 को पूरा करेगा। <एच 5> हम पोर्ट 8082 में एचए-ब्रिज यूआरएल को रीडायरेक्ट करने के लिए  _apache_  के प्रॉक्सी फ़ंक्शंस का उपयोग करेंगे। \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:73
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:74
+#, fuzzy, no-wrap
 msgid "La necesaj moduloj estas aktivigitaj kaj lanĉis la redaktilon _nano_ por ŝanĝi la defaŭltan retejan agordon:\n"
 msgstr "आवश्यक मॉड्यूल सक्रिय हैं और डिफ़ॉल्ट वेब साइट सेटिंग्स को बदलने के लिए संपादक  _nano_  लॉन्च किया गया है: \n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:74
+#: _posts/2021-08-14-habridge.md:75
 #, no-wrap
 msgid ""
 "sudo a2enmod proxy proxy_http headers\n"
@@ -226,14 +230,13 @@ msgstr ""
 "sudo nano /etc/apache2/sites-enabled/000-default.conf\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:80
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:81
+#, fuzzy, no-wrap
 msgid "En la redaktilo, nun necesas aldoni la liniojn sube post la linio '<VirtuadHost *: 80>':\n"
 msgstr "संपादक में, अब आपको लाइन '< virtuadhost  *: 80 >' के बाद नीचे दी गई रेखाओं को जोड़ने की आवश्यकता है: \n"
 
 #. type: Fenced code block
-#: _posts/2021-08-14-habridge.md:80
+#: _posts/2021-08-14-habridge.md:81
 #, no-wrap
 msgid ""
 "        ProxyPass         /api  http://localhost:8082/api nocanon\n"
@@ -261,20 +264,19 @@ msgstr ""
 "        </Proxy>\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:94
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:95
+#, fuzzy, no-wrap
 msgid "Konservu la dosieron per _Ctrl-X_\n"
 msgstr " _Ctrl-X_  फ़ाइल को सहेजें\n"
 
 #. type: Bullet: '(1) '
-#: _posts/2021-08-14-habridge.md:96
+#: _posts/2021-08-14-habridge.md:97
 #, fuzzy, no-wrap
 msgid "estas aktivigita, kaj stimulita:\n"
 msgstr "सक्रिय है, और उत्तेजित:\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:96
+#: _posts/2021-08-14-habridge.md:97
 #, no-wrap
 msgid ""
 "sudo systemctl enable apache2\n"
@@ -286,7 +288,7 @@ msgstr ""
 "sudo systemctl start apache2\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:104
+#: _posts/2021-08-14-habridge.md:105
 #, fuzzy, no-wrap
 msgid ""
 "Vi nun povas agordi la ligon _Alexa-Domoticz_ : vidu artikolon\n"
@@ -294,20 +296,19 @@ msgid ""
 msgstr "अब आप लिंक को अनुकूलित कर सकते हैंAMAINONA एलेक्सा](2021-08-14-alexa.md)\n"
 
 #. type: Title #
-#: _posts/2021-08-14-habridge.md:105
+#: _posts/2021-08-14-habridge.md:106
 #, fuzzy, no-wrap
 msgid "Noto:"
 msgstr "ध्यान दें:"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:107
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:108
+#, fuzzy, no-wrap
 msgid "Post migrado de _pi_ al _bullseye_, _apache_ ne komenciĝis ĉe lanĉo.\n"
 msgstr " _pi_   _bullseye_ के माइग्रेशन के बाद,  _apache_  लॉन्च पर शुरू नहीं हुआ। \n"
 
 #. type: Fenced code block
-#: _posts/2021-08-14-habridge.md:107
+#: _posts/2021-08-14-habridge.md:108
 #, no-wrap
 msgid ""
 "Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
@@ -323,14 +324,13 @@ msgstr ""
 "Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more information.\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:116
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:117
+#, fuzzy, no-wrap
 msgid "Manlibro kun `sudo systemctl start apache2` marŝis sen problemo.\n"
 msgstr " `sudo systemctl start apache2`  एक समस्या के बिना चला गया। \n"
 
 #. type: Fenced code block
-#: _posts/2021-08-14-habridge.md:116
+#: _posts/2021-08-14-habridge.md:117
 #, no-wrap
 msgid ""
 "Restart=on-failure\n"
@@ -340,7 +340,7 @@ msgstr ""
 "RestartSec=10\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:122
+#: _posts/2021-08-14-habridge.md:123
 #, fuzzy, no-wrap
 msgid "Nun la unua komenco de _apache_ malsukcesas, sed dua provo aŭtomate sukcesas 10 sekundojn poste.\n"
 msgstr "अब पहली शुरुआतविफल रहता है, लेकिन दूसरा प्रयास स्वचालित रूप से 10 सेकंड बाद मिलता है।\n"

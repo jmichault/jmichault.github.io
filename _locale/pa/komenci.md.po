@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:44+0100\n"
+"POT-Creation-Date: 2021-11-11 13:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,8 +168,7 @@ msgstr "ਇਹ ਅੰਤਰਰਾਸ਼ਟਰੀ ਬਾਰੰਬਾਰਤਾ ਰ
 
 #. type: Bullet: ' 1. '
 #: komenci.md:54
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ĝi estis elektista per grandaj markoj kiel _Philips_ (sistemo _HUE_), Ikea (sistemo _TRÅDFRI_), Legrand, Xiaomi, kaj multaj aliaj ...\n"
 msgstr "ਇਹ ਵੱਡੇ ਬ੍ਰਾਂਡਾਂ ਜਿਵੇਂ  _Philips_  ( ਸਿਸਟਮ  _HUE_)  ( ਸਿਸਟਮ  _TRÅDFRI_), ਲਗਨੈਂਡ, ਜ਼ਿਆਮੀ, ਅਤੇ ਬਹੁਤ ਸਾਰੇ ...\n"
 
@@ -193,8 +192,7 @@ msgstr "[ਇੰਸਟੌਲ ਕਰੋ _ਰਸਪਬੀਅਨ_](_posts/2020-12-22
 
 #. type: Bullet: '* '
 #: komenci.md:64
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "programu la USB-ŝlosilon _CC2531_  kun la zigbee-kunordiganto: [ la loko de _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)\n"
 msgstr "ਯੁਗਬੀ ਕੋਆਰਡੀਨੇਟਰ ਦੇ ਨਾਲ ਯੂਐਸਬੀ ਕੁੰਜੀ  _CC2531_    [  cc2531 _](https://jmichault.github.io/flash_cc2531-dok/)  ਦਾ ਸਥਾਨ\n"
 
@@ -234,8 +232,7 @@ msgstr "ਆਪਣੀਆਂ ਪਹਿਲੀ ਚੀਜ਼ਾਂ ਨੂੰ ਜੋ�
 
 #. type: Bullet: '  * '
 #: komenci.md:76
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "konekti termometron _433Mhz_\n"
 msgstr "ਇੱਕ ਥਰਮਾਮੀਟਰ  _433Mhz_  ਨਾਲ ਜੁੜੋ\n"
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:28+0200\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,167 +16,158 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2021-08-14-alexa.md:1
+#, fuzzy, no-wrap
+msgid "6"
+msgstr "6."
+
 #. type: YAML Front Matter: lang
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "eo"
 msgstr "it"
 
 #. type: YAML Front Matter: lang-niv
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "alexa"
 msgstr "alexa"
 
 #. type: YAML Front Matter: layout
-#: ./_posts/2021-08-14-alexa.md:1
+#: _posts/2021-08-14-alexa.md:1
 #, no-wrap
 msgid "post"
 msgstr "post"
 
 #. type: YAML Front Matter: slug
-#: ./_posts/2021-08-14-alexa.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:1
+#, fuzzy, no-wrap
 msgid "_Alexa_"
 msgstr "_Alexa_"
 
 #. type: YAML Front Matter: title
-#: ./_posts/2021-08-14-alexa.md:1
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:1
+#, fuzzy, no-wrap
 msgid "_Amazon Alexa_"
 msgstr "_Amazon Alexa_"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:11
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:12
+#, fuzzy, no-wrap
 msgid "Eblas konekti _Alexa_ kaj _Domoticz_.\n"
 msgstr "È possibile collegare _Alexa_ e _Domoticz_.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:14
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:15
+#, fuzzy, no-wrap
 msgid ""
 "Por ĉi tio, instalu _habridge_, vidu artikolon:\n"
 "[ligilo _Domoticz-Alexa_ : _ha-bridge_](2021-08-14-habridge.md)\n"
-msgstr "Per questo, installare _habridge_, vedere Articolo:\n[: _ha-bridge_](2021-08 -14-Habridge.md)\n"
+msgstr ""
+"Per questo, installare _habridge_, vedere Articolo:\n"
+"[: _ha-bridge_](2021-08 -14-Habridge.md)\n"
 
 #. type: Title ##
-#: ./_posts/2021-08-14-alexa.md:16
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:17
+#, fuzzy, no-wrap
 msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
 msgstr "Cambia la connessione con Alexa e il fatto in casa:"
 
 #. type: Bullet: '- '
-#: ./_posts/2021-08-14-alexa.md:18
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:19
+#, fuzzy, no-wrap
 msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
 msgstr "Connetti all'interfaccia: http: // Indirizzo _du_ PI: 8082 \n"
 
 #. type: Bullet: '- '
-#: ./_posts/2021-08-14-alexa.md:20
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:21
+#, fuzzy, no-wrap
 msgid "Ponto-Kontrolo-Tab:\n"
 msgstr "Scheda di controllo del ponte:\n"
 
 #. type: Bullet: '  - '
-#: ./_posts/2021-08-14-alexa.md:22
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:23
+#, fuzzy, no-wrap
 msgid "_Use Rooms for Alexa_ : Vera\n"
 msgstr "_Use Rooms for Alexa_ : vero\n"
 
 #. type: Bullet: '  - '
-#: ./_posts/2021-08-14-alexa.md:24
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:25
+#, fuzzy, no-wrap
 msgid "_domoticz_ ...:\n"
 msgstr "_domoticz_  ...: \n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:26
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:27
+#, fuzzy, no-wrap
 msgid "_name=_ Kion ni volas.\n"
 msgstr "_name=_ Cosa vogliamo.\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:28
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:29
+#, fuzzy, no-wrap
 msgid "_IP_ = AdresoPI\n"
 msgstr "_IP_ = AREDYPI\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:30
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:31
+#, fuzzy, no-wrap
 msgid "_port_ = 8080\n"
 msgstr "_port_ = 8080\n"
 
 #. type: Bullet: '    - '
-#: ./_posts/2021-08-14-alexa.md:32
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:33
+#, fuzzy, no-wrap
 msgid "Alklaku _Add_.\n"
 msgstr "Fare clic su _Add_.\n"
 
 #. type: Bullet: '  - '
-#: ./_posts/2021-08-14-alexa.md:34
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:35
+#, fuzzy, no-wrap
 msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
 msgstr "_Unique ID to use 9 Octets_ : VERA (_VERA_).\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:37
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:38
+#, fuzzy, no-wrap
 msgid "Kutime la resto estas agordita konvene.\n"
 msgstr "Di solito il resto è configurato correttamente.\n"
 
 #. type: Title ##
-#: ./_posts/2021-08-14-alexa.md:38
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:39
+#, fuzzy, no-wrap
 msgid "Elektu aparatojn"
 msgstr "Scegli i dispositivi"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:40
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:41
+#, fuzzy, no-wrap
 msgid "Iru al la langeto _«Domoticz Devices»_.\n"
 msgstr "Vai alla scheda _«Domoticz Devices»_.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:43
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:44
+#, fuzzy, no-wrap
 msgid ""
-"Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la "
-"aparatojn:\n"
+"Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
 "\"konektita domo\" -> aparatoj -> detektas.\n"
-msgstr "Ora è possibile andare all'interfaccia _https://alexa.amazon.fr/_ e aggiungere i dispositivi:\n\"Casa collegata\"- Dispositivi> -> Rileva.\n"
+msgstr ""
+"Ora è possibile andare all'interfaccia _https://alexa.amazon.fr/_ e aggiungere i dispositivi:\n"
+"\"Casa collegata\"- Dispositivi> -> Rileva.\n"
 
 #. type: Plain text
-#: ./_posts/2021-08-14-alexa.md:46
-#, markdown-text, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-alexa.md:47
+#, fuzzy, no-wrap
 msgid ""
 "Noto: Por aldoni kontrolan frazon:\n"
 "iru al la poŝtelefona apliko _alexa_, kaj kreu rutinon.\n"
-msgstr "Nota: per aggiungere una frase di controllo:\nVai all'applicazione mobile _alexa_e creare una routine.\n"
-
+msgstr ""
+"Nota: per aggiungere una frase di controllo:\n"
+"Vai all'applicazione mobile _alexa_e creare una routine.\n"

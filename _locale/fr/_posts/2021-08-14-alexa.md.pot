@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-16 12:49+0200\n"
+"POT-Creation-Date: 2021-11-11 12:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2021-08-14-alexa.md:1
+#, no-wrap
+msgid "6"
+msgstr ""
 
 #. type: YAML Front Matter: lang
 #: _posts/2021-08-14-alexa.md:1
@@ -53,13 +59,13 @@ msgid "_Amazon Alexa_"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:11
+#: _posts/2021-08-14-alexa.md:12
 #, no-wrap
 msgid "Il est possible de relier _Alexa_ et _Domoticz_.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:14
+#: _posts/2021-08-14-alexa.md:15
 #, no-wrap
 msgid ""
 "Pour celà, installez _habridge_, voir l'article :\n"
@@ -67,67 +73,67 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: _posts/2021-08-14-alexa.md:16
+#: _posts/2021-08-14-alexa.md:17
 #, no-wrap
 msgid "Paramétrez la connexion à alexa et à domoticz :"
 msgstr ""
 
 #. type: Bullet: '- '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "se connecter sur l'interface : http://adresse_du_pi:8082\n"
 msgstr ""
 
 #. type: Bullet: '- '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "onglet bridge control :\n"
 msgstr ""
 
 #. type: Bullet: '  - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "_Use Rooms for Alexa_ : TRUE\n"
 msgstr ""
 
 #. type: Bullet: '  - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "_domoticz_ ... :\n"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "_name=_ ce qu'on veut.\n"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "_IP_ = adresse_du_pi\n"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "_port_ = 8080\n"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "cliquez sur _Add_.\n"
 msgstr ""
 
 #. type: Bullet: '  - '
-#: _posts/2021-08-14-alexa.md:26
+#: _posts/2021-08-14-alexa.md:27
 #, no-wrap
 msgid "_Unique ID to use 9 Octets_ : cocher (_true_).\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:29
+#: _posts/2021-08-14-alexa.md:30
 #, no-wrap
 msgid ""
 "Normalement le reste est configuré comme il faut.\n"
@@ -135,19 +141,19 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: _posts/2021-08-14-alexa.md:30
+#: _posts/2021-08-14-alexa.md:31
 #, no-wrap
 msgid "Choisissez les périphériques"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:32
+#: _posts/2021-08-14-alexa.md:33
 #, no-wrap
 msgid "Allez dans l'onglet _«Domoticz Devices»_. Les périphériques doivent apparaître. Cliquez dans la case à cocher de ceux que vous voulez contrôler, puis cliquez sur _«Bulk Add»_.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:36
+#: _posts/2021-08-14-alexa.md:37
 #, no-wrap
 msgid ""
 "Maintenant vous pouvez aller dans l'interface d'alexa _https://alexa.amazon.fr/_ , et ajouter les périphériques :\n"
@@ -156,7 +162,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:39
+#: _posts/2021-08-14-alexa.md:40
 #, no-wrap
 msgid ""
 "Note : Pour ajouter une phrase de contrôle :\n"

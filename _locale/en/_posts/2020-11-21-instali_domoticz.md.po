@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:45+0100\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,7 @@ msgstr ""
 
 #. type: YAML Front Matter: komentoj_id
 #: _posts/2020-11-21-instali_domoticz.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "3"
 msgstr "3"
 
@@ -107,12 +106,13 @@ msgstr "_«HTTPS Port number:»_ enter 8443, go to _OK_, Enter.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:27
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, enigo.   \n"
 "_«Installation Complete!»_  , Eniru.\n"
-msgstr "_«Installation Folder:»_   Put   _/home/domotiko/domoticz_  Go   _OK_, input.    \n _«Installation Complete!»_  , come in. \n"
+msgstr ""
+"_«Installation Folder:»_   Put   _/home/domotiko/domoticz_  Go   _OK_, input.    \n"
+" _«Installation Complete!»_  , come in. \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:30

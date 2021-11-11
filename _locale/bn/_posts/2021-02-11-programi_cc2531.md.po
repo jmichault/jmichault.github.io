@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:45+0100\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,7 @@ msgstr ""
 
 #. type: YAML Front Matter: komentoj_id
 #: _posts/2021-02-11-programi_cc2531.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "5"
 msgstr "5."
 
@@ -141,8 +140,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Poste konektu la adaptilan kablon al la ŝlosilo (rigardu la foton pri la direkto de konekto), kaj enmetu la ŝlosilon en unu el la havenoj _USB_ :\n"
 "![](/public/Raspberry-CC2531.jpg \" _raspberry_ kaj _CC_\") \n"
@@ -196,8 +194,7 @@ msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
 #: _posts/2021-02-11-programi_cc2531.md:62
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Programu la dosieron _CC2531ZNP-Prod.hex_ en la ŝlosilo _CC2531_:\n"
 msgstr "প্রোগ্রাম  _CC2531ZNP-Prod.hex_  ফাইলটি কী  _CC2531_: \n"
 

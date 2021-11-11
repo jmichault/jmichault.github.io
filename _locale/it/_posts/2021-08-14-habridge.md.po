@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:49+0100\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: komentoj_id
+#: _posts/2021-08-14-habridge.md:1
+#, no-wrap
+#, fuzzy
+msgid "7"
+msgstr "7."
 
 #. type: YAML Front Matter: lang
 #: _posts/2021-08-14-habridge.md:1
@@ -48,42 +55,42 @@ msgstr "_ha-bridge_"
 
 #. type: YAML Front Matter: title
 #: _posts/2021-08-14-habridge.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ligilo _Domoticz-Alexa_ : _ha-bridge_"
 msgstr "Link  _Domoticz-Alexa_ :  _ha-bridge_"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:11
+#: _posts/2021-08-14-habridge.md:12
 #, fuzzy, no-wrap
 msgid " _ha-bridge_ estas programaro, kiu simulas ponton _zigbee Philips Hue_ en via  komputilo.\n"
 msgstr " _ha-bridge_ è un software che simula un ponte _zigbee Philips Hue_ sul computer.\n"
 
 #. type: Title ##
-#: _posts/2021-08-14-habridge.md:13
+#: _posts/2021-08-14-habridge.md:14
 #, fuzzy, no-wrap
 msgid "instalado de _ha-bridge_"
 msgstr "Installazione di _ha-bridge_"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:15
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:16
+#, fuzzy, no-wrap
 msgid "Ni instalos kun la uzanto  _domotiko_  antaŭe kreita. \n"
 msgstr "Installeremo con l'utente   _domotiko_   precedentemente creato. . \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:19
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:20
+#, fuzzy, no-wrap
 msgid ""
 "Antaŭkondiĉoj: \n"
 " *  La uzanto  _domotiko_  devas ekzisti. \n"
 " *  _java_  > = 8 devas esti instalita. \n"
-msgstr "Prerequisiti:  \n  *   L'utente   _domotiko_   deve esistere.  \n  *   _java_   >  = 8 deve essere installato. . \n"
+msgstr ""
+"Prerequisiti:  \n"
+"  *   L'utente   _domotiko_   deve esistere.  \n"
+"  *   _java_   >  = 8 deve essere installato. . \n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:20
+#: _posts/2021-08-14-habridge.md:21
 #, no-wrap
 msgid ""
 "sudo su - domotiko\n"
@@ -99,19 +106,19 @@ msgstr ""
 "exit\n"
 
 #. type: Title ##
-#: _posts/2021-08-14-habridge.md:29
+#: _posts/2021-08-14-habridge.md:30
 #, fuzzy, no-wrap
 msgid "kreante la servon:"
 msgstr "Creazione del servizio:"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:31
+#: _posts/2021-08-14-habridge.md:32
 #, fuzzy, no-wrap
 msgid "Defaŭlte _ha-bridge_ aŭskultas ĉe la haveno 80, jam uzata de _apache_, ni igos ĝin aŭskulti ĉe la haveno 8082 por redukti la riskon de konflikto.\n"
 msgstr "Predefinito _ha-bridge_ Ascolta la porta 80, già utilizzata da _apache_, lo farmo ascoltare la porta 8082 per ridurre il rischio di conflitto.\n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:32
+#: _posts/2021-08-14-habridge.md:33
 #, no-wrap
 msgid ""
 "sudo bash\n"
@@ -169,19 +176,19 @@ msgstr ""
 "sudo systemctl enable ha-bridge.service\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:62
+#: _posts/2021-08-14-habridge.md:63
 #, fuzzy, no-wrap
 msgid "Ha-ponto nun estas alirebla pri: http: // adreson_du_PI: 8082 /\n"
 msgstr "L'HA-Bridge è ora accessibile a: http: // Indirizzo_du_PI: 8082 /\n"
 
 #. type: Title #
-#: _posts/2021-08-14-habridge.md:63
+#: _posts/2021-08-14-habridge.md:64
 #, fuzzy, no-wrap
 msgid "Laŭvola sed rekomendita: Agordu uzanton."
 msgstr "Facoltativo ma consigliato: impostare un utente."
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:67
+#: _posts/2021-08-14-habridge.md:68
 #, fuzzy, no-wrap
 msgid ""
 "Konekti al la interfaco: http: // adreson_du_PI: 8082\n"
@@ -192,13 +199,13 @@ msgstr ""
 "Fare clic su _«Update Security Settings»_\n"
 
 #. type: Title #
-#: _posts/2021-08-14-habridge.md:68
+#: _posts/2021-08-14-habridge.md:69
 #, fuzzy, no-wrap
 msgid "Agordu _apache_ por relaja haveno 80 al la 8082-haveno"
 msgstr "Personalizza _apache_ per la porta del relè 80 alla porta 8082"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:71
+#: _posts/2021-08-14-habridge.md:72
 #, fuzzy, no-wrap
 msgid ""
 "_Google Home_ kaj _Alexa_ postulas, ke la ponto renkontos la 80-a havenon 80.\n"
@@ -206,14 +213,13 @@ msgid ""
 msgstr "_Google Home_ alla porta 8082.\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:73
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:74
+#, fuzzy, no-wrap
 msgid "La necesaj moduloj estas aktivigitaj kaj lanĉis la redaktilon _nano_ por ŝanĝi la defaŭltan retejan agordon:\n"
 msgstr "I moduli necessari sono attivati e avviati l'editor  _nano_  per modificare le impostazioni predefinite del sito Web: \n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:74
+#: _posts/2021-08-14-habridge.md:75
 #, no-wrap
 msgid ""
 "sudo a2enmod proxy proxy_http headers\n"
@@ -223,13 +229,13 @@ msgstr ""
 "sudo nano /etc/apache2/sites-enabled/000-default.conf\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:80
+#: _posts/2021-08-14-habridge.md:81
 #, fuzzy, no-wrap
 msgid "En la redaktilo, nun necesas aldoni la liniojn sube post la linio '<VirtuadHost *: 80>':\n"
 msgstr "Nell'editor, ora è necessario aggiungere le linee seguenti dopo la linea \"<Virtuadhost *: 80>':\n"
 
 #. type: Fenced code block
-#: _posts/2021-08-14-habridge.md:80
+#: _posts/2021-08-14-habridge.md:81
 #, no-wrap
 msgid ""
 "        ProxyPass         /api  http://localhost:8082/api nocanon\n"
@@ -257,21 +263,19 @@ msgstr ""
 "        </Proxy>\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:94
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:95
+#, fuzzy, no-wrap
 msgid "Konservu la dosieron per _Ctrl-X_\n"
 msgstr "Salva il file con  _Ctrl-X_ \n"
 
 #. type: Bullet: '(1) '
-#: _posts/2021-08-14-habridge.md:96
-#, no-wrap
-#, fuzzy
+#: _posts/2021-08-14-habridge.md:97
+#, fuzzy, no-wrap
 msgid "estas aktivigita, kaj stimulita:\n"
 msgstr "è attivato e stimolato: \n"
 
 #. type: Fenced code block (bash)
-#: _posts/2021-08-14-habridge.md:96
+#: _posts/2021-08-14-habridge.md:97
 #, no-wrap
 msgid ""
 "sudo systemctl enable apache2\n"
@@ -283,7 +287,7 @@ msgstr ""
 "sudo systemctl start apache2\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:104
+#: _posts/2021-08-14-habridge.md:105
 #, fuzzy, no-wrap
 msgid ""
 "Vi nun povas agordi la ligon _Alexa-Domoticz_ : vidu artikolon\n"
@@ -293,19 +297,19 @@ msgstr ""
 "[Amazon Alexa](2021-08-14-alexa.md)\n"
 
 #. type: Title #
-#: _posts/2021-08-14-habridge.md:105
+#: _posts/2021-08-14-habridge.md:106
 #, fuzzy, no-wrap
 msgid "Noto:"
 msgstr "Nota:"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:107
+#: _posts/2021-08-14-habridge.md:108
 #, fuzzy, no-wrap
 msgid "Post migrado de _pi_ al _bullseye_, _apache_ ne komenciĝis ĉe lanĉo.\n"
 msgstr "Dopo la migrazione di _pi_ a _bullseye_, _apache_ non è iniziato al lancio.\n"
 
 #. type: Fenced code block
-#: _posts/2021-08-14-habridge.md:107
+#: _posts/2021-08-14-habridge.md:108
 #, no-wrap
 msgid ""
 "Sep 23 17:45:24 localhost apachectl[500]: (99)Cannot assign requested address: AH00072: make_sock: could not bind to address 192.168.24.103:80\n"
@@ -321,13 +325,13 @@ msgstr ""
 "Sep 23 17:45:24 localhost apachectl[449]: The Apache error log may have more information.\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:116
+#: _posts/2021-08-14-habridge.md:117
 #, fuzzy, no-wrap
 msgid "Manlibro kun `sudo systemctl start apache2` marŝis sen problemo.\n"
 msgstr "Manuale con `sudo systemctl start apache2` camminato senza problemi.\n"
 
 #. type: Fenced code block
-#: _posts/2021-08-14-habridge.md:116
+#: _posts/2021-08-14-habridge.md:117
 #, no-wrap
 msgid ""
 "Restart=on-failure\n"
@@ -337,7 +341,7 @@ msgstr ""
 "RestartSec=10\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-habridge.md:122
+#: _posts/2021-08-14-habridge.md:123
 #, fuzzy, no-wrap
 msgid "Nun la unua komenco de _apache_ malsukcesas, sed dua provo aŭtomate sukcesas 10 sekundojn poste.\n"
 msgstr "Ora il primo inizio di _apache_ fallisce, ma un secondo tentativo ottiene automaticamente 10 secondi dopo.\n"

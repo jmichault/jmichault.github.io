@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:47+0100\n"
+"POT-Creation-Date: 2021-11-11 13:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,7 @@ msgstr ""
 
 #. type: YAML Front Matter: komentoj_id
 #: _posts/2020-08-31-aparataro.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "2"
 msgstr "2."
 
@@ -73,8 +72,7 @@ msgstr "هذه هي المادة التي استخدمتها لبناء نظام
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:28
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| tipo | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | \n"
@@ -89,7 +87,20 @@ msgid ""
 "| ŝirmado | | | Folio de aluminia folio enmetita en paperfolion falditan en duonon | 0 € | por protekti la 433 Mhz-ricevilon kontraŭ interfero generita de la _raspberry-pi3_. |\n"
 "| USB-bastono _Zigbee_ kaj kablo |![](/public/cc2531+kablo.jpg) | | CC2531 | 6 € | ŝlosilo _zigbee_ kaj elŝuta kablo por CC |\n"
 "| | | | **totala prezo** | **75 €** | \n"
-msgstr "| النوع |. صورة علامة نموذج سعر مؤشري لماذا | \n | --- | --- | --- | --- | --- | --- |  \n | الحاسوب ![ ](/public/pi.jpg)  |  _raspberry_  | PI3B + |. 35 يورو | لا مروحة، رخيصة، لديها GPO، WIFI، LAN RJ45 | \n | حاوية الكمبيوتر | ![ ](/public/loĝejo.jpg)  |  _Aukru_  | | 7 يورو | بعض حاوية الكمبيوتر ل  _raspberry-pi3_  مناسب. اختر الشخص الذي تفضله. \n | المصدر الحالي ![ ](/public/elektroprovizo.jpg)  |  _Konky_  | | 10 يورو | عندما أثبتتي الخاصة  \"  _raspberry-pi3_ \" أنها ضعيفة للغاية، فقد استبدالها بنجاح بهذا. العديد من النماذج الأخرى تناسب. \n | كابل USB | | USB إلى Micro USB 2 يورو لتوصيل  _raspberry-pi3_  إلى مزود الطاقة \n | بطاقة مايكرو التنمية المستدامة ![ ](/public/SD.jpg)  |  _sandisk_  | SDSQUAR-032G-GN6MA | 11 يورو | يحتاج PI إلى بطاقة عالية الجودة، يوصى بشدة باستخدام بطاقة علامة تجارية معروفة. | \n | كابلات دائعة ![ ](/public/dupont.jpg)  |  _SODIAL_  | الإناث الإناث الكابلات. 068187 |. 2 يورو لتوصيل أجهزة MHz 433 و Lightning Zigbee USB Key \n | الارسال + استقبال ![ ](/public/dissendilo-ricevilo-433Mhz.jpg)  | | WL101-341 + WL102-341 | 2 يورو 433 ميجا هرتز-superheterodine الارسال + استقبال \n | كابل | || 0 يورو | قطعة من الكابل لإنشاء هوائي. على سبيل المثال، عربة ويب قديمة 3 أمتار. \n | درع | | ورقة من ورقة الألومنيوم إدراجها في نشرة مطوية في النصف 0 يورو | لحماية جهاز استقبال MHz 433 ضد التداخل الذي تم إنشاؤه بواسطة  _raspberry-pi3_. | \n | USB عصا  _Zigbee_  وكابل ![ ](/public/cc2531+kablo.jpg)  | | CC2531 | 6 يورو | مفتاح  _zigbee_  وتنزيل كابل ل CC \n | | | |  ** السعر الإجمالي **  |  ** 75 يورو **  |  \n"
+msgstr ""
+"| النوع |. صورة علامة نموذج سعر مؤشري لماذا | \n"
+" | --- | --- | --- | --- | --- | --- |  \n"
+" | الحاسوب ![ ](/public/pi.jpg)  |  _raspberry_  | PI3B + |. 35 يورو | لا مروحة، رخيصة، لديها GPO، WIFI، LAN RJ45 | \n"
+" | حاوية الكمبيوتر | ![ ](/public/loĝejo.jpg)  |  _Aukru_  | | 7 يورو | بعض حاوية الكمبيوتر ل  _raspberry-pi3_  مناسب. اختر الشخص الذي تفضله. \n"
+" | المصدر الحالي ![ ](/public/elektroprovizo.jpg)  |  _Konky_  | | 10 يورو | عندما أثبتتي الخاصة  \"  _raspberry-pi3_ \" أنها ضعيفة للغاية، فقد استبدالها بنجاح بهذا. العديد من النماذج الأخرى تناسب. \n"
+" | كابل USB | | USB إلى Micro USB 2 يورو لتوصيل  _raspberry-pi3_  إلى مزود الطاقة \n"
+" | بطاقة مايكرو التنمية المستدامة ![ ](/public/SD.jpg)  |  _sandisk_  | SDSQUAR-032G-GN6MA | 11 يورو | يحتاج PI إلى بطاقة عالية الجودة، يوصى بشدة باستخدام بطاقة علامة تجارية معروفة. | \n"
+" | كابلات دائعة ![ ](/public/dupont.jpg)  |  _SODIAL_  | الإناث الإناث الكابلات. 068187 |. 2 يورو لتوصيل أجهزة MHz 433 و Lightning Zigbee USB Key \n"
+" | الارسال + استقبال ![ ](/public/dissendilo-ricevilo-433Mhz.jpg)  | | WL101-341 + WL102-341 | 2 يورو 433 ميجا هرتز-superheterodine الارسال + استقبال \n"
+" | كابل | || 0 يورو | قطعة من الكابل لإنشاء هوائي. على سبيل المثال، عربة ويب قديمة 3 أمتار. \n"
+" | درع | | ورقة من ورقة الألومنيوم إدراجها في نشرة مطوية في النصف 0 يورو | لحماية جهاز استقبال MHz 433 ضد التداخل الذي تم إنشاؤه بواسطة  _raspberry-pi3_. | \n"
+" | USB عصا  _Zigbee_  وكابل ![ ](/public/cc2531+kablo.jpg)  | | CC2531 | 6 يورو | مفتاح  _zigbee_  وتنزيل كابل ل CC \n"
+" | | | |  ** السعر الإجمالي **  |  ** 75 يورو **  |  \n"
 
 #. type: Title #
 #: _posts/2020-08-31-aparataro.md:31
@@ -105,8 +116,7 @@ msgstr "يمكن التحكم في العديد من الأجهزة. أولاً 
 
 #. type: Plain text
 #: _posts/2020-08-31-aparataro.md:41
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| tipo | teknologio | bildo | marko | modelo | indika prezo | Kial |\n"
 "| --- | --- | --- | --- | --- | --- | --- |\n"
@@ -114,7 +124,13 @@ msgid ""
 "| elektraj ellasejoj | 433 Mhz |![](/public/KYG.jpg)| _KYG_ | 4315 | 33 € | 5 teleregataj ingoj je racia prezo. |\n"
 "| bulbo | _zigbee_ |![](/public/tradfri.jpg)| _Ikea_ | _TRÅDFRI_ LED E27 806 lumenoj | 10 € | alĝustigebla ampolo je racia prezo. |\n"
 "| | | | | **totala prezo** | **50,5 €** | |\n"
-msgstr "| النوع |. التكنولوجيا |. الصورة | مارك | نموذج |. السعر الإرشادي |. لماذا | \n | --- | --- | --- | --- | --- | --- | --- | \n | ميزان الحرارة |. 433 ميجا هرتز |  ![ ](/public/fanju.jpeg) |  _Fanju_  | من FJ3378 |. 7.50 € | ميزان الحرارة مع شاشة بسعر معقول. | \n | منافذ كهربائية | 433 ميجا هرتز | ![ ](/public/KYG.jpg) |  _KYG_  | 4315 | 33 € | 5 أماكن للتحكم عن بعد بسعر معقول. | \n | لمبة |.  _zigbee_  | ![ ](/public/tradfri.jpg) |  _Ikea_  |  _TRÅDFRI_  LED E27 806 Lumenoj | 10 € | لمبة ضوء قابل للتعديل بسعر معقول. | \n | | | | |  ** السعر الإجمالي **  |  ** 50.5 € **  | | \n"
+msgstr ""
+"| النوع |. التكنولوجيا |. الصورة | مارك | نموذج |. السعر الإرشادي |. لماذا | \n"
+" | --- | --- | --- | --- | --- | --- | --- | \n"
+" | ميزان الحرارة |. 433 ميجا هرتز |  ![ ](/public/fanju.jpeg) |  _Fanju_  | من FJ3378 |. 7.50 € | ميزان الحرارة مع شاشة بسعر معقول. | \n"
+" | منافذ كهربائية | 433 ميجا هرتز | ![ ](/public/KYG.jpg) |  _KYG_  | 4315 | 33 € | 5 أماكن للتحكم عن بعد بسعر معقول. | \n"
+" | لمبة |.  _zigbee_  | ![ ](/public/tradfri.jpg) |  _Ikea_  |  _TRÅDFRI_  LED E27 806 Lumenoj | 10 € | لمبة ضوء قابل للتعديل بسعر معقول. | \n"
+" | | | | |  ** السعر الإجمالي **  |  ** 50.5 € **  | | \n"
 
 #~ msgid "auto"
 #~ msgstr "auto"
