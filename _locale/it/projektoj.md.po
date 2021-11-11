@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-11-11 19:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: projektoj.md:1
+#, no-wrap
+msgid "eo"
+msgstr "it"
+
+#. type: YAML Front Matter: lang-niv
+#: projektoj.md:1
+#, no-wrap
+msgid "auto"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: projektoj.md:1
+#, no-wrap
+msgid "090-projektoj"
+msgstr "090-projektoj"
+
+#. type: YAML Front Matter: layout
+#: projektoj.md:1
+#, no-wrap
+msgid "page"
+msgstr "page"
+
+#. type: YAML Front Matter: title
+#: projektoj.md:1
+#, fuzzy, no-wrap
+msgid "Miaj aliaj projektoj"
+msgstr "I miei altri progetti"
+
+#. type: Plain text
+#: projektoj.md:13
+#, no-wrap
+#, fuzzy
+msgid ""
+"<https://jmichault.github.io/flash_cc2531-dok> \n"
+" <https://jmichault.github.io/ipcam-100-dok> \n"
+" <https://jmichault.github.io/jekyll-plurlingva-dok> \n"
+" <https://jmichault.github.io/motioneye.eo-dok> \n"
+" <https://jmichault.github.io/rf_gpio-dok> \n"
+msgstr "<https://jmichault.github.io/flash_cc2531-dok>  \n  <https://jmichault.github.io/ipcam-100-dok>  \n  <https://jmichault.github.io/jekyll-plurlingva-dok>  \n  <https://jmichault.github.io/motioneye.eo-dok>  \n  <https://jmichault.github.io/rf_gpio-dok>  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "<https://jmichault.github.io/flash_cc2531> \n"
+#~ " <https://jmichault.github.io/ipcam-100> \n"
+#~ " <https://jmichault.github.io/jekyll-plurlingva> \n"
+#~ " <https://jmichault.github.io/motioneye.eo> \n"
+#~ " <https://jmichault.github.io/rf_gpio> \n"
+#~ msgstr ""
+#~ "<https://jmichault.github.io/flash_cc2531>  \n"
+#~ "  <https://jmichault.github.io/ipcam-100>  \n"
+#~ "  <https://jmichault.github.io/jekyll-plurlingva>  \n"
+#~ "  <https://jmichault.github.io/motioneye.eo>  \n"
+#~ "  <https://jmichault.github.io/rf_gpio>  \n"

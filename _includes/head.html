@@ -13,8 +13,10 @@
   {% endif %}
 </script>
 {% endif %}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8796238373525171"
+{% if site.ga_adsense %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.ga_adsense }}"
      crossorigin="anonymous"></script>
+{% endif %}
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
