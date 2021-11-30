@@ -36,7 +36,11 @@
 
     <div class="sidebar-about">
       <h1>
+       {% if page.lang == "fr" %}
+        <a href="{{site.baseurl}}/">
+       {% else %}
         <a href="{{site.baseurl}}/{{page.lang}}">
+       {% endif %}
           {{ site.data.translations[page.lang]['titolo'] | markdownify }}
         </a>
       </h1>
@@ -44,12 +48,20 @@
     </div>
 
     {% if site.ne_afisxoj != "true" %}
+       {% if page.lang == "fr" %}
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
+       {% else %}
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
+       {% endif %}
     {% endif %}
     {% assign page_indekso = site.pages | where:"lang", page.lang | where:"lang-ref", "indekso" %}
     {% for node in pages_list %}
       {% if node.layout == "index" %}
+       {% if page.lang == "fr" %}
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
+       {% else %}
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
+       {% endif %}
         {% break %}
       {% endif %}
     {% endfor %}
