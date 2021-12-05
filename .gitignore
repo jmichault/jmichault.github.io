@@ -13,3 +13,5 @@ tst*
 temp*
 _site/*
 Gemfile.lock
+fr/*md
+fr/_posts
