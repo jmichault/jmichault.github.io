@@ -31,19 +31,41 @@ else
   read -p "`trad 'Titolo :'` " titolo
 fi
 
-mkdir -p $LABORLINGVO/_data
+if [ $# -ge 3 ] ; then
+  laborhejmo="$3"
+else
+  read -p "`trad 'la laborlingvo estas ĉe la radiko de la retejo «true|false» :'` " laborhejmo
+fi
+if [ "$laborhejmo" != "true ] ; then
+  laborhejmo="false"
+fi
+cat _config.yml |sed "s/^laborhejmo:.*/laborhejmo: $laborhejmo/" >_config.$$
+mv _config.$$ _config.yml
+
+if [ "$laborhejmo" = "true ] ; then
+  mkdir redir
+  mv index.html redir
+  LABORHEJMO=.
+  mv $LABORLINGVO/_data/* _data
+  rmdir $LABORLINGVO/_data
+  mv $LABORLINGVO/* .
+  rmdir $LABORLINGVO
+else
+  LABORHEJMO=$LABORLINGVO
+fi
+
 
 if [ $LABORLINGVO != "eo" ] ; then
   cd eo
-  cat ../_locale/${LABORLINGVO}/_data/site-translations.yml.po|sed "s/^#, fuzzy/#/" >../_locale/temp$$.po
-  po4a-translate -f yaml -m _data/site-translations.yml --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../$LABORLINGVO/_data/site-translations.yml --localized-charset "UTF-8" -k 0
+  cat ../_locale/${LABORHEJMO}/_data/site-translations.yml.po|sed "s/^#, fuzzy/#/" >../_locale/temp$$.po
+  po4a-translate -f yaml -m _data/site-translations.yml --master-charset "UTF-8"  --po ../_locale/temp$$.po --localized ../$LABORHEJMO/_data/site-translations.yml --localized-charset "UTF-8" -k 0
   rm ../_locale/temp$$.po
   cd ..
 fi
 
 if [ x"$titolo" != x ] ; then
-  cat $LABORLINGVO/_data/site-translations.yml |sed "s/^  titolo:.*/  titolo: \"$titolo\"/" >$LABORLINGVO/_data/tr.$$
-  mv $LABORLINGVO/_data/tr.$$ $LABORLINGVO/_data/site-translations.yml
+  cat $LABORHEJMO/_data/site-translations.yml |sed "s/^  titolo:.*/  titolo: \"$titolo\"/" >$LABORHEJMO/_data/tr.$$
+  mv $LABORHEJMO/_data/tr.$$ $LABORHEJMO/_data/site-translations.yml
   titolo_eo=`_scripts/lib/traduko.sh $LABORLINGVO eo "$titolo"`
   cat eo/_data/site-translations.yml |sed "s/^  titolo:.*/  titolo: \"$titolo_eo\"/" >eo/_data/tr.$$
   mv eo/_data/tr.$$ eo/_data/site-translations.yml
@@ -56,11 +78,11 @@ else
 fi
 
 if [ x"$priskribo" != x ] ; then
-  cat $LABORLINGVO/_data/site-translations.yml |sed "s/^  priskribo:.*/  priskribo: \"$priskribo\"/" >$LABORLINGVO/_data/tr.$$
-  mv $LABORLINGVO/_data/tr.$$ $LABORLINGVO/_data/site-translations.yml
+  cat $LABORHEJMO/_data/site-translations.yml |sed "s/^  priskribo:.*/  priskribo: \"$priskribo\"/" >$LABORHEJMO/_data/tr.$$
+  mv $LABORHEJMO/_data/tr.$$ $LABORHEJMO/_data/site-translations.yml
   priskribo_eo=`_scripts/lib/traduko.sh $LABORLINGVO eo "$priskribo"`
   cat eo/_data/site-translations.yml |sed "s/^  priskribo:.*/  priskribo: \"$priskribo_eo\"/" >eo/_data/tr.$$
   mv eo/_data/tr.$$ eo/_data/site-translations.yml
 fi
 
-_scripts/traduki
+#_scripts/traduki

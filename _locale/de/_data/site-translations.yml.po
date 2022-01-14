@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:27+0200\n"
+"POT-Creation-Date: 2021-12-05 22:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,21 @@ msgstr ""
 
 #. type: Hash Value - Key: Funkciigita
 #: >lang
-#, fuzzy, no-wrap
-msgid "Funkciigita de"
-msgstr "Unterstützt von"
+#, no-wrap
+msgid "Propulsé par"
+msgstr ""
 
 #. type: Hash Value - Key: cxiujAfisxoj
 #: >lang
 #, fuzzy, no-wrap
 msgid "Ĉiuj Afiŝoj"
 msgstr "Alle Beiträge"
+
+#. type: Hash Value - Key: dauxrigiLego
+#: >lang
+#, no-wrap
+msgid "Continuer la lecture …"
+msgstr ""
 
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
@@ -37,39 +43,38 @@ msgstr "Wähle deine Sprache"
 #. type: Hash Value - Key: komentis
 #: >lang
 #, no-wrap
-#, fuzzy
-msgid "komentis "
-msgstr "kommentiert"
+msgid "a commenté le "
+msgstr ""
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, fuzzy, no-wrap
-msgid "Aldoni komenton (sur GitHub)"
-msgstr "Hinzufügen eines Kommentars (auf Github)"
+#, no-wrap
+msgid "Ajouter un commentaire (sur github)"
+msgstr ""
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, fuzzy, no-wrap
-msgid "Komentoj:"
-msgstr "Bemerkungen:"
+#, no-wrap
+msgid "Commentaires :"
+msgstr ""
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en alia lingvo"
-msgstr "Lesen Sie diese Seite in einer anderen Sprache"
+#, no-wrap
+msgid "Lisez cette page dans une autre langue"
+msgstr ""
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
-msgstr "Einige Ideen für die Gestaltung Ihrer Hausautomation zu geringeren Kosten."
+#, no-wrap
+msgid "Quelques idées pour concevoir votre domotique à moindre coût."
+msgstr ""
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, fuzzy, no-wrap
-msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "Lizenz <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons Lizenz\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+#, no-wrap
+msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\" /></a>"
+msgstr ""
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -85,21 +90,65 @@ msgstr "zusammenhängende Posts"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Ŝercu per Google."
-msgstr "Scherz mit Google."
+#, no-wrap
+msgid "Recherche Google."
+msgstr ""
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Hejma aŭtomatigo"
-msgstr "Heimautomatisierung"
+#, no-wrap
+msgid "Domotique maison"
+msgstr ""
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
+#, no-wrap
+msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
+msgstr ""
+
 #, fuzzy, no-wrap
-msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
-msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
+#~ msgid "Funkciigita de"
+#~ msgstr "Unterstützt von"
+
+#, fuzzy
+#~ msgid "Daǔrigi lego …"
+#~ msgstr "Weiter Lego ..."
+
+#, fuzzy, no-wrap
+#~ msgid "komentis "
+#~ msgstr "kommentiert"
+
+#, fuzzy, no-wrap
+#~ msgid "Aldoni komenton (sur GitHub)"
+#~ msgstr "Hinzufügen eines Kommentars (auf Github)"
+
+#, fuzzy, no-wrap
+#~ msgid "Komentoj:"
+#~ msgstr "Bemerkungen:"
+
+#, fuzzy, no-wrap
+#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
+#~ msgstr "Lesen Sie diese Seite in einer anderen Sprache"
+
+#, fuzzy, no-wrap
+#~ msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+#~ msgstr "Einige Ideen für die Gestaltung Ihrer Hausautomation zu geringeren Kosten."
+
+#, fuzzy, no-wrap
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+#~ msgstr "Lizenz <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Creative Commons Lizenz\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+
+#, fuzzy, no-wrap
+#~ msgid "Ŝercu per Google."
+#~ msgstr "Scherz mit Google."
+
+#, fuzzy, no-wrap
+#~ msgid "Hejma aŭtomatigo"
+#~ msgstr "Heimautomatisierung"
+
+#, fuzzy, no-wrap
+#~ msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+#~ msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
 
 #, fuzzy
 #~ msgid "komentis"

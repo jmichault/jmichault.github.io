@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-01 18:24+0100\n"
+"POT-Creation-Date: 2021-12-05 22:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,19 @@ msgstr ""
 #. type: Hash Value - Key: Funkciigita
 #: >lang
 #, no-wrap
-msgid "Propulsé par"
+msgid "Alimenté par"
 msgstr ""
 
 #. type: Hash Value - Key: cxiujAfisxoj
 #: >lang
 #, no-wrap
 msgid "Tous les messages"
+msgstr ""
+
+#. type: Hash Value - Key: dauxrigiLego
+#: >lang
+#, no-wrap
+msgid "Continuer lego ..."
 msgstr ""
 
 #. type: Hash Value - Key: elektuLingvon
@@ -37,37 +43,37 @@ msgstr ""
 #. type: Hash Value - Key: komentis
 #: >lang
 #, no-wrap
-msgid "a commenté le "
+msgid "commenté"
 msgstr ""
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
-msgid "Ajouter un commentaire (sur github)"
+msgid "Ajouter un commentaire  ( sur GitHub )"
 msgstr ""
 
 #. type: Hash Value - Key: komentoj
 #: >lang
 #, no-wrap
-msgid "Commentaires :"
+msgid "Commentaires:"
 msgstr ""
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, no-wrap
-msgid "Lisez cette page dans une autre langue"
+msgid "Lire cette page dans une autre langue"
 msgstr ""
 
 #. type: Hash Value - Key: priskribo
 #: >lang
 #, no-wrap
-msgid "Quelques idées pour concevoir votre domotique à moindre coût."
+msgid "Quelques idées pour projeter votre automatisation domotique à un coût inférieur."
 msgstr ""
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, no-wrap
-msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\" /></a>"
+msgid "Licence  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> <img alt= \" Licence Creative Commons \"  style=\"display:inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  title= \" CC-BY-SA 4.0 \" /> </a>"
 msgstr ""
 
 #. type: Hash Value - Key: rigardiEn
@@ -85,17 +91,17 @@ msgstr ""
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, no-wrap
-msgid "Recherche Google."
+msgid "Blague avec Google."
 msgstr ""
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
-msgid "Domotique maison"
+msgid "Automatisation de la maison"
 msgstr ""
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
 #, no-wrap
-msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
+msgid "Remarque: cette page a été traduite automatiquement. Si vous le pouvez, vous devez le lire dans l'une de ces langues:"
 msgstr ""

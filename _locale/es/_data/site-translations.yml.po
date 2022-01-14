@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:27+0200\n"
+"POT-Creation-Date: 2021-12-05 22:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,13 @@ msgstr "Energizado por"
 msgid "Ĉiuj Afiŝoj"
 msgstr "Todos los mensajes"
 
+#. type: Hash Value - Key: dauxrigiLego
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Daǔrigi lego …"
+msgstr "Continuar LEGO ..."
+
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
 #, fuzzy, no-wrap
@@ -36,8 +43,7 @@ msgstr "Elige tu idioma"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "komentis "
 msgstr "comentado"
 

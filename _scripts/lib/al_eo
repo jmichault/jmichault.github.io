@@ -9,19 +9,25 @@ if [ $# -lt 1 ] ; then
 fi
 
 lang0=$1
+laborhejmo=`grep "laborhejmo:" _config.yml|awk '{print $2;}'`
+if [ $laborhejmo = "true" ] ; then
+  LABORHEJMO=$lang0
+else
+  LABORHEJMO="."
+fi
 
 BASEDIR=`dirname $0`
-if [ ! -d "$BASEDIR"/../../$lang0 ] ; then
+if [ ! -d "$BASEDIR"/../../$LABORHEJMO ] ; then
   echo "chemin introuvable."
   exit
 fi
-cd "$BASEDIR"/../../$lang0
+cd "$BASEDIR"/../../$LABORHEJMO
 
 if [ $# -gt 1 ] ; then 
   shift
   echo "$@"
 else
-  find . -type f -name "*.md" -o -name "*.yml"| egrep -v "/_drafts/|.backup$|.swp$"
+  find _posts *.md _data/site-translations.yml -type f -name "*.md" -o -name "*.yml"| egrep -v "/_drafts/|.backup$|.swp$"
 fi | while read FIC
 do
   EXT="${FIC##*.}"

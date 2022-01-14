@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-31 16:14+0100\n"
+"POT-Creation-Date: 2021-12-05 22:05+0100\n"
 "PO-Revision-Date: 2021-02-12 18:56+0200\n"
 "Last-Translator: jean <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,57 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 
 #. type: YAML Front Matter: lang
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "fr"
 msgstr "eo"
 
 #. type: YAML Front Matter: lang-niv
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "indekso"
 msgstr "indekso"
 
 #. type: YAML Front Matter: layout
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "index"
 msgstr "index"
 
 #. type: YAML Front Matter: title
-#: ./index.md:1
-#, no-wrap
-msgid "Derniers articles"
-msgstr "lastaj afiŝoj"
+#: index.md:1
+msgid "Faire de la domotique sans se ruiner"
+msgstr "Hejma aŭtomatigo sen rompi la bankon"
+
+#. type: Plain text
+#: index.md:8
+#, fuzzy
+msgid ""
+"Quand on désire faire de la domotique, on hésite souvent à faire le premier "
+"pas à cause de l'investissement initial qu'il faut faire, alors qu'on n'est "
+"pas encore sûr que l'on va continuer.  \n"
+msgstr ""
+"Kiam ni volas fari vivaĵojn, ni ofte hezitas preni la unuan paŝon pro la "
+"komenca investo, kiun oni devas fari, dum ni ankoraŭ ne certas, ke ni "
+"daŭrigos.   \n"
+
+#. type: Plain text
+#: index.md:10
+msgid ""
+"Ce site vous propose des solutions bon marché, basées en grande partie sur "
+"du FLTM (fais le toi-même) et des logiciels open-source.\n"
+msgstr ""
+"Ĉi tiu retejo ofertas malmultekostajn solvojn, plejparte bazitajn sur FĜVM  "
+"( Faru ĝin vi mem ) kaj malfermfonta softvaro. \n"
+
+#. type: Title #
+#: index.md:12
+#, fuzzy
+msgid "Derniers articles :"
+msgstr "Lastaj artikoloj:"

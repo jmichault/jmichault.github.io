@@ -3,6 +3,8 @@ baseurl:          ""
 auxtoro: Jean Michault
 # ŝanĝu eo al via lingvo se vi ne laboras rekte en esperanto
 laborlingvo: fr
+# Ĉu laborlingvo estas ĉe la radiko de la retejo ?
+laborhejmo: "true"
 # malkomentigu la sekvan linion por forigi la menuon "ĉiuj afiŝoj"
 #ne_afisxoj: "true"
 # malkomentigu la sekvan linion por forigi la menuon "serĉu per google"

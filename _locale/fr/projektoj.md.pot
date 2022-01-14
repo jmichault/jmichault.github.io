@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 19:20+0100\n"
+"POT-Creation-Date: 2021-12-05 22:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-niv
 #: projektoj.md:1
 #, no-wrap
-msgid "homa"
+msgid "auto"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
@@ -43,7 +43,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: projektoj.md:1
 #, no-wrap
-msgid "Mes autres projet"
+msgid "Mes autres projets"
 msgstr ""
 
 #. type: Title ##
@@ -53,55 +53,55 @@ msgid "_flash\\_cc2531_"
 msgstr ""
 
 #. type: Plain text
-#: projektoj.md:11
+#: projektoj.md:10
 #, no-wrap
-msgid "<https://jmichault.github.io/flash_cc2531-dok>\n"
+msgid "<https://jmichault.github.io/flash_cc2531-dok>  \n"
 msgstr ""
 
 #. type: Title ##
 #: projektoj.md:12
 #, no-wrap
-msgid "_ipcam-100_"
+msgid "_ipcam-100_  "
 msgstr ""
 
 #. type: Plain text
-#: projektoj.md:14
+#: projektoj.md:13
 #, no-wrap
-msgid "<https://jmichault.github.io/ipcam-100-dok>\n"
+msgid "<https://jmichault.github.io/ipcam-100-dok>  \n"
 msgstr ""
 
 #. type: Title ##
 #: projektoj.md:15
 #, no-wrap
-msgid "_jekyll-plurlingva_"
+msgid "_jekyll-plurlingva_  "
 msgstr ""
 
 #. type: Plain text
-#: projektoj.md:17
+#: projektoj.md:16
 #, no-wrap
-msgid "<https://jmichault.github.io/jekyll-plurlingva-dok>\n"
+msgid "<https://jmichault.github.io/jekyll-plurlingva-dok>  \n"
 msgstr ""
 
 #. type: Title ##
 #: projektoj.md:18
 #, no-wrap
-msgid "_motioneye.eo_"
+msgid "_motioneye.eo_  "
 msgstr ""
 
 #. type: Plain text
-#: projektoj.md:20
+#: projektoj.md:19
 #, no-wrap
-msgid "<https://jmichault.github.io/motioneye.eo-dok>\n"
+msgid "<https://jmichault.github.io/motioneye.eo-dok>  \n"
 msgstr ""
 
 #. type: Title ##
 #: projektoj.md:21
 #, no-wrap
-msgid "_rf\\_gpio_"
+msgid "_rf\\_gpio_  "
 msgstr ""
 
 #. type: Plain text
 #: projektoj.md:22
 #, no-wrap
-msgid "<https://jmichault.github.io/rf_gpio-dok>\n"
+msgid "<https://jmichault.github.io/rf_gpio-dok>  \n"
 msgstr ""

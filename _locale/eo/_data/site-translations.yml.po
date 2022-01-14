@@ -5,21 +5,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-04-25 22:17+0200\n"
+"POT-Creation-Date: 2021-12-05 22:31+0100\n"
 "PO-Revision-Date: 2021-09-23 21:46+0200\n"
 "Last-Translator: jean <>\n"
+"Language-Team: \n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.2\n"
-"Language-Team: \n"
 
 #. type: Hash Value - Key: Funkciigita
 #: >lang
-#, no-wrap
-msgid "Propulsé par"
+#, fuzzy
+msgid "Alimenté par"
 msgstr "Funkciigita de"
 
 #. type: Hash Value - Key: cxiujAfisxoj
@@ -27,6 +27,12 @@ msgstr "Funkciigita de"
 #, no-wrap
 msgid "Tous les messages"
 msgstr "Ĉiuj Afiŝoj"
+
+#. type: Hash Value - Key: dauxrigiLego
+#: >lang
+#, fuzzy
+msgid "Continuer lego ..."
+msgstr "Daŭrigu LEGO ..."
 
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
@@ -36,39 +42,49 @@ msgstr "Elektu vian lingvon"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, no-wrap
-msgid "a commenté le "
-msgstr "komentis "
+#, fuzzy
+msgid "commenté"
+msgstr "komentis"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, no-wrap
-msgid "Ajouter un commentaire (sur github)"
-msgstr "Aldoni komenton (sur GitHub)"
+#, fuzzy
+msgid "Ajouter un commentaire  ( sur GitHub )"
+msgstr "Aldoni komenton   (  sur GitHub  )"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-msgid "Commentaires :"
+#, fuzzy
+msgid "Commentaires:"
 msgstr "Komentoj:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, no-wrap
-msgid "Lisez cette page dans une autre langue"
+#, fuzzy
+msgid "Lire cette page dans une autre langue"
 msgstr "Legu ĉi tiun paĝon en alia lingvo"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, no-wrap
-msgid "Quelques idées pour concevoir votre domotique à moindre coût."
+#, fuzzy
+msgid ""
+"Quelques idées pour projeter votre automatisation domotique à un coût "
+"inférieur."
 msgstr "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, no-wrap
-msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\" /></a>"
-msgstr "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+#, fuzzy
+msgid ""
+"Licence  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\"> <img alt= \" Licence Creative Commons \"  style=\"display:inline;"
+"border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+"\"  title= \" CC-BY-SA 4.0 \" /> </a>"
+msgstr ""
+"Permesilo   <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+"by-sa/4.0/\">  <img alt=  \" Creative Commons License  \"   style=\"display:"
+"inline;border-width:0\"   src=\"https://i.creativecommons.org/l/by-"
+"sa/4.0/88x31.png\"   title=  \" CC-BY-SA 4.0  \"  />  </a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -84,21 +100,22 @@ msgstr "Rilataj Afiŝoj"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-msgid "Recherche Google."
-msgstr "Ŝercu per Google."
+#, fuzzy
+msgid "Blague avec Google."
+msgstr "Ŝerco kun Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-msgid "Domotique maison"
-msgstr "Hejma aŭtomatigo"
+#, fuzzy
+msgid "Automatisation de la maison"
+msgstr "Aŭtomatigo de la domo"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
-#, no-wrap
-msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
-msgstr "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
-
-#~ msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Partage dans les Mêmes Conditions \" /></a>"
-#~ msgstr "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Permesilo Creative Commons\" style=\"display:inline;border-width0\"src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"Ĉi tiu verko estas disponebla laŭ la permesilo Krea Komunaĵo Atribuite-Samkondiĉe.\"/></ a>"
+#, fuzzy
+msgid ""
+"Remarque: cette page a été traduite automatiquement. Si vous le pouvez, vous "
+"devez le lire dans l'une de ces langues:"
+msgstr ""
+"Noto: Ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin "
+"en unu el ĉi tiuj lingvoj:"

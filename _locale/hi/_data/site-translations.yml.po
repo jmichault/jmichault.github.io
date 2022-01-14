@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 22:27+0200\n"
+"POT-Creation-Date: 2021-12-05 22:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,13 @@ msgstr "द्वारा संचालित"
 msgid "Ĉiuj Afiŝoj"
 msgstr "सभी पद"
 
+#. type: Hash Value - Key: dauxrigiLego
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Daǔrigi lego …"
+msgstr "लेगो जारी रखें ..."
+
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
 #, fuzzy, no-wrap
@@ -36,15 +43,13 @@ msgstr "अपनी भाषा चुनें"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "komentis "
 msgstr "टिप्पणी की"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, fuzzy, no-wrap
-#, fuzzy
 msgid "Aldoni komenton (sur GitHub)"
 msgstr "एक टिप्पणी जोड़ें  ( github ) पर"
 
