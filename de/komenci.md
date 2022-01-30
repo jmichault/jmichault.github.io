@@ -8,7 +8,7 @@ title: Anfangen
 ---
 
 # Einführung
-Als Startbeispiel können Sie ein Home-Domänensystem mit einem Nano-Computer   _raspberry Pi3 B+_ erstellen, um es auszurüsten, um 433 MHz-Geräte und -geräte   _zigbee_ zu verwalten. Ich habe den kostenlosen Programm-Hosticz ausgewählt, um das Set umzugehen.  
+Als Startbeispiel können Sie ein Home-Domänensystem mit einem Nano-Computer   _raspberry Pi3 B+_ erstellen, um es auszurüsten, um 433 MHz-Geräte und -geräte   _zigbee_ zu verwalten. Ich wählte die MARTIATICZ MARKETBALL-Software, um das Set umzugehen.  
 
 **  Der   _raspberry Pi3 B+_   hat für Vorteile:  **  
 

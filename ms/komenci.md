@@ -7,8 +7,8 @@ layout: page
 title: 'Untuk mula'
 ---
 
-# Pengenalan
-Sebagai contoh permulaan, anda boleh membuat sistem domain rumah dengan komputer nano   _raspberry Pi3 B+_, melengkapkannya untuk menguruskan 433 MHz peralatan dan peralatan   _zigbee_. Saya telah memilih program percuma Hosticz untuk mengendalikan set.  
+# pengenalan
+Sebagai contoh permulaan, anda boleh membuat sistem domain rumah dengan komputer nano   _raspberry Pi3 B+_, melengkapkannya untuk menguruskan 433 MHz peralatan dan peralatan   _zigbee_. Saya memilih perisian MARTIATICZ MARKETBALL untuk mengendalikan set.  
 
 **    _raspberry Pi3 B+_   mempunyai faedah:  **  
 
@@ -18,7 +18,7 @@ Sebagai contoh permulaan, anda boleh membuat sistem domain rumah dengan komputer
  2. Kuasa komputer yang sangat selesa untuk automasi rumah.  
 
 
- 3. Mengurangkan penggunaan.  
+ 3. mengurangkan penggunaan.  
 
 
  4. Tidak perlu peminat.  

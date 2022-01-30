@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-05 22:05+0100\n"
+"POT-Creation-Date: 2022-01-30 16:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,13 +53,15 @@ msgid "Quand on désire faire de la domotique, on hésite souvent à faire le pr
 msgstr ""
 
 #. type: Plain text
-#: index.md:10
+#: index.md:11
 #, no-wrap
-msgid "Ce site vous propose des solutions bon marché, basées en grande partie sur du FLTM (fais le toi-même) et des logiciels open-source.\n"
+msgid ""
+"Ce site vous propose des solutions bon marché, basées en grande partie sur du FLTM (fais le toi-même) et des logiciels open-source.\n"
+"L'idée est aussi de maitriser l'architecture et de ne pas envoyer ses données dans le _«Cloud»_.\n"
 msgstr ""
 
 #. type: Title #
-#: index.md:12
+#: index.md:13
 #, no-wrap
 msgid "Derniers articles :"
 msgstr ""

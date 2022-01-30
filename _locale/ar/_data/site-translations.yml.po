@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-05 22:33+0100\n"
+"POT-Creation-Date: 2022-01-30 17:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,9 @@ msgstr ""
 
 #. type: Hash Value - Key: Funkciigita
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Propulsé par"
-msgstr "propulsé par."
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "مشغل بواسطة"
 
 #. type: Hash Value - Key: cxiujAfisxoj
 #: >lang
@@ -33,8 +32,8 @@ msgstr "جميع المشاركات"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Continuer la lecture …"
-msgstr "كونور المحاضرة ..."
+msgid "Daŭrigu legadon ..."
+msgstr "أكمل القراءة ..."
 
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
@@ -46,43 +45,41 @@ msgstr "اختر لغتك"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "a commenté le "
-msgstr "تعليق LE."
+msgid "komentis la"
+msgstr "لاحظت"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Ajouter un commentaire (sur github)"
-msgstr "AJouter Un Commentire  ( على Github )"
+msgid "Aldoni komenton  ( sur GitHub )"
+msgstr "أضف تعليق   (  على github  )"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Commentaires :"
-msgstr "التعليق:"
+#, fuzzy, no-wrap
+msgid "Komentoj:"
+msgstr "تعليقات:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Lisez cette page dans une autre langue"
-msgstr "Lisez Cethe Page Dans Une Autre Langue"
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "اقرأ هذه الصفحة بلغة أخرى"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Quelques idées pour concevoir votre domotique à moindre coût."
-msgstr "Quelques Idhees صب Conceivoir votre domotique à moindre coût."
+msgid "Iuj ideoj por desegni vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "بعض الأفكار لرسم أتمتة منزلك بتكلفة أقل."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\" /></a>"
-msgstr "الرخصة  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> <img alt= \" ترخيص المشاعات الإبداعية \"  style=\"display:inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  title= \" cc-by-sa 4.0 \"  /> </a> </a> </a> </a> </a>"
+msgid "Permesilo  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> <img alt= \" Creative Commons License \"  style=\"display:inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  title= \" CC-BY-SA 4.0 \"  /> </a>"
+msgstr "الترخيص   <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">  <img alt=  \" رخصة المشاعات الإبداعية  \"   style=\"display:inline;border-width:0\"   src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  \"  \" cc-by-sa 4.0  \"   />  </a>  </a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -100,26 +97,77 @@ msgstr "المنشورات ذات الصلة"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Recherche Google."
-msgstr "إعادة توجيه جوجل."
+msgid "Google serĉo."
+msgstr "بحث جوجل."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Domotique maison"
-msgstr "هاوسوتيك ميزون"
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "أتمتة المنزل"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
-msgstr "انتباه: cethe صفحة تلقائية التاجر été. إذا Vous Le Pouvez، Vous Devriez Dans Lire L'Une of Ces Langues:"
+msgid "Atentu: Ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "تحذير: تمت ترجمة هذه الصفحة تلقائيا. إذا كنت تستطيع، عليك أن تقرأها في إحدى هذه اللغات:"
 
-#, fuzzy, no-wrap
-#~ msgid "Funkciigita de"
-#~ msgstr "مشغل بواسطة"
+#, fuzzy
+#~ msgid "Propulsé par"
+#~ msgstr "propulsé par."
+
+#, fuzzy
+#~ msgid "Continuer la lecture …"
+#~ msgstr "كونور المحاضرة ..."
+
+#, fuzzy
+#~ msgid "a commenté le "
+#~ msgstr "تعليق LE."
+
+#, fuzzy
+#~ msgid "Ajouter un commentaire (sur github)"
+#~ msgstr "AJouter Un Commentire  ( على Github )"
+
+#, fuzzy
+#~ msgid "Commentaires :"
+#~ msgstr "التعليق:"
+
+#, fuzzy
+#~ msgid "Lisez cette page dans une autre langue"
+#~ msgstr "Lisez Cethe Page Dans Une Autre Langue"
+
+#, fuzzy
+#~ msgid "Quelques idées pour concevoir votre domotique à moindre coût."
+#~ msgstr "Quelques Idhees صب Conceivoir votre domotique à moindre coût."
+
+#, fuzzy
+#~ msgid ""
+#~ "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"CC-BY-SA 4.0\" /></a>"
+#~ msgstr ""
+#~ "الرخصة  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\"> <img alt= \" ترخيص المشاعات الإبداعية \"  style=\"display:"
+#~ "inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"  title= \" cc-by-sa 4.0 \"  /> </a> </a> </a> </a> </a>"
+
+#, fuzzy
+#~ msgid "Recherche Google."
+#~ msgstr "إعادة توجيه جوجل."
+
+#, fuzzy
+#~ msgid "Domotique maison"
+#~ msgstr "هاوسوتيك ميزون"
+
+#, fuzzy
+#~ msgid ""
+#~ "Attention : cette page a été traduite automatiquement. Si vous le pouvez, "
+#~ "vous devriez la lire dans l'une de ces langues :"
+#~ msgstr ""
+#~ "انتباه: cethe صفحة تلقائية التاجر été. إذا Vous Le Pouvez، Vous Devriez "
+#~ "Dans Lire L'Une of Ces Langues:"
 
 #, fuzzy
 #~ msgid "Daǔrigi lego …"
@@ -134,14 +182,6 @@ msgstr "انتباه: cethe صفحة تلقائية التاجر été. إذا V
 #~ msgstr "إضافة تعليق (على جيثب)"
 
 #, fuzzy, no-wrap
-#~ msgid "Komentoj:"
-#~ msgstr "تعليقات:"
-
-#, fuzzy, no-wrap
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "اقرأ هذه الصفحة بلغة أخرى"
-
-#, fuzzy, no-wrap
 #~ msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
 #~ msgstr "بعض الأفكار لتصميم أتمتة منزلك بتكلفة أقل."
 
@@ -152,10 +192,6 @@ msgstr "انتباه: cethe صفحة تلقائية التاجر été. إذا V
 #, fuzzy, no-wrap
 #~ msgid "Ŝercu per Google."
 #~ msgstr "نكتة مع جوجل."
-
-#, fuzzy, no-wrap
-#~ msgid "Hejma aŭtomatigo"
-#~ msgstr "أتمتة المنزل"
 
 #, fuzzy, no-wrap
 #~ msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"

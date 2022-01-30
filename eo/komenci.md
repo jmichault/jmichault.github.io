@@ -7,26 +7,26 @@ layout: page
 title: Komenci
 ---
 
-# Enkonduko
-Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la senpagan programon Domoticz por pritrakti la aron. 
+# enkonduko
+Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la marferfkodan programaron Domoticz por pritrakti la aron. 
 
 ** La  _raspberry Pi3 B+_  havas por avantaĝoj: ** 
 
- 1. Lia malalta prezo 
+ 1. lia malalta prezo 
 
- 2. Tre komforta komputila potenco por hejma aŭtomatigo. 
+ 2. tre komforta komputila potenco por hejma aŭtomatigo. 
 
- 3. Konsumo reduktita. 
+ 3. konsumo reduktita. 
 
- 4. Neniu bezono de ventumilo. 
+ 4. neniu bezono de ventumilo. 
 
- 5. Konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. 
+ 5. konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. 
 
 
 
 ** La intereso de la 433 MHz estas: ** 
 
- 1. Oni permesis al ni tutmonde dum jardekoj. 
+ 1. oni permesis al ni tutmonde dum jardekoj. 
 
  2. Rezulte, estas tre malmultekosta materialo. 
 

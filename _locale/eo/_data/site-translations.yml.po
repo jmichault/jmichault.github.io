@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-05 22:31+0100\n"
-"PO-Revision-Date: 2021-09-23 21:46+0200\n"
+"POT-Creation-Date: 2022-01-30 17:41+0100\n"
+"PO-Revision-Date: 2022-01-14 18:49+0100\n"
 "Last-Translator: jean <>\n"
 "Language-Team: \n"
 "Language: eo\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Hash Value - Key: Funkciigita
 #: >lang
 #, fuzzy
-msgid "Alimenté par"
+msgid "Propulsé par"
 msgstr "Funkciigita de"
 
 #. type: Hash Value - Key: cxiujAfisxoj
@@ -31,8 +31,8 @@ msgstr "Ĉiuj Afiŝoj"
 #. type: Hash Value - Key: dauxrigiLego
 #: >lang
 #, fuzzy
-msgid "Continuer lego ..."
-msgstr "Daŭrigu LEGO ..."
+msgid "Continuer la lecture …"
+msgstr "Daŭrigu legadon ..."
 
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
@@ -43,48 +43,46 @@ msgstr "Elektu vian lingvon"
 #. type: Hash Value - Key: komentis
 #: >lang
 #, fuzzy
-msgid "commenté"
-msgstr "komentis"
+msgid "a commenté le "
+msgstr "komentis la"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, fuzzy
-msgid "Ajouter un commentaire  ( sur GitHub )"
-msgstr "Aldoni komenton   (  sur GitHub  )"
+msgid "Ajouter un commentaire (sur github)"
+msgstr "Aldoni komenton  ( sur GitHub )"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
 #, fuzzy
-msgid "Commentaires:"
+msgid "Commentaires :"
 msgstr "Komentoj:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy
-msgid "Lire cette page dans une autre langue"
+msgid "Lisez cette page dans une autre langue"
 msgstr "Legu ĉi tiun paĝon en alia lingvo"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
 #, fuzzy
-msgid ""
-"Quelques idées pour projeter votre automatisation domotique à un coût "
-"inférieur."
-msgstr "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+msgid "Quelques idées pour concevoir votre domotique à moindre coût."
+msgstr "Iuj ideoj por desegni vian hejman aŭtomatigon je pli malalta kosto."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy
 msgid ""
-"Licence  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
-"sa/4.0/\"> <img alt= \" Licence Creative Commons \"  style=\"display:inline;"
-"border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-"\"  title= \" CC-BY-SA 4.0 \" /> </a>"
+"Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" "
+"title=\"CC-BY-SA 4.0\" /></a>"
 msgstr ""
-"Permesilo   <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-"by-sa/4.0/\">  <img alt=  \" Creative Commons License  \"   style=\"display:"
-"inline;border-width:0\"   src=\"https://i.creativecommons.org/l/by-"
-"sa/4.0/88x31.png\"   title=  \" CC-BY-SA 4.0  \"  />  </a>"
+"Permesilo  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+"sa/4.0/\"> <img alt= \" Creative Commons License \"  style=\"display:inline;"
+"border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+"\"  title= \" CC-BY-SA 4.0 \"  /> </a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -101,21 +99,21 @@ msgstr "Rilataj Afiŝoj"
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, fuzzy
-msgid "Blague avec Google."
-msgstr "Ŝerco kun Google."
+msgid "Recherche Google."
+msgstr "Google serĉo."
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, fuzzy
-msgid "Automatisation de la maison"
-msgstr "Aŭtomatigo de la domo"
+msgid "Domotique maison"
+msgstr "Hejma aŭtomatigo"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
 #, fuzzy
 msgid ""
-"Remarque: cette page a été traduite automatiquement. Si vous le pouvez, vous "
-"devez le lire dans l'une de ces langues:"
+"Attention : cette page a été traduite automatiquement. Si vous le pouvez, "
+"vous devriez la lire dans l'une de ces langues :"
 msgstr ""
-"Noto: Ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin "
+"Atentu: Ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin "
 "en unu el ĉi tiuj lingvoj:"

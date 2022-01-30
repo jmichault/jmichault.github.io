@@ -8,7 +8,7 @@ title: 开始
 ---
 
 # 介绍
-作为一个开始示例，您可以使用纳米计算机  _raspberry Pi3 B+_进行主域系统，将其配备以管理433 MHz设备和设备  _zigbee_。我选择了免费程序Hosticz处理集合。  
+作为一个开始示例，您可以使用纳米计算机  _raspberry Pi3 B+_进行主域系统，将其配备以管理433 MHz设备和设备  _zigbee_。我选择了Martiaticz Marketball软件来处理集合。  
 
 **    _raspberry Pi3 B+_  具有优势： **  
 

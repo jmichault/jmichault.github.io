@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:12+0100\n"
+"POT-Creation-Date: 2022-01-30 17:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "ja"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-08-14-alexa.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -76,27 +76,31 @@ msgstr ""
 
 #. type: Title ##
 #: _posts/2021-08-14-alexa.md:17
-#, fuzzy, no-wrap
-msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
-msgstr "Alexaと自家製への接続を変更します。"
+#, no-wrap
+#, fuzzy
+msgid "Agordu la konekton al Alexa kaj domoticz:"
+msgstr "AlexaとDomoticzへの接続をカスタマイズします。"
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:19
-#, fuzzy, no-wrap
-msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "インターフェイスに接続します.http：// address _du_ PI：8082 \n"
+#, no-wrap
+#, fuzzy
+msgid "konektu al la interfaco: http://Pi_adreso: 8082\n"
+msgstr "http：// pi _アドレス：8082 \n"
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:21
-#, fuzzy, no-wrap
-msgid "Ponto-Kontrolo-Tab:\n"
-msgstr "ブリッジコントロールタブ：\n"
+#, no-wrap
+#, fuzzy
+msgid "langeto  _«bridge control»_ : \n"
+msgstr "タブ  _«bridge control»_ ： \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:23
-#, fuzzy, no-wrap
-msgid "_Use Rooms for Alexa_ : Vera\n"
-msgstr "_Use Rooms for Alexa_ ：真\n"
+#, no-wrap
+#, fuzzy
+msgid "_Use Rooms for Alexa_ :  _TRUE_ \n"
+msgstr "_Use Rooms for Alexa_    _TRUE_  \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:25
@@ -112,9 +116,10 @@ msgstr "_name=_ 欲しいもの\n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:29
-#, fuzzy, no-wrap
-msgid "_IP_ = AdresoPI\n"
-msgstr "_IP_ =アドレスPi\n"
+#, no-wrap
+#, fuzzy
+msgid "_IP_  = PI-adreso \n"
+msgstr "_IP_   = PIアドレス \n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:31
@@ -124,46 +129,51 @@ msgstr "_port_ = 8080\n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:33
-#, fuzzy, no-wrap
-msgid "Alklaku _Add_.\n"
-msgstr " _Add_をクリックしてください。\n"
+#, no-wrap
+#, fuzzy
+msgid "alklaku _Add_.\n"
+msgstr " _Add_をクリックしてください。 \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:35
-#, fuzzy, no-wrap
-msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
-msgstr "_Unique ID to use 9 Octets_ ：真 (_vera_)。\n"
+#, no-wrap
+#, fuzzy
+msgid "_Unique ID to use 9 Octets_ : kontrolu  _true_. \n"
+msgstr "_Unique ID to use 9 Octets_ ：  _true_を確認してください。  \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:38
-#, fuzzy, no-wrap
-msgid "Kutime la resto estas agordita konvene.\n"
-msgstr "通常、残りは正しく設定されています。\n"
+#: _posts/2021-08-14-alexa.md:39
+#, no-wrap
+#, fuzzy
+msgid ""
+"Kutime la resto estas agordita konvene.\n"
+"Alklaku sur _“Save”_ . Refreŝigu la paĝon.\n"
+msgstr "通常、残りは正しく設定されています。 \n  _“Save”_ をクリックします。ページを省略してください。 \n"
 
 #. type: Title ##
-#: _posts/2021-08-14-alexa.md:39
+#: _posts/2021-08-14-alexa.md:40
 #, fuzzy, no-wrap
 msgid "Elektu aparatojn"
 msgstr "デバイスを選択してください"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:41
-#, fuzzy, no-wrap
-msgid "Iru al la langeto _«Domoticz Devices»_.\n"
-msgstr "タブ _«Domoticz Devices»_に進みます。\n"
+#: _posts/2021-08-14-alexa.md:42
+#, no-wrap
+#, fuzzy
+msgid "Iru al la langeto _«Domoticz Devices»_.Aparatoj devus aperi. Alklaku la markobutonon de tiuj, kiujn vi volas kontroli, tiam alklaku _\"Bulk Add\"_\n"
+msgstr "タブ _«Domoticz Devices»_に進みます。表示されます。チェックしたいもののチェックボックスをクリックしてから、 _\"Bulk Add\"_ をクリックします。\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:44
-#, fuzzy, no-wrap
+#: _posts/2021-08-14-alexa.md:45
+#, no-wrap
+#, fuzzy
 msgid ""
 "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
-"\"konektita domo\" -> aparatoj -> detektas.\n"
-msgstr ""
-"これで、インタフェース _https://alexa.amazon.fr/_ に移動してデバイスを追加できます。\n"
-"\"接続ハウス\"-> デバイス -> を検出します。\n"
+"\"konektita domo\" -> aparatoj -> detektu.\n"
+msgstr "これで、 _https://alexa.amazon.fr/_ インターフェイスに移動し、デバイスを追加できます。\n \"接続されているHouse \" - > デバイス - > 検出。 \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:47
+#: _posts/2021-08-14-alexa.md:48
 #, fuzzy, no-wrap
 msgid ""
 "Noto: Por aldoni kontrolan frazon:\n"
@@ -171,3 +181,51 @@ msgid ""
 msgstr ""
 "注：コントロール文を追加するには：\n"
 "モバイルアプリケーション _alexa_に移動して、ルーチンを作成します。\n"
+
+#, no-wrap
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy, no-wrap
+#~ msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
+#~ msgstr "Alexaと自家製への接続を変更します。"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
+#~ msgstr "インターフェイスに接続します.http：// address _du_ PI：8082 \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Ponto-Kontrolo-Tab:\n"
+#~ msgstr "ブリッジコントロールタブ：\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_Use Rooms for Alexa_ : Vera\n"
+#~ msgstr "_Use Rooms for Alexa_ ：真\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_IP_ = AdresoPI\n"
+#~ msgstr "_IP_ =アドレスPi\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Alklaku _Add_.\n"
+#~ msgstr " _Add_をクリックしてください。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+#~ msgstr "_Unique ID to use 9 Octets_ ：真 (_vera_)。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kutime la resto estas agordita konvene.\n"
+#~ msgstr "通常、残りは正しく設定されています。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Iru al la langeto _«Domoticz Devices»_.\n"
+#~ msgstr "タブ _«Domoticz Devices»_に進みます。\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
+#~ "\"konektita domo\" -> aparatoj -> detektas.\n"
+#~ msgstr ""
+#~ "これで、インタフェース _https://alexa.amazon.fr/_ に移動してデバイスを追加できます。\n"
+#~ "\"接続ハウス\"-> デバイス -> を検出します。\n"

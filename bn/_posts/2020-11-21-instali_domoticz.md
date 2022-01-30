@@ -23,8 +23,8 @@ curl -sSL install.domoticz.com | bash
 পরিষেবার বাছাই: ছুটি _http_ এবং _https_ চেক করা হয়েছে, _OK_এ যান, এন্টার টিপুন।  
 _«HTTP Port number:»_ 8080 ছেড়ে যান, _OK_এ যান, এন্টার টিপুন।  
 _«HTTPS Port number:»_ 8443 প্রবেশ করান, _OK_এ যান, প্রবেশ করুন।  
-_«Installation Folder:»_   রাখুন   _/home/domotiko/domoticz_  যান   _OK_, ইনপুট।    
- _«Installation Complete!»_  , আসা। .
+_«Installation Folder:»_   রাখুন   _/home/domotiko/domoticz_  যান   _OK_, ইনপুট কী।    
+ _«Installation Complete!»_  , আসুন। .
 
 
 এখন আমরা পরিষেবাটি _«systemd»_ তৈরি করি যা ডোমোটিক্স চালু করবে:

@@ -8,17 +8,17 @@ title: Iniziare
 ---
 
 # introduzione
-Come esempio di inizio, è possibile effettuare un sistema di dominio domestico con un computer Nano   _raspberry Pi3 B+_, l'equipaggiamento di gestire 433 MHz Attrezzature e apparecchiature   _zigbee_. Ho scelto il programma gratuito Hosticz per gestire il set. . 
+Come esempio di inizio, è possibile effettuare un sistema di dominio domestico con un computer Nano   _raspberry Pi3 B+_, l'equipaggiamento di gestire 433 MHz Attrezzature e apparecchiature   _zigbee_. Ho scelto il software di mercato del Martiaticz per gestire il set. . 
 
 **  Il   _raspberry Pi3 B+_   ha per i vantaggi:  **  
 
  1. Il suo prezzo basso  
 
 
- 2. Potenza informatica molto confortevole per l'automazione domestica. . 
+ 2. Potenza del computer molto confortevole per l'automazione domestica. . 
 
 
- 3. Consumo ridotto. . 
+ 3. consumo ridotto. . 
 
 
  4. Non c'è bisogno di un ventilatore. . 

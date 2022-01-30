@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:12+0100\n"
+"POT-Creation-Date: 2022-01-30 17:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-08-14-alexa.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
@@ -75,25 +75,25 @@ msgstr ""
 #. type: Title ##
 #: _posts/2021-08-14-alexa.md:17
 #, no-wrap
-msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
+msgid "Agordu la konekton al Alexa kaj domoticz:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:19
 #, no-wrap
-msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
+msgid "konektu al la interfaco: http://Pi_adreso: 8082\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:21
 #, no-wrap
-msgid "Ponto-Kontrolo-Tab:\n"
+msgid "langeto  _«bridge control»_ : \n"
 msgstr ""
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:23
 #, no-wrap
-msgid "_Use Rooms for Alexa_ : Vera\n"
+msgid "_Use Rooms for Alexa_ :  _TRUE_ \n"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -111,7 +111,7 @@ msgstr ""
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:29
 #, no-wrap
-msgid "_IP_ = AdresoPI\n"
+msgid "_IP_  = PI-adreso \n"
 msgstr ""
 
 #. type: Bullet: '    - '
@@ -123,43 +123,45 @@ msgstr ""
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:33
 #, no-wrap
-msgid "Alklaku _Add_.\n"
+msgid "alklaku _Add_.\n"
 msgstr ""
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:35
 #, no-wrap
-msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+msgid "_Unique ID to use 9 Octets_ : kontrolu  _true_. \n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:38
+#: _posts/2021-08-14-alexa.md:39
 #, no-wrap
-msgid "Kutime la resto estas agordita konvene.\n"
+msgid ""
+"Kutime la resto estas agordita konvene.\n"
+"Alklaku sur _“Save”_ . Refreŝigu la paĝon.\n"
 msgstr ""
 
 #. type: Title ##
-#: _posts/2021-08-14-alexa.md:39
+#: _posts/2021-08-14-alexa.md:40
 #, no-wrap
 msgid "Elektu aparatojn"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:41
+#: _posts/2021-08-14-alexa.md:42
 #, no-wrap
-msgid "Iru al la langeto _«Domoticz Devices»_.\n"
+msgid "Iru al la langeto _«Domoticz Devices»_.Aparatoj devus aperi. Alklaku la markobutonon de tiuj, kiujn vi volas kontroli, tiam alklaku _\"Bulk Add\"_\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:44
+#: _posts/2021-08-14-alexa.md:45
 #, no-wrap
 msgid ""
 "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
-"\"konektita domo\" -> aparatoj -> detektas.\n"
+"\"konektita domo\" -> aparatoj -> detektu.\n"
 msgstr ""
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:47
+#: _posts/2021-08-14-alexa.md:48
 #, no-wrap
 msgid ""
 "Noto: Por aldoni kontrolan frazon:\n"

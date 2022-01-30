@@ -23,8 +23,8 @@ curl -sSL install.domoticz.com | bash
 サービスの選択： _http_ と _https_ をチェックしたままにし、 _OK_に移動して、Enterキーを押します。  
 _«HTTP Port number:»_ 8080を離れ、 _OK_に移動し、Enterキーを押します。  
 _«HTTPS Port number:»_ 8443と入力し、 _OK_に移動して入力します。  
-_«Installation Folder:»_   put   _/home/domotiko/domoticz_  Go   _OK_、入力。    
- _«Installation Complete!»_  が入ってくる。 
+_«Installation Folder:»_   put   _/home/domotiko/domoticz_  go   _OK_、入力キー。    
+ _«Installation Complete!»_  、入ってくる。 
 
 
 次に、domoticzを起動するサービス _«systemd»_ を作成します：

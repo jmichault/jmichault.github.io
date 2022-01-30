@@ -23,7 +23,7 @@ curl -sSL install.domoticz.com | bash
 सेवाओं का चयन: छुट्टी _http_ और _https_ की जाँच की, _OK_पर जाएँ, Enter दबाएँ।  
 _«HTTP Port number:»_ 8080 छोड़ें, _OK_पर जाएँ, Enter दबाएँ।  
 _«HTTPS Port number:»_ 8443 दर्ज करें, _OK_पर जाएं, दर्ज करें।  
-_«Installation Folder:»_     _/home/domotiko/domoticz_  जाओ   _OK_, इनपुट डालें।    
+_«Installation Folder:»_     _/home/domotiko/domoticz_  जाओ   _OK_, इनपुट कुंजी रखें।    
  _«Installation Complete!»_  , अंदर आओ। 
 
 

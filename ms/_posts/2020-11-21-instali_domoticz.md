@@ -23,7 +23,7 @@ Tekan Enter semasa persembahan ditunjukkan ( _\<OK>_ estas la sola elekto).
 Pemilihan perkhidmatan: biarkan _http_ dan _https_ diperiksa, pergi ke _OK_, tekan Enter.  
 _«HTTP Port number:»_ tinggalkan 8080, pergi ke _OK_, tekan Enter.  
 _«HTTPS Port number:»_ masukkan 8443, pergi ke _OK_, Enter.  
-_«Installation Folder:»_   letakkan   _/home/domotiko/domoticz_  pergi   _OK_, input.    
+_«Installation Folder:»_   letakkan   _/home/domotiko/domoticz_  pergi   _OK_, kunci input.    
  _«Installation Complete!»_  , masuk. 
 
 

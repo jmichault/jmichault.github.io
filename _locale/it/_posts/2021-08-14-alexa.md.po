@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:12+0100\n"
+"POT-Creation-Date: 2022-01-30 17:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "it"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-08-14-alexa.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -76,27 +76,31 @@ msgstr ""
 
 #. type: Title ##
 #: _posts/2021-08-14-alexa.md:17
-#, fuzzy, no-wrap
-msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
-msgstr "Cambia la connessione con Alexa e il fatto in casa:"
+#, no-wrap
+#, fuzzy
+msgid "Agordu la konekton al Alexa kaj domoticz:"
+msgstr "Personalizza il collegamento ad Alexa e Domoticz:"
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:19
-#, fuzzy, no-wrap
-msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "Connetti all'interfaccia: http: // Indirizzo _du_ PI: 8082 \n"
+#, no-wrap
+#, fuzzy
+msgid "konektu al la interfaco: http://Pi_adreso: 8082\n"
+msgstr "Connetti all'interfaccia: http: // pi _ Indirizzo: 8082 \n"
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:21
-#, fuzzy, no-wrap
-msgid "Ponto-Kontrolo-Tab:\n"
-msgstr "Scheda di controllo del ponte:\n"
+#, no-wrap
+#, fuzzy
+msgid "langeto  _«bridge control»_ : \n"
+msgstr "TAB   _«bridge control»_ :  \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:23
-#, fuzzy, no-wrap
-msgid "_Use Rooms for Alexa_ : Vera\n"
-msgstr "_Use Rooms for Alexa_ : vero\n"
+#, no-wrap
+#, fuzzy
+msgid "_Use Rooms for Alexa_ :  _TRUE_ \n"
+msgstr "_Use Rooms for Alexa_    _TRUE_  \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:25
@@ -112,9 +116,10 @@ msgstr "_name=_ Cosa vogliamo.\n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:29
-#, fuzzy, no-wrap
-msgid "_IP_ = AdresoPI\n"
-msgstr "_IP_ = AREDYPI\n"
+#, no-wrap
+#, fuzzy
+msgid "_IP_  = PI-adreso \n"
+msgstr "_IP_   = indirizzo pi  \n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:31
@@ -124,46 +129,51 @@ msgstr "_port_ = 8080\n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:33
-#, fuzzy, no-wrap
-msgid "Alklaku _Add_.\n"
-msgstr "Fare clic su _Add_.\n"
+#, no-wrap
+#, fuzzy
+msgid "alklaku _Add_.\n"
+msgstr "Fai clic su  _Add_. .\n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:35
-#, fuzzy, no-wrap
-msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
-msgstr "_Unique ID to use 9 Octets_ : VERA (_VERA_).\n"
+#, no-wrap
+#, fuzzy
+msgid "_Unique ID to use 9 Octets_ : kontrolu  _true_. \n"
+msgstr "_Unique ID to use 9 Octets_ : Controlla   _true_. . \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:38
-#, fuzzy, no-wrap
-msgid "Kutime la resto estas agordita konvene.\n"
-msgstr "Di solito il resto è configurato correttamente.\n"
+#: _posts/2021-08-14-alexa.md:39
+#, no-wrap
+#, fuzzy
+msgid ""
+"Kutime la resto estas agordita konvene.\n"
+"Alklaku sur _“Save”_ . Refreŝigu la paĝon.\n"
+msgstr "Di solito il resto è configurato correttamente. \n clicca su  _“Save”_ . Aggiornamento la pagina. .\n"
 
 #. type: Title ##
-#: _posts/2021-08-14-alexa.md:39
+#: _posts/2021-08-14-alexa.md:40
 #, fuzzy, no-wrap
 msgid "Elektu aparatojn"
 msgstr "Scegli i dispositivi"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:41
-#, fuzzy, no-wrap
-msgid "Iru al la langeto _«Domoticz Devices»_.\n"
-msgstr "Vai alla scheda _«Domoticz Devices»_.\n"
+#: _posts/2021-08-14-alexa.md:42
+#, no-wrap
+#, fuzzy
+msgid "Iru al la langeto _«Domoticz Devices»_.Aparatoj devus aperi. Alklaku la markobutonon de tiuj, kiujn vi volas kontroli, tiam alklaku _\"Bulk Add\"_\n"
+msgstr "Vai alla scheda  _«Domoticz Devices»_. Dovrebbe apparire. Fare clic sulla casella di controllo di quelli che si desidera controllare, quindi fare clic su  _\"Bulk Add\"_ \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:44
-#, fuzzy, no-wrap
+#: _posts/2021-08-14-alexa.md:45
+#, no-wrap
+#, fuzzy
 msgid ""
 "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
-"\"konektita domo\" -> aparatoj -> detektas.\n"
-msgstr ""
-"Ora è possibile andare all'interfaccia _https://alexa.amazon.fr/_ e aggiungere i dispositivi:\n"
-"\"Casa collegata\"- Dispositivi> -> Rileva.\n"
+"\"konektita domo\" -> aparatoj -> detektu.\n"
+msgstr "Ora puoi andare all'interfaccia  _https://alexa.amazon.fr/_  e aggiungere i dispositivi: \n \" Connected House \" - >  Dispositivi - >  Rileva. .\n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:47
+#: _posts/2021-08-14-alexa.md:48
 #, fuzzy, no-wrap
 msgid ""
 "Noto: Por aldoni kontrolan frazon:\n"
@@ -171,3 +181,51 @@ msgid ""
 msgstr ""
 "Nota: per aggiungere una frase di controllo:\n"
 "Vai all'applicazione mobile _alexa_e creare una routine.\n"
+
+#, no-wrap
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy, no-wrap
+#~ msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
+#~ msgstr "Cambia la connessione con Alexa e il fatto in casa:"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
+#~ msgstr "Connetti all'interfaccia: http: // Indirizzo _du_ PI: 8082 \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Ponto-Kontrolo-Tab:\n"
+#~ msgstr "Scheda di controllo del ponte:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_Use Rooms for Alexa_ : Vera\n"
+#~ msgstr "_Use Rooms for Alexa_ : vero\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_IP_ = AdresoPI\n"
+#~ msgstr "_IP_ = AREDYPI\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Alklaku _Add_.\n"
+#~ msgstr "Fare clic su _Add_.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+#~ msgstr "_Unique ID to use 9 Octets_ : VERA (_VERA_).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kutime la resto estas agordita konvene.\n"
+#~ msgstr "Di solito il resto è configurato correttamente.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Iru al la langeto _«Domoticz Devices»_.\n"
+#~ msgstr "Vai alla scheda _«Domoticz Devices»_.\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
+#~ "\"konektita domo\" -> aparatoj -> detektas.\n"
+#~ msgstr ""
+#~ "Ora è possibile andare all'interfaccia _https://alexa.amazon.fr/_ e aggiungere i dispositivi:\n"
+#~ "\"Casa collegata\"- Dispositivi> -> Rileva.\n"

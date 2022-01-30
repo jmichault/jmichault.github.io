@@ -7,8 +7,8 @@ layout: page
 title: 'Para iniciar'
 ---
 
-# Introdução
-Como exemplo, você pode fazer um sistema de domínio doméstico com um computador nano   _raspberry Pi3 B+_, equipando-o para gerenciar equipamentos e equipamentos de 433 MHz   _zigbee_. Eu escolhi o programa gratuito Hosticz para lidar com o conjunto.  
+# introdução
+Como exemplo, você pode fazer um sistema de domínio doméstico com um computador nano   _raspberry Pi3 B+_, equipando-o para gerenciar equipamentos e equipamentos de 433 MHz   _zigbee_. Eu escolhi o software Martiaticz Marketball para lidar com o conjunto.  
 
 **  O   _raspberry Pi3 B+_   tem benefícios:  **  
 
@@ -18,7 +18,7 @@ Como exemplo, você pode fazer um sistema de domínio doméstico com um computad
  2. Poder de computador muito confortável para automação em casa.  
 
 
- 3. Consumo reduzido.  
+ 3. consumo reduzido.  
 
 
  4. Não há necessidade de um ventilador.  

@@ -23,7 +23,7 @@ curl -sSL install.domoticz.com | bash
 服务选择：选中 _http_ 和 _https_ ，转到 _OK_，按Enter。  
 _«HTTP Port number:»_ 离开8080，转到 _OK_，按Enter。  
 _«HTTPS Port number:»_ 输入8443，转到 _OK_，输入。  
-_«Installation Folder:»_   PUT   _/home/domotiko/domoticz_  GO   _OK_，输入。    
+_«Installation Folder:»_   PUT   _/home/domotiko/domoticz_  GO   _OK_，输入键。    
  _«Installation Complete!»_  ，进来。 
 
 

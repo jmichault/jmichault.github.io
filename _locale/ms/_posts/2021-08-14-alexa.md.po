@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:12+0100\n"
+"POT-Creation-Date: 2022-01-30 17:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "ms"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-08-14-alexa.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -76,27 +76,31 @@ msgstr ""
 
 #. type: Title ##
 #: _posts/2021-08-14-alexa.md:17
-#, fuzzy, no-wrap
-msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
-msgstr "Tukar sambungan ke Alexa dan buatan sendiri:"
+#, no-wrap
+#, fuzzy
+msgid "Agordu la konekton al Alexa kaj domoticz:"
+msgstr "Sesuaikan sambungan ke Alexa dan Domestiz:"
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:19
-#, fuzzy, no-wrap
-msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
-msgstr "Sambung ke antara muka: http: // alamat _du_ pi: 8082 \n"
+#, no-wrap
+#, fuzzy
+msgid "konektu al la interfaco: http://Pi_adreso: 8082\n"
+msgstr "Sambung ke antara muka: http: // pi _ Alamat: 8082 \n"
 
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:21
-#, fuzzy, no-wrap
-msgid "Ponto-Kontrolo-Tab:\n"
-msgstr "Tab kawalan jambatan:\n"
+#, no-wrap
+#, fuzzy
+msgid "langeto  _«bridge control»_ : \n"
+msgstr "Tab   _«bridge control»_ :  \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:23
-#, fuzzy, no-wrap
-msgid "_Use Rooms for Alexa_ : Vera\n"
-msgstr "_Use Rooms for Alexa_ : Benar\n"
+#, no-wrap
+#, fuzzy
+msgid "_Use Rooms for Alexa_ :  _TRUE_ \n"
+msgstr "_Use Rooms for Alexa_    _TRUE_  \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:25
@@ -112,9 +116,10 @@ msgstr "_name=_ Apa yang kita mahu.\n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:29
-#, fuzzy, no-wrap
-msgid "_IP_ = AdresoPI\n"
-msgstr "_IP_ = AddressPi\n"
+#, no-wrap
+#, fuzzy
+msgid "_IP_  = PI-adreso \n"
+msgstr "_IP_   = pi alamat  \n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:31
@@ -124,46 +129,51 @@ msgstr "_port_ = 8080\n"
 
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:33
-#, fuzzy, no-wrap
-msgid "Alklaku _Add_.\n"
-msgstr "Klik _Add_.\n"
+#, no-wrap
+#, fuzzy
+msgid "alklaku _Add_.\n"
+msgstr "Klik  _Add_. \n"
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:35
-#, fuzzy, no-wrap
-msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
-msgstr "_Unique ID to use 9 Octets_ : benar (_vera_).\n"
+#, no-wrap
+#, fuzzy
+msgid "_Unique ID to use 9 Octets_ : kontrolu  _true_. \n"
+msgstr "_Unique ID to use 9 Octets_ : semak   _true_.  \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:38
-#, fuzzy, no-wrap
-msgid "Kutime la resto estas agordita konvene.\n"
-msgstr "Biasanya selebihnya dikonfigurasikan dengan betul.\n"
+#: _posts/2021-08-14-alexa.md:39
+#, no-wrap
+#, fuzzy
+msgid ""
+"Kutime la resto estas agordita konvene.\n"
+"Alklaku sur _“Save”_ . Refreŝigu la paĝon.\n"
+msgstr "Biasanya yang lain dikonfigurasikan dengan betul. \n Klik pada  _“Save”_ . Menyegerakkan halaman. \n"
 
 #. type: Title ##
-#: _posts/2021-08-14-alexa.md:39
+#: _posts/2021-08-14-alexa.md:40
 #, fuzzy, no-wrap
 msgid "Elektu aparatojn"
 msgstr "Pilih peranti"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:41
-#, fuzzy, no-wrap
-msgid "Iru al la langeto _«Domoticz Devices»_.\n"
-msgstr "Pergi ke tab _«Domoticz Devices»_.\n"
+#: _posts/2021-08-14-alexa.md:42
+#, no-wrap
+#, fuzzy
+msgid "Iru al la langeto _«Domoticz Devices»_.Aparatoj devus aperi. Alklaku la markobutonon de tiuj, kiujn vi volas kontroli, tiam alklaku _\"Bulk Add\"_\n"
+msgstr "Pergi ke tab  _«Domoticz Devices»_. Ia sepatutnya muncul. Klik pada kotak semak orang yang anda ingin semak, kemudian klik  _\"Bulk Add\"_ \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:44
-#, fuzzy, no-wrap
+#: _posts/2021-08-14-alexa.md:45
+#, no-wrap
+#, fuzzy
 msgid ""
 "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
-"\"konektita domo\" -> aparatoj -> detektas.\n"
-msgstr ""
-"Sekarang anda boleh pergi ke antara muka _https://alexa.amazon.fr/_ , dan tambah peranti:\n"
-"\"Rumah yang disambungkan\"-> Peranti -> Mengesan.\n"
+"\"konektita domo\" -> aparatoj -> detektu.\n"
+msgstr "Sekarang anda boleh pergi ke antara muka  _https://alexa.amazon.fr/_ , dan menambah peranti: \n \" Rumah yang disambungkan \" - >  Peranti - >  Detect. \n"
 
 #. type: Plain text
-#: _posts/2021-08-14-alexa.md:47
+#: _posts/2021-08-14-alexa.md:48
 #, fuzzy, no-wrap
 msgid ""
 "Noto: Por aldoni kontrolan frazon:\n"
@@ -171,3 +181,51 @@ msgid ""
 msgstr ""
 "Nota: Untuk menambah ayat kawalan:\n"
 "Pergi ke aplikasi mudah alih _alexa_, dan buat rutin.\n"
+
+#, no-wrap
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#, fuzzy, no-wrap
+#~ msgid "Ŝanĝu la konekton al Alexa kaj la dommotiko:"
+#~ msgstr "Tukar sambungan ke Alexa dan buatan sendiri:"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti al la interfaco: http: // adreso_du_PI: 8082\n"
+#~ msgstr "Sambung ke antara muka: http: // alamat _du_ pi: 8082 \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Ponto-Kontrolo-Tab:\n"
+#~ msgstr "Tab kawalan jambatan:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_Use Rooms for Alexa_ : Vera\n"
+#~ msgstr "_Use Rooms for Alexa_ : Benar\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_IP_ = AdresoPI\n"
+#~ msgstr "_IP_ = AddressPi\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Alklaku _Add_.\n"
+#~ msgstr "Klik _Add_.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "_Unique ID to use 9 Octets_ : Vera (_Vera_).\n"
+#~ msgstr "_Unique ID to use 9 Octets_ : benar (_vera_).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kutime la resto estas agordita konvene.\n"
+#~ msgstr "Biasanya selebihnya dikonfigurasikan dengan betul.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Iru al la langeto _«Domoticz Devices»_.\n"
+#~ msgstr "Pergi ke tab _«Domoticz Devices»_.\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Nun vi povas iri al la interfaco _https://alexa.amazon.fr/_ , kaj aldonu la aparatojn:\n"
+#~ "\"konektita domo\" -> aparatoj -> detektas.\n"
+#~ msgstr ""
+#~ "Sekarang anda boleh pergi ke antara muka _https://alexa.amazon.fr/_ , dan tambah peranti:\n"
+#~ "\"Rumah yang disambungkan\"-> Peranti -> Mengesan.\n"

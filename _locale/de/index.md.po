@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:03+0100\n"
+"POT-Creation-Date: 2022-01-30 17:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,37 @@ msgstr "index"
 
 #. type: YAML Front Matter: title
 #: index.md:1
+#, no-wrap
+#, fuzzy
+msgid "Hejma aŭtomatigo sen rompi la bankon"
+msgstr "Hausautomation, ohne die Bank zu brechen"
+
+#. type: Plain text
+#: index.md:9
+#, no-wrap
+#, fuzzy
+msgid "Kiam ni volas fari hejman aŭtomatigon, ni ofte hezitas fari la unuan paŝon pro la komenca investo, kiu devas esti farita, dum ni ankoraŭ ne certas, ke ni daŭrigos.\n"
+msgstr "Wenn wir die Hausautomation ausführen wollen, zögern wir oft, den ersten Schritt aufgrund der anfänglichen Investition zu nehmen, die erfolgen muss, während wir nicht sicher sind, dass wir weitermachen werden. \n"
+
+#. type: Plain text
+#: index.md:12
+#, no-wrap
+#, fuzzy
+msgid ""
+"Ĉi tiu retejo ofertas malmultekostajn solvojn, plejparte bazitajn sur FĜVM  ( Faru ĝin vi mem )  kaj malfermfonta softvaro. \n"
+" La ideo estas ankaŭ regi la arkitekturon kaj ne sendi siajn datumojn en la  _«Cloud»_. \n"
+msgstr "Diese Website bietet günstige Lösungen, die hauptsächlich auf FVIVM   (  basiert, machen Sie es selbst  )   und offene Software.  \n Die Idee ist auch, die Architektur zu dominieren und seine Daten nicht in   _«Cloud»_ zu senden.  \n"
+
+#. type: Title #
+#: index.md:14
+#, no-wrap
+#, fuzzy
+msgid "Lastaj artikoloj:"
+msgstr "Aktuelle Artikel:"
+
 #, fuzzy, no-wrap
-msgid "lastaj afiŝoj"
-msgstr "Neueste Beiträge"
+#~ msgid "lastaj afiŝoj"
+#~ msgstr "Neueste Beiträge"
 
 #~ msgid "auto"
 #~ msgstr "auto"

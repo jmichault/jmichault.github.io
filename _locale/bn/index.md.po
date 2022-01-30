@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:03+0100\n"
+"POT-Creation-Date: 2022-01-30 17:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,37 @@ msgstr "index"
 
 #. type: YAML Front Matter: title
 #: index.md:1
+#, no-wrap
+#, fuzzy
+msgid "Hejma aŭtomatigo sen rompi la bankon"
+msgstr "ব্যাংক ব্রেকিং ছাড়া হোম অটোমেশন"
+
+#. type: Plain text
+#: index.md:9
+#, no-wrap
+#, fuzzy
+msgid "Kiam ni volas fari hejman aŭtomatigon, ni ofte hezitas fari la unuan paŝon pro la komenca investo, kiu devas esti farita, dum ni ankoraŭ ne certas, ke ni daŭrigos.\n"
+msgstr "যখন আমরা হোম অটোমেশন করতে চাই, তখন আমরা প্রায়ই প্রাথমিক বিনিয়োগের কারণে প্রথম পদক্ষেপ নিতে দ্বিধা করি না, যখন আমরা নিশ্চিত নই, আমরা তা চালিয়ে যাব। .\n"
+
+#. type: Plain text
+#: index.md:12
+#, no-wrap
+#, fuzzy
+msgid ""
+"Ĉi tiu retejo ofertas malmultekostajn solvojn, plejparte bazitajn sur FĜVM  ( Faru ĝin vi mem )  kaj malfermfonta softvaro. \n"
+" La ideo estas ankaŭ regi la arkitekturon kaj ne sendi siajn datumojn en la  _«Cloud»_. \n"
+msgstr "এই সাইটটি সস্তা সমাধানগুলি সরবরাহ করে, বেশিরভাগ FVIVM   (  এটি নিজেকে তৈরি করুন  )   এবং ওপেন সফটওয়্যারটি তৈরি করুন।  \n ধারণাটি আর্কিটেকচারকে আয়ত্ত করতে এবং   _«Cloud»_ এর মধ্যে তার ডেটা পাঠাতে হয় না। . \n"
+
+#. type: Title #
+#: index.md:14
+#, no-wrap
+#, fuzzy
+msgid "Lastaj artikoloj:"
+msgstr "সাম্প্রতিক লেখাসমূহ:"
+
 #, fuzzy, no-wrap
-msgid "lastaj afiŝoj"
-msgstr "সর্বশেষ পোস্ট"
+#~ msgid "lastaj afiŝoj"
+#~ msgstr "সর্বশেষ পোস্ট"
 
 #~ msgid "auto"
 #~ msgstr "auto"

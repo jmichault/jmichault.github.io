@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 12:57+0100\n"
+"POT-Creation-Date: 2022-01-30 16:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,13 +87,13 @@ msgstr ""
 #. type: Bullet: '- '
 #: _posts/2021-08-14-alexa.md:27
 #, no-wrap
-msgid "onglet bridge control :\n"
+msgid "onglet _«bridge control»_ :\n"
 msgstr ""
 
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:27
 #, no-wrap
-msgid "_Use Rooms for Alexa_ : TRUE\n"
+msgid "_Use Rooms for Alexa_ : _TRUE_\n"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -111,7 +111,7 @@ msgstr ""
 #. type: Bullet: '    - '
 #: _posts/2021-08-14-alexa.md:27
 #, no-wrap
-msgid "_IP_ = adresse_du_pi\n"
+msgid "_IP_ = adresse du pi\n"
 msgstr ""
 
 #. type: Bullet: '    - '
@@ -129,7 +129,7 @@ msgstr ""
 #. type: Bullet: '  - '
 #: _posts/2021-08-14-alexa.md:27
 #, no-wrap
-msgid "_Unique ID to use 9 Octets_ : cocher (_true_).\n"
+msgid "_Unique ID to use 9 Octets_ : cocher _true_.\n"
 msgstr ""
 
 #. type: Plain text

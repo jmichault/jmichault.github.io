@@ -3,11 +3,11 @@ lang: de
 lang-niv: auto
 lang-ref: 090-projektoj
 layout: page
-title: 'Mes autres proset.'
+title: 'Meine anderen Projekte.'
 ---
 
 ## _flash\_ CC2531 _
-<https://jmichault.github.io/flash_cc2531-dok> 
+<https://jmichault.github.io/flash_cc2531-dok>  
 
 ## _ipcam-100_
 <https://jmichault.github.io/ipcam-100-dok> 

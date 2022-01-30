@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-11-11 12:42+0100\n"
-"PO-Revision-Date: 2021-02-13 13:09+0100\n"
+"PO-Revision-Date: 2022-01-14 17:52+0100\n"
 "Last-Translator: jean <>\n"
 "Language-Team: .\n"
 "Language: eo\n"
@@ -22,11 +22,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: YAML Front Matter: komentoj_id
 #: _posts/2021-02-11-programi_cc2531.md:1
-#, fuzzy
 msgid "5"
 msgstr "5"
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:12+0100\n"
+"POT-Creation-Date: 2022-01-30 17:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,13 +106,12 @@ msgstr "_«HTTPS Port number:»_ введите 8443, перейдите к _OK_
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:27
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
-"_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, enigo.   \n"
+"_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, eniga klavo.   \n"
 "_«Installation Complete!»_  , Eniru.\n"
-msgstr ""
-"_«Installation Folder:»_   Поместите   _/home/domotiko/domoticz_  go   _OK_, ввод.    \n"
-" _«Installation Complete!»_   войти. \n"
+msgstr "_«Installation Folder:»_   Поместите   _/home/domotiko/domoticz_  GO   _OK_, введите клавишу.    \n _«Installation Complete!»_   войти. \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:30
@@ -253,6 +252,14 @@ msgid ""
 msgstr ""
 "Больше подробностей,\n"
 "увидеть <https://www.domoticz.com/wiki/Raspberry_Pi>\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, enigo.   \n"
+#~ "_«Installation Complete!»_  , Eniru.\n"
+#~ msgstr ""
+#~ "_«Installation Folder:»_   Поместите   _/home/domotiko/domoticz_  go   _OK_, ввод.    \n"
+#~ " _«Installation Complete!»_   войти. \n"
 
 #, no-wrap
 #~ msgid "homa"

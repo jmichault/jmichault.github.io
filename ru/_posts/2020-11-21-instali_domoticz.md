@@ -23,7 +23,7 @@ curl -sSL install.domoticz.com | bash
 Выбор услуг: оставьте _http_ и _https_ отмеченными, перейдите к _OK_, нажмите Enter.  
 _«HTTP Port number:»_ оставить 8080, перейти к _OK_, нажать Enter.  
 _«HTTPS Port number:»_ введите 8443, перейдите к _OK_, введите.  
-_«Installation Folder:»_   Поместите   _/home/domotiko/domoticz_  go   _OK_, ввод.    
+_«Installation Folder:»_   Поместите   _/home/domotiko/domoticz_  GO   _OK_, введите клавишу.    
  _«Installation Complete!»_   войти. 
 
 

@@ -25,9 +25,9 @@ lang0=eo
 if [ $# -gt 0 ] ; then
   LINGVOJ="$1"
 else
-  LINGVOJ=$(grep "^..:$" _data/languages.yml|sed "s/:$//"|grep -v $lang0)
+  LINGVOJ=$(grep "^..:$" _data/languages.yml|sed "s/:$//"|grep -v $lang0|grep -v $LABORLINGVO)
   if [ $LABORLINGVO != eo -a $# -ge 0 ] ; then
-     _scripts/lib/al_eo $LABORLINGVO
+     _scripts/trAlEo
   fi
 fi
 
@@ -110,11 +110,11 @@ done
 
 cd ..
 
-cat /dev/null >_data/translations.yml
-for lang in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
-do
-  cat $lang/_data/site-translations.yml|grep -v "^---$"|sed "s/^lang:\$/${lang}:/" >> _data/translations.yml
-done
+#cat /dev/null >_data/translations.yml
+#for lang in `grep "^..:$" _data/languages.yml|sed "s/:$//"`
+#do
+#  cat $lang/_data/site-translations.yml|grep -v "^---$"|sed "s/^lang:\$/${lang}:/" >> _data/translations.yml
+#done
 
 
 sleep 2

@@ -7,8 +7,8 @@ layout: page
 title: 'To start'
 ---
 
-# Introduction
-As a start example, you can make a home domain system with a nano computer   _raspberry Pi3 B+_, equipping it to manage 433 MHz equipment and equipment   _zigbee_. I have chosen the free program hosticz to handle the set.  
+# introduction
+As a start example, you can make a home domain system with a nano computer   _raspberry Pi3 B+_, equipping it to manage 433 MHz equipment and equipment   _zigbee_. I chose the Martiaticz Marketball software to handle the set.  
 
 **  The   _raspberry Pi3 B+_   has for benefits:  **  
 
@@ -18,7 +18,7 @@ As a start example, you can make a home domain system with a nano computer   _ra
  2. Very comfortable computer power for home automation.  
 
 
- 3. Reduced consumption.  
+ 3. reduced consumption.  
 
 
  4. No need for a fan.  

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:03+0100\n"
+"POT-Creation-Date: 2022-01-30 17:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,13 +55,13 @@ msgstr ""
 #. type: Title #
 #: komenci.md:10
 #, no-wrap
-msgid "Enkonduko"
+msgid "enkonduko"
 msgstr ""
 
 #. type: Plain text
 #: komenci.md:12
 #, no-wrap
-msgid "Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la senpagan programon Domoticz por pritrakti la aron. \n"
+msgid "Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la marferfkodan programaron Domoticz por pritrakti la aron. \n"
 msgstr ""
 
 #. type: Plain text
@@ -73,31 +73,31 @@ msgstr ""
 #. type: Bullet: ' 1. '
 #: komenci.md:16
 #, no-wrap
-msgid "Lia malalta prezo \n"
+msgid "lia malalta prezo \n"
 msgstr ""
 
 #. type: Bullet: ' 2. '
 #: komenci.md:18
 #, no-wrap
-msgid "Tre komforta komputila potenco por hejma aŭtomatigo. \n"
+msgid "tre komforta komputila potenco por hejma aŭtomatigo. \n"
 msgstr ""
 
 #. type: Bullet: ' 3. '
 #: komenci.md:20
 #, no-wrap
-msgid "Konsumo reduktita. \n"
+msgid "konsumo reduktita. \n"
 msgstr ""
 
 #. type: Bullet: ' 4. '
 #: komenci.md:22
 #, no-wrap
-msgid "Neniu bezono de ventumilo. \n"
+msgid "neniu bezono de ventumilo. \n"
 msgstr ""
 
 #. type: Bullet: ' 5. '
 #: komenci.md:24
 #, no-wrap
-msgid "Konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. \n"
+msgid "konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. \n"
 msgstr ""
 
 #. type: Plain text
@@ -109,7 +109,7 @@ msgstr ""
 #. type: Bullet: ' 1. '
 #: komenci.md:30
 #, no-wrap
-msgid "Oni permesis al ni tutmonde dum jardekoj. \n"
+msgid "oni permesis al ni tutmonde dum jardekoj. \n"
 msgstr ""
 
 #. type: Bullet: ' 2. '

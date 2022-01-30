@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-05 22:26+0100\n"
+"POT-Creation-Date: 2022-01-30 17:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,8 @@ msgstr "所有帖子"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Daǔrigi lego …"
-msgstr "继续乐高......"
+msgid "Daŭrigu legadon ..."
+msgstr "继续阅读 ..."
 
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
@@ -43,15 +43,17 @@ msgstr "选择你的语言"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, fuzzy, no-wrap
-msgid "komentis "
-msgstr "评论"
+#, no-wrap
+#, fuzzy
+msgid "komentis la"
+msgstr "评论了这一点"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, fuzzy, no-wrap
-msgid "Aldoni komenton (sur GitHub)"
-msgstr "在GitHub上添加评论 ()"
+#, no-wrap
+#, fuzzy
+msgid "Aldoni komenton  ( sur GitHub )"
+msgstr "在github  )上添加评论  ( "
 
 #. type: Hash Value - Key: komentoj
 #: >lang
@@ -67,15 +69,17 @@ msgstr "阅读另一种语言的页面"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
-msgstr "设计低成本家庭自动化的一些想法。"
+#, no-wrap
+#, fuzzy
+msgid "Iuj ideoj por desegni vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "一些想法以较低的成本绘制您的家庭自动化。"
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
-#, fuzzy, no-wrap
-msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "许可 <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"知识共享许可\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+#, no-wrap
+#, fuzzy
+msgid "Permesilo  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> <img alt= \" Creative Commons License \"  style=\"display:inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  title= \" CC-BY-SA 4.0 \"  /> </a>"
+msgstr "许可  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">  <img alt=  \" Creative Commons License  \"   style=\"display:inline;border-width:0\"   src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"   title=  \" CC-BY-SA 4.0  \"   />  </a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -91,9 +95,10 @@ msgstr "相关文章"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Ŝercu per Google."
-msgstr "与Google开玩笑。"
+#, no-wrap
+#, fuzzy
+msgid "Google serĉo."
+msgstr "谷歌搜索。"
 
 #. type: Hash Value - Key: titolo
 #: >lang
@@ -103,9 +108,38 @@ msgstr "家庭自动化"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
+#, no-wrap
+#, fuzzy
+msgid "Atentu: Ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "注意：此页面已自动翻译。如果您可以，您必须以其中一种语言阅读："
+
+#, fuzzy
+#~ msgid "Daǔrigi lego …"
+#~ msgstr "继续乐高......"
+
 #, fuzzy, no-wrap
-msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
-msgstr "请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它："
+#~ msgid "komentis "
+#~ msgstr "评论"
+
+#, fuzzy, no-wrap
+#~ msgid "Aldoni komenton (sur GitHub)"
+#~ msgstr "在GitHub上添加评论 ()"
+
+#, fuzzy, no-wrap
+#~ msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
+#~ msgstr "设计低成本家庭自动化的一些想法。"
+
+#, fuzzy, no-wrap
+#~ msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+#~ msgstr "许可 <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"知识共享许可\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+
+#, fuzzy, no-wrap
+#~ msgid "Ŝercu per Google."
+#~ msgstr "与Google开玩笑。"
+
+#, fuzzy, no-wrap
+#~ msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+#~ msgstr "请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它："
 
 #, fuzzy
 #~ msgid "komentis"

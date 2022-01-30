@@ -3,7 +3,7 @@ lang: fr
 lang-niv: homa
 lang-ref: 090-projektoj
 layout: page
-title: 'Mes autres projet'
+title: 'Mes autres projets'
 ---
 
 ## _flash\_cc2531_

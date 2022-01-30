@@ -22,7 +22,7 @@ Premu Enter kiam la prezento montriĝas ( _\<OK>_ estas la sola elekto).
 Elekto de servoj: lasu _http_ kaj _https_ markajn, iru al _OK_, premu Enter.  
 _«HTTP Port number:»_ forlasu 8080, iru al _OK_, premu Enter.  
 _«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  
-_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, enigo.   
+_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, eniga klavo.   
 _«Installation Complete!»_  , Eniru.
 
 

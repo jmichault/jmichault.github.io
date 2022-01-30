@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2021-11-11 22:00+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-01-30 17:30+0100\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: YAML Front Matter: komentoj_id
 #: komenci.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "1"
 msgstr "1"
 
@@ -48,69 +48,69 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: komenci.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Pour débuter"
 msgstr "Komenci"
 
 #. type: Title #
 #: komenci.md:10
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "introduction"
-msgstr "Enkonduko"
+msgstr "enkonduko"
 
 #. type: Plain text
 #: komenci.md:12
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Comme exemple de début, vous pouvez réaliser un système domotique fait maison avec un nano-ordinateur _raspberry Pi3 B+_, en l’équipant pour pouvoir gérer des équipements 433 Mhz et des équipements _zigbee_. J’ai choisi le logiciel libre domoticz pour gérer l’ensemble.\n"
-msgstr "Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la senpagan programon Domoticz por pritrakti la aron. \n"
+msgstr "Kiel komenco ekzemplo, vi povas fari hejmon Domotikan sistemon per nano-komputilo  _raspberry Pi3 B+_, dotante ĝin por administri 433 MHz-ekipaĵon kaj ekipaĵon  _zigbee_. Mi elektis la marferfkodan programaron Domoticz por pritrakti la aron. \n"
 
 #. type: Plain text
 #: komenci.md:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "**Le _raspberry Pi3 B+_ a pour avantages :**\n"
 msgstr "** La  _raspberry Pi3 B+_  havas por avantaĝoj: ** \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "son bas prix\n"
-msgstr "Lia malalta prezo \n"
+msgstr "lia malalta prezo \n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "une puissance de calcul trés confortable pour la domotique.\n"
-msgstr "Tre komforta komputila potenco por hejma aŭtomatigo. \n"
+msgstr "tre komforta komputila potenco por hejma aŭtomatigo. \n"
 
 #. type: Bullet: ' 3. '
 #: komenci.md:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "une consommation réduite.\n"
-msgstr "Konsumo reduktita. \n"
+msgstr "konsumo reduktita. \n"
 
 #. type: Bullet: ' 4. '
 #: komenci.md:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "pas besoin de ventilateur.\n"
-msgstr "Neniu bezono de ventumilo. \n"
+msgstr "neniu bezono de ventumilo. \n"
 
 #. type: Bullet: ' 5. '
 #: komenci.md:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "une connectivité fournie : un port éthernet, 4 ports USB, le Wifi, le Bluetooth, des ports GPIO.\n"
-msgstr "Konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. \n"
+msgstr "konektebleco provizita: Ethernet Haveno, 4 USB-havenoj, WiFi, Bluetooth, GPIO-havenoj. \n"
 
 #. type: Plain text
 #: komenci.md:23
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "**L'intérêt du 433 Mhz est:**\n"
 msgstr "** La intereso de la 433 MHz estas: ** \n"
 
 #. type: Bullet: ' 1. '
 #: komenci.md:26
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "il est autorisé au niveau mondial depuis des décennies.\n"
-msgstr "Oni permesis al ni tutmonde dum jardekoj. \n"
+msgstr "oni permesis al ni tutmonde dum jardekoj. \n"
 
 #. type: Bullet: ' 2. '
 #: komenci.md:26

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-05 22:33+0100\n"
+"POT-Creation-Date: 2022-01-30 17:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,10 +42,9 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: projektoj.md:1
-#, no-wrap
-#, fuzzy
-msgid "Mes autres projet"
-msgstr "एमईएस ऑट्रेस प्रोसेट"
+#, fuzzy, no-wrap
+msgid "Miaj aliaj projektoj"
+msgstr "मेरी अन्य परियोजनाएं"
 
 #. type: Title ##
 #: projektoj.md:9
@@ -55,10 +54,9 @@ msgstr "_flash\\_ CC2531 _"
 
 #. type: Plain text
 #: projektoj.md:11
-#, no-wrap
-#, fuzzy
-msgid "<https://jmichault.github.io/flash_cc2531-dok>\n"
-msgstr "<https://jmichault.github.io/flash_cc2531-dok> \n"
+#, fuzzy, no-wrap
+msgid "<https://jmichault.github.io/flash_cc2531-dok> \n"
+msgstr "<https://jmichault.github.io/flash_cc2531-dok>  \n"
 
 #. type: Title ##
 #: projektoj.md:12
@@ -68,8 +66,7 @@ msgstr "_ipcam-100_"
 
 #. type: Plain text
 #: projektoj.md:14
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "<https://jmichault.github.io/ipcam-100-dok>\n"
 msgstr "<https://jmichault.github.io/ipcam-100-dok> \n"
 
@@ -81,8 +78,7 @@ msgstr "_jekyll-plurlingva_ "
 
 #. type: Plain text
 #: projektoj.md:17
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "<https://jmichault.github.io/jekyll-plurlingva-dok>\n"
 msgstr "<https://jmichault.github.io/jekyll-plurlingva-dok> \n"
 
@@ -94,8 +90,7 @@ msgstr "_motioneye.eo_ "
 
 #. type: Plain text
 #: projektoj.md:20
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "<https://jmichault.github.io/motioneye.eo-dok>\n"
 msgstr "<https://jmichault.github.io/motioneye.eo-dok> \n"
 
@@ -107,22 +102,21 @@ msgstr "_rf\\_ GPO _"
 
 #. type: Plain text
 #: projektoj.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "<https://jmichault.github.io/rf_gpio-dok>\n"
 msgstr "<https://jmichault.github.io/rf_gpio-dok> \n"
+
+#, fuzzy
+#~ msgid "Mes autres projet"
+#~ msgstr "एमईएस ऑट्रेस प्रोसेट"
+
+#, fuzzy
+#~ msgid "<https://jmichault.github.io/flash_cc2531-dok>\n"
+#~ msgstr "<https://jmichault.github.io/flash_cc2531-dok> \n"
 
 #, no-wrap
 #~ msgid "auto"
 #~ msgstr "auto"
-
-#, fuzzy, no-wrap
-#~ msgid "Miaj aliaj projektoj"
-#~ msgstr "मेरी अन्य परियोजनाएं"
-
-#, fuzzy, no-wrap
-#~ msgid "<https://jmichault.github.io/flash_cc2531-dok> \n"
-#~ msgstr "<https://jmichault.github.io/flash_cc2531-dok>  \n"
 
 #, fuzzy, no-wrap
 #~ msgid "_ipcam-100_ "

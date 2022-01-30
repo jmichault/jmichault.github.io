@@ -3,11 +3,11 @@ lang: eo
 lang-niv: homa
 lang-ref: 090-projektoj
 layout: page
-title: 'Mes autres projet'
+title: 'Miaj aliaj projektoj'
 ---
 
 ## _flash\_cc2531_
-<https://jmichault.github.io/flash_cc2531-dok>
+<https://jmichault.github.io/flash_cc2531-dok> 
 
 ## _ipcam-100_
 <https://jmichault.github.io/ipcam-100-dok>

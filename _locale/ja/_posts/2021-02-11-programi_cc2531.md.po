@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-11 22:12+0100\n"
+"POT-Creation-Date: 2022-01-30 17:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgstr "ja"
 #. type: YAML Front Matter: lang-niv
 #: _posts/2021-02-11-programi_cc2531.md:1
 #, no-wrap
-msgid "auto"
+msgid "homa"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
@@ -223,7 +223,7 @@ msgid "Konsultu [ la retejon de _flash_cc2531_](https://jmichault.github.io/flas
 msgstr " [  _flash_cc2531_](https://jmichault.github.io/flash_cc2531-dok/)のウェブサイトを参照してください\n"
 
 #, no-wrap
-#~ msgid "homa"
+#~ msgid "auto"
 #~ msgstr "auto"
 
 #, fuzzy

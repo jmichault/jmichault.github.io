@@ -4,17 +4,17 @@
 # jean, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-05 22:05+0100\n"
-"PO-Revision-Date: 2021-02-12 18:56+0200\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-01-30 16:18+0100\n"
+"PO-Revision-Date: 2022-01-30 16:20+0100\n"
 "Last-Translator: jean <>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: \n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: YAML Front Matter: lang
 #: index.md:1
@@ -42,32 +42,33 @@ msgstr "index"
 
 #. type: YAML Front Matter: title
 #: index.md:1
+#, no-wrap
 msgid "Faire de la domotique sans se ruiner"
 msgstr "Hejma aŭtomatigo sen rompi la bankon"
 
 #. type: Plain text
 #: index.md:8
-#, fuzzy
-msgid ""
-"Quand on désire faire de la domotique, on hésite souvent à faire le premier "
-"pas à cause de l'investissement initial qu'il faut faire, alors qu'on n'est "
-"pas encore sûr que l'on va continuer.  \n"
+#, no-wrap
+msgid "Quand on désire faire de la domotique, on hésite souvent à faire le premier pas à cause de l'investissement initial qu'il faut faire, alors qu'on n'est pas encore sûr que l'on va continuer.  \n"
 msgstr ""
-"Kiam ni volas fari vivaĵojn, ni ofte hezitas preni la unuan paŝon pro la "
-"komenca investo, kiun oni devas fari, dum ni ankoraŭ ne certas, ke ni "
-"daŭrigos.   \n"
+"Kiam ni volas fari hejman aŭtomatigon, ni ofte hezitas fari la unuan paŝon pro la komenca investo, kiu devas esti farita, dum ni ankoraŭ ne certas, ke ni daŭrigos.\n"
+"\n"
 
 #. type: Plain text
-#: index.md:10
+#: index.md:11
 msgid ""
 "Ce site vous propose des solutions bon marché, basées en grande partie sur "
 "du FLTM (fais le toi-même) et des logiciels open-source.\n"
+"L'idée est aussi de maitriser l'architecture et de ne pas envoyer ses "
+"données dans le _«Cloud»_.\n"
 msgstr ""
 "Ĉi tiu retejo ofertas malmultekostajn solvojn, plejparte bazitajn sur FĜVM  "
-"( Faru ĝin vi mem ) kaj malfermfonta softvaro. \n"
+"( Faru ĝin vi mem )  kaj malfermfonta softvaro. \n"
+" La ideo estas ankaŭ regi la arkitekturon kaj ne sendi siajn datumojn en la  "
+"_«Cloud»_. \n"
 
 #. type: Title #
-#: index.md:12
-#, fuzzy
+#: index.md:13
+#, no-wrap
 msgid "Derniers articles :"
 msgstr "Lastaj artikoloj:"

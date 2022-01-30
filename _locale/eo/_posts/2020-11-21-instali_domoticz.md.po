@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-11-11 12:42+0100\n"
-"PO-Revision-Date: 2021-02-13 13:09+0100\n"
+"PO-Revision-Date: 2022-01-30 16:20+0100\n"
 "Last-Translator: jean <>\n"
 "Language-Team: \n"
 "Language: eo\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: YAML Front Matter: komentoj_id
 #: _posts/2020-11-21-instali_domoticz.md:1
@@ -108,13 +108,12 @@ msgstr "_«HTTPS Port number:»_ metu 8443, iru al _OK_, Enigu.  \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:24
-#, fuzzy
 msgid ""
 "_«Installation Folder:»_ mettre _/home/domotiko/domoticz_, allez à _OK_, "
 "Entrée.  \n"
 msgstr ""
 "_«Installation Folder:»_  metu  _/home/domotiko/domoticz_ iru  _OK_, "
-"enigo.   \n"
+"eniga klavo.   \n"
 
 #. type: Plain text
 #: _posts/2020-11-21-instali_domoticz.md:26

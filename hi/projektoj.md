@@ -3,11 +3,11 @@ lang: hi
 lang-niv: auto
 lang-ref: 090-projektoj
 layout: page
-title: 'एमईएस ऑट्रेस प्रोसेट'
+title: 'मेरी अन्य परियोजनाएं'
 ---
 
 ## _flash\_ CC2531 _
-<https://jmichault.github.io/flash_cc2531-dok> 
+<https://jmichault.github.io/flash_cc2531-dok>  
 
 ## _ipcam-100_
 <https://jmichault.github.io/ipcam-100-dok> 

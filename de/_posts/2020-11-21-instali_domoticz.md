@@ -23,7 +23,7 @@ Drücken Sie die Eingabetaste, wenn die Präsentation angezeigt wird ( _\<OK>_ e
 Auswahl der Dienste: Lassen Sie _http_ und _https_ aktiviert, gehen Sie zu _OK_und drücken Sie die Eingabetaste.  
 _«HTTP Port number:»_ 8080 verlassen, zu _OK_gehen, Enter drücken.  
 _«HTTPS Port number:»_ geben Sie 8443 ein, gehen Sie zu _OK_, geben Sie ein.  
-_«Installation Folder:»_   Setzen Sie   _/home/domotiko/domoticz_  GO   _OK_, INPUT.    
+_«Installation Folder:»_   PAGE   _/home/domotiko/domoticz_  GO   _OK_, Eingabetaste.    
  _«Installation Complete!»_  , komm herein. 
 
 

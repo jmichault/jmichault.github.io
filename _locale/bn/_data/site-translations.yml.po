@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-05 22:34+0100\n"
+"POT-Creation-Date: 2022-01-30 17:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,9 @@ msgstr ""
 
 #. type: Hash Value - Key: Funkciigita
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Propulsé par"
-msgstr "Propulsé par."
+#, fuzzy, no-wrap
+msgid "Funkciigita de"
+msgstr "দ্বারা চালিত"
 
 #. type: Hash Value - Key: cxiujAfisxoj
 #: >lang
@@ -33,8 +32,8 @@ msgstr "সমস্ত পোস্ট"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Continuer la lecture …"
-msgstr "ধারাবাহিক বক্তৃতা ..."
+msgid "Daŭrigu legadon ..."
+msgstr "পড়া চালিয়ে যান ..."
 
 #. type: Hash Value - Key: elektuLingvon
 #: >lang
@@ -46,43 +45,41 @@ msgstr "আপনার ভাষা নির্বাচন করুন"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "a commenté le "
-msgstr "একটি মন্তব্য লে"
+msgid "komentis la"
+msgstr "মন্তব্য করা হয়েছে"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Ajouter un commentaire (sur github)"
-msgstr "অজুথার জাতিসংঘের মন্তব্য  ( GitHub )"
+msgid "Aldoni komenton  ( sur GitHub )"
+msgstr "একটি মন্তব্য করুন   (  GitHub  )"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Commentaires :"
-msgstr "মন্তব্য:"
+#, fuzzy, no-wrap
+msgid "Komentoj:"
+msgstr "মন্তব্যসমূহ:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Lisez cette page dans une autre langue"
-msgstr "Lisez cette পৃষ্ঠা dans une autre langue"
+#, fuzzy, no-wrap
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "এই পৃষ্ঠাটি অন্য ভাষায় পড়ুন"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Quelques idées pour concevoir votre domotique à moindre coût."
-msgstr "Quelques idées conceivoir ভোট domotque à maindre coût পোষাক।"
+msgid "Iuj ideoj por desegni vian hejman aŭtomatigon je pli malalta kosto."
+msgstr "কিছু ধারনা কম খরচে আপনার হোম অটোমেশন আঁকতে।"
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\" /></a>"
-msgstr "লাইসেন্স  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> <img alt= \" লাইসেন্স ক্রিয়েটিভ কমন্স \"  style=\"display:inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  title= \" CC-BY-SA 4.0 \"  /> </a>"
+msgid "Permesilo  <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"> <img alt= \" Creative Commons License \"  style=\"display:inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"  title= \" CC-BY-SA 4.0 \"  /> </a>"
+msgstr "লাইসেন্স   <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">  <img alt=  \" ক্রিয়েটিভ কমন্স লাইসেন্স  \"   style=\"display:inline;border-width:0\"   src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\"   title=  \" CC-BY-SA 4.0  \"   />  </a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -100,26 +97,77 @@ msgstr "সম্পর্কিত পোস্ট"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Recherche Google."
-msgstr "Google Rechherche।"
+msgid "Google serĉo."
+msgstr "Google অনুসন্ধান."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Domotique maison"
-msgstr "হাউসটিক মেসিস"
+#, fuzzy, no-wrap
+msgid "Hejma aŭtomatigo"
+msgstr "অধিবাস স্বয়ংক্রিয়তা"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
-msgstr "মনোযোগ: Cette পৃষ্ঠা একটি été traduite automatiquement। যদি vous le pouvez, vous devrize lire dans l'une ces lane langues:"
+msgid "Atentu: Ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "সতর্কতা: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি করতে পারেন, আপনাকে এই ভাষাগুলির মধ্যে একটিতে এটি পড়তে হবে:"
 
-#, fuzzy, no-wrap
-#~ msgid "Funkciigita de"
-#~ msgstr "দ্বারা চালিত"
+#, fuzzy
+#~ msgid "Propulsé par"
+#~ msgstr "Propulsé par."
+
+#, fuzzy
+#~ msgid "Continuer la lecture …"
+#~ msgstr "ধারাবাহিক বক্তৃতা ..."
+
+#, fuzzy
+#~ msgid "a commenté le "
+#~ msgstr "একটি মন্তব্য লে"
+
+#, fuzzy
+#~ msgid "Ajouter un commentaire (sur github)"
+#~ msgstr "অজুথার জাতিসংঘের মন্তব্য  ( GitHub )"
+
+#, fuzzy
+#~ msgid "Commentaires :"
+#~ msgstr "মন্তব্য:"
+
+#, fuzzy
+#~ msgid "Lisez cette page dans une autre langue"
+#~ msgstr "Lisez cette পৃষ্ঠা dans une autre langue"
+
+#, fuzzy
+#~ msgid "Quelques idées pour concevoir votre domotique à moindre coût."
+#~ msgstr "Quelques idées conceivoir ভোট domotque à maindre coût পোষাক।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"CC-BY-SA 4.0\" /></a>"
+#~ msgstr ""
+#~ "লাইসেন্স  <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"> <img alt= \" লাইসেন্স ক্রিয়েটিভ কমন্স \"  style=\"display:"
+#~ "inline;border-width:0\"  src=\"https://i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\"  title= \" CC-BY-SA 4.0 \"  /> </a>"
+
+#, fuzzy
+#~ msgid "Recherche Google."
+#~ msgstr "Google Rechherche।"
+
+#, fuzzy
+#~ msgid "Domotique maison"
+#~ msgstr "হাউসটিক মেসিস"
+
+#, fuzzy
+#~ msgid ""
+#~ "Attention : cette page a été traduite automatiquement. Si vous le pouvez, "
+#~ "vous devriez la lire dans l'une de ces langues :"
+#~ msgstr ""
+#~ "মনোযোগ: Cette পৃষ্ঠা একটি été traduite automatiquement। যদি vous le pouvez, "
+#~ "vous devrize lire dans l'une ces lane langues:"
 
 #, fuzzy
 #~ msgid "Daǔrigi lego …"
@@ -134,14 +182,6 @@ msgstr "মনোযোগ: Cette পৃষ্ঠা একটি été traduite
 #~ msgstr "GitHub)একটি মন্তব্য (যোগ করুন"
 
 #, fuzzy, no-wrap
-#~ msgid "Komentoj:"
-#~ msgstr "মন্তব্যসমূহ:"
-
-#, fuzzy, no-wrap
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "এই পৃষ্ঠাটি অন্য ভাষায় পড়ুন"
-
-#, fuzzy, no-wrap
 #~ msgid "Iuj ideoj por projekti vian hejman aŭtomatigon je pli malalta kosto."
 #~ msgstr "কম খরচে আপনার হোম অটোমেশন ডিজাইনের জন্য কিছু ধারণা।"
 
@@ -152,10 +192,6 @@ msgstr "মনোযোগ: Cette পৃষ্ঠা একটি été traduite
 #, fuzzy, no-wrap
 #~ msgid "Ŝercu per Google."
 #~ msgstr "গুগলের সাথে কৌতুক।"
-
-#, fuzzy, no-wrap
-#~ msgid "Hejma aŭtomatigo"
-#~ msgstr "অধিবাস স্বয়ংক্রিয়তা"
 
 #, fuzzy, no-wrap
 #~ msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
