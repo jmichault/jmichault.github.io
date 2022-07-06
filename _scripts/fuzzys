@@ -34,7 +34,7 @@ case $ACTION in
     ;;
   p)
     cd _locale/$LINGVO
-    poedit `find . -type f -name "*.po" -exec grep -l ", fuzzy" {} \;`
+    find . -type f -name "*.po" -exec grep -q -l ", fuzzy" {} \; -exec poedit {} + 
     ;;
   v)
     cd _locale/$LINGVO
